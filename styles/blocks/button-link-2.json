@@ -1,0 +1,49 @@
+{
+	"$schema": "https://schemas.wp.org/wp/6.7/theme.json",
+	"version": 3,
+	"title": "Link 2",
+	"slug": "link-2",
+	"blockTypes": [
+		"core/button"
+	],
+	"styles": {
+		"color": {
+			"text": "var:preset|color|contrast",
+			"background": "transparent"
+		},
+		"typography": {
+			"textDecoration": "underline"
+		},
+		"border": {
+			"width": "0"
+		},
+		"spacing": {
+			"padding": {
+				"top": "0",
+				"right": "0",
+				"bottom": "0",
+				"left": "0"
+			}
+		},
+		"elements": {
+			"button": {
+				":hover": {
+					"typography": {
+						"textDecoration": "underline"
+					}
+				},
+				":focus": {
+					"typography": {
+						"textDecoration": "underline dotted"
+					}
+				},
+				":active": {
+					"typography": {
+						"textDecoration": "underline"
+					}
+				}
+			}
+		},
+		"css": "&::after { content: \"\"; display: inline-block; height: 1.25em; width: 1.25em; margin-left: 0.75rem; vertical-align: text-top; background-color: currentColor; mask-image: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='48px' viewBox='0 0 24 24' width='48px' fill='%23000'%3E%3Cpath d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z'/%3E%3C/svg%3E\"); mask-position: center; mask-repeat: no-repeat; mask-size: cover; }"
+	}
+}

@@ -1,0 +1,55 @@
+@use "../tools/mixins";
+
+/*-------------------------------------------------------
+Documentation page
+-------------------------------------------------------*/
+
+.page--documentation {
+
+	.page {
+
+		&__container {
+
+			@include mixins.media("break-large", max) {
+				grid-template-columns: 1fr;
+				row-gap: var(--wp--preset--spacing--40);
+			}
+
+			@include mixins.media("break-large") {
+				column-gap: var(--wp--preset--spacing--10);
+			}
+
+			@include mixins.media("break-wide") {
+				column-gap: var(--wp--preset--spacing--30);
+			}
+		}
+
+		&__sidebar {
+
+			@include mixins.media("break-large", max) {
+				grid-column: span 1;
+
+				padding: var(--wp--preset--spacing--10);
+				border: 1px solid var(--wp--preset--color--contrast-4);
+				border-radius: var(--wp--custom--border--radius);
+			}
+		}
+
+		&__block {
+
+			.wp-block-heading {
+
+				@include mixins.media("break-large", max) {
+					padding-top: 0 !important;
+				}
+			}
+		}
+
+		&__article {
+
+			@include mixins.media("break-large", max) {
+				grid-column: span 1;
+			}
+		}
+	}
+}

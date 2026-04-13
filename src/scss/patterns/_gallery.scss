@@ -1,0 +1,44 @@
+@use "../tools/mixins";
+
+/*-------------------------------------------------------
+Gallery (all styles)
+-------------------------------------------------------*/
+
+.gallery {
+
+	@include mixins.media("break-medium", max) {
+		grid-template-columns: 1fr;
+	}
+
+	.wp-block-image {
+		overflow: clip;
+
+		@include mixins.media("break-medium", max) {
+			grid-column: span 1;
+			grid-row: span 1;
+		}
+
+		img {
+			width: 100%;
+		}
+	}
+}
+
+/*-------------------------------------------------------
+Gallery (style 3)
+-------------------------------------------------------*/
+
+.gallery--3 {
+
+	@include mixins.media("break-medium") {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+	}
+
+	@include mixins.media("break-large") {
+		grid-template-columns: repeat(3, minmax(0, 1fr));
+	}
+
+	@include mixins.media("break-wide") {
+		grid-template-columns: repeat(4, minmax(0, 1fr));
+	}
+}

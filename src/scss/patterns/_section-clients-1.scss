@@ -1,0 +1,70 @@
+@use "../tools/mixins";
+
+/*-------------------------------------------------------
+Section "Clients" (style 1)
+-------------------------------------------------------*/
+
+.section--clients-1 {
+	width: 100vw;
+
+	.clients-list {
+
+		&__item {
+			min-width: 60vw;
+			aspect-ratio: 4/3;
+
+			@include mixins.media("break-small") {
+				min-width: 50vw;
+			}
+
+			@include mixins.media("break-medium") {
+				min-width: 40vw;
+			}
+
+			@include mixins.media("break-large") {
+				min-width: 32vw;
+			}
+
+			@include mixins.media("break-wide") {
+				min-width: 25vw;
+			}
+
+			@include mixins.media("break-xhuge") {
+				min-width: 23vw;
+			}
+
+			.wp-block-image,
+			.wp-block-image a {
+
+				body:not(.editor-styles-wrapper) & {
+					width: 100%;
+					height: 100%;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+				}
+			}
+
+			.wp-block-image {
+
+				img {
+					opacity: 0.6;
+					transition: all 0.25s ease-in-out;
+				}
+			}
+
+			.wp-block-image a {
+
+				&:hover,
+				&:focus,
+				&:active {
+
+					img {
+						opacity: 1;
+						transform: scale(1.1);
+					}
+				}
+			}
+		}
+	}
+}

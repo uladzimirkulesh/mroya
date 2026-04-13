@@ -1,0 +1,20 @@
+{
+	"$schema": "https://schemas.wp.org/wp/6.7/theme.json",
+	"version": 3,
+	"title": "Monospace",
+	"slug": "text-mono",
+	"blockTypes": [
+		"core/paragraph",
+		"core/heading"
+	],
+	"styles": {
+		"typography": {
+			"fontFamily": "var:preset|font-family|font-monospace",
+			"fontSize": "var:preset|font-size|x-small",
+			"fontWeight": "400",
+			"lineHeight": "var:custom|typography|line-height|x-small",
+			"letterSpacing": "var:custom|typography|letter-spacing|x-small",
+			"textTransform": "uppercase"
+		}
+	}
+}

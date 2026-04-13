@@ -1,0 +1,39 @@
+@use "../../tools/mixins";
+
+/*-------------------------------------------------------
+Projects grid layout (style 3)
+-------------------------------------------------------*/
+
+.wp-block-query {
+
+	.is-layout-projects-grid--3 {
+		row-gap: var(--wp--preset--spacing--20);
+
+		@include mixins.media("break-medium", max) {
+			grid-template-columns: 1fr;
+		}
+
+		.wp-block-post {
+
+			&:nth-child(4n-3),
+			&:nth-child(4n) {
+
+				@include mixins.media("break-medium") {
+					grid-column: span 3;
+				}
+			}
+
+			&:nth-child(4n-2),
+			&:nth-child(4n-1) {
+
+				@include mixins.media("break-medium") {
+					grid-column: span 2;
+				}
+			}
+
+			> .wp-block-group {
+				row-gap: 0.25rem;
+			}
+		}
+	}
+}

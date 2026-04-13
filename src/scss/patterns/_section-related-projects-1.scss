@@ -1,0 +1,29 @@
+@use "../tools/mixins";
+
+/*-------------------------------------------------------
+Section "Related projects" (style 1)
+-------------------------------------------------------*/
+
+.section--related-projects-1 {
+
+	.section__header {
+
+		@include mixins.media("break-mobile", max) {
+			flex-direction: column;
+  			align-items: flex-start;
+  			row-gap: 0.25rem;
+		}
+	}
+
+	.wp-block-post-template.wp-block-post-template-is-layout-grid.columns-2 {
+		row-gap: var(--wp--preset--spacing--20);
+
+		@include mixins.media("break-small", max) {
+			grid-template-columns: 1fr;
+		}
+
+		@include mixins.media("break-small") {
+			grid-template-columns: repeat(2, minmax(0, 1fr));
+		}
+	}
+}

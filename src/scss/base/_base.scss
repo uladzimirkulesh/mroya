@@ -1,0 +1,138 @@
+@use "../tools/mixins";
+
+/*-------------------------------------------------------
+Base styles
+-------------------------------------------------------*/
+
+html {
+	-webkit-text-size-adjust: 100%;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	scroll-behavior: smooth;
+
+	font-variation-settings: var(--wp--custom--typography--font-variation-settings, normal);
+	font-feature-settings: var(--wp--custom--typography--font-feature-settings, normal);
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+.required {
+	color: var(--wp--preset--color--danger);
+}
+
+/*
+Clearings
+*/
+
+.header,
+.footer,
+.wp-block-post-content,
+.comment-content,
+.textwidget,
+.wp-block-latest-posts__list li {
+
+	&::after {
+		content: "";
+		display: block;
+		clear: both;
+	}
+}
+
+/*
+Links and buttons
+*/
+
+a,
+button,
+.wp-element-button,
+.wp-block-button__link {
+	transition-property: color, background-color, border-color, opacity, text-decoration-color, text-underline-offset;
+	transition-duration: 0.25s;
+	transition-timing-function: ease-in-out;
+}
+
+button {
+	cursor: pointer;
+	text-decoration: none;
+	text-shadow: none;
+}
+
+/*
+Fonts
+*/
+
+.has-xx-small-font-size {
+	line-height: var(--wp--custom--typography--line-height--xx-small, inherit);
+	letter-spacing: var(--wp--custom--typography--letter-spacing--xx-small, inherit);
+}
+
+.has-x-small-font-size {
+	line-height: var(--wp--custom--typography--line-height--x-small, inherit);
+	letter-spacing: var(--wp--custom--typography--letter-spacing--x-small, inherit);
+}
+
+.has-small-font-size {
+	line-height: var(--wp--custom--typography--line-height--small, inherit);
+	letter-spacing: var(--wp--custom--typography--letter-spacing--small, inherit);
+}
+
+.has-normal-font-size {
+	line-height: var(--wp--custom--typography--line-height--normal, inherit);
+	letter-spacing: var(--wp--custom--typography--letter-spacing--normal, inherit);
+}
+
+.has-medium-font-size {
+	line-height: var(--wp--custom--typography--line-height--medium, inherit);
+	letter-spacing: var(--wp--custom--typography--letter-spacing--medium, inherit);
+}
+
+.has-large-font-size {
+	line-height: var(--wp--custom--typography--line-height--large, inherit);
+	letter-spacing: var(--wp--custom--typography--letter-spacing--large, inherit);
+}
+
+.has-x-large-font-size {
+	line-height: var(--wp--custom--typography--line-height--x-large, inherit);
+	letter-spacing: var(--wp--custom--typography--letter-spacing--x-large, inherit);
+}
+
+.has-xx-large-font-size {
+	line-height: var(--wp--custom--typography--line-height--xx-large, inherit);
+	letter-spacing: var(--wp--custom--typography--letter-spacing--xx-large, inherit);
+}
+
+.has-xxx-large-font-size {
+	line-height: var(--wp--custom--typography--line-height--xxx-large, inherit);
+	letter-spacing: var(--wp--custom--typography--letter-spacing--xxx-large, inherit);
+}
+
+.has-huge-font-size {
+	line-height: var(--wp--custom--typography--line-height--huge, inherit);
+	letter-spacing: var(--wp--custom--typography--letter-spacing--huge, inherit);
+}
+
+.has-display-font-size {
+	line-height: var(--wp--custom--typography--line-height--display, inherit);
+	letter-spacing: var(--wp--custom--typography--letter-spacing--display, inherit);
+}
+
+/*
+Change the position of the more block on the front, by making it a block level element.
+https://github.com/WordPress/gutenberg/issues/65934
+*/
+
+.more-link {
+	display: block;
+}
+
+/*
+Removing the "more" tag to remove space before it
+*/
+
+span[id^="more"] {
+	display: none;
+}

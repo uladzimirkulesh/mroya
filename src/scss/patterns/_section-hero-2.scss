@@ -1,0 +1,133 @@
+@use "../tools/mixins";
+
+/*-------------------------------------------------------
+Section "Hero" (style 2)
+-------------------------------------------------------*/
+
+.section--hero-2 {
+
+	.section {
+
+		&__block {
+
+			@include mixins.media("break-large", max) {
+				grid-column: span 2;
+			}
+
+			@include mixins.media("break-large") {
+				grid-column: 2;
+			}
+
+			.wp-block-heading {
+				position: relative;
+				left: -0.35vw;
+			}
+		}
+
+		&__footer {
+
+			@include mixins.media("break-large", max) {
+				grid-template-columns: 1fr;
+			}
+
+			.wp-block-buttons {
+
+				@include mixins.media("break-large", max) {
+					display: none;
+				}
+			}
+
+			> .wp-block-group {
+				row-gap: 0;
+			}
+
+			p {
+				line-height: var(--wp--style--block-gap);
+
+				&.local-time {
+
+					@include mixins.media("break-mobile", max) {
+						display: none;
+					}
+				}
+			}
+		}
+	}
+}
+
+/*
+Animation for dots
+*/
+
+.wp-block-heading {
+
+	.dot {
+		opacity: 0;
+
+		&:nth-of-type(1) {
+			animation: 2s blinkingDotOne 0.5s linear infinite;
+		}
+
+		&:nth-of-type(2) {
+			animation: 2s blinkingDotTwo 0.5s linear infinite;
+		}
+
+		&:nth-of-type(3) {
+			animation: 2s blinkingDotThree 0.5s linear infinite;
+		}
+	}
+}
+
+@keyframes blinkingDotOne {
+	0% {
+		opacity: 0;
+	}
+
+	20% {
+		opacity: 0;
+	}
+
+	30% {
+		opacity: 1;
+	}
+
+	90% {
+		opacity: 1;
+	}
+}
+
+@keyframes blinkingDotTwo {
+	0% {
+		opacity: 0;
+	}
+
+	35% {
+		opacity: 0;
+	}
+
+	45% {
+		opacity: 1;
+	}
+
+	90% {
+		opacity: 1;
+	}
+}
+
+@keyframes blinkingDotThree {
+	0% {
+		opacity: 0;
+	}
+
+	50% {
+		opacity: 0;
+	}
+
+	60% {
+		opacity: 1;
+	}
+
+	90% {
+		opacity: 1;
+	}
+}

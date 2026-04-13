@@ -1,0 +1,28 @@
+@use "../../tools/mixins";
+
+/*-------------------------------------------------------
+Posts grid layout (style 2)
+-------------------------------------------------------*/
+
+.wp-block-query {
+
+	.is-layout-posts-grid--2 {
+		row-gap: var(--wp--preset--spacing--20);
+
+		&.columns-4 {
+			grid-template-columns: 1fr;
+
+			@include mixins.media("break-medium") {
+				grid-template-columns: repeat(2, minmax(0, 1fr));
+			}
+
+			@include mixins.media("break-large") {
+				grid-template-columns: repeat(3, minmax(0, 1fr));
+			}
+
+			@include mixins.media("break-wide") {
+				grid-template-columns: repeat(4, minmax(0, 1fr));
+			}
+		}
+	}
+}

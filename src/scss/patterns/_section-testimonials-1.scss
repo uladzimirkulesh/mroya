@@ -1,0 +1,31 @@
+@use "../tools/mixins";
+
+/*-------------------------------------------------------
+Section "Testimonials" (style 1)
+-------------------------------------------------------*/
+
+.section--testimonials-1 {
+
+	.testimonials {
+		grid-template-columns: 1fr;
+		row-gap: var(--wp--preset--spacing--20);
+
+		@include mixins.media("break-small") {
+			grid-template-columns: repeat(2, minmax(0, 1fr));
+		}
+
+		@include mixins.media("break-wide") {
+			grid-template-columns: repeat(4, minmax(0, 1fr));
+		}
+
+		&__item {
+
+			&--empty {
+
+				@include mixins.media("break-small", max) {
+					display: none;
+				}
+			}
+		}
+	}
+}

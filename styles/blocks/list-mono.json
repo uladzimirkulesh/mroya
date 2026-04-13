@@ -1,0 +1,25 @@
+{
+	"$schema": "https://schemas.wp.org/wp/6.7/theme.json",
+	"version": 3,
+	"title": "Monospace",
+	"slug": "list-mono",
+	"blockTypes": [
+		"core/list"
+	],
+	"styles": {
+		"typography": {
+			"fontFamily": "var:preset|font-family|font-monospace",
+			"fontSize": "var:preset|font-size|x-small",
+			"fontWeight": "400",
+			"lineHeight": "var:style|block-gap",
+			"letterSpacing": "var:custom|typography|letter-spacing|x-small",
+			"textTransform": "uppercase"
+		},
+		"spacing": {
+			"padding": {
+				"left": "0"
+			}
+		},
+		"css": "& { list-style-type: none; }"
+	}
+}

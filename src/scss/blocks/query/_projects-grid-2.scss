@@ -1,0 +1,27 @@
+@use "../../tools/mixins";
+
+/*-------------------------------------------------------
+Projects grid layout (style 2)
+-------------------------------------------------------*/
+
+.wp-block-query {
+
+	.is-layout-projects-grid--2 {
+		row-gap: var(--wp--preset--spacing--20);
+
+		&.columns-2 {
+			grid-template-columns: 1fr;
+
+			@include mixins.media("break-medium") {
+				grid-template-columns: repeat(2, minmax(0, 1fr));
+			}
+		}
+
+		.wp-block-post {
+
+			> .wp-block-group {
+				row-gap: 0.25rem;
+			}
+		}
+	}
+}

@@ -1,0 +1,38 @@
+@use "../../tools/mixins";
+
+/*-------------------------------------------------------
+Projects grid layout (style 1)
+-------------------------------------------------------*/
+
+.wp-block-query {
+
+	.is-layout-projects-grid--1 {
+		row-gap: var(--wp--preset--spacing--20);
+
+		&.columns-3 {
+			grid-template-columns: 1fr;
+
+			@include mixins.media("break-medium") {
+				grid-template-columns: repeat(2, minmax(0, 1fr));
+			}
+
+			@include mixins.media("break-wide") {
+				grid-template-columns: repeat(3, minmax(0, 1fr));
+			}
+		}
+
+		.wp-block-post {
+
+			&:nth-child(2n-1) {
+
+				.wp-block-post-featured-image {
+					aspect-ratio: 1 !important;
+				}
+			}
+
+			> .wp-block-group {
+				row-gap: 0.25rem;
+			}
+		}
+	}
+}

@@ -1,0 +1,53 @@
+/*-------------------------------------------------------
+Comments pagination
+-------------------------------------------------------*/
+
+.wp-block-comments-pagination {
+
+	> .wp-block-comments-pagination-next,
+	> .wp-block-comments-pagination-numbers,
+	> .wp-block-comments-pagination-previous {
+		margin: 0;
+	}
+
+	// Numbers
+	.wp-block-comments-pagination-numbers {
+
+		> * {
+			padding-left: 0.25rem;
+			padding-right: 0.25rem;
+		}
+
+		> :not(:last-child) {
+			margin-right: 0.25rem;
+		}
+	}
+
+	// Animation for pagination arrows
+	.wp-block-comments-pagination-previous-arrow,
+	.wp-block-comments-pagination-next-arrow {
+		transition: transform 0.25s ease-in-out;
+	}
+
+	.wp-block-comments-pagination-previous {
+
+		&:hover,
+		&:focus {
+
+			.wp-block-comments-pagination-previous-arrow {
+				transform: translateX(-0.25rem);
+			}
+		}
+	}
+
+	.wp-block-comments-pagination-next {
+
+		&:hover,
+		&:focus {
+
+			.wp-block-comments-pagination-next-arrow {
+				transform: translateX(0.25rem);
+			}
+		}
+	}
+}

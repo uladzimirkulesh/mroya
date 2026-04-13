@@ -1,0 +1,31 @@
+@use "../tools/mixins";
+
+/*-------------------------------------------------------
+Contact page (style 1)
+-------------------------------------------------------*/
+
+.page--contact-1 {
+
+	.page__header {
+
+		.wp-block-heading {
+			position: relative;
+			left: -0.35vw;
+		}
+	}
+
+	.page__content {
+		row-gap: var(--wp--preset--spacing--30);
+
+		@include mixins.media("break-large", max) {
+			grid-template-columns: 1fr;
+		}
+	}
+
+	.page__block--contact {
+
+		@include mixins.media("break-mobile", max) {
+			padding: 1.5rem !important;
+		}
+	}
+}

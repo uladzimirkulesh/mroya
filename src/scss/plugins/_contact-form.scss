@@ -1,0 +1,114 @@
+@use "../tools/mixins";
+
+/*-------------------------------------------------------
+Contact Form 7
+-------------------------------------------------------*/
+
+.wpcf7-form {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: var(--wp--style--block-gap);
+	grid-template-rows: auto;
+
+	> * {
+		grid-column: 1 / -1;
+		margin: 0;
+	}
+
+	> p:last-of-type {
+		margin-bottom: 0;
+	}
+}
+
+.wpcf7-form-control-wrap {
+	display: block;
+}
+
+.wpcf7-not-valid-tip {
+	margin-top: calc(var(--wp--style--block-gap) / 4);
+	color: #ea2929;
+	font-size: var(--wp--preset--font-size--small);
+	font-weight: 400;
+}
+
+.wpcf7-submit {
+	width: 100%;
+}
+
+.wpcf7-spinner {
+	display: none;
+}
+
+.wpcf7 {
+
+	&__email {
+
+		@include mixins.media("break-small") {
+			grid-column: 1 / 2;
+		}
+
+		@include mixins.media("break-large") {
+			grid-column: 1 / -1;
+		}
+
+		@include mixins.media("break-wide") {
+			grid-column: 1 / 2;
+		}
+	}
+
+	&__phone {
+
+		@include mixins.media("break-small") {
+			grid-column: 2 / 3;
+		}
+
+		@include mixins.media("break-large") {
+			grid-column: 1 / -1;
+		}
+
+		@include mixins.media("break-wide") {
+			grid-column: 2 / 3;
+		}
+	}
+
+	form {
+
+		.wpcf7-response-output {
+			margin: var(--wp--style--block-gap) 0 0;
+			padding: calc(var(--wp--style--block-gap) / 2) var(--wp--style--block-gap);
+			color: var(--wp--preset--color--contrast);
+			text-align: center;
+
+			background-color: rgba(0, 160, 210, 0.1);
+			border: 1px solid rgba(0, 160, 210, 0.9); /* Blue */
+			border-radius: var(--wp--custom--border--radius);
+		}
+
+		&.sent .wpcf7-response-output {
+			background-color: rgba(70, 180, 80, 0.1);
+			border-color: rgba(70, 180, 80, 0.9); /* Green */
+		}
+
+		&.failed .wpcf7-response-output,
+		&.aborted .wpcf7-response-output {
+			background-color: rgba(227, 5, 26, 0.1);
+			border-color: rgba(227, 5, 26, 0.9); /* Red */
+		}
+
+		&.spam .wpcf7-response-output {
+			background-color: rgba(245, 110, 40, 0.1);
+			border-color: rgba(245, 110, 40, 0.9); /* Orange */
+		}
+
+		&.invalid .wpcf7-response-output,
+		&.unaccepted .wpcf7-response-output,
+		&.payment-required .wpcf7-response-output {
+			background-color: rgba(255, 185, 0, 0.1);
+			border-color: rgba(255, 185, 0, 0.9); /* Yellow */
+		}
+	}
+
+	.wpcf7-textarea {
+		height: 8lh;
+	}
+}

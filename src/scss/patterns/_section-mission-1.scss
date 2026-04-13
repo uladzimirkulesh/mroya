@@ -1,0 +1,82 @@
+@use "../tools/mixins";
+
+/*-------------------------------------------------------
+Section "Mission" (style 1)
+-------------------------------------------------------*/
+
+.section--mission-1 {
+
+	.section {
+
+		&__header {
+
+			.wp-block-heading.has-span-indent {
+
+				.indent {
+					color: var(--wp--preset--color--contrast-3);
+					font-family: var(--wp--preset--font-family--font-monospace);
+					font-size: var(--wp--preset--font-size--small);
+					font-weight: 400;
+					letter-spacing: 0;
+					line-height: var(--wp--style--block-gap);
+					text-transform: uppercase;
+					vertical-align: middle;
+
+					margin-right: max(var(--wp--preset--spacing--20), 8vw);
+
+					@include mixins.media("break-large", max) {
+						display: block;
+						margin-bottom: var(--wp--preset--spacing--10);
+						margin-bottom: 1rem;
+					}
+				}
+			}
+		}
+
+		&__content {
+			grid-template-columns: repeat(2, minmax(0, 1fr));
+			row-gap: var(--wp--preset--spacing--30);
+
+			@include mixins.media("break-medium") {
+				grid-template-columns: repeat(3, minmax(0, 1fr));
+			}
+
+			@include mixins.media("break-large") {
+				grid-template-columns: repeat(4, minmax(0, 1fr));
+			}
+		}
+	}
+
+	.list {
+
+		&--first {
+			@include mixins.media("break-mobile", max) {
+				grid-column: span 2;
+			}
+
+			@include mixins.media("break-medium") {
+				grid-column: 2;
+			}
+
+			@include mixins.media("break-large") {
+				grid-column: 3;
+			}
+		}
+
+		&--second {
+
+			@include mixins.media("break-mobile", max) {
+				grid-column: 2;
+				grid-row: 2;
+			}
+
+			@include mixins.media("break-medium") {
+				grid-column: 3;
+			}
+
+			@include mixins.media("break-large") {
+				grid-column: 4;
+			}
+		}
+	}
+}

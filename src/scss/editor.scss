@@ -1,0 +1,14 @@
+.editor-styles-wrapper {
+	--wp--style--root--padding-top: 0;
+	--wp--style--root--padding-bottom: 0;
+}
+
+// Add margin top for query-no-results block
+.wp-block-query-no-results:not(:first-child) {
+	margin-top: var(--wp--preset--spacing--50);
+}
+
+// Fix home link
+.wp-block-home-link__label {
+	display: inline;
+}

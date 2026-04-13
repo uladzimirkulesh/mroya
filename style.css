@@ -1,0 +1,22 @@
+/*
+Theme Name: Mroya
+Theme URI: https://theme.mroya.eu/
+Author: Uladzimir Kulesh
+Author URI: https://mroya.eu/
+Description: Mroya is a modern, versatile WordPress block theme designed for web designers, developers and agencies. The theme features are tailored to each audience and a rich library of reusable block patterns, allowing you to craft unique layouts effortlessly. Fully responsive, accessible, and performance-optimized, Mroya empowers you to build stunning, professional websites with ease.
+Requires at least: 6.3
+Tested up to: 6.9
+Requires PHP: 5.6
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+Text Domain: mroya
+Tags: one-column, two-columns, three-columns, four-columns, custom-header, custom-menu, featured-images, full-site-editing, block-patterns, threaded-comments, translation-ready, wide-blocks
+*/
+
+/**
+ * This file is here to make WordPress happy. Do not modify.
+ *
+ * The actual stylesheets can be found in assets folder, but this
+ * theme uses Webpack so they are preprocessed from src/scss.
+ */

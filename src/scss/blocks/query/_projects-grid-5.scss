@@ -1,0 +1,62 @@
+@use "../../tools/mixins";
+
+/*-------------------------------------------------------
+Projects grid layout (style 5)
+-------------------------------------------------------*/
+
+.wp-block-query {
+
+	.is-layout-projects-grid--5 {
+		row-gap: var(--wp--preset--spacing--20);
+
+		@media only screen and (min-width: 601px) and (max-width: 781px) {
+			grid-template-columns: 1fr;
+		}
+
+		@media only screen and (min-width: 782px) and (max-width: 959px) {
+			grid-template-columns: repeat(2, minmax(0, 1fr));
+		}
+
+		@media only screen and (min-width: 960px) and (max-width: 1279px) {
+			grid-template-columns: repeat(3, minmax(0, 1fr));
+		}
+
+		.wp-block-post {
+
+			@include mixins.media("break-wide") {
+
+				&:nth-child(12n-11),
+				&:nth-child(12n-6),
+				&:nth-child(12n-1) {
+					grid-column: 1/3;
+				}
+
+				&:nth-child(12n-10),
+				&:nth-child(12n-7),
+				&:nth-child(12n-2),
+				&:nth-child(12n) {
+					grid-column: 3/5;
+				}
+
+				&:nth-child(12n-9),
+				&:nth-child(12n-4) {
+					grid-column: 2/3;
+				}
+
+				&:nth-child(12n-8),
+				&:nth-child(12n-3) {
+					grid-column: 1/2;
+				}
+
+				&:nth-child(12n-5) {
+					grid-column: 4/5;
+					align-self: self-end;
+				}
+			}
+
+			> .wp-block-group {
+				row-gap: 0.25rem;
+			}
+		}
+	}
+}

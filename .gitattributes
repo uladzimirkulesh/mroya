@@ -1,0 +1,20 @@
+# macOS
+*.DS_Store export-ignore
+
+# Package files
+theme-zip.sh export-ignore
+package-lock.json export-ignore
+README.md export-ignore
+
+# Node modules
+node_modules/ export-ignore
+
+# Git и GitHub
+.git* export-ignore
+.github/ export-ignore
+.gitignore export-ignore
+
+# Styles and JS
+assets/css/*-rtl.css export-ignore
+assets/css/*.php export-ignore
+assets/js/*.php export-ignore

@@ -1,0 +1,14 @@
+/*-------------------------------------------------------
+Headings
+-------------------------------------------------------*/
+
+/*
+Adding more space before headings
+*/
+
+.wp-block-post-content {
+
+	:not(.wp-block-heading) + .wp-block-heading:not([style*="margin-top"]) {
+		margin-block-start: calc(var(--wp--style--block-gap) * 2);
+	}
+}

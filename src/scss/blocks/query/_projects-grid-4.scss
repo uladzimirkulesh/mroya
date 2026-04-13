@@ -1,0 +1,45 @@
+@use "../../tools/mixins";
+
+/*-------------------------------------------------------
+Projects grid layout (style 4)
+-------------------------------------------------------*/
+
+.wp-block-query {
+
+	.is-layout-projects-grid--4 {
+		row-gap: var(--wp--preset--spacing--20);
+
+		@media only screen and (min-width: 782px) and (max-width: 1279px) {
+			grid-template-columns: repeat(2, minmax(0, 1fr));
+		}
+
+		@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+			grid-template-columns: repeat(3, minmax(0, 1fr));
+		}
+
+		.wp-block-post {
+
+			&:nth-child(4n-3),
+			&:nth-child(4n) {
+
+				@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+					grid-column: span 2;
+				}
+			}
+
+			&:nth-child(12n-11),
+			&:nth-child(12n-7),
+			&:nth-child(12n-3),
+			&:nth-child(12n-1) {
+
+				@include mixins.media("break-huge") {
+					grid-column: span 2;
+				}
+			}
+
+			> .wp-block-group {
+				row-gap: 0.25rem;
+			}
+		}
+	}
+}

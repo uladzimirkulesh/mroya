@@ -1,0 +1,20 @@
+{
+	"$schema": "https://schemas.wp.org/wp/6.7/theme.json",
+	"version": 3,
+	"title": "Giant",
+	"slug": "text-giant",
+	"blockTypes": [
+		"core/paragraph",
+		"core/heading",
+		"core/post-title",
+		"core/query-title"
+	],
+	"styles": {
+		"typography": {
+			"fontSize": "clamp(3.75rem, 6.5625vw + 2.4375rem, 9rem)",
+			"fontWeight": "500",
+			"lineHeight": "clamp(4rem, 5.9375vw + 2.8125rem, 8.75rem)",
+			"letterSpacing": "calc(-1 * clamp(0.03em, 0.4vw, 0.042em))"
+		}
+	}
+}

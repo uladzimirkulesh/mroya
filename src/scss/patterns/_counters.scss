@@ -1,0 +1,57 @@
+@use "../tools/mixins";
+
+/*-------------------------------------------------------
+Counters (all styles)
+-------------------------------------------------------*/
+
+.counters--1,
+.counters--2,
+.counters--3 {
+
+	@include mixins.media("break-mobile", max) {
+		grid-template-columns: 1fr;
+	}
+
+	@include mixins.media("break-mobile") {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+	}
+
+	@include mixins.media("break-large") {
+		grid-template-columns: repeat(4, minmax(0, 1fr));
+	}
+}
+
+.counters--2,
+.counters--3 {
+
+	p.has-huge-font-size {
+		font-size: clamp(3rem, 1.875vi + 2.625rem, 4.5rem) !important;
+	}
+}
+
+/*-------------------------------------------------------
+Counters (style 1)
+-------------------------------------------------------*/
+
+.counters--1 {
+
+	.counters__card {
+
+		@include mixins.media("break-mobile") {
+			aspect-ratio: 4/3;
+		}
+
+		@include mixins.media("break-small") {
+			aspect-ratio: 16/9;
+		}
+
+		@include mixins.media("break-large") {
+			aspect-ratio: unset;
+		}
+	}
+
+	p.has-display-font-size {
+		font-size: clamp(3.75rem, 1.875vw + 3.375rem, 5.25rem) !important;
+		line-height: 1.05;
+	}
+}

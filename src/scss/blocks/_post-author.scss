@@ -1,0 +1,31 @@
+/*-------------------------------------------------------
+Post author
+-------------------------------------------------------*/
+
+.wp-block-post-author {
+
+	&__avatar {
+		line-height: 0.75;
+
+		> img {
+			border-radius: 50%;
+		}
+	}
+
+	&__byline {
+		color: var(--wp--preset--color--contrast-3);
+		font-size: 0.75rem;
+	}
+
+	&__name {
+		font-weight: 500;
+	}
+
+	&__bio {
+		margin-top: 0.75rem;
+		margin-bottom: 0;
+
+		font-size: var(--wp--preset--font-size--normal);
+		color: var(--wp--preset--color--contrast-2);
+	}
+}

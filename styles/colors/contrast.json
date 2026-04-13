@@ -1,0 +1,90 @@
+{
+	"$schema": "https://schemas.wp.org/wp/6.7/theme.json",
+	"version": 3,
+	"title": "Contrast",
+	"settings": {
+		"custom": {
+			"color": {
+				"background": "var:preset|color|base",
+				"cursor": "var:preset|color|contrast",
+				"sidebar": {
+					"background": "var:preset|color|base"
+				}
+			}
+		},
+		"color": {
+			"palette": [
+				{
+					"color": "#0a0a0a",
+					"name": "Base",
+					"slug": "base"
+				},
+				{
+					"color": "color-mix(in srgb, var(--wp--preset--color--base) 95%, transparent)",
+					"name": "Base / Two",
+					"slug": "base-2"
+				},
+				{
+					"color": "color-mix(in srgb, var(--wp--preset--color--base) 50%, transparent)",
+					"name": "Base / Three",
+					"slug": "base-3"
+				},
+				{
+					"color": "color-mix(in srgb, var(--wp--preset--color--base) 14%, transparent)",
+					"name": "Base / Four",
+					"slug": "base-4"
+				},
+				{
+					"color": "color-mix(in srgb, var(--wp--preset--color--base) 2%, transparent)",
+					"name": "Base / Five",
+					"slug": "base-5"
+				},
+				{
+					"color": "#ffffff",
+					"name": "Contrast",
+					"slug": "contrast"
+				},
+				{
+					"color": "color-mix(in srgb, var(--wp--preset--color--contrast) 75%, transparent)",
+					"name": "Contrast / Two",
+					"slug": "contrast-2"
+				},
+				{
+					"color": "color-mix(in srgb, var(--wp--preset--color--contrast) 40%, transparent)",
+					"name": "Contrast / Three",
+					"slug": "contrast-3"
+				},
+				{
+					"color": "color-mix(in srgb, var(--wp--preset--color--contrast) 15%, transparent)",
+					"name": "Contrast / Four",
+					"slug": "contrast-4"
+				},
+				{
+					"color": "color-mix(in srgb, var(--wp--preset--color--contrast) 3%, transparent)",
+					"name": "Contrast / Five",
+					"slug": "contrast-5"
+				},
+				{
+					"color": "#f4f4f4",
+					"name": "Accent",
+					"slug": "accent"
+				},
+				{
+					"color": "#df042d",
+					"name": "Danger",
+					"slug": "danger"
+				}
+			]
+		}
+	},
+	"styles": {
+		"variations": {
+			"section-contrast": {
+				"color": {
+					"background": "var:preset|color|accent",
+					"text": "var:preset|color|base"
+				}
+			}
+		}
+	}
+}
