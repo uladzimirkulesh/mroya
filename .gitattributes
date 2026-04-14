@@ -2,7 +2,6 @@
 *.DS_Store export-ignore
 
 # Package files
-theme-zip.sh export-ignore
 package-lock.json export-ignore
 README.md export-ignore
 
