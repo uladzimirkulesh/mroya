@@ -1,0 +1,1 @@
+{"version":3,"file":"css/theme-admin-page.css","mappings":";;;AAAA;;wDAAA;AAIA;EACC;AAAD,C","sources":["webpack://mroya/./src/scss/theme-admin-page.scss"],"sourcesContent":["/*-------------------------------------------------------\nTheme Admin Page\n-------------------------------------------------------*/\n\n.mroya__wrap {\n\tmax-width: 768px;\n}\n"],"names":[],"sourceRoot":""}
