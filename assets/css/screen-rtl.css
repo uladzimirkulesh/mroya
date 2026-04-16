@@ -1202,7 +1202,7 @@ Footer links section
   text-decoration-color: currentColor;
 }
 /*-------------------------------------------------------
-Header
+Header (default)
 -------------------------------------------------------*/
 .header__inner {
   --wp--preset--spacing--10: clamp(0.5rem, 0.625vw + 0.375rem, 1.125rem);
@@ -1231,6 +1231,15 @@ Header
 }
 .header__inner.has-white-links a {
   color: var(--wp--preset--color--white);
+}
+/*-------------------------------------------------------
+Header (default, fixed)
+-------------------------------------------------------*/
+.header--fixed {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
 }
 /*-------------------------------------------------------
 Theme layout
