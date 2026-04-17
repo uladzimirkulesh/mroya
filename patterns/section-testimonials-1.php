@@ -49,8 +49,8 @@
 					<p style="font-style:normal;font-weight:500"><?php echo esc_html_x( 'Olivia Bennett', 'Testimonials item author', 'mroya' ); ?></p>
 					<!-- /wp:paragraph -->
 
-					<!-- wp:paragraph {"className":"is-style-text-mono","style":{"elements":{"link":{"color":{"text":"var:preset|color|base-3"}}},"typography":{"fontStyle":"normal","fontWeight":"500"}},"textColor":"base-3","fontSize":"xx-small"} -->
-					<p class="is-style-text-mono has-base-3-color has-text-color has-link-color has-xx-small-font-size" style="font-style:normal;font-weight:500"><?php echo esc_html_x( 'Horizon Studio', 'Testimonials item company', 'mroya' ); ?></p>
+					<!-- wp:paragraph {"className":"is-style-text-mono","fontSize":"xx-small"} -->
+					<p class="is-style-text-mono has-xx-small-font-size"><?php echo esc_html_x( 'Horizon Studio', 'Testimonials item company', 'mroya' ); ?></p>
 					<!-- /wp:paragraph -->
 				</div>
 				<!-- /wp:group -->
@@ -83,8 +83,8 @@
 					<p style="font-style:normal;font-weight:500"><?php echo esc_html_x( 'Daniel Foster', 'Testimonials item author', 'mroya' ); ?></p>
 					<!-- /wp:paragraph -->
 
-					<!-- wp:paragraph {"className":"is-style-text-mono","style":{"elements":{"link":{"color":{"text":"var:preset|color|base-3"}}},"typography":{"fontStyle":"normal","fontWeight":"500"}},"textColor":"base-3","fontSize":"xx-small"} -->
-					<p class="is-style-text-mono has-base-3-color has-text-color has-link-color has-xx-small-font-size" style="font-style:normal;font-weight:500"><?php echo esc_html_x( 'Apex Digital', 'Testimonials item company', 'mroya' ); ?></p>
+					<!-- wp:paragraph {"className":"is-style-text-mono","fontSize":"xx-small"} -->
+					<p class="is-style-text-mono has-xx-small-font-size"><?php echo esc_html_x( 'Apex Digital', 'Testimonials item company', 'mroya' ); ?></p>
 					<!-- /wp:paragraph -->
 				</div>
 				<!-- /wp:group -->
@@ -113,8 +113,8 @@
 					<p style="font-style:normal;font-weight:500"><?php echo esc_html_x( 'Maya Rodriguez', 'Testimonials item author', 'mroya' ); ?></p>
 					<!-- /wp:paragraph -->
 
-					<!-- wp:paragraph {"className":"is-style-text-mono","style":{"elements":{"link":{"color":{"text":"var:preset|color|base-3"}}},"typography":{"fontStyle":"normal","fontWeight":"500"}},"textColor":"base-3","fontSize":"xx-small"} -->
-					<p class="is-style-text-mono has-base-3-color has-text-color has-link-color has-xx-small-font-size" style="font-style:normal;font-weight:500"><?php echo esc_html_x( 'Brightline Agency', 'Testimonials item company', 'mroya' ); ?></p>
+					<!-- wp:paragraph {"className":"is-style-text-mono","fontSize":"xx-small"} -->
+					<p class="is-style-text-mono has-xx-small-font-size"><?php echo esc_html_x( 'Brightline Agency', 'Testimonials item company', 'mroya' ); ?></p>
 					<!-- /wp:paragraph -->
 				</div>
 				<!-- /wp:group -->
@@ -147,8 +147,8 @@
 					<p style="font-style:normal;font-weight:500"><?php echo esc_html_x( 'Lucas Turner', 'Testimonials item author', 'mroya' ); ?></p>
 					<!-- /wp:paragraph -->
 
-					<!-- wp:paragraph {"className":"is-style-text-mono","style":{"elements":{"link":{"color":{"text":"var:preset|color|base-3"}}},"typography":{"fontStyle":"normal","fontWeight":"500"}},"textColor":"base-3","fontSize":"xx-small"} -->
-					<p class="is-style-text-mono has-base-3-color has-text-color has-link-color has-xx-small-font-size" style="font-style:normal;font-weight:500"><?php echo esc_html_x( 'Nova Works', 'Testimonials item company', 'mroya' ); ?></p>
+					<!-- wp:paragraph {"className":"is-style-text-mono","fontSize":"xx-small"} -->
+					<p class="is-style-text-mono has-xx-small-font-size"><?php echo esc_html_x( 'Nova Works', 'Testimonials item company', 'mroya' ); ?></p>
 					<!-- /wp:paragraph -->
 				</div>
 				<!-- /wp:group -->
@@ -181,8 +181,8 @@
 					<p style="font-style:normal;font-weight:500"><?php echo esc_html_x( 'Chloe Adams', 'Testimonials item author', 'mroya' ); ?></p>
 					<!-- /wp:paragraph -->
 
-					<!-- wp:paragraph {"className":"is-style-text-mono","style":{"elements":{"link":{"color":{"text":"var:preset|color|base-3"}}},"typography":{"fontStyle":"normal","fontWeight":"500"}},"textColor":"base-3","fontSize":"xx-small"} -->
-					<p class="is-style-text-mono has-base-3-color has-text-color has-link-color has-xx-small-font-size" style="font-style:normal;font-weight:500"><?php echo esc_html_x( 'Skyline Creative', 'Testimonials item company', 'mroya' ); ?></p>
+					<!-- wp:paragraph {"className":"is-style-text-mono","fontSize":"xx-small"} -->
+					<p class="is-style-text-mono has-xx-small-font-size"><?php echo esc_html_x( 'Skyline Creative', 'Testimonials item company', 'mroya' ); ?></p>
 					<!-- /wp:paragraph -->
 				</div>
 				<!-- /wp:group -->

@@ -43,18 +43,18 @@
 
 		<!-- wp:group {"tagName":"footer","metadata":{"name":"<?php echo esc_html_x( 'Footer', 'Name for the section footer area', 'mroya' ); ?>"},"align":"wide","className":"section__footer","layout":{"type":"grid","columnCount":2,"minimumColumnWidth":null}} -->
 		<footer class="wp-block-group alignwide section__footer">
-			<!-- wp:paragraph {"className":"is-style-text-mono text--secondary-1","style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast-3"}}}},"textColor":"contrast-3"} -->
-			<p class="is-style-text-mono has-contrast-3-color has-text-color has-link-color text--secondary-1"><?php echo esc_html_x( '[ About Us ]', 'Hero section text', 'mroya' ); ?></p>
+			<!-- wp:paragraph {"className":"is-style-text-mono text--secondary-1"} -->
+			<p class="is-style-text-mono text--secondary-1"><?php echo esc_html_x( '[ About Us ]', 'Hero section text', 'mroya' ); ?></p>
 			<!-- /wp:paragraph -->
 
 			<!-- wp:group {"layout":{"type":"flex","flexWrap":"wrap"}} -->
 			<div class="wp-block-group">
-				<!-- wp:paragraph {"className":"is-style-text-mono","style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast-3"}}},"layout":{"selfStretch":"fill","flexSize":null}},"textColor":"contrast-3"} -->
-				<p class="is-style-text-mono has-contrast-3-color has-text-color has-link-color"><?php echo esc_html_x( 'Based in the Czech Republic', 'Hero section text', 'mroya' ); ?></p>
+				<!-- wp:paragraph {"className":"is-style-text-mono","style":{"layout":{"selfStretch":"fill","flexSize":null}}} -->
+				<p class="is-style-text-mono"><?php echo esc_html_x( 'Based in the Czech Republic', 'Hero section text', 'mroya' ); ?></p>
 				<!-- /wp:paragraph -->
 
-				<!-- wp:paragraph {"className":"is-style-text-mono text--secondary-2","style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast-3"}}}},"textColor":"contrast-3"} -->
-				<p class="is-style-text-mono has-contrast-3-color has-text-color has-link-color text--secondary-2"><?php echo esc_html_x( 'ESTD. 2016', 'Hero section text', 'mroya' ); ?></p>
+				<!-- wp:paragraph {"className":"is-style-text-mono text--secondary-2"} -->
+				<p class="is-style-text-mono text--secondary-2"><?php echo esc_html_x( 'ESTD. 2016', 'Hero section text', 'mroya' ); ?></p>
 				<!-- /wp:paragraph -->
 			</div>
 			<!-- /wp:group -->

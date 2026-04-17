@@ -19,8 +19,8 @@
 	<div class="wp-block-group alignwide section__container">
 		<!-- wp:group {"tagName":"header","metadata":{"name":"<?php echo esc_html_x( 'Header', 'Name for the section header area', 'mroya' ); ?>"},"className":"section__header","layout":{"type":"default"}} -->
 		<header class="wp-block-group section__header">
-			<!-- wp:heading {"className":"is-style-text-mono","style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast-3"}}}},"textColor":"contrast-3"} -->
-			<h2 class="wp-block-heading is-style-text-mono has-contrast-3-color has-text-color has-link-color"><?php echo esc_html_x( '[ Our Journey ]', 'About section title', 'mroya' ); ?></h2>
+			<!-- wp:heading {"className":"is-style-text-mono"} -->
+			<h2 class="wp-block-heading is-style-text-mono"><?php echo esc_html_x( '[ Our Journey ]', 'About section title', 'mroya' ); ?></h2>
 			<!-- /wp:heading -->
 		</header>
 		<!-- /wp:group -->
@@ -33,8 +33,8 @@
 
 			<!-- wp:group {"metadata":{"name":"<?php echo esc_html_x( 'Skills block', 'Name for the skills block area', 'mroya' ); ?>"},"className":"block--skills","style":{"spacing":{"blockGap":"0.75rem"}},"layout":{"type":"default"}} -->
 			<div class="wp-block-group block--skills">
-				<!-- wp:heading {"level":3,"className":"is-style-text-mono","style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast-3"}}}},"textColor":"contrast-3"} -->
-				<h3 class="wp-block-heading is-style-text-mono has-contrast-3-color has-text-color has-link-color"><?php echo esc_html_x( 'Our Super Powers', 'Skills block title', 'mroya' ); ?></h3>
+				<!-- wp:heading {"level":3,"className":"is-style-text-mono"} -->
+				<h3 class="wp-block-heading is-style-text-mono"><?php echo esc_html_x( 'Our Super Powers', 'Skills block title', 'mroya' ); ?></h3>
 				<!-- /wp:heading -->
 
 				<!-- wp:group {"metadata":{"name":"<?php echo esc_html_x( 'Skills list', 'Name for the skills list area', 'mroya' ); ?>"},"className":"skills-list","style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}},"typography":{"fontStyle":"normal","fontWeight":"500"},"spacing":{"blockGap":"0"}},"textColor":"contrast","fontSize":"large","layout":{"type":"default"}} -->

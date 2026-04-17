@@ -33,8 +33,8 @@
 			<div class="wp-block-group page__block">
 				<!-- wp:group {"metadata":{"name":"<?php echo esc_html_x( 'Contacts block', 'Name for the contacts block', 'mroya' ); ?>"},"className":"block--contacts","style":{"spacing":{"padding":{"top":"0.75rem","bottom":"var:preset|spacing|10"},"blockGap":"var:preset|spacing|10"},"border":{"top":{"color":"var:preset|color|contrast-4","style":"solid","width":"1px"}}},"layout":{"type":"default"}} -->
 				<div class="wp-block-group block--contacts" style="border-top-color:var(--wp--preset--color--contrast-4);border-top-style:solid;border-top-width:1px;padding-top:0.75rem;padding-bottom:var(--wp--preset--spacing--10)">
-					<!-- wp:heading {"className":"is-style-text-mono","style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast-3"}}}},"textColor":"contrast-3"} -->
-					<h2 class="wp-block-heading is-style-text-mono has-contrast-3-color has-text-color has-link-color"><?php echo esc_html_x( 'Contacts', 'Contacts block title', 'mroya' ); ?></h2>
+					<!-- wp:heading {"className":"is-style-text-mono"} -->
+					<h2 class="wp-block-heading is-style-text-mono"><?php echo esc_html_x( 'Contacts', 'Contacts block title', 'mroya' ); ?></h2>
 					<!-- /wp:heading -->
 
 					<!-- wp:group {"style":{"spacing":{"blockGap":"0"},"typography":{"fontStyle":"normal","fontWeight":"500","letterSpacing":"-0.01em"}},"layout":{"type":"default"}} -->
@@ -63,8 +63,8 @@
 
 				<!-- wp:group {"metadata":{"name":"<?php echo esc_html_x( 'Address block', 'Name for the address block', 'mroya' ); ?>"},"className":"block--adress","style":{"spacing":{"padding":{"top":"0.75rem","bottom":"var:preset|spacing|10"},"blockGap":"var:preset|spacing|10"},"border":{"top":{"color":"var:preset|color|contrast-4","style":"solid","width":"1px"}}},"layout":{"type":"default"}} -->
 				<div class="wp-block-group block--adress" style="border-top-color:var(--wp--preset--color--contrast-4);border-top-style:solid;border-top-width:1px;padding-top:0.75rem;padding-bottom:var(--wp--preset--spacing--10)">
-					<!-- wp:heading {"className":"is-style-text-mono","style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast-3"}}}},"textColor":"contrast-3"} -->
-					<h2 class="wp-block-heading is-style-text-mono has-contrast-3-color has-text-color has-link-color"><?php echo esc_html_x( 'Address', 'Address block title', 'mroya' ); ?></h2>
+					<!-- wp:heading {"className":"is-style-text-mono"} -->
+					<h2 class="wp-block-heading is-style-text-mono"><?php echo esc_html_x( 'Address', 'Address block title', 'mroya' ); ?></h2>
 					<!-- /wp:heading -->
 
 					<!-- wp:group {"style":{"spacing":{"blockGap":"0"},"typography":{"fontStyle":"normal","fontWeight":"500","letterSpacing":"-0.01em"}},"layout":{"type":"default"}} -->
@@ -79,8 +79,8 @@
 
 				<!-- wp:group {"metadata":{"name":"<?php echo esc_html_x( 'Working hours block', 'Name for the working hours block', 'mroya' ); ?>"},"className":"block--working-hours","style":{"spacing":{"padding":{"top":"0.75rem","bottom":"var:preset|spacing|10"},"blockGap":"var:preset|spacing|10"},"border":{"top":{"color":"var:preset|color|contrast-4","style":"solid","width":"1px"}}},"layout":{"type":"default"}} -->
 				<div class="wp-block-group block--working-hours" style="border-top-color:var(--wp--preset--color--contrast-4);border-top-style:solid;border-top-width:1px;padding-top:0.75rem;padding-bottom:var(--wp--preset--spacing--10)">
-					<!-- wp:heading {"className":"is-style-text-mono","style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast-3"}}}},"textColor":"contrast-3"} -->
-					<h2 class="wp-block-heading is-style-text-mono has-contrast-3-color has-text-color has-link-color"><?php echo esc_html_x( 'Working Hours', 'Working hours block title', 'mroya' ); ?></h2>
+					<!-- wp:heading {"className":"is-style-text-mono"} -->
+					<h2 class="wp-block-heading is-style-text-mono"><?php echo esc_html_x( 'Working Hours', 'Working hours block title', 'mroya' ); ?></h2>
 					<!-- /wp:heading -->
 
 					<!-- wp:group {"style":{"spacing":{"blockGap":"0"},"typography":{"fontStyle":"normal","fontWeight":"500","letterSpacing":"-0.01em"}},"layout":{"type":"default"}} -->

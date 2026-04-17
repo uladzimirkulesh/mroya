@@ -14,8 +14,8 @@
 <div class="wp-block-group alignwide project-description project-description--1">
 	<!-- wp:group {"metadata":{"name":"<?php echo esc_html_x( 'Header', 'Name for the project description header', 'mroya' ); ?>"},"className":"project-description__header","layout":{"type":"default"}} -->
 	<div class="wp-block-group project-description__header">
-		<!-- wp:heading {"className":"is-style-text-mono","style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast-3"}}}},"textColor":"contrast-3"} -->
-		<h2 class="wp-block-heading is-style-text-mono has-contrast-3-color has-text-color has-link-color"><?php echo esc_html_x( 'About the project', 'Project description title', 'mroya' ); ?></h2>
+		<!-- wp:heading {"className":"is-style-text-mono"} -->
+		<h2 class="wp-block-heading is-style-text-mono"><?php echo esc_html_x( 'About the project', 'Project description title', 'mroya' ); ?></h2>
 		<!-- /wp:heading -->
 	</div>
 	<!-- /wp:group -->

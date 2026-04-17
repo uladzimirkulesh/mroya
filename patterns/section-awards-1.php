@@ -243,8 +243,8 @@
 
 		<!-- wp:group {"tagName":"footer","metadata":{"name":"<?php echo esc_html_x( 'Footer', 'Name for the section header area', 'mroya' ); ?>"},"className":"section__footer","style":{"spacing":{"margin":{"top":"var:preset|spacing|60"}},"layout":{"columnSpan":2}},"layout":{"type":"constrained","contentSize":"27rem","wideSize":"100%","justifyContent":"left"}} -->
 		<footer class="wp-block-group section__footer" style="margin-top:var(--wp--preset--spacing--60)">
-			<!-- wp:paragraph {"className":"is-style-text-mono section__text","style":{"elements":{"link":{"color":{"text":"var:preset|color|base-3"}}}},"textColor":"base-3"} -->
-			<p class="is-style-text-mono section__text has-base-3-color has-text-color has-link-color"><?php echo esc_html_x( 'Our work has earned recognition and awards from leading industry experts, celebrating creativity, innovation, and meaningful impact across digital platforms.', 'Awards section text', 'mroya' ); ?></p>
+			<!-- wp:paragraph {"className":"is-style-text-mono section__text"} -->
+			<p class="is-style-text-mono section__text"><?php echo esc_html_x( 'Our work has earned recognition and awards from leading industry experts, celebrating creativity, innovation, and meaningful impact across digital platforms.', 'Awards section text', 'mroya' ); ?></p>
 			<!-- /wp:paragraph -->
 		</footer>
 		<!-- /wp:group -->

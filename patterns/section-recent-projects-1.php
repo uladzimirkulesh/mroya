@@ -17,12 +17,12 @@
 <section class="wp-block-group alignfull section section--recent-projects-1" id="section-recent-projects-1" style="margin-top:0;padding-top:var(--wp--preset--spacing--10);padding-bottom:var(--wp--preset--spacing--60)">
 	<!-- wp:group {"metadata":{"name":"<?php echo esc_html_x( 'Header', 'Name for the section header area', 'mroya' ); ?>"},"align":"wide","className":"section__header","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
 	<div class="wp-block-group alignwide section__header">
-		<!-- wp:heading {"className":"is-style-text-mono","style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast-3"}}}},"textColor":"contrast-3"} -->
-		<h2 class="wp-block-heading is-style-text-mono has-contrast-3-color has-text-color has-link-color"><?php echo esc_html_x( '[ Portfolio ]', 'Recent projects section title', 'mroya' ); ?></h2>
+		<!-- wp:heading {"className":"is-style-text-mono"} -->
+		<h2 class="wp-block-heading is-style-text-mono"><?php echo esc_html_x( '[ Portfolio ]', 'Recent projects section title', 'mroya' ); ?></h2>
 		<!-- /wp:heading -->
 
-		<!-- wp:paragraph {"className":"is-style-text-mono","style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast-3"}}}},"textColor":"contrast-3"} -->
-		<p class="is-style-text-mono has-contrast-3-color has-text-color has-link-color"><?php echo esc_html_x( '# Recent Projects', 'Recent projects section text', 'mroya' ); ?></p>
+		<!-- wp:paragraph {"className":"is-style-text-mono"} -->
+		<p class="is-style-text-mono"><?php echo esc_html_x( '# Recent Projects', 'Recent projects section text', 'mroya' ); ?></p>
 		<!-- /wp:paragraph -->
 	</div>
 	<!-- /wp:group -->

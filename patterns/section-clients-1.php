@@ -17,8 +17,8 @@
 <section class="wp-block-group alignfull is-style-section-contrast section section--clients-1" id="section-clients-1" style="margin-top:0;padding-top:2rem;padding-bottom:var(--wp--preset--spacing--20)">
 	<!-- wp:group {"tagName":"header","metadata":{"name":"<?php echo esc_html_x( 'Header', 'Name for the section header area', 'mroya' ); ?>"},"align":"wide","className":"section__header","layout":{"type":"default"}} -->
 	<header class="wp-block-group alignwide section__header">
-		<!-- wp:heading {"className":"is-style-text-mono","style":{"elements":{"link":{"color":{"text":"var:preset|color|base-3"}}}},"textColor":"base-3"} -->
-		<h2 class="wp-block-heading is-style-text-mono has-base-3-color has-text-color has-link-color"><?php echo esc_html_x( '[ Our Clients ]', 'Clients section title', 'mroya' ); ?></h2>
+		<!-- wp:heading {"className":"is-style-text-mono"} -->
+		<h2 class="wp-block-heading is-style-text-mono"><?php echo esc_html_x( '[ Our Clients ]', 'Clients section title', 'mroya' ); ?></h2>
 		<!-- /wp:heading -->
 	</header>
 	<!-- /wp:group -->

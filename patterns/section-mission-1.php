@@ -25,8 +25,8 @@
 
 	<!-- wp:group {"metadata":{"name":"<?php echo esc_html_x( 'Content', 'Name for the section content area', 'mroya' ); ?>"},"align":"wide","className":"section__content","layout":{"type":"grid","columnCount":4,"minimumColumnWidth":null}} -->
 	<div class="wp-block-group alignwide section__content">
-		<!-- wp:list {"className":"is-style-list-mono list--first","style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast-3"}}}},"textColor":"contrast-3"} -->
-		<ul class="wp-block-list is-style-list-mono list--first has-contrast-3-color has-text-color has-link-color">
+		<!-- wp:list {"className":"is-style-list-mono list--first"} -->
+		<ul class="wp-block-list is-style-list-mono list--first">
 			<!-- wp:list-item -->
 			<li><?php echo esc_html_x( 'Brand Strategy', 'Mission section text', 'mroya' ); ?></li>
 			<!-- /wp:list-item -->
@@ -53,8 +53,8 @@
 		</ul>
 		<!-- /wp:list -->
 
-		<!-- wp:list {"className":"is-style-list-mono list--second","style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast-3"}}}},"textColor":"contrast-3"} -->
-		<ul class="wp-block-list is-style-list-mono list--second has-contrast-3-color has-text-color has-link-color">
+		<!-- wp:list {"className":"is-style-list-mono list--second"} -->
+		<ul class="wp-block-list is-style-list-mono list--second">
 			<!-- wp:list-item -->
 			<li><?php echo esc_html_x( 'Design Systems', 'Mission section text', 'mroya' ); ?></li>
 			<!-- /wp:list-item -->

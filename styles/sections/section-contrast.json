@@ -17,7 +17,14 @@
 			"core/heading": {
 				"color": {
 					"text": "currentColor"
-				}
+				},
+				"css": "&.is-style-text-mono { color: color-mix(in srgb, currentColor 40%, transparent) !important; }"
+			},
+			"core/paragraph": {
+				"css": "&.is-style-text-mono { color: color-mix(in srgb, currentColor 40%, transparent) !important; }"
+			},
+			"core/list": {
+				"css": "&.is-style-list-mono { color: color-mix(in srgb, currentColor 40%, transparent) !important; }"
 			},
 			"core/separator": {
 				"color": {

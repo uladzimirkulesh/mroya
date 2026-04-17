@@ -55,12 +55,12 @@
 
 			<!-- wp:group {"layout":{"type":"flex","flexWrap":"wrap"}} -->
 			<div class="wp-block-group">
-				<!-- wp:paragraph {"className":"is-style-text-mono","style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast-3"}}},"layout":{"selfStretch":"fill","flexSize":null}},"textColor":"contrast-3"} -->
-				<p class="is-style-text-mono has-contrast-3-color has-text-color has-link-color"><?php echo esc_html_x( 'Based in the Czech Republic', 'Hero section text', 'mroya' ); ?></p>
+				<!-- wp:paragraph {"className":"is-style-text-mono","style":{"layout":{"selfStretch":"fill","flexSize":null}}} -->
+				<p class="is-style-text-mono"><?php echo esc_html_x( 'Based in the Czech Republic', 'Hero section text', 'mroya' ); ?></p>
 				<!-- /wp:paragraph -->
 
-				<!-- wp:paragraph {"className":"local-time is-style-text-mono","style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast-3"}}}},"textColor":"contrast-3"} -->
-				<p class="local-time is-style-text-mono has-contrast-3-color has-text-color has-link-color" id="Europe/Prague"><?php echo esc_html_x( 'Local Time', 'Hero section text', 'mroya' ); ?></p>
+				<!-- wp:paragraph {"className":"local-time is-style-text-mono"} -->
+				<p class="local-time is-style-text-mono" id="Europe/Prague"><?php echo esc_html_x( 'Local Time', 'Hero section text', 'mroya' ); ?></p>
 				<!-- /wp:paragraph -->
 			</div>
 			<!-- /wp:group -->

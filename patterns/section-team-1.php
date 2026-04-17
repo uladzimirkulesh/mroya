@@ -17,8 +17,8 @@
 <section class="wp-block-group alignfull section section--team-1" id="section-team-1" style="margin-top:0;padding-top:2.25rem;padding-bottom:var(--wp--preset--spacing--30)">
 	<!-- wp:group {"tagName":"header","metadata":{"name":"<?php echo esc_html_x( 'Header', 'Name for the section header area', 'mroya' ); ?>"},"align":"wide","className":"section__header","style":{"spacing":{"blockGap":"1rem"}},"layout":{"type":"default"}} -->
 	<header class="wp-block-group alignwide section__header">
-		<!-- wp:heading {"className":"is-style-text-mono","style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast-3"}}}},"textColor":"contrast-3"} -->
-		<h2 class="wp-block-heading is-style-text-mono has-contrast-3-color has-text-color has-link-color"><?php echo esc_html_x( '[ Our Team ]', 'Team section title', 'mroya' ); ?></h2>
+		<!-- wp:heading {"className":"is-style-text-mono"} -->
+		<h2 class="wp-block-heading is-style-text-mono"><?php echo esc_html_x( '[ Our Team ]', 'Team section title', 'mroya' ); ?></h2>
 		<!-- /wp:heading -->
 
 		<!-- wp:group {"layout":{"type":"constrained","contentSize":"640px","justifyContent":"left","wideSize":"100%"}} -->
@@ -49,8 +49,8 @@
 					<p class="has-contrast-color has-text-color has-link-color" style="font-style:normal;font-weight:500;letter-spacing:-0.01em"><?php echo esc_html_x( 'Jason Miller', 'Member name', 'mroya' ); ?></p>
 					<!-- /wp:paragraph -->
 
-					<!-- wp:paragraph {"className":"is-style-text-mono","style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast-3"}}},"typography":{"fontStyle":"normal","fontWeight":"500"}},"textColor":"contrast-3","fontSize":"xx-small"} -->
-					<p class="is-style-text-mono has-contrast-3-color has-text-color has-link-color has-xx-small-font-size" style="font-style:normal;font-weight:500"><?php echo esc_html_x( 'Co-Founder', 'Member role', 'mroya' ); ?></p>
+					<!-- wp:paragraph {"className":"is-style-text-mono","fontSize":"xx-small"} -->
+					<p class="is-style-text-mono has-xx-small-font-size"><?php echo esc_html_x( 'Co-Founder', 'Member role', 'mroya' ); ?></p>
 					<!-- /wp:paragraph -->
 				</div>
 				<!-- /wp:group -->
@@ -71,8 +71,8 @@
 					<p class="has-contrast-color has-text-color has-link-color" style="font-style:normal;font-weight:500;letter-spacing:-0.01em"><?php echo esc_html_x( 'Emily Harris', 'Member name', 'mroya' ); ?></p>
 					<!-- /wp:paragraph -->
 
-					<!-- wp:paragraph {"className":"is-style-text-mono","style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast-3"}}},"typography":{"fontStyle":"normal","fontWeight":"500"}},"textColor":"contrast-3","fontSize":"xx-small"} -->
-					<p class="is-style-text-mono has-contrast-3-color has-text-color has-link-color has-xx-small-font-size" style="font-style:normal;font-weight:500"><?php echo esc_html_x( 'Co-Founder', 'Member role', 'mroya' ); ?></p>
+					<!-- wp:paragraph {"className":"is-style-text-mono","fontSize":"xx-small"} -->
+					<p class="is-style-text-mono has-xx-small-font-size"><?php echo esc_html_x( 'Co-Founder', 'Member role', 'mroya' ); ?></p>
 					<!-- /wp:paragraph -->
 				</div>
 				<!-- /wp:group -->
@@ -93,8 +93,8 @@
 					<p class="has-contrast-color has-text-color has-link-color" style="font-style:normal;font-weight:500;letter-spacing:-0.01em"><?php echo esc_html_x( 'Tyler Brooks', 'Member name', 'mroya' ); ?></p>
 					<!-- /wp:paragraph -->
 
-					<!-- wp:paragraph {"className":"is-style-text-mono","style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast-3"}}},"typography":{"fontStyle":"normal","fontWeight":"500"}},"textColor":"contrast-3","fontSize":"xx-small"} -->
-					<p class="is-style-text-mono has-contrast-3-color has-text-color has-link-color has-xx-small-font-size" style="font-style:normal;font-weight:500"><?php echo esc_html_x( 'Designer', 'Member role', 'mroya' ); ?></p>
+					<!-- wp:paragraph {"className":"is-style-text-mono","fontSize":"xx-small"} -->
+					<p class="is-style-text-mono has-xx-small-font-size"><?php echo esc_html_x( 'Designer', 'Member role', 'mroya' ); ?></p>
 					<!-- /wp:paragraph -->
 				</div>
 				<!-- /wp:group -->
@@ -115,8 +115,8 @@
 					<p class="has-contrast-color has-text-color has-link-color" style="font-style:normal;font-weight:500;letter-spacing:-0.01em"><?php echo esc_html_x( 'Brandon Carter', 'Member name', 'mroya' ); ?></p>
 					<!-- /wp:paragraph -->
 
-					<!-- wp:paragraph {"className":"is-style-text-mono","style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast-3"}}},"typography":{"fontStyle":"normal","fontWeight":"500"}},"textColor":"contrast-3","fontSize":"xx-small"} -->
-					<p class="is-style-text-mono has-contrast-3-color has-text-color has-link-color has-xx-small-font-size" style="font-style:normal;font-weight:500"><?php echo esc_html_x( 'Developer', 'Member role', 'mroya' ); ?></p>
+					<!-- wp:paragraph {"className":"is-style-text-mono","fontSize":"xx-small"} -->
+					<p class="is-style-text-mono has-xx-small-font-size"><?php echo esc_html_x( 'Developer', 'Member role', 'mroya' ); ?></p>
 					<!-- /wp:paragraph -->
 				</div>
 				<!-- /wp:group -->
@@ -137,8 +137,8 @@
 					<p class="has-contrast-color has-text-color has-link-color" style="font-style:normal;font-weight:500;letter-spacing:-0.01em"><?php echo esc_html_x( 'Lauren Mitchell', 'Member name', 'mroya' ); ?></p>
 					<!-- /wp:paragraph -->
 
-					<!-- wp:paragraph {"className":"is-style-text-mono","style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast-3"}}},"typography":{"fontStyle":"normal","fontWeight":"500"}},"textColor":"contrast-3","fontSize":"xx-small"} -->
-					<p class="is-style-text-mono has-contrast-3-color has-text-color has-link-color has-xx-small-font-size" style="font-style:normal;font-weight:500"><?php echo esc_html_x( 'Developer', 'Member role', 'mroya' ); ?></p>
+					<!-- wp:paragraph {"className":"is-style-text-mono","fontSize":"xx-small"} -->
+					<p class="is-style-text-mono has-xx-small-font-size"><?php echo esc_html_x( 'Developer', 'Member role', 'mroya' ); ?></p>
 					<!-- /wp:paragraph -->
 				</div>
 				<!-- /wp:group -->

@@ -8,6 +8,9 @@
 		"core/heading"
 	],
 	"styles": {
+		"color": {
+			"text": "var:preset|color|contrast-3"
+		},
 		"typography": {
 			"fontFamily": "var:preset|font-family|font-monospace",
 			"fontSize": "var:preset|font-size|x-small",
