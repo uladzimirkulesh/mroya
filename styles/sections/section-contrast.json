@@ -10,28 +10,9 @@
 	],
 	"styles": {
 		"color": {
-			"background": "var:preset|color|contrast",
-			"text": "var:preset|color|base"
+			"background": "var:preset|color|base",
+			"text": "var:preset|color|contrast"
 		},
-		"blocks": {
-			"core/heading": {
-				"color": {
-					"text": "currentColor"
-				},
-				"css": "&.is-style-text-mono { color: color-mix(in srgb, currentColor 40%, transparent) !important; }"
-			},
-			"core/paragraph": {
-				"css": "&.is-style-text-mono { color: color-mix(in srgb, currentColor 40%, transparent) !important; }"
-			},
-			"core/list": {
-				"css": "&.is-style-list-mono { color: color-mix(in srgb, currentColor 40%, transparent) !important; }"
-			},
-			"core/separator": {
-				"color": {
-					"text": "currentColor",
-					"background": "color-mix(in srgb, currentColor 15%, transparent)"
-				}
-			}
-		}
+		"css": "& { --wp--preset--color--base: #0a0a0a; --wp--preset--color--contrast: #ffffff; --wp--preset--color--contrast-2: color-mix(in srgb, var(--wp--preset--color--contrast) 75%, transparent); --wp--preset--color--contrast-3: color-mix(in srgb, var(--wp--preset--color--contrast) 40%, transparent); --wp--preset--color--contrast-4: color-mix(in srgb, var(--wp--preset--color--contrast) 15%, transparent); --wp--preset--color--contrast-5: color-mix(in srgb, var(--wp--preset--color--contrast) 3%, transparent); }"
 	}
 }

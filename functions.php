@@ -342,5 +342,5 @@ add_filter( 'query_loop_block_query_vars', 'mroya_related_projects', 10, 2 );
 // Load TGM Plugin Activation file.
 require get_template_directory() . '/inc/theme-required-plugins.php';
 
-// Load theme admin page file.
-require get_template_directory() . '/inc/theme-admin-page.php';
+// Load theme info file.
+require get_template_directory() . '/inc/theme-info.php';

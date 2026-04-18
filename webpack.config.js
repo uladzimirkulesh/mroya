@@ -19,7 +19,7 @@ module.exports = {
 			'js/editor': path.resolve( process.cwd(), 'src/js', 'editor.js' ),
 			'css/screen': path.resolve( process.cwd(), 'src/scss', 'screen.scss' ),
 			'css/editor': path.resolve( process.cwd(), 'src/scss', 'editor.scss' ),
-			'css/theme-admin-page': path.resolve( process.cwd(), 'src/scss', 'theme-admin-page.scss' ),
+			'css/theme-info': path.resolve( process.cwd(), 'src/scss', 'theme-info.scss' ),
 		},
 		plugins: [
 			// Include WP's plugin config.
