@@ -19,7 +19,7 @@
 	printf(
 		/* translators: Copyright text. */
 		esc_html__( '© 2026, %s', 'mroya' ),
-		'<a href="' . esc_url( __( 'https://theme.mroya.eu/', 'mroya' ) ) . '" target="_blank">Mroya Theme</a>' )
+		'<a href="' . esc_url( __( 'https://mroya.eu/portfolio/mroya/', 'mroya' ) ) . '" target="_blank">Mroya Theme</a>' )
 	?></p>
 	<!-- /wp:paragraph -->
 
