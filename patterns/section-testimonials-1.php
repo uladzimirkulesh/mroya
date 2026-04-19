@@ -27,8 +27,8 @@
 	<div class="wp-block-group alignwide section__content">
 		<!-- wp:group {"metadata":{"name":"<?php echo esc_html_x( 'Testimonials', 'Name for the testimonials area', 'mroya' ); ?>"},"align":"wide","className":"testimonials","layout":{"type":"grid","columnCount":4,"minimumColumnWidth":null}} -->
 		<div class="wp-block-group alignwide testimonials">
-			<!-- wp:group {"metadata":{"name":"<?php echo esc_html_x( 'Item', 'Name for the testimonials item area', 'mroya' ); ?>"},"className":"testimonials__item","style":{"border":{"radius":"0.25rem"},"spacing":{"padding":{"top":"var:preset|spacing|10","left":"var:preset|spacing|10","right":"var:preset|spacing|10","bottom":"1.25rem"},"blockGap":"var:preset|spacing|40"}},"backgroundColor":"base-5","layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
-			<div class="wp-block-group testimonials__item has-base-5-background-color has-background" style="border-radius:0.25rem;padding-top:var(--wp--preset--spacing--10);padding-right:var(--wp--preset--spacing--10);padding-bottom:1.25rem;padding-left:var(--wp--preset--spacing--10)">
+			<!-- wp:group {"metadata":{"name":"<?php echo esc_html_x( 'Item', 'Name for the testimonials item area', 'mroya' ); ?>"},"className":"testimonials__item","style":{"border":{"radius":"0.25rem"},"spacing":{"padding":{"top":"var:preset|spacing|10","left":"var:preset|spacing|10","right":"var:preset|spacing|10","bottom":"1.25rem"},"blockGap":"var:preset|spacing|40"}},"backgroundColor":"contrast-5","layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
+			<div class="wp-block-group testimonials__item has-contrast-5-background-color has-background" style="border-radius:0.25rem;padding-top:var(--wp--preset--spacing--10);padding-right:var(--wp--preset--spacing--10);padding-bottom:1.25rem;padding-left:var(--wp--preset--spacing--10)">
 				<!-- wp:group {"style":{"layout":{"selfStretch":"fill","flexSize":null}},"layout":{"type":"constrained"}} -->
 				<div class="wp-block-group">
 					<!-- wp:image {"width":"56px","aspectRatio":"1","scale":"cover","sizeSlug":"thumbnail","linkDestination":"none","className":"is-style-rounded"} -->
@@ -43,8 +43,8 @@
 				</div>
 				<!-- /wp:group -->
 
-				<!-- wp:group {"style":{"spacing":{"blockGap":"2px","padding":{"top":"0.75rem"}},"border":{"top":{"color":"var:preset|color|base-4","style":"dashed","width":"1px"},"right":[],"bottom":[],"left":[]}},"layout":{"type":"constrained"}} -->
-				<div class="wp-block-group" style="border-top-color:var(--wp--preset--color--base-4);border-top-style:dashed;border-top-width:1px;padding-top:0.75rem">
+				<!-- wp:group {"style":{"spacing":{"blockGap":"2px","padding":{"top":"0.75rem"}},"border":{"top":{"color":"var:preset|color|contrast-4","style":"dashed","width":"1px"},"right":[],"bottom":[],"left":[]}},"layout":{"type":"constrained"}} -->
+				<div class="wp-block-group" style="border-top-color:var(--wp--preset--color--contrast-4);border-top-style:dashed;border-top-width:1px;padding-top:0.75rem">
 					<!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}}} -->
 					<p style="font-style:normal;font-weight:500"><?php echo esc_html_x( 'Olivia Bennett', 'Testimonials item author', 'mroya' ); ?></p>
 					<!-- /wp:paragraph -->
@@ -57,12 +57,12 @@
 			</div>
 			<!-- /wp:group -->
 
-			<!-- wp:group {"metadata":{"name":"<?php echo esc_html_x( 'Item (empty)', 'Name for the testimonials item area', 'mroya' ); ?>"},"className":"testimonials__item testimonials__item--empty","style":{"border":{"radius":"0.25rem","width":"1px","style":"dashed"}},"borderColor":"base-4","layout":{"type":"constrained"}} -->
-			<div class="wp-block-group testimonials__item testimonials__item--empty has-border-color has-base-4-border-color" style="border-style:dashed;border-width:1px;border-radius:0.25rem"></div>
+			<!-- wp:group {"metadata":{"name":"<?php echo esc_html_x( 'Item (empty)', 'Name for the testimonials item area', 'mroya' ); ?>"},"className":"testimonials__item testimonials__item--empty","style":{"border":{"radius":"0.25rem","width":"1px","style":"dashed"}},"borderColor":"contrast-4","layout":{"type":"constrained"}} -->
+			<div class="wp-block-group testimonials__item testimonials__item--empty has-border-color has-contrast-4-border-color" style="border-style:dashed;border-width:1px;border-radius:0.25rem"></div>
 			<!-- /wp:group -->
 
-			<!-- wp:group {"metadata":{"name":"<?php echo esc_html_x( 'Item', 'Name for the testimonials item area', 'mroya' ); ?>"},"className":"testimonials__item","style":{"border":{"radius":"0.25rem"},"spacing":{"padding":{"top":"var:preset|spacing|10","left":"var:preset|spacing|10","right":"var:preset|spacing|10","bottom":"1.25rem"},"blockGap":"var:preset|spacing|40"}},"backgroundColor":"base-5","layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
-			<div class="wp-block-group testimonials__item has-base-5-background-color has-background" style="border-radius:0.25rem;padding-top:var(--wp--preset--spacing--10);padding-right:var(--wp--preset--spacing--10);padding-bottom:1.25rem;padding-left:var(--wp--preset--spacing--10)">
+			<!-- wp:group {"metadata":{"name":"<?php echo esc_html_x( 'Item', 'Name for the testimonials item area', 'mroya' ); ?>"},"className":"testimonials__item","style":{"border":{"radius":"0.25rem"},"spacing":{"padding":{"top":"var:preset|spacing|10","left":"var:preset|spacing|10","right":"var:preset|spacing|10","bottom":"1.25rem"},"blockGap":"var:preset|spacing|40"}},"backgroundColor":"contrast-5","layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
+			<div class="wp-block-group testimonials__item has-contrast-5-background-color has-background" style="border-radius:0.25rem;padding-top:var(--wp--preset--spacing--10);padding-right:var(--wp--preset--spacing--10);padding-bottom:1.25rem;padding-left:var(--wp--preset--spacing--10)">
 				<!-- wp:group {"style":{"layout":{"selfStretch":"fill","flexSize":null}},"layout":{"type":"constrained"}} -->
 				<div class="wp-block-group">
 					<!-- wp:image {"width":"56px","aspectRatio":"1","scale":"cover","sizeSlug":"thumbnail","linkDestination":"none","className":"is-style-rounded"} -->
@@ -77,8 +77,8 @@
 				</div>
 				<!-- /wp:group -->
 
-				<!-- wp:group {"style":{"spacing":{"blockGap":"2px","padding":{"top":"0.75rem"}},"border":{"top":{"color":"var:preset|color|base-4","style":"dashed","width":"1px"},"right":[],"bottom":[],"left":[]}},"layout":{"type":"constrained"}} -->
-				<div class="wp-block-group" style="border-top-color:var(--wp--preset--color--base-4);border-top-style:dashed;border-top-width:1px;padding-top:0.75rem">
+				<!-- wp:group {"style":{"spacing":{"blockGap":"2px","padding":{"top":"0.75rem"}},"border":{"top":{"color":"var:preset|color|contrast-4","style":"dashed","width":"1px"},"right":[],"bottom":[],"left":[]}},"layout":{"type":"constrained"}} -->
+				<div class="wp-block-group" style="border-top-color:var(--wp--preset--color--contrast-4);border-top-style:dashed;border-top-width:1px;padding-top:0.75rem">
 					<!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}}} -->
 					<p style="font-style:normal;font-weight:500"><?php echo esc_html_x( 'Daniel Foster', 'Testimonials item author', 'mroya' ); ?></p>
 					<!-- /wp:paragraph -->
@@ -91,8 +91,8 @@
 			</div>
 			<!-- /wp:group -->
 
-			<!-- wp:group {"metadata":{"name":"<?php echo esc_html_x( 'Item', 'Name for the testimonials item area', 'mroya' ); ?>"},"className":"testimonials__item","style":{"border":{"radius":"0.25rem"},"spacing":{"padding":{"top":"var:preset|spacing|10","left":"var:preset|spacing|10","right":"var:preset|spacing|10","bottom":"1.25rem"},"blockGap":"var:preset|spacing|40"}},"backgroundColor":"base-5","layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
-			<div class="wp-block-group testimonials__item has-base-5-background-color has-background" style="border-radius:0.25rem;padding-top:var(--wp--preset--spacing--10);padding-right:var(--wp--preset--spacing--10);padding-bottom:1.25rem;padding-left:var(--wp--preset--spacing--10)">
+			<!-- wp:group {"metadata":{"name":"<?php echo esc_html_x( 'Item', 'Name for the testimonials item area', 'mroya' ); ?>"},"className":"testimonials__item","style":{"border":{"radius":"0.25rem"},"spacing":{"padding":{"top":"var:preset|spacing|10","left":"var:preset|spacing|10","right":"var:preset|spacing|10","bottom":"1.25rem"},"blockGap":"var:preset|spacing|40"}},"backgroundColor":"contrast-5","layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
+			<div class="wp-block-group testimonials__item has-contrast-5-background-color has-background" style="border-radius:0.25rem;padding-top:var(--wp--preset--spacing--10);padding-right:var(--wp--preset--spacing--10);padding-bottom:1.25rem;padding-left:var(--wp--preset--spacing--10)">
 				<!-- wp:group {"style":{"layout":{"selfStretch":"fill","flexSize":null}},"layout":{"type":"constrained"}} -->
 				<div class="wp-block-group">
 					<!-- wp:image {"width":"56px","aspectRatio":"1","scale":"cover","sizeSlug":"thumbnail","linkDestination":"none","className":"is-style-rounded"} -->
@@ -107,8 +107,8 @@
 				</div>
 				<!-- /wp:group -->
 
-				<!-- wp:group {"style":{"spacing":{"blockGap":"2px","padding":{"top":"0.75rem"}},"border":{"top":{"color":"var:preset|color|base-4","style":"dashed","width":"1px"},"right":[],"bottom":[],"left":[]}},"layout":{"type":"constrained"}} -->
-				<div class="wp-block-group" style="border-top-color:var(--wp--preset--color--base-4);border-top-style:dashed;border-top-width:1px;padding-top:0.75rem">
+				<!-- wp:group {"style":{"spacing":{"blockGap":"2px","padding":{"top":"0.75rem"}},"border":{"top":{"color":"var:preset|color|contrast-4","style":"dashed","width":"1px"},"right":[],"bottom":[],"left":[]}},"layout":{"type":"constrained"}} -->
+				<div class="wp-block-group" style="border-top-color:var(--wp--preset--color--contrast-4);border-top-style:dashed;border-top-width:1px;padding-top:0.75rem">
 					<!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}}} -->
 					<p style="font-style:normal;font-weight:500"><?php echo esc_html_x( 'Maya Rodriguez', 'Testimonials item author', 'mroya' ); ?></p>
 					<!-- /wp:paragraph -->
@@ -121,12 +121,12 @@
 			</div>
 			<!-- /wp:group -->
 
-			<!-- wp:group {"metadata":{"name":"<?php echo esc_html_x( 'Item (empty)', 'Name for the testimonials item area', 'mroya' ); ?>"},"className":"testimonials__item testimonials__item--empty","style":{"border":{"radius":"0.25rem","width":"1px","style":"dashed"}},"borderColor":"base-4","layout":{"type":"constrained"}} -->
-			<div class="wp-block-group testimonials__item testimonials__item--empty has-border-color has-base-4-border-color" style="border-style:dashed;border-width:1px;border-radius:0.25rem"></div>
+			<!-- wp:group {"metadata":{"name":"<?php echo esc_html_x( 'Item (empty)', 'Name for the testimonials item area', 'mroya' ); ?>"},"className":"testimonials__item testimonials__item--empty","style":{"border":{"radius":"0.25rem","width":"1px","style":"dashed"}},"borderColor":"contrast-4","layout":{"type":"constrained"}} -->
+			<div class="wp-block-group testimonials__item testimonials__item--empty has-border-color has-contrast-4-border-color" style="border-style:dashed;border-width:1px;border-radius:0.25rem"></div>
 			<!-- /wp:group -->
 
-			<!-- wp:group {"metadata":{"name":"<?php echo esc_html_x( 'Item', 'Name for the testimonials item area', 'mroya' ); ?>"},"className":"testimonials__item","style":{"border":{"radius":"0.25rem"},"spacing":{"padding":{"top":"var:preset|spacing|10","left":"var:preset|spacing|10","right":"var:preset|spacing|10","bottom":"1.25rem"},"blockGap":"var:preset|spacing|40"}},"backgroundColor":"base-5","layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
-			<div class="wp-block-group testimonials__item has-base-5-background-color has-background" style="border-radius:0.25rem;padding-top:var(--wp--preset--spacing--10);padding-right:var(--wp--preset--spacing--10);padding-bottom:1.25rem;padding-left:var(--wp--preset--spacing--10)">
+			<!-- wp:group {"metadata":{"name":"<?php echo esc_html_x( 'Item', 'Name for the testimonials item area', 'mroya' ); ?>"},"className":"testimonials__item","style":{"border":{"radius":"0.25rem"},"spacing":{"padding":{"top":"var:preset|spacing|10","left":"var:preset|spacing|10","right":"var:preset|spacing|10","bottom":"1.25rem"},"blockGap":"var:preset|spacing|40"}},"backgroundColor":"contrast-5","layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
+			<div class="wp-block-group testimonials__item has-contrast-5-background-color has-background" style="border-radius:0.25rem;padding-top:var(--wp--preset--spacing--10);padding-right:var(--wp--preset--spacing--10);padding-bottom:1.25rem;padding-left:var(--wp--preset--spacing--10)">
 				<!-- wp:group {"style":{"layout":{"selfStretch":"fill","flexSize":null}},"layout":{"type":"constrained"}} -->
 				<div class="wp-block-group">
 					<!-- wp:image {"width":"56px","aspectRatio":"1","scale":"cover","sizeSlug":"thumbnail","linkDestination":"none","className":"is-style-rounded"} -->
@@ -141,8 +141,8 @@
 				</div>
 				<!-- /wp:group -->
 
-				<!-- wp:group {"style":{"spacing":{"blockGap":"2px","padding":{"top":"0.75rem"}},"border":{"top":{"color":"var:preset|color|base-4","style":"dashed","width":"1px"},"right":[],"bottom":[],"left":[]}},"layout":{"type":"constrained"}} -->
-				<div class="wp-block-group" style="border-top-color:var(--wp--preset--color--base-4);border-top-style:dashed;border-top-width:1px;padding-top:0.75rem">
+				<!-- wp:group {"style":{"spacing":{"blockGap":"2px","padding":{"top":"0.75rem"}},"border":{"top":{"color":"var:preset|color|contrast-4","style":"dashed","width":"1px"},"right":[],"bottom":[],"left":[]}},"layout":{"type":"constrained"}} -->
+				<div class="wp-block-group" style="border-top-color:var(--wp--preset--color--contrast-4);border-top-style:dashed;border-top-width:1px;padding-top:0.75rem">
 					<!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}}} -->
 					<p style="font-style:normal;font-weight:500"><?php echo esc_html_x( 'Lucas Turner', 'Testimonials item author', 'mroya' ); ?></p>
 					<!-- /wp:paragraph -->
@@ -155,12 +155,12 @@
 			</div>
 			<!-- /wp:group -->
 
-			<!-- wp:group {"metadata":{"name":"<?php echo esc_html_x( 'Item (empty)', 'Name for the testimonials item area', 'mroya' ); ?>"},"className":"testimonials__item testimonials__item--empty","style":{"border":{"radius":"0.25rem","width":"1px","style":"dashed"}},"borderColor":"base-4","layout":{"type":"constrained"}} -->
-			<div class="wp-block-group testimonials__item testimonials__item--empty has-border-color has-base-4-border-color" style="border-style:dashed;border-width:1px;border-radius:0.25rem"></div>
+			<!-- wp:group {"metadata":{"name":"<?php echo esc_html_x( 'Item (empty)', 'Name for the testimonials item area', 'mroya' ); ?>"},"className":"testimonials__item testimonials__item--empty","style":{"border":{"radius":"0.25rem","width":"1px","style":"dashed"}},"borderColor":"contrast-4","layout":{"type":"constrained"}} -->
+			<div class="wp-block-group testimonials__item testimonials__item--empty has-border-color has-contrast-4-border-color" style="border-style:dashed;border-width:1px;border-radius:0.25rem"></div>
 			<!-- /wp:group -->
 
-			<!-- wp:group {"metadata":{"name":"<?php echo esc_html_x( 'Item', 'Name for the testimonials item area', 'mroya' ); ?>"},"className":"testimonials__item","style":{"border":{"radius":"0.25rem"},"spacing":{"padding":{"top":"var:preset|spacing|10","left":"var:preset|spacing|10","right":"var:preset|spacing|10","bottom":"1.25rem"},"blockGap":"var:preset|spacing|40"}},"backgroundColor":"base-5","layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
-			<div class="wp-block-group testimonials__item has-base-5-background-color has-background" style="border-radius:0.25rem;padding-top:var(--wp--preset--spacing--10);padding-right:var(--wp--preset--spacing--10);padding-bottom:1.25rem;padding-left:var(--wp--preset--spacing--10)">
+			<!-- wp:group {"metadata":{"name":"<?php echo esc_html_x( 'Item', 'Name for the testimonials item area', 'mroya' ); ?>"},"className":"testimonials__item","style":{"border":{"radius":"0.25rem"},"spacing":{"padding":{"top":"var:preset|spacing|10","left":"var:preset|spacing|10","right":"var:preset|spacing|10","bottom":"1.25rem"},"blockGap":"var:preset|spacing|40"}},"backgroundColor":"contrast-5","layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
+			<div class="wp-block-group testimonials__item has-contrast-5-background-color has-background" style="border-radius:0.25rem;padding-top:var(--wp--preset--spacing--10);padding-right:var(--wp--preset--spacing--10);padding-bottom:1.25rem;padding-left:var(--wp--preset--spacing--10)">
 				<!-- wp:group {"style":{"layout":{"selfStretch":"fill","flexSize":null}},"layout":{"type":"constrained"}} -->
 				<div class="wp-block-group">
 					<!-- wp:image {"width":"56px","aspectRatio":"1","scale":"cover","sizeSlug":"thumbnail","linkDestination":"none","className":"is-style-rounded"} -->
@@ -175,8 +175,8 @@
 				</div>
 				<!-- /wp:group -->
 
-				<!-- wp:group {"style":{"spacing":{"blockGap":"2px","padding":{"top":"0.75rem"}},"border":{"top":{"color":"var:preset|color|base-4","style":"dashed","width":"1px"},"right":[],"bottom":[],"left":[]}},"layout":{"type":"constrained"}} -->
-				<div class="wp-block-group" style="border-top-color:var(--wp--preset--color--base-4);border-top-style:dashed;border-top-width:1px;padding-top:0.75rem">
+				<!-- wp:group {"style":{"spacing":{"blockGap":"2px","padding":{"top":"0.75rem"}},"border":{"top":{"color":"var:preset|color|contrast-4","style":"dashed","width":"1px"},"right":[],"bottom":[],"left":[]}},"layout":{"type":"constrained"}} -->
+				<div class="wp-block-group" style="border-top-color:var(--wp--preset--color--contrast-4);border-top-style:dashed;border-top-width:1px;padding-top:0.75rem">
 					<!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}}} -->
 					<p style="font-style:normal;font-weight:500"><?php echo esc_html_x( 'Chloe Adams', 'Testimonials item author', 'mroya' ); ?></p>
 					<!-- /wp:paragraph -->

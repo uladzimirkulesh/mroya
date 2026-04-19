@@ -31,8 +31,8 @@
 			<div class="wp-block-group block--awards" style="font-style:normal;font-weight:500;letter-spacing:-0.01em">
 				<!-- wp:group {"metadata":{"name":"<?php echo esc_html_x( 'Awards item', 'Name for the awards item area', 'mroya' ); ?>"},"className":"awards__item","layout":{"type":"grid","columnCount":2,"minimumColumnWidth":null}} -->
 				<div class="wp-block-group awards__item">
-					<!-- wp:heading {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|base-3"}}}},"textColor":"base-3","fontSize":"normal"} -->
-					<h3 class="wp-block-heading has-base-3-color has-text-color has-link-color has-normal-font-size"><?php echo esc_html_x( 'Awwwards', 'Awards item title', 'mroya' ); ?></h3>
+					<!-- wp:heading {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast-3"}}}},"textColor":"contrast-3","fontSize":"normal"} -->
+					<h3 class="wp-block-heading has-contrast-3-color has-text-color has-link-color has-normal-font-size"><?php echo esc_html_x( 'Awwwards', 'Awards item title', 'mroya' ); ?></h3>
 					<!-- /wp:heading -->
 
 					<!-- wp:group {"style":{"spacing":{"blockGap":"0.25rem"}},"layout":{"type":"default"}} -->
@@ -83,8 +83,8 @@
 
 				<!-- wp:group {"metadata":{"name":"<?php echo esc_html_x( 'Awards item', 'Name for the awards item area', 'mroya' ); ?>"},"className":"awards__item","layout":{"type":"grid","columnCount":2,"minimumColumnWidth":null}} -->
 				<div class="wp-block-group awards__item">
-					<!-- wp:heading {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|base-3"}}}},"textColor":"base-3","fontSize":"normal"} -->
-					<h3 class="wp-block-heading has-base-3-color has-text-color has-link-color has-normal-font-size"><?php echo esc_html_x( 'The FWA', 'Awards item title', 'mroya' ); ?></h3>
+					<!-- wp:heading {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast-3"}}}},"textColor":"contrast-3","fontSize":"normal"} -->
+					<h3 class="wp-block-heading has-contrast-3-color has-text-color has-link-color has-normal-font-size"><?php echo esc_html_x( 'The FWA', 'Awards item title', 'mroya' ); ?></h3>
 					<!-- /wp:heading -->
 
 					<!-- wp:group {"style":{"spacing":{"blockGap":"0.25rem"}},"layout":{"type":"default"}} -->
@@ -123,8 +123,8 @@
 
 				<!-- wp:group {"metadata":{"name":"<?php echo esc_html_x( 'Awards item', 'Name for the awards item area', 'mroya' ); ?>"},"className":"awards__item","layout":{"type":"grid","columnCount":2,"minimumColumnWidth":null}} -->
 				<div class="wp-block-group awards__item">
-					<!-- wp:heading {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|base-3"}}}},"textColor":"base-3","fontSize":"normal"} -->
-					<h3 class="wp-block-heading has-base-3-color has-text-color has-link-color has-normal-font-size"><?php echo esc_html_x( 'CSSDA', 'Awards item title', 'mroya' ); ?></h3>
+					<!-- wp:heading {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast-3"}}}},"textColor":"contrast-3","fontSize":"normal"} -->
+					<h3 class="wp-block-heading has-contrast-3-color has-text-color has-link-color has-normal-font-size"><?php echo esc_html_x( 'CSSDA', 'Awards item title', 'mroya' ); ?></h3>
 					<!-- /wp:heading -->
 
 					<!-- wp:group {"style":{"spacing":{"blockGap":"0.25rem"}},"layout":{"type":"default"}} -->
@@ -187,8 +187,8 @@
 
 				<!-- wp:group {"metadata":{"name":"<?php echo esc_html_x( 'Awards item', 'Name for the awards item area', 'mroya' ); ?>"},"className":"awards__item","layout":{"type":"grid","columnCount":2,"minimumColumnWidth":null}} -->
 				<div class="wp-block-group awards__item">
-					<!-- wp:heading {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|base-3"}}}},"textColor":"base-3","fontSize":"normal"} -->
-					<h3 class="wp-block-heading has-base-3-color has-text-color has-link-color has-normal-font-size"><?php echo esc_html_x( 'The Webby Awards', 'Awards item title', 'mroya' ); ?></h3>
+					<!-- wp:heading {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast-3"}}}},"textColor":"contrast-3","fontSize":"normal"} -->
+					<h3 class="wp-block-heading has-contrast-3-color has-text-color has-link-color has-normal-font-size"><?php echo esc_html_x( 'The Webby Awards', 'Awards item title', 'mroya' ); ?></h3>
 					<!-- /wp:heading -->
 
 					<!-- wp:group {"style":{"spacing":{"blockGap":"0.25rem"}},"layout":{"type":"default"}} -->
@@ -215,8 +215,8 @@
 
 				<!-- wp:group {"metadata":{"name":"<?php echo esc_html_x( 'Awards item', 'Name for the awards item area', 'mroya' ); ?>"},"className":"awards__item","layout":{"type":"grid","columnCount":2,"minimumColumnWidth":null}} -->
 				<div class="wp-block-group awards__item">
-					<!-- wp:heading {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|base-3"}}}},"textColor":"base-3","fontSize":"normal"} -->
-					<h3 class="wp-block-heading has-base-3-color has-text-color has-link-color has-normal-font-size"><?php echo esc_html_x( 'Creative Circle', 'Awards item title', 'mroya' ); ?></h3>
+					<!-- wp:heading {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast-3"}}}},"textColor":"contrast-3","fontSize":"normal"} -->
+					<h3 class="wp-block-heading has-contrast-3-color has-text-color has-link-color has-normal-font-size"><?php echo esc_html_x( 'Creative Circle', 'Awards item title', 'mroya' ); ?></h3>
 					<!-- /wp:heading -->
 
 					<!-- wp:group {"style":{"spacing":{"blockGap":"0.25rem"}},"layout":{"type":"default"}} -->

@@ -29,8 +29,8 @@
 		<div class="wp-block-group alignwide row--1">
 			<!-- wp:group {"metadata":{"name":"<?php echo esc_html_x( 'Clients list 1', 'Name for the clients list area', 'mroya' ); ?>"},"align":"wide","className":"clients-list clients-list--1","layout":{"type":"flex","flexWrap":"nowrap"}} -->
 			<div class="wp-block-group alignwide clients-list clients-list--1">
-				<!-- wp:group {"metadata":{"name":"<?php echo esc_html_x( 'Client', 'Name for the client area', 'mroya' ); ?>"},"className":"clients-list__item","style":{"border":{"radius":"0.25rem","width":"1px","style":"solid"}},"borderColor":"base-4","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
-				<div class="wp-block-group clients-list__item has-border-color has-base-4-border-color" style="border-style:solid;border-width:1px;border-radius:0.25rem">
+				<!-- wp:group {"metadata":{"name":"<?php echo esc_html_x( 'Client', 'Name for the client area', 'mroya' ); ?>"},"className":"clients-list__item","style":{"border":{"radius":"0.25rem","width":"1px","style":"solid"}},"borderColor":"contrast-4","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
+				<div class="wp-block-group clients-list__item has-border-color has-contrast-4-border-color" style="border-style:solid;border-width:1px;border-radius:0.25rem">
 					<!-- wp:image {"lightbox":{"enabled":false},"width":"64px","aspectRatio":"1","scale":"cover","sizeSlug":"full","linkDestination":"custom","style":{"border":{"radius":"0px"}}} -->
 					<figure class="wp-block-image size-full is-resized has-custom-border">
 						<a href="#" target="_blank" rel="noreferrer noopener">
@@ -41,8 +41,8 @@
 				</div>
 				<!-- /wp:group -->
 
-				<!-- wp:group {"metadata":{"name":"<?php echo esc_html_x( 'Client', 'Name for the client area', 'mroya' ); ?>"},"className":"clients-list__item","style":{"border":{"radius":"0.25rem","width":"1px","style":"solid"}},"borderColor":"base-4","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
-				<div class="wp-block-group clients-list__item has-border-color has-base-4-border-color" style="border-style:solid;border-width:1px;border-radius:0.25rem">
+				<!-- wp:group {"metadata":{"name":"<?php echo esc_html_x( 'Client', 'Name for the client area', 'mroya' ); ?>"},"className":"clients-list__item","style":{"border":{"radius":"0.25rem","width":"1px","style":"solid"}},"borderColor":"contrast-4","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
+				<div class="wp-block-group clients-list__item has-border-color has-contrast-4-border-color" style="border-style:solid;border-width:1px;border-radius:0.25rem">
 					<!-- wp:image {"lightbox":{"enabled":false},"width":"64px","aspectRatio":"1","scale":"cover","sizeSlug":"full","linkDestination":"custom","style":{"border":{"radius":"0px"}}} -->
 					<figure class="wp-block-image size-full is-resized has-custom-border">
 						<a href="#" target="_blank" rel="noreferrer noopener">
@@ -53,8 +53,8 @@
 				</div>
 				<!-- /wp:group -->
 
-				<!-- wp:group {"metadata":{"name":"<?php echo esc_html_x( 'Client', 'Name for the client area', 'mroya' ); ?>"},"className":"clients-list__item","style":{"border":{"radius":"0.25rem","width":"1px","style":"solid"}},"borderColor":"base-4","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
-				<div class="wp-block-group clients-list__item has-border-color has-base-4-border-color" style="border-style:solid;border-width:1px;border-radius:0.25rem">
+				<!-- wp:group {"metadata":{"name":"<?php echo esc_html_x( 'Client', 'Name for the client area', 'mroya' ); ?>"},"className":"clients-list__item","style":{"border":{"radius":"0.25rem","width":"1px","style":"solid"}},"borderColor":"contrast-4","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
+				<div class="wp-block-group clients-list__item has-border-color has-contrast-4-border-color" style="border-style:solid;border-width:1px;border-radius:0.25rem">
 					<!-- wp:image {"lightbox":{"enabled":false},"width":"64px","aspectRatio":"1","scale":"cover","sizeSlug":"full","linkDestination":"custom","style":{"border":{"radius":"0px"}}} -->
 					<figure class="wp-block-image size-full is-resized has-custom-border">
 						<a href="#" target="_blank" rel="noreferrer noopener">
@@ -65,8 +65,8 @@
 				</div>
 				<!-- /wp:group -->
 
-				<!-- wp:group {"metadata":{"name":"<?php echo esc_html_x( 'Client', 'Name for the client area', 'mroya' ); ?>"},"className":"clients-list__item","style":{"border":{"radius":"0.25rem","width":"1px","style":"solid"}},"borderColor":"base-4","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
-				<div class="wp-block-group clients-list__item has-border-color has-base-4-border-color" style="border-style:solid;border-width:1px;border-radius:0.25rem">
+				<!-- wp:group {"metadata":{"name":"<?php echo esc_html_x( 'Client', 'Name for the client area', 'mroya' ); ?>"},"className":"clients-list__item","style":{"border":{"radius":"0.25rem","width":"1px","style":"solid"}},"borderColor":"contrast-4","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
+				<div class="wp-block-group clients-list__item has-border-color has-contrast-4-border-color" style="border-style:solid;border-width:1px;border-radius:0.25rem">
 					<!-- wp:image {"lightbox":{"enabled":false},"width":"64px","aspectRatio":"1","scale":"cover","sizeSlug":"full","linkDestination":"custom","style":{"border":{"radius":"0px"}}} -->
 					<figure class="wp-block-image size-full is-resized has-custom-border">
 						<a href="#" target="_blank" rel="noreferrer noopener">
@@ -77,8 +77,8 @@
 				</div>
 				<!-- /wp:group -->
 
-				<!-- wp:group {"metadata":{"name":"<?php echo esc_html_x( 'Client', 'Name for the client area', 'mroya' ); ?>"},"className":"clients-list__item","style":{"border":{"radius":"0.25rem","width":"1px","style":"solid"}},"borderColor":"base-4","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
-				<div class="wp-block-group clients-list__item has-border-color has-base-4-border-color" style="border-style:solid;border-width:1px;border-radius:0.25rem">
+				<!-- wp:group {"metadata":{"name":"<?php echo esc_html_x( 'Client', 'Name for the client area', 'mroya' ); ?>"},"className":"clients-list__item","style":{"border":{"radius":"0.25rem","width":"1px","style":"solid"}},"borderColor":"contrast-4","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
+				<div class="wp-block-group clients-list__item has-border-color has-contrast-4-border-color" style="border-style:solid;border-width:1px;border-radius:0.25rem">
 					<!-- wp:image {"lightbox":{"enabled":false},"width":"64px","aspectRatio":"1","scale":"cover","sizeSlug":"full","linkDestination":"custom","style":{"border":{"radius":"0px"}}} -->
 					<figure class="wp-block-image size-full is-resized has-custom-border">
 						<a href="#" target="_blank" rel="noreferrer noopener">
@@ -97,8 +97,8 @@
 		<div class="wp-block-group alignwide row--2">
 			<!-- wp:group {"metadata":{"name":"<?php echo esc_html_x( 'Clients list 2', 'Name for the clients list area', 'mroya' ); ?>"},"align":"wide","className":"clients-list clients-list--2","layout":{"type":"flex","flexWrap":"nowrap"}} -->
 			<div class="wp-block-group alignwide clients-list clients-list--2">
-				<!-- wp:group {"metadata":{"name":"<?php echo esc_html_x( 'Client', 'Name for the client area', 'mroya' ); ?>"},"className":"clients-list__item","style":{"border":{"radius":"0.25rem","width":"1px","style":"solid"}},"borderColor":"base-4","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
-				<div class="wp-block-group clients-list__item has-border-color has-base-4-border-color" style="border-style:solid;border-width:1px;border-radius:0.25rem">
+				<!-- wp:group {"metadata":{"name":"<?php echo esc_html_x( 'Client', 'Name for the client area', 'mroya' ); ?>"},"className":"clients-list__item","style":{"border":{"radius":"0.25rem","width":"1px","style":"solid"}},"borderColor":"contrast-4","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
+				<div class="wp-block-group clients-list__item has-border-color has-contrast-4-border-color" style="border-style:solid;border-width:1px;border-radius:0.25rem">
 					<!-- wp:image {"lightbox":{"enabled":false},"width":"64px","aspectRatio":"1","scale":"cover","sizeSlug":"full","linkDestination":"custom","style":{"border":{"radius":"0px"}}} -->
 					<figure class="wp-block-image size-full is-resized has-custom-border">
 						<a href="#" target="_blank" rel="noreferrer noopener">
@@ -109,8 +109,8 @@
 				</div>
 				<!-- /wp:group -->
 
-				<!-- wp:group {"metadata":{"name":"<?php echo esc_html_x( 'Client', 'Name for the client area', 'mroya' ); ?>"},"className":"clients-list__item","style":{"border":{"radius":"0.25rem","width":"1px","style":"solid"}},"borderColor":"base-4","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
-				<div class="wp-block-group clients-list__item has-border-color has-base-4-border-color" style="border-style:solid;border-width:1px;border-radius:0.25rem">
+				<!-- wp:group {"metadata":{"name":"<?php echo esc_html_x( 'Client', 'Name for the client area', 'mroya' ); ?>"},"className":"clients-list__item","style":{"border":{"radius":"0.25rem","width":"1px","style":"solid"}},"borderColor":"contrast-4","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
+				<div class="wp-block-group clients-list__item has-border-color has-contrast-4-border-color" style="border-style:solid;border-width:1px;border-radius:0.25rem">
 					<!-- wp:image {"lightbox":{"enabled":false},"width":"64px","aspectRatio":"1","scale":"cover","sizeSlug":"full","linkDestination":"custom","style":{"border":{"radius":"0px"}}} -->
 					<figure class="wp-block-image size-full is-resized has-custom-border">
 						<a href="#" target="_blank" rel="noreferrer noopener">
@@ -121,8 +121,8 @@
 				</div>
 				<!-- /wp:group -->
 
-				<!-- wp:group {"metadata":{"name":"<?php echo esc_html_x( 'Client', 'Name for the client area', 'mroya' ); ?>"},"className":"clients-list__item","style":{"border":{"radius":"0.25rem","width":"1px","style":"solid"}},"borderColor":"base-4","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
-				<div class="wp-block-group clients-list__item has-border-color has-base-4-border-color" style="border-style:solid;border-width:1px;border-radius:0.25rem">
+				<!-- wp:group {"metadata":{"name":"<?php echo esc_html_x( 'Client', 'Name for the client area', 'mroya' ); ?>"},"className":"clients-list__item","style":{"border":{"radius":"0.25rem","width":"1px","style":"solid"}},"borderColor":"contrast-4","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
+				<div class="wp-block-group clients-list__item has-border-color has-contrast-4-border-color" style="border-style:solid;border-width:1px;border-radius:0.25rem">
 					<!-- wp:image {"lightbox":{"enabled":false},"width":"64px","aspectRatio":"1","scale":"cover","sizeSlug":"full","linkDestination":"custom","style":{"border":{"radius":"0px"}}} -->
 					<figure class="wp-block-image size-full is-resized has-custom-border">
 						<a href="#" target="_blank" rel="noreferrer noopener">
@@ -133,8 +133,8 @@
 				</div>
 				<!-- /wp:group -->
 
-				<!-- wp:group {"metadata":{"name":"<?php echo esc_html_x( 'Client', 'Name for the client area', 'mroya' ); ?>"},"className":"clients-list__item","style":{"border":{"radius":"0.25rem","width":"1px","style":"solid"}},"borderColor":"base-4","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
-				<div class="wp-block-group clients-list__item has-border-color has-base-4-border-color" style="border-style:solid;border-width:1px;border-radius:0.25rem">
+				<!-- wp:group {"metadata":{"name":"<?php echo esc_html_x( 'Client', 'Name for the client area', 'mroya' ); ?>"},"className":"clients-list__item","style":{"border":{"radius":"0.25rem","width":"1px","style":"solid"}},"borderColor":"contrast-4","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
+				<div class="wp-block-group clients-list__item has-border-color has-contrast-4-border-color" style="border-style:solid;border-width:1px;border-radius:0.25rem">
 					<!-- wp:image {"lightbox":{"enabled":false},"width":"64px","aspectRatio":"1","scale":"cover","sizeSlug":"full","linkDestination":"custom","style":{"border":{"radius":"0px"}}} -->
 					<figure class="wp-block-image size-full is-resized has-custom-border">
 						<a href="#" target="_blank" rel="noreferrer noopener">
@@ -145,8 +145,8 @@
 				</div>
 				<!-- /wp:group -->
 
-				<!-- wp:group {"metadata":{"name":"<?php echo esc_html_x( 'Client', 'Name for the client area', 'mroya' ); ?>"},"className":"clients-list__item","style":{"border":{"radius":"0.25rem","width":"1px","style":"solid"}},"borderColor":"base-4","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
-				<div class="wp-block-group clients-list__item has-border-color has-base-4-border-color" style="border-style:solid;border-width:1px;border-radius:0.25rem">
+				<!-- wp:group {"metadata":{"name":"<?php echo esc_html_x( 'Client', 'Name for the client area', 'mroya' ); ?>"},"className":"clients-list__item","style":{"border":{"radius":"0.25rem","width":"1px","style":"solid"}},"borderColor":"contrast-4","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
+				<div class="wp-block-group clients-list__item has-border-color has-contrast-4-border-color" style="border-style:solid;border-width:1px;border-radius:0.25rem">
 					<!-- wp:image {"lightbox":{"enabled":false},"width":"64px","aspectRatio":"1","scale":"cover","sizeSlug":"full","linkDestination":"custom","style":{"border":{"radius":"0px"}}} -->
 					<figure class="wp-block-image size-full is-resized has-custom-border">
 						<a href="#" target="_blank" rel="noreferrer noopener">
