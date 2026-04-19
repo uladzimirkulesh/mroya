@@ -2,7 +2,7 @@
 
 Contributors: Uladzimir Kulesh
 Tags: one-column, two-columns, three-columns, four-columns, custom-colors, custom-header, custom-menu, custom-logo, featured-images, full-site-editing, block-patterns, sticky-post, threaded-comments, translation-ready, wide-blocks, block-styles, style-variations, blog, portfolio
-Requires at least: 6.3
+Requires at least: 6.6
 Tested up to: 6.9
 Version: 1.0.0
 License: GNU General Public License v2 or later
