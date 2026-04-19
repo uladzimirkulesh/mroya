@@ -1,17 +1,1 @@
-/*!*********************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/scss/editor.scss ***!
-  \*********************************************************************************************************************************************************************************************************************************************/
-.editor-styles-wrapper {
-  --wp--style--root--padding-top: 0;
-  --wp--style--root--padding-bottom: 0;
-}
-
-.wp-block-query-no-results:not(:first-child) {
-  margin-top: var(--wp--preset--spacing--50);
-}
-
-.wp-block-home-link__label {
-  display: inline;
-}
-
-/*# sourceMappingURL=editor.css.map*/
+.editor-styles-wrapper{--wp--style--root--padding-top:0;--wp--style--root--padding-bottom:0}.wp-block-query-no-results:not(:first-child){margin-top:var(--wp--preset--spacing--50)}.wp-block-home-link__label{display:inline}
