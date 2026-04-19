@@ -20,6 +20,9 @@ cd mroya
 #### 2. Install dependencies
 Run `npm run setup` to install all necessary development dependencies.
 
+#### 3. Set up Webpack config
+Set up your proxy in BrowserSync options in webpack.config.js
+
 ### Available scripts
 In the project directory, you can run the following scripts:
 
