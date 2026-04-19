@@ -4,15 +4,12 @@
 	"slug": "section-contrast",
 	"title": "Contrast",
 	"blockTypes": [
-		"core/group",
-		"core/columns",
-		"core/column"
+		"core/group"
 	],
 	"styles": {
 		"color": {
 			"background": "var:preset|color|base",
 			"text": "var:preset|color|contrast"
-		},
-		"css": "& { --wp--preset--color--base: #0a0a0a; --wp--preset--color--contrast: #ffffff; --wp--preset--color--contrast-2: color-mix(in srgb, var(--wp--preset--color--contrast) 75%, transparent); --wp--preset--color--contrast-3: color-mix(in srgb, var(--wp--preset--color--contrast) 40%, transparent); --wp--preset--color--contrast-4: color-mix(in srgb, var(--wp--preset--color--contrast) 15%, transparent); --wp--preset--color--contrast-5: color-mix(in srgb, var(--wp--preset--color--contrast) 3%, transparent); }"
+		}
 	}
 }

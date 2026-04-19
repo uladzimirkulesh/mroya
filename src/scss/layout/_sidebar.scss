@@ -10,6 +10,10 @@ Sidebar
 	height: 100dvh;
 	z-index: 10001;
 
+	body.editor-styles-wrapper & {
+		display: none;
+	}
+
 	// Inner
 	&__inner {
 		width: 100%;

@@ -9,7 +9,13 @@
 				"cursor": "var:preset|color|base",
 				"sidebar": {
 					"background": "var:preset|color|accent"
-				}
+				},
+				"base": "#0a0a0a",
+				"contrast": "#ffffff",
+				"contrast-2": "color-mix(in srgb, #ffffff 75%, transparent)",
+				"contrast-3": "color-mix(in srgb, #ffffff 40%, transparent)",
+				"contrast-4": "color-mix(in srgb, #ffffff 15%, transparent)",
+				"contrast-5": "color-mix(in srgb, #ffffff 3%, transparent)"
 			},
 			"typography": {
 				"fontVariationSettings": "\"opsz\" 25",
@@ -56,47 +62,27 @@
 					"slug": "base"
 				},
 				{
-					"color": "color-mix(in srgb, var(--wp--preset--color--base) 75%, transparent)",
-					"name": "Base / Two",
-					"slug": "base-2"
-				},
-				{
-					"color": "color-mix(in srgb, var(--wp--preset--color--base) 40%, transparent)",
-					"name": "Base / Three",
-					"slug": "base-3"
-				},
-				{
-					"color": "color-mix(in srgb, var(--wp--preset--color--base) 15%, transparent)",
-					"name": "Base / Four",
-					"slug": "base-4"
-				},
-				{
-					"color": "color-mix(in srgb, var(--wp--preset--color--base) 3%, transparent)",
-					"name": "Base / Five",
-					"slug": "base-5"
-				},
-				{
 					"color": "#0a0a0a",
 					"name": "Contrast",
 					"slug": "contrast"
 				},
 				{
-					"color": "color-mix(in srgb, var(--wp--preset--color--contrast) 95%, transparent)",
+					"color": "color-mix(in srgb, #0a0a0a 95%, transparent)",
 					"name": "Contrast / Two",
 					"slug": "contrast-2"
 				},
 				{
-					"color": "color-mix(in srgb, var(--wp--preset--color--contrast) 50%, transparent)",
+					"color": "color-mix(in srgb, #0a0a0a 50%, transparent)",
 					"name": "Contrast / Three",
 					"slug": "contrast-3"
 				},
 				{
-					"color": "color-mix(in srgb, var(--wp--preset--color--contrast) 14%, transparent)",
+					"color": "color-mix(in srgb, #0a0a0a 14%, transparent)",
 					"name": "Contrast / Four",
 					"slug": "contrast-4"
 				},
 				{
-					"color": "color-mix(in srgb, var(--wp--preset--color--contrast) 2%, transparent)",
+					"color": "color-mix(in srgb, #0a0a0a 2%, transparent)",
 					"name": "Contrast / Five",
 					"slug": "contrast-5"
 				},
@@ -1014,6 +1000,9 @@
 					}
 				},
 				"css": "& li { margin: 0.125rem 0; } & li.current-menu-item > a { text-decoration: underline !important; text-underline-offset: 0.15em !important; } & ul { padding-left: 1.75rem; }"
+			},
+			"core/group": {
+				"css": "&.is-style-section-contrast { --wp--preset--color--base: var(--wp--custom--color--base) !important; --wp--preset--color--contrast: var(--wp--custom--color--contrast) !important; --wp--preset--color--contrast-2: var(--wp--custom--color--contrast-2) !important; --wp--preset--color--contrast-3: var(--wp--custom--color--contrast-3) !important; --wp--preset--color--contrast-4: var(--wp--custom--color--contrast-4) !important; --wp--preset--color--contrast-5: var(--wp--custom--color--contrast-5) !important; }"
 			}
 		},
 		"elements": {
