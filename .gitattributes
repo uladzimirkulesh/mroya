@@ -4,6 +4,7 @@
 # Package files
 package-lock.json export-ignore
 README.md export-ignore
+theme-zip.sh export-ignore
 
 # Node modules
 node_modules/ export-ignore
