@@ -1,10 +1,9 @@
-# Copyright (C) 2026 Uladzimir Kulesh
-# This file is distributed under the same license as the Mroya package.
-msgid ""
+#, fuzzy# Copyright (C) 2026 Uladzimir Kulesh
+# This file is distributed under the same license as the Mroya package.msgid ""
 msgstr ""
 "Project-Id-Version: Mroya\n"
 "Report-Msgid-Bugs-To: https://mroya.eu\n"
-"POT-Creation-Date: 2026-04-19 06:17+0000\n"
+"POT-Creation-Date: 2026-04-19 11:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Uladzimir Kulesh <hello@mroya.eu>\n"
 "Language-Team: Uladzimir Kulesh <hello@mroya.eu>\n"
@@ -77,7 +76,7 @@ msgstr ""
 msgid "A collection of testimonials section patterns."
 msgstr ""
 
-#: patterns/section-about-1.php:31
+#: patterns/section/section-about-1.php:31
 msgctxt "About section text"
 msgid ""
 "It started with a simple idea to create digital experiences that feel both "
@@ -87,12 +86,12 @@ msgid ""
 "our perspective and refining the way we bring ideas to life."
 msgstr ""
 
-#: patterns/section-about-1.php:23
+#: patterns/section/section-about-1.php:23
 msgctxt "About section title"
 msgid "[ Our Journey ]"
 msgstr ""
 
-#: patterns/accordion-2.php:49 patterns/accordion-1.php:49
+#: patterns/accordion/accordion-2.php:49 patterns/accordion/accordion-1.php:49
 msgctxt "Accordion pattern section text"
 msgid ""
 "Absolutely. I can evaluate your current site and suggest design improvements "
@@ -100,7 +99,7 @@ msgid ""
 "identity intact."
 msgstr ""
 
-#: patterns/accordion-2.php:19 patterns/accordion-1.php:19
+#: patterns/accordion/accordion-2.php:19 patterns/accordion/accordion-1.php:19
 msgctxt "Accordion pattern section text"
 msgid ""
 "I specialize in web design, UI/UX, and WordPress development. Whether you "
@@ -108,7 +107,7 @@ msgid ""
 "bring your vision to life."
 msgstr ""
 
-#: patterns/accordion-2.php:39 patterns/accordion-1.php:39
+#: patterns/accordion/accordion-2.php:39 patterns/accordion/accordion-1.php:39
 msgctxt "Accordion pattern section text"
 msgid ""
 "It depends on the complexity of the project. A simple portfolio site usually "
@@ -116,7 +115,7 @@ msgid ""
 "detailed timeline after we discuss your goals."
 msgstr ""
 
-#: patterns/accordion-2.php:59 patterns/accordion-1.php:59
+#: patterns/accordion/accordion-2.php:59 patterns/accordion/accordion-1.php:59
 msgctxt "Accordion pattern section text"
 msgid ""
 "We'll start with a short briefing where you share your goals, content, "
@@ -124,7 +123,7 @@ msgid ""
 "there, I’ll create a proposal and we can move forward."
 msgstr ""
 
-#: patterns/accordion-2.php:29 patterns/accordion-1.php:29
+#: patterns/accordion/accordion-2.php:29 patterns/accordion/accordion-1.php:29
 msgctxt "Accordion pattern section text"
 msgid ""
 "Yes! I work remotely with clients from all over the world. Clear "
@@ -132,153 +131,157 @@ msgid ""
 "track regardless of time zones."
 msgstr ""
 
-#: patterns/accordion-2.php:46 patterns/accordion-1.php:46
+#: patterns/accordion/accordion-2.php:46 patterns/accordion/accordion-1.php:46
 msgctxt "Accordion pattern section title"
 msgid "Can you redesign my existing website?"
 msgstr ""
 
-#: patterns/accordion-2.php:26 patterns/accordion-1.php:26
+#: patterns/accordion/accordion-2.php:26 patterns/accordion/accordion-1.php:26
 msgctxt "Accordion pattern section title"
 msgid "Do you work with clients from different countries?"
 msgstr ""
 
-#: patterns/accordion-2.php:36 patterns/accordion-1.php:36
+#: patterns/accordion/accordion-2.php:36 patterns/accordion/accordion-1.php:36
 msgctxt "Accordion pattern section title"
 msgid "How long does it take to complete a website?"
 msgstr ""
 
-#: patterns/accordion-2.php:56 patterns/accordion-1.php:56
+#: patterns/accordion/accordion-2.php:56 patterns/accordion/accordion-1.php:56
 msgctxt "Accordion pattern section title"
 msgid "What do you need from me to get started?"
 msgstr ""
 
-#: patterns/accordion-2.php:16 patterns/accordion-1.php:16
+#: patterns/accordion/accordion-2.php:16 patterns/accordion/accordion-1.php:16
 msgctxt "Accordion pattern section title"
 msgid "What services do you offer?"
 msgstr ""
 
-#: patterns/page-contact-1.php:67
+#: patterns/page/page-contact-1.php:67
 msgctxt "Address block title"
 msgid "Address"
 msgstr ""
 
-#: patterns/page-contact-1.php:73
+#: patterns/page/page-contact-1.php:73
 msgctxt "Address text"
 msgid "2118 Thornridge Cir. Syracuse,<br>Connecticut 35624"
 msgstr ""
 
-#: patterns/section-awards-1.php:55
+#: patterns/section/section-awards-1.php:55
 msgctxt "Award title"
 msgid "Developer Award"
 msgstr ""
 
-#: patterns/section-awards-1.php:107
+#: patterns/section/section-awards-1.php:107
 msgctxt "Award title"
 msgid "Honorable mention"
 msgstr ""
 
-#: patterns/section-awards-1.php:67
+#: patterns/section/section-awards-1.php:67
 msgctxt "Award title"
 msgid "Honourable Mention"
 msgstr ""
 
-#: patterns/section-awards-1.php:147
+#: patterns/section/section-awards-1.php:147
 msgctxt "Award title"
 msgid "Innovation Design Award"
 msgstr ""
 
-#: patterns/section-awards-1.php:199
+#: patterns/section/section-awards-1.php:199
 msgctxt "Award title"
 msgid "Nominee"
 msgstr ""
 
-#: patterns/section-awards-1.php:227
+#: patterns/section/section-awards-1.php:227
 msgctxt "Award title"
 msgid "Shortlists"
 msgstr ""
 
-#: patterns/section-awards-1.php:43 patterns/section-awards-1.php:95
+#: patterns/section/section-awards-1.php:43
+#: patterns/section/section-awards-1.php:95
 msgctxt "Award title"
 msgid "Site Of The Day"
 msgstr ""
 
-#: patterns/section-awards-1.php:159
+#: patterns/section/section-awards-1.php:159
 msgctxt "Award title"
 msgid "UI Design Award"
 msgstr ""
 
-#: patterns/section-awards-1.php:171
+#: patterns/section/section-awards-1.php:171
 msgctxt "Award title"
 msgid "UX Design Award"
 msgstr ""
 
-#: patterns/section-awards-1.php:135
+#: patterns/section/section-awards-1.php:135
 msgctxt "Award title"
 msgid "Website Of The Day"
 msgstr ""
 
-#: patterns/section-awards-1.php:203
+#: patterns/section/section-awards-1.php:203
 msgctxt "Awards count"
 msgid "x1"
 msgstr ""
 
-#: patterns/section-awards-1.php:47
+#: patterns/section/section-awards-1.php:47
 msgctxt "Awards count"
 msgid "x10"
 msgstr ""
 
-#: patterns/section-awards-1.php:163 patterns/section-awards-1.php:175
+#: patterns/section/section-awards-1.php:163
+#: patterns/section/section-awards-1.php:175
 msgctxt "Awards count"
 msgid "x2"
 msgstr ""
 
-#: patterns/section-awards-1.php:111 patterns/section-awards-1.php:139
-#: patterns/section-awards-1.php:151
+#: patterns/section/section-awards-1.php:111
+#: patterns/section/section-awards-1.php:139
+#: patterns/section/section-awards-1.php:151
 msgctxt "Awards count"
 msgid "x3"
 msgstr ""
 
-#: patterns/section-awards-1.php:59 patterns/section-awards-1.php:231
+#: patterns/section/section-awards-1.php:59
+#: patterns/section/section-awards-1.php:231
 msgctxt "Awards count"
 msgid "x4"
 msgstr ""
 
-#: patterns/section-awards-1.php:99
+#: patterns/section/section-awards-1.php:99
 msgctxt "Awards count"
 msgid "x5"
 msgstr ""
 
-#: patterns/section-awards-1.php:71
+#: patterns/section/section-awards-1.php:71
 msgctxt "Awards count"
 msgid "x6"
 msgstr ""
 
-#: patterns/section-awards-1.php:35
+#: patterns/section/section-awards-1.php:35
 msgctxt "Awards item title"
 msgid "Awwwards"
 msgstr ""
 
-#: patterns/section-awards-1.php:219
+#: patterns/section/section-awards-1.php:219
 msgctxt "Awards item title"
 msgid "Creative Circle"
 msgstr ""
 
-#: patterns/section-awards-1.php:127
+#: patterns/section/section-awards-1.php:127
 msgctxt "Awards item title"
 msgid "CSSDA"
 msgstr ""
 
-#: patterns/section-awards-1.php:87
+#: patterns/section/section-awards-1.php:87
 msgctxt "Awards item title"
 msgid "The FWA"
 msgstr ""
 
-#: patterns/section-awards-1.php:191
+#: patterns/section/section-awards-1.php:191
 msgctxt "Awards item title"
 msgid "The Webby Awards"
 msgstr ""
 
-#: patterns/section-awards-1.php:247
+#: patterns/section/section-awards-1.php:247
 msgctxt "Awards section text"
 msgid ""
 "Our work has earned recognition and awards from leading industry experts, "
@@ -286,26 +289,26 @@ msgid ""
 "platforms."
 msgstr ""
 
-#: patterns/section-awards-1.php:23
+#: patterns/section/section-awards-1.php:23
 msgctxt "Awards section title"
 msgid "Recognition"
 msgstr ""
 
-#: patterns/hidden-404.php:26
+#: patterns/hidden/hidden-404.php:26
 msgid "Back to Home"
 msgstr ""
 
-#: patterns/page-header-blog-1.php:25
+#: patterns/page-header/page-header-blog-1.php:25
 msgctxt "Blog page header text"
 msgid "Bits of design, code, and everything in between."
 msgstr ""
 
-#: patterns/page-header-blog-1.php:19
+#: patterns/page-header/page-header-blog-1.php:19
 msgctxt "Blog page header title"
 msgid "Mind<br>Fragments"
 msgstr ""
 
-#: patterns/section-clients-1.php:21
+#: patterns/section/section-clients-1.php:21
 msgctxt "Clients section title"
 msgid "[ Our Clients ]"
 msgstr ""
@@ -314,12 +317,12 @@ msgstr ""
 msgid "Contact Form 7"
 msgstr ""
 
-#: patterns/page-contact-1.php:109
+#: patterns/page/page-contact-1.php:109
 msgctxt "Contact form title"
 msgid "Ask a Question"
 msgstr ""
 
-#: patterns/page-contact-1.php:29
+#: patterns/page/page-contact-1.php:29
 msgctxt "Contact page intro text"
 msgid ""
 "Whether you’re launching a brand, refining your product, or improving your "
@@ -327,22 +330,22 @@ msgid ""
 "handle the strategy."
 msgstr ""
 
-#: patterns/page-contact-1.php:19
+#: patterns/page/page-contact-1.php:19
 msgctxt "Contact page title"
 msgid "Contact<br>Our Studio"
 msgstr ""
 
-#: patterns/section-contact-1.php:40
+#: patterns/section/section-contact-1.php:40
 msgctxt "Contact section button text"
 msgid "Send a Message"
 msgstr ""
 
-#: patterns/section-contact-1.php:25
+#: patterns/section/section-contact-1.php:25
 msgctxt "Contact section text"
 msgid "Let’s<br>Connect"
 msgstr ""
 
-#: patterns/section-contact-1.php:31
+#: patterns/section/section-contact-1.php:31
 msgctxt "Contact section text"
 msgid ""
 "Whether you’re starting something new or improving an existing website, we’d "
@@ -350,89 +353,89 @@ msgid ""
 "get back to you with thoughtful feedback and next steps."
 msgstr ""
 
-#: patterns/page-contact-1.php:37
+#: patterns/page/page-contact-1.php:37
 msgctxt "Contacts block title"
 msgid "Contacts"
 msgstr ""
 
-#: patterns/counters-3.php:64 patterns/counters-2.php:60
-#: patterns/counters-1.php:60
+#: patterns/counters/counters-3.php:64 patterns/counters/counters-2.php:60
+#: patterns/counters/counters-1.php:60
 msgctxt "Counters pattern card counter"
 msgid "180"
 msgstr ""
 
-#: patterns/counters-3.php:24 patterns/counters-2.php:20
-#: patterns/counters-1.php:20
+#: patterns/counters/counters-3.php:24 patterns/counters/counters-2.php:20
+#: patterns/counters/counters-1.php:20
 msgctxt "Counters pattern card counter"
 msgid "35"
 msgstr ""
 
-#: patterns/counters-3.php:84 patterns/counters-2.php:80
-#: patterns/counters-1.php:80
+#: patterns/counters/counters-3.php:84 patterns/counters/counters-2.php:80
+#: patterns/counters/counters-1.php:80
 msgctxt "Counters pattern card counter"
 msgid "4.9"
 msgstr ""
 
-#: patterns/counters-3.php:44 patterns/counters-2.php:40
-#: patterns/counters-1.php:40
+#: patterns/counters/counters-3.php:44 patterns/counters/counters-2.php:40
+#: patterns/counters/counters-1.php:40
 msgctxt "Counters pattern card counter"
 msgid "72"
 msgstr ""
 
-#: patterns/counters-3.php:48 patterns/counters-2.php:44
-#: patterns/counters-1.php:44
+#: patterns/counters/counters-3.php:48 patterns/counters/counters-2.php:44
+#: patterns/counters/counters-1.php:44
 msgctxt "Counters pattern card sign"
 msgid "+"
 msgstr ""
 
-#: patterns/counters-3.php:28 patterns/counters-3.php:68
-#: patterns/counters-2.php:24 patterns/counters-2.php:64
-#: patterns/counters-1.php:24 patterns/counters-1.php:64
+#: patterns/counters/counters-3.php:28 patterns/counters/counters-3.php:68
+#: patterns/counters/counters-2.php:24 patterns/counters/counters-2.php:64
+#: patterns/counters/counters-1.php:24 patterns/counters/counters-1.php:64
 msgctxt "Counters pattern card sign"
 msgid "K"
 msgstr ""
 
-#: patterns/counters-3.php:88 patterns/counters-2.php:84
-#: patterns/counters-1.php:84
+#: patterns/counters/counters-3.php:88 patterns/counters/counters-2.php:84
+#: patterns/counters/counters-1.php:84
 msgctxt "Counters pattern card sign"
 msgid "~"
 msgstr ""
 
-#: patterns/counters-3.php:78 patterns/counters-2.php:90
-#: patterns/counters-1.php:90
+#: patterns/counters/counters-3.php:78 patterns/counters/counters-2.php:90
+#: patterns/counters/counters-1.php:90
 msgctxt "Counters pattern card text"
 msgid "Average client rating"
 msgstr ""
 
-#: patterns/counters-3.php:38 patterns/counters-2.php:50
-#: patterns/counters-1.php:50
+#: patterns/counters/counters-3.php:38 patterns/counters/counters-2.php:50
+#: patterns/counters/counters-1.php:50
 msgctxt "Counters pattern card text"
 msgid "Design awards"
 msgstr ""
 
-#: patterns/counters-3.php:58 patterns/counters-2.php:70
-#: patterns/counters-1.php:70
+#: patterns/counters/counters-3.php:58 patterns/counters/counters-2.php:70
+#: patterns/counters/counters-1.php:70
 msgctxt "Counters pattern card text"
 msgid "Lines of code written"
 msgstr ""
 
-#: patterns/counters-3.php:18 patterns/counters-2.php:30
-#: patterns/counters-1.php:30
+#: patterns/counters/counters-3.php:18 patterns/counters/counters-2.php:30
+#: patterns/counters/counters-1.php:30
 msgctxt "Counters pattern card text"
 msgid "UI/UX layouts created"
 msgstr ""
 
-#: patterns/page-documentation.php:36
+#: patterns/page/page-documentation.php:36
 msgctxt "Documentation article title"
 msgid "Heading"
 msgstr ""
 
-#: patterns/page-documentation.php:22
+#: patterns/page/page-documentation.php:22
 msgctxt "Documentation navigation title"
 msgid "Navigation"
 msgstr ""
 
-#: patterns/page-documentation.php:52
+#: patterns/page/page-documentation.php:52
 msgctxt "Documentation paragraph text"
 msgid ""
 "Donec sed ante nec metus interdum tempor quis eu odio. Mauris in lectus "
@@ -441,7 +444,7 @@ msgid ""
 " Sed ornare leo in libero consectetur blandit."
 msgstr ""
 
-#: patterns/page-documentation.php:44
+#: patterns/page/page-documentation.php:44
 msgctxt "Documentation paragraph text"
 msgid ""
 "Mauris egestas ante rutrum nibh fringilla fringilla. Pellentesque sodales "
@@ -451,7 +454,7 @@ msgid ""
 "pellentesque. Mauris tristique mi a dignissim lacinia."
 msgstr ""
 
-#: patterns/page-documentation.php:48
+#: patterns/page/page-documentation.php:48
 msgctxt "Documentation paragraph text"
 msgid ""
 "Pellentesque a augue aliquet, imperdiet nibh quis, tempor nisl. Integer sit "
@@ -462,7 +465,7 @@ msgid ""
 "Morbi lacinia et velit sed faucibus. Duis fringilla ac purus sed commodo."
 msgstr ""
 
-#: patterns/page-documentation.php:56
+#: patterns/page/page-documentation.php:56
 msgctxt "Documentation paragraph text"
 msgid ""
 "Proin quis lobortis elit. Vivamus vestibulum lorem sit amet scelerisque "
@@ -475,12 +478,12 @@ msgid ""
 msgstr ""
 
 #. "Contact mail" text.
-#: patterns/page-contact-1.php:55
+#: patterns/page/page-contact-1.php:55
 #, php-format
 msgid "Email: %s"
 msgstr ""
 
-#: patterns/hidden-404.php:15
+#: patterns/hidden/hidden-404.php:15
 msgctxt "Error code for a webpage that is not found."
 msgid "Error 404"
 msgstr ""
@@ -489,32 +492,33 @@ msgstr ""
 msgid "Header area for archive pages."
 msgstr ""
 
-#: patterns/section-hero-2.php:50
+#: patterns/section/section-hero-2.php:50
 msgctxt "Hero section button text"
 msgid "Scroll Down"
 msgstr ""
 
-#: patterns/section-hero-3.php:47
+#: patterns/section/section-hero-3.php:47
 msgctxt "Hero section text"
 msgid "[ About Us ]"
 msgstr ""
 
-#: patterns/section-hero-2.php:59 patterns/section-hero-3.php:53
+#: patterns/section/section-hero-2.php:59
+#: patterns/section/section-hero-3.php:53
 msgctxt "Hero section text"
 msgid "Based in the Czech Republic"
 msgstr ""
 
-#: patterns/section-hero-3.php:57
+#: patterns/section/section-hero-3.php:57
 msgctxt "Hero section text"
 msgid "ESTD. 2016"
 msgstr ""
 
-#: patterns/section-hero-2.php:63
+#: patterns/section/section-hero-2.php:63
 msgctxt "Hero section text"
 msgid "Local Time"
 msgstr ""
 
-#: patterns/section-hero-3.php:33
+#: patterns/section/section-hero-3.php:33
 msgctxt "Hero section text"
 msgid ""
 "We craft bold, minimal, and timeless digital experiences. Each project "
@@ -522,12 +526,12 @@ msgid ""
 "they look — shaped by curiosity, precision, and a passion for detail."
 msgstr ""
 
-#: patterns/section-hero-1.php:32
+#: patterns/section/section-hero-1.php:32
 msgctxt "Hero section text"
 msgid "We create great experiences and products for the best brands."
 msgstr ""
 
-#: patterns/section-hero-2.php:33
+#: patterns/section/section-hero-2.php:33
 msgctxt "Hero section text"
 msgid ""
 "We design and build modern websites with a strong focus on clarity and "
@@ -535,19 +539,19 @@ msgid ""
 " we turn ideas into digital experiences that feel intuitive and purposeful."
 msgstr ""
 
-#: patterns/section-hero-1.php:26
+#: patterns/section/section-hero-1.php:26
 msgctxt "Hero section title"
 msgid "Mroya"
 msgstr ""
 
-#: patterns/section-hero-2.php:27
+#: patterns/section/section-hero-2.php:27
 msgctxt "Hero section title"
 msgid ""
 "Mroya<br>+ Studio<span class=\"dot\">.</span><span class=\"dot\">.</span>"
 "<span class=\"dot\">.</span>"
 msgstr ""
 
-#: patterns/section-hero-3.php:27
+#: patterns/section/section-hero-3.php:27
 msgctxt "Hero section title"
 msgid "Refined<br>Digital Craft"
 msgstr ""
@@ -557,148 +561,147 @@ msgid "https://mroya.eu/"
 msgstr ""
 
 #. URI of the theme
-msgid "https://mroya.eu/portfolio/mroya"
+#: patterns/footer/footer-links.php:22
+msgid "https://mroya.eu/portfolio/mroya/"
 msgstr ""
 
-#: patterns/footer-links.php:22
-msgid "https://theme.mroya.eu/"
-msgstr ""
-
-#: patterns/section-keep-reading-1.php:28
+#: patterns/section/section-keep-reading-1.php:28
 msgctxt "Keep reading section button text"
 msgid "All Stories"
 msgstr ""
 
-#: patterns/section-keep-reading-1.php:21
+#: patterns/section/section-keep-reading-1.php:21
 msgctxt "Keep reading section title"
 msgid "Keep Reading"
 msgstr ""
 
-#: patterns/hidden-search.php:14 patterns/hidden-sidebar.php:30
+#: patterns/hidden/hidden-search.php:14 patterns/hidden/hidden-sidebar.php:30
 msgctxt "Label"
 msgid "Search"
 msgstr ""
 
-#: patterns/page-contact-1.php:56
+#: patterns/page/page-contact-1.php:56
 msgid "mailto:info@mroya.com"
 msgstr ""
 
-#: patterns/section-team-1.php:115
+#: patterns/section/section-team-1.php:115
 msgctxt "Member name"
 msgid "Brandon Carter"
 msgstr ""
 
-#: patterns/section-team-1.php:71
+#: patterns/section/section-team-1.php:71
 msgctxt "Member name"
 msgid "Emily Harris"
 msgstr ""
 
-#: patterns/section-team-1.php:49
+#: patterns/section/section-team-1.php:49
 msgctxt "Member name"
 msgid "Jason Miller"
 msgstr ""
 
-#: patterns/section-team-1.php:137
+#: patterns/section/section-team-1.php:137
 msgctxt "Member name"
 msgid "Lauren Mitchell"
 msgstr ""
 
-#: patterns/section-team-1.php:93
+#: patterns/section/section-team-1.php:93
 msgctxt "Member name"
 msgid "Tyler Brooks"
 msgstr ""
 
-#: patterns/section-team-1.php:53 patterns/section-team-1.php:75
+#: patterns/section/section-team-1.php:53
+#: patterns/section/section-team-1.php:75
 msgctxt "Member role"
 msgid "Co-Founder"
 msgstr ""
 
-#: patterns/section-team-1.php:97
+#: patterns/section/section-team-1.php:97
 msgctxt "Member role"
 msgid "Designer"
 msgstr ""
 
-#: patterns/section-team-1.php:119 patterns/section-team-1.php:141
+#: patterns/section/section-team-1.php:119
+#: patterns/section/section-team-1.php:141
 msgctxt "Member role"
 msgid "Developer"
 msgstr ""
 
-#: patterns/hidden-no-results.php:15
+#: patterns/hidden/hidden-no-results.php:15
 msgctxt "Message explaining that there are no posts in query loop."
 msgid "Sorry, but nothing was found."
 msgstr ""
 
-#: patterns/hidden-404.php:19
+#: patterns/hidden/hidden-404.php:19
 msgctxt "Message to convey that a webpage could not be found"
 msgid "The page you are looking for cannot be found."
 msgstr ""
 
-#: patterns/section-mission-1.php:75
+#: patterns/section/section-mission-1.php:75
 msgctxt "Mission section text"
 msgid "Art Direction"
 msgstr ""
 
-#: patterns/section-mission-1.php:31
+#: patterns/section/section-mission-1.php:31
 msgctxt "Mission section text"
 msgid "Brand Strategy"
 msgstr ""
 
-#: patterns/section-mission-1.php:51
+#: patterns/section/section-mission-1.php:51
 msgctxt "Mission section text"
 msgid "Content Production"
 msgstr ""
 
-#: patterns/section-mission-1.php:59
+#: patterns/section/section-mission-1.php:59
 msgctxt "Mission section text"
 msgid "Design Systems"
 msgstr ""
 
-#: patterns/section-mission-1.php:79
+#: patterns/section/section-mission-1.php:79
 msgctxt "Mission section text"
 msgid "Digital Projects"
 msgstr ""
 
-#: patterns/section-mission-1.php:47
+#: patterns/section/section-mission-1.php:47
 msgctxt "Mission section text"
 msgid "Front-End Solutions"
 msgstr ""
 
-#: patterns/section-mission-1.php:67
+#: patterns/section/section-mission-1.php:67
 msgctxt "Mission section text"
 msgid "Landing Pages"
 msgstr ""
 
-#: patterns/section-mission-1.php:63
+#: patterns/section/section-mission-1.php:63
 msgctxt "Mission section text"
 msgid "Logo Design"
 msgstr ""
 
-#: patterns/section-mission-1.php:71
+#: patterns/section/section-mission-1.php:71
 msgctxt "Mission section text"
 msgid "Motion Graphics"
 msgstr ""
 
-#: patterns/section-mission-1.php:39
+#: patterns/section/section-mission-1.php:39
 msgctxt "Mission section text"
 msgid "UI/UX Design"
 msgstr ""
 
-#: patterns/section-mission-1.php:35
+#: patterns/section/section-mission-1.php:35
 msgctxt "Mission section text"
 msgid "Visual Identity"
 msgstr ""
 
-#: patterns/section-mission-1.php:43
+#: patterns/section/section-mission-1.php:43
 msgctxt "Mission section text"
 msgid "Web Development"
 msgstr ""
 
-#: patterns/section-mission-1.php:21
+#: patterns/section/section-mission-1.php:21
 msgctxt "Mission section title"
 msgid "[ Our mission ]"
 msgstr ""
 
-#: patterns/section-mission-1.php:21
+#: patterns/section/section-mission-1.php:21
 msgctxt "Mission section title"
 msgid ""
 "We aim to give creators a flexible foundation that helps them present their "
@@ -719,592 +722,629 @@ msgid ""
 "websites with ease."
 msgstr ""
 
-#: patterns/page-contact-1.php:106
+#: patterns/page/page-contact-1.php:106
 msgctxt "Name for contact page block"
 msgid "Page block"
 msgstr ""
 
-#: patterns/page-contact-1.php:104
+#: patterns/page/page-contact-1.php:104
 msgctxt "Name for right column"
 msgid "Right column"
 msgstr ""
 
-#: patterns/section-about-1.php:16
+#: patterns/section/section-about-1.php:16
 msgctxt "Name for the About section pattern"
 msgid "About (style 1)"
 msgstr ""
 
-#: patterns/section-services-1.php:16
+#: patterns/section/section-services-1.php:16
 msgctxt "Name for the About section pattern"
 msgid "Services (style 1)"
 msgstr ""
 
-#: patterns/accordion-1.php:12
+#: patterns/accordion/accordion-1.php:12
 msgctxt "Name for the Accordion pattern"
 msgid "Accordion (style 1)"
 msgstr ""
 
-#: patterns/accordion-2.php:12
+#: patterns/accordion/accordion-2.php:12
 msgctxt "Name for the Accordion pattern"
 msgid "Accordion (style 2)"
 msgstr ""
 
-#: patterns/page-contact-1.php:64
+#: patterns/page/page-contact-1.php:64
 msgctxt "Name for the address block"
 msgid "Address block"
 msgstr ""
 
-#: patterns/page-header-archive-1.php:16
+#: patterns/page-header/page-header-archive-1.php:16
 msgctxt "Name for the Archive page header pattern"
 msgid "Archive page header (style 1)"
 msgstr ""
 
-#: patterns/template-single.php:18 patterns/template-page.php:18
-#: patterns/template-project.php:18
+#: patterns/template/template-single.php:18
+#: patterns/template/template-page.php:18
+#: patterns/template/template-project.php:18
 msgctxt "Name for the Article part"
 msgid "Article"
 msgstr ""
 
-#: patterns/section-awards-1.php:30
+#: patterns/section/section-awards-1.php:30
 msgctxt "Name for the awards block area"
 msgid "Awards block"
 msgstr ""
 
-#: patterns/section-awards-1.php:32 patterns/section-awards-1.php:84
-#: patterns/section-awards-1.php:124 patterns/section-awards-1.php:188
-#: patterns/section-awards-1.php:216
+#: patterns/section/section-awards-1.php:32
+#: patterns/section/section-awards-1.php:84
+#: patterns/section/section-awards-1.php:124
+#: patterns/section/section-awards-1.php:188
+#: patterns/section/section-awards-1.php:216
 msgctxt "Name for the awards item area"
 msgid "Awards item"
 msgstr ""
 
-#: patterns/section-awards-1.php:16
+#: patterns/section/section-awards-1.php:16
 msgctxt "Name for the Awards section pattern"
 msgid "Awards (style 1)"
 msgstr ""
 
-#: patterns/page-header-blog-1.php:16
+#: patterns/page-header/page-header-blog-1.php:16
 msgctxt "Name for the Blog page header pattern"
 msgid "Blog page header (style 1)"
 msgstr ""
 
-#: patterns/section-clients-1.php:32 patterns/section-clients-1.php:44
-#: patterns/section-clients-1.php:56 patterns/section-clients-1.php:68
-#: patterns/section-clients-1.php:80 patterns/section-clients-1.php:100
-#: patterns/section-clients-1.php:112 patterns/section-clients-1.php:124
-#: patterns/section-clients-1.php:136 patterns/section-clients-1.php:148
+#: patterns/section/section-clients-1.php:32
+#: patterns/section/section-clients-1.php:44
+#: patterns/section/section-clients-1.php:56
+#: patterns/section/section-clients-1.php:68
+#: patterns/section/section-clients-1.php:80
+#: patterns/section/section-clients-1.php:100
+#: patterns/section/section-clients-1.php:112
+#: patterns/section/section-clients-1.php:124
+#: patterns/section/section-clients-1.php:136
+#: patterns/section/section-clients-1.php:148
 msgctxt "Name for the client area"
 msgid "Client"
 msgstr ""
 
-#: patterns/section-clients-1.php:30
+#: patterns/section/section-clients-1.php:30
 msgctxt "Name for the clients list area"
 msgid "Clients list 1"
 msgstr ""
 
-#: patterns/section-clients-1.php:98
+#: patterns/section/section-clients-1.php:98
 msgctxt "Name for the clients list area"
 msgid "Clients list 2"
 msgstr ""
 
-#: patterns/section-clients-1.php:16
+#: patterns/section/section-clients-1.php:16
 msgctxt "Name for the Clients section pattern"
 msgid "Clients (style 1)"
 msgstr ""
 
-#: patterns/page-contact-1.php:14
+#: patterns/page/page-contact-1.php:14
 msgctxt "Name for the contact page pattern"
 msgid "Contact page (style 1)"
 msgstr ""
 
-#: patterns/section-contact-1.php:16
+#: patterns/section/section-contact-1.php:16
 msgctxt "Name for the Contact section pattern"
 msgid "Contact (style 1)"
 msgstr ""
 
-#: patterns/page-contact-1.php:34
+#: patterns/page/page-contact-1.php:34
 msgctxt "Name for the contacts block"
 msgid "Contacts block"
 msgstr ""
 
-#: patterns/counters-3.php:15 patterns/counters-3.php:35
-#: patterns/counters-3.php:55 patterns/counters-3.php:75
-#: patterns/counters-2.php:15 patterns/counters-2.php:35
-#: patterns/counters-2.php:55 patterns/counters-2.php:75
-#: patterns/counters-1.php:15 patterns/counters-1.php:35
-#: patterns/counters-1.php:55 patterns/counters-1.php:75
+#: patterns/counters/counters-3.php:15 patterns/counters/counters-3.php:35
+#: patterns/counters/counters-3.php:55 patterns/counters/counters-3.php:75
+#: patterns/counters/counters-2.php:15 patterns/counters/counters-2.php:35
+#: patterns/counters/counters-2.php:55 patterns/counters/counters-2.php:75
+#: patterns/counters/counters-1.php:15 patterns/counters/counters-1.php:35
+#: patterns/counters/counters-1.php:55 patterns/counters/counters-1.php:75
 msgctxt "Name for the Counters Card part"
 msgid "Counters Card"
 msgstr ""
 
-#: patterns/counters-1.php:13
+#: patterns/counters/counters-1.php:13
 msgctxt "Name for the Counters pattern"
 msgid "Counters (style 1)"
 msgstr ""
 
-#: patterns/counters-2.php:13
+#: patterns/counters/counters-2.php:13
 msgctxt "Name for the Counters pattern"
 msgid "Counters (style 2)"
 msgstr ""
 
-#: patterns/counters-3.php:13
+#: patterns/counters/counters-3.php:13
 msgctxt "Name for the Counters pattern"
 msgid "Counters (style 3)"
 msgstr ""
 
-#: patterns/section-cover-1.php:16
+#: patterns/section/section-cover-1.php:16
 msgctxt "Name for the Cover section pattern"
 msgid "Cover (style 1)"
 msgstr ""
 
-#: patterns/footer.php:16
+#: patterns/footer/footer.php:16
 msgctxt "Name for the Default footer pattern"
 msgid "Footer Default"
 msgstr ""
 
-#: patterns/header.php:16
+#: patterns/header/header.php:16
 msgctxt "Name for the Default header pattern"
 msgid "Header (default)"
 msgstr ""
 
-#: patterns/header-fixed.php:16
+#: patterns/header/header-fixed.php:16
 msgctxt "Name for the Default header pattern"
 msgid "Header (default, fixed)"
 msgstr ""
 
-#: patterns/page-documentation.php:31
+#: patterns/page/page-documentation.php:31
 msgctxt "Name for the documentation article"
 msgid "Article"
 msgstr ""
 
-#: patterns/page-documentation.php:41
+#: patterns/page/page-documentation.php:41
 msgctxt "Name for the documentation article content"
 msgid "Article content"
 msgstr ""
 
-#: patterns/page-documentation.php:33
+#: patterns/page/page-documentation.php:33
 msgctxt "Name for the documentation article header"
 msgid "Article header"
 msgstr ""
 
-#: patterns/page-documentation.php:15
+#: patterns/page/page-documentation.php:15
 msgctxt "Name for the documentation page container"
 msgid "Container"
 msgstr ""
 
-#: patterns/page-documentation.php:13
+#: patterns/page/page-documentation.php:13
 msgctxt "Name for the documentation page pattern"
 msgid "Documentation page"
 msgstr ""
 
-#: patterns/page-documentation.php:17
+#: patterns/page/page-documentation.php:17
 msgctxt "Name for the documentation sidebar"
 msgid "Sidebar"
 msgstr ""
 
-#: patterns/footer-links.php:15
+#: patterns/footer/footer-links.php:15
 msgctxt "Name for the Footer links pattern"
 msgid "Footer Links"
 msgstr ""
 
-#: patterns/template-single.php:41 patterns/template-project.php:41
+#: patterns/template/template-single.php:41
+#: patterns/template/template-project.php:41
 msgctxt "Name for the Footer part"
 msgid "Footer"
 msgstr ""
 
-#: patterns/gallery-1.php:12
+#: patterns/gallery/gallery-1.php:12
 msgctxt "Name for the Gallery pattern"
 msgid "Gallery (style 1)"
 msgstr ""
 
-#: patterns/gallery-2.php:12
+#: patterns/gallery/gallery-2.php:12
 msgctxt "Name for the Gallery pattern"
 msgid "Gallery (style 2)"
 msgstr ""
 
-#: patterns/gallery-3.php:12
+#: patterns/gallery/gallery-3.php:12
 msgctxt "Name for the Gallery pattern"
 msgid "Gallery (style 3)"
 msgstr ""
 
-#: patterns/gallery-4.php:12
+#: patterns/gallery/gallery-4.php:12
 msgctxt "Name for the Gallery pattern"
 msgid "Gallery (style 4)"
 msgstr ""
 
-#: patterns/gallery-5.php:12
+#: patterns/gallery/gallery-5.php:12
 msgctxt "Name for the Gallery pattern"
 msgid "Gallery (style 5)"
 msgstr ""
 
-#: patterns/gallery-6.php:12
+#: patterns/gallery/gallery-6.php:12
 msgctxt "Name for the Gallery pattern"
 msgid "Gallery (style 6)"
 msgstr ""
 
-#: patterns/gallery-7.php:12
+#: patterns/gallery/gallery-7.php:12
 msgctxt "Name for the Gallery pattern"
 msgid "Gallery (style 7)"
 msgstr ""
 
-#: patterns/template-single.php:20 patterns/template-page.php:20
-#: patterns/template-project.php:20
+#: patterns/template/template-single.php:20
+#: patterns/template/template-page.php:20
+#: patterns/template/template-project.php:20
 msgctxt "Name for the Header part"
 msgid "Header"
 msgstr ""
 
-#: patterns/section-hero-1.php:16
+#: patterns/section/section-hero-1.php:16
 msgctxt "Name for the Hero section pattern"
 msgid "Hero (style 1)"
 msgstr ""
 
-#: patterns/section-hero-2.php:16
+#: patterns/section/section-hero-2.php:16
 msgctxt "Name for the Hero section pattern"
 msgid "Hero (style 2)"
 msgstr ""
 
-#: patterns/section-hero-3.php:16
+#: patterns/section/section-hero-3.php:16
 msgctxt "Name for the Hero section pattern"
 msgid "Hero (style 3)"
 msgstr ""
 
-#: patterns/section-keep-reading-1.php:16
+#: patterns/section/section-keep-reading-1.php:16
 msgctxt "Name for the Keep reading section pattern"
 msgid "Keep Reading (style 1)"
 msgstr ""
 
-#: patterns/page-contact-1.php:26
+#: patterns/page/page-contact-1.php:26
 msgctxt "Name for the left column"
 msgid "Left column"
 msgstr ""
 
-#: patterns/template-query-posts-grid-1.php:16
+#: patterns/template/template-query-posts-grid-1.php:16
 msgctxt "Name for the List of posts pattern"
 msgid "List of posts, grid (style 1)"
 msgstr ""
 
-#: patterns/template-query-posts-grid-2.php:16
+#: patterns/template/template-query-posts-grid-2.php:16
 msgctxt "Name for the List of posts pattern"
 msgid "List of posts, grid (style 2)"
 msgstr ""
 
-#: patterns/section-recent-projects-1.php:32
+#: patterns/section/section-recent-projects-1.php:32
 msgctxt "Name for the List of projects area"
 msgid "List of projects"
 msgstr ""
 
-#: patterns/template-query-projects-grid-1.php:16
+#: patterns/template/template-query-projects-grid-1.php:16
 msgctxt "Name for the List of projects pattern"
 msgid "List of projects, grid (style 1)"
 msgstr ""
 
-#: patterns/template-query-projects-grid-2.php:16
+#: patterns/template/template-query-projects-grid-2.php:16
 msgctxt "Name for the List of projects pattern"
 msgid "List of projects, grid (style 2)"
 msgstr ""
 
-#: patterns/template-query-projects-grid-3.php:16
+#: patterns/template/template-query-projects-grid-3.php:16
 msgctxt "Name for the List of projects pattern"
 msgid "List of projects, grid (style 3)"
 msgstr ""
 
-#: patterns/template-query-projects-grid-4.php:16
+#: patterns/template/template-query-projects-grid-4.php:16
 msgctxt "Name for the List of projects pattern"
 msgid "List of projects, grid (style 4)"
 msgstr ""
 
-#: patterns/template-query-projects-grid-5.php:16
+#: patterns/template/template-query-projects-grid-5.php:16
 msgctxt "Name for the List of projects pattern"
 msgid "List of projects, grid (style 5)"
 msgstr ""
 
-#: patterns/template-single.php:16 patterns/template-archive-posts-1.php:16
-#: patterns/template-page.php:16 patterns/template-home-blog.php:16
-#: patterns/template-project.php:16 patterns/template-home-agency.php:13
-#: patterns/template-taxonomy-projects-1.php:16
-#: patterns/template-archive-projects-1.php:16
-#: patterns/template-search-1.php:16
+#: patterns/template/template-single.php:16
+#: patterns/template/template-archive-posts-1.php:16
+#: patterns/template/template-page.php:16
+#: patterns/template/template-home-blog.php:16
+#: patterns/template/template-project.php:16
+#: patterns/template/template-home-agency.php:13
+#: patterns/template/template-taxonomy-projects-1.php:16
+#: patterns/template/template-archive-projects-1.php:16
+#: patterns/template/template-search-1.php:16
 msgctxt "Name for the Main part"
 msgid "Main"
 msgstr ""
 
-#: patterns/section-team-1.php:38 patterns/section-team-1.php:60
-#: patterns/section-team-1.php:82 patterns/section-team-1.php:104
-#: patterns/section-team-1.php:126
+#: patterns/section/section-team-1.php:38
+#: patterns/section/section-team-1.php:60
+#: patterns/section/section-team-1.php:82
+#: patterns/section/section-team-1.php:104
+#: patterns/section/section-team-1.php:126
 msgctxt "Name for the member area"
 msgid "Member"
 msgstr ""
 
-#: patterns/section-mission-1.php:16
+#: patterns/section/section-mission-1.php:16
 msgctxt "Name for the Mission section pattern"
 msgid "Mission (style 1)"
 msgstr ""
 
-#: patterns/page-contact-1.php:32
+#: patterns/page/page-contact-1.php:32
 msgctxt "Name for the page block area"
 msgid "Page block"
 msgstr ""
 
-#: patterns/page-contact-1.php:24
+#: patterns/page/page-contact-1.php:24
 msgctxt "Name for the page content area"
 msgid "Page content"
 msgstr ""
 
-#: patterns/page-contact-1.php:16
+#: patterns/page/page-contact-1.php:16
 msgctxt "Name for the page header area"
 msgid "Page header"
 msgstr ""
 
-#: patterns/page-header-portfolio-archive-1.php:16
+#: patterns/page-header/page-header-portfolio-archive-1.php:16
 msgctxt "Name for the Portfolio archive page header pattern"
 msgid "Portfolio archive page header (style 1)"
 msgstr ""
 
-#: patterns/page-header-portfolio-1.php:16
+#: patterns/page-header/page-header-portfolio-1.php:16
 msgctxt "Name for the Portfolio page header pattern"
 msgid "Portfolio page header (style 1)"
 msgstr ""
 
-#: patterns/project-description-1.php:13
+#: patterns/portfolio/project-description-1.php:13
 msgctxt "Name for the project description block"
 msgid "Project description (style 1)"
 msgstr ""
 
-#: patterns/project-description-1.php:23
+#: patterns/portfolio/project-description-1.php:23
 msgctxt "Name for the project description content"
 msgid "Content"
 msgstr ""
 
-#: patterns/project-description-1.php:15
+#: patterns/portfolio/project-description-1.php:15
 msgctxt "Name for the project description header"
 msgid "Header"
 msgstr ""
 
-#: patterns/project-description-1.php:37
+#: patterns/portfolio/project-description-1.php:37
 msgctxt "Name for the project information block"
 msgid "Information"
 msgstr ""
 
-#: patterns/project-description-1.php:39 patterns/project-description-1.php:55
-#: patterns/project-description-1.php:71
+#: patterns/portfolio/project-description-1.php:39
+#: patterns/portfolio/project-description-1.php:55
+#: patterns/portfolio/project-description-1.php:71
 msgctxt "Name for the project information item"
 msgid "Item"
 msgstr ""
 
-#: patterns/page-project-1.php:14
+#: patterns/page/page-project-1.php:14
 msgctxt "Name for the project page pattern"
 msgid "Project page (style 1)"
 msgstr ""
 
-#: patterns/section-recent-projects-1.php:16
+#: patterns/section/section-recent-projects-1.php:16
 msgctxt "Name for the Recent projects section pattern"
 msgid "Recent projects (style 1)"
 msgstr ""
 
-#: patterns/section-related-projects-1.php:16
+#: patterns/section/section-related-projects-1.php:16
 msgctxt "Name for the Related projects section pattern"
 msgid "Related Projects (style 1)"
 msgstr ""
 
-#: patterns/section-clients-1.php:28
+#: patterns/section/section-clients-1.php:28
 msgctxt "Name for the row area"
 msgid "Row 1"
 msgstr ""
 
-#: patterns/section-clients-1.php:96
+#: patterns/section/section-clients-1.php:96
 msgctxt "Name for the row area"
 msgid "Row 2"
 msgstr ""
 
-#: patterns/page-header-search-1.php:16
+#: patterns/page-header/page-header-search-1.php:16
 msgctxt "Name for the Search page header pattern"
 msgid "Search page header (style 1)"
 msgstr ""
 
-#: patterns/hidden-search.php:12
+#: patterns/hidden/hidden-search.php:12
 msgctxt "Name for the Search pattern"
 msgid "Search Wrapper"
 msgstr ""
 
-#: patterns/section-hero-2.php:24 patterns/section-hero-3.php:24
-#: patterns/section-contact-1.php:22
+#: patterns/section/section-hero-2.php:24
+#: patterns/section/section-hero-3.php:24
+#: patterns/section/section-contact-1.php:22
 msgctxt "Name for the section block area"
 msgid "Block"
 msgstr ""
 
-#: patterns/section-contact-1.php:18
+#: patterns/section/section-contact-1.php:18
 msgctxt "Name for the section Container area"
 msgid "Container"
 msgstr ""
 
-#: patterns/section-awards-1.php:18 patterns/section-about-1.php:18
-#: patterns/section-hero-2.php:18 patterns/section-hero-3.php:18
+#: patterns/section/section-awards-1.php:18
+#: patterns/section/section-about-1.php:18
+#: patterns/section/section-hero-2.php:18
+#: patterns/section/section-hero-3.php:18
 msgctxt "Name for the section container area"
 msgid "Container"
 msgstr ""
 
-#: patterns/section-awards-1.php:28 patterns/section-recent-projects-1.php:30
-#: patterns/section-mission-1.php:26 patterns/section-related-projects-1.php:36
-#: patterns/section-about-1.php:28 patterns/section-keep-reading-1.php:36
-#: patterns/section-services-1.php:30 patterns/section-hero-2.php:20
-#: patterns/section-hero-3.php:20 patterns/section-team-1.php:34
-#: patterns/section-clients-1.php:26 patterns/section-contact-1.php:20
-#: patterns/section-testimonials-1.php:26
+#: patterns/section/section-awards-1.php:28
+#: patterns/section/section-recent-projects-1.php:30
+#: patterns/section/section-mission-1.php:26
+#: patterns/section/section-related-projects-1.php:36
+#: patterns/section/section-about-1.php:28
+#: patterns/section/section-keep-reading-1.php:36
+#: patterns/section/section-services-1.php:30
+#: patterns/section/section-hero-2.php:20
+#: patterns/section/section-hero-3.php:20
+#: patterns/section/section-team-1.php:34
+#: patterns/section/section-clients-1.php:26
+#: patterns/section/section-contact-1.php:20
+#: patterns/section/section-testimonials-1.php:26
 msgctxt "Name for the section content area"
 msgid "Content"
 msgstr ""
 
-#: patterns/section-recent-projects-1.php:54 patterns/section-hero-2.php:44
-#: patterns/section-hero-3.php:44
+#: patterns/section/section-recent-projects-1.php:54
+#: patterns/section/section-hero-2.php:44
+#: patterns/section/section-hero-3.php:44
 msgctxt "Name for the section footer area"
 msgid "Footer"
 msgstr ""
 
-#: patterns/section-awards-1.php:244
+#: patterns/section/section-awards-1.php:244
 msgctxt "Name for the section header area"
 msgid "Footer"
 msgstr ""
 
-#: patterns/section-awards-1.php:20 patterns/section-recent-projects-1.php:18
-#: patterns/section-mission-1.php:18 patterns/section-related-projects-1.php:18
-#: patterns/section-about-1.php:20 patterns/section-keep-reading-1.php:18
-#: patterns/section-services-1.php:18 patterns/section-team-1.php:18
-#: patterns/section-clients-1.php:18 patterns/section-testimonials-1.php:18
+#: patterns/section/section-awards-1.php:20
+#: patterns/section/section-recent-projects-1.php:18
+#: patterns/section/section-mission-1.php:18
+#: patterns/section/section-related-projects-1.php:18
+#: patterns/section/section-about-1.php:20
+#: patterns/section/section-keep-reading-1.php:18
+#: patterns/section/section-services-1.php:18
+#: patterns/section/section-team-1.php:18
+#: patterns/section/section-clients-1.php:18
+#: patterns/section/section-testimonials-1.php:18
 msgctxt "Name for the section header area"
 msgid "Header"
 msgstr ""
 
-#: patterns/section-services-1.php:34 patterns/section-services-1.php:82
-#: patterns/section-services-1.php:134
+#: patterns/section/section-services-1.php:34
+#: patterns/section/section-services-1.php:82
+#: patterns/section/section-services-1.php:134
 msgctxt "Name for the services item area"
 msgid "Services item"
 msgstr ""
 
-#: patterns/section-services-1.php:40 patterns/section-services-1.php:88
-#: patterns/section-services-1.php:140
+#: patterns/section/section-services-1.php:40
+#: patterns/section/section-services-1.php:88
+#: patterns/section/section-services-1.php:140
 msgctxt "Name for the services item number area"
 msgid "Item number"
 msgstr ""
 
-#: patterns/section-services-1.php:62 patterns/section-services-1.php:110
-#: patterns/section-services-1.php:162
+#: patterns/section/section-services-1.php:62
+#: patterns/section/section-services-1.php:110
+#: patterns/section/section-services-1.php:162
 msgctxt "Name for the services item tags block area"
 msgid "Tags"
 msgstr ""
 
-#: patterns/section-services-1.php:48 patterns/section-services-1.php:96
-#: patterns/section-services-1.php:148
+#: patterns/section/section-services-1.php:48
+#: patterns/section/section-services-1.php:96
+#: patterns/section/section-services-1.php:148
 msgctxt "Name for the services item text block area"
 msgid "Item text block"
 msgstr ""
 
-#: patterns/section-services-1.php:32
+#: patterns/section/section-services-1.php:32
 msgctxt "Name for the services list area"
 msgid "Services list"
 msgstr ""
 
-#: patterns/hidden-sidebar.php:14
+#: patterns/hidden/hidden-sidebar.php:14
 msgctxt "Name for the sidebar overlay area"
 msgid "Overlay"
 msgstr ""
 
-#: patterns/page-documentation.php:19
+#: patterns/page/page-documentation.php:19
 msgctxt "Name for the sidebar page block"
 msgid "Page block"
 msgstr ""
 
-#: patterns/hidden-sidebar.php:12
+#: patterns/hidden/hidden-sidebar.php:12
 msgctxt "Name for the Sidebar pattern"
 msgid "Sidebar Inner"
 msgstr ""
 
-#: patterns/hidden-sidebar.php:32
+#: patterns/hidden/hidden-sidebar.php:32
 msgctxt "Name for the sidebar widget"
 msgid "Categories"
 msgstr ""
 
-#: patterns/hidden-sidebar.php:62
+#: patterns/hidden/hidden-sidebar.php:62
 msgctxt "Name for the sidebar widget"
 msgid "Latest Comments"
 msgstr ""
 
-#: patterns/hidden-sidebar.php:42
+#: patterns/hidden/hidden-sidebar.php:42
 msgctxt "Name for the sidebar widget"
 msgid "Latest Posts"
 msgstr ""
 
-#: patterns/hidden-sidebar.php:52
+#: patterns/hidden/hidden-sidebar.php:52
 msgctxt "Name for the sidebar widget"
 msgid "Tags"
 msgstr ""
 
-#: patterns/hidden-sidebar.php:18
+#: patterns/hidden/hidden-sidebar.php:18
 msgctxt "Name for the sidebar widgets area"
 msgid "Widgets"
 msgstr ""
 
-#: patterns/hidden-sidebar.php:28
+#: patterns/hidden/hidden-sidebar.php:28
 msgctxt "Name for the sidebar widgets inner area"
 msgid "Widgets Inner"
 msgstr ""
 
-#: patterns/header.php:20 patterns/header-fixed.php:20
+#: patterns/header/header.php:20 patterns/header/header-fixed.php:20
 msgctxt "Name for the site branding part"
 msgid "Site Branding"
 msgstr ""
 
-#: patterns/section-about-1.php:34
+#: patterns/section/section-about-1.php:34
 msgctxt "Name for the skills block area"
 msgid "Skills block"
 msgstr ""
 
-#: patterns/section-about-1.php:46 patterns/section-about-1.php:58
-#: patterns/section-about-1.php:70 patterns/section-about-1.php:82
+#: patterns/section/section-about-1.php:46
+#: patterns/section/section-about-1.php:58
+#: patterns/section/section-about-1.php:70
+#: patterns/section/section-about-1.php:82
 msgctxt "Name for the skills item area"
 msgid "Skills item"
 msgstr ""
 
-#: patterns/section-about-1.php:40
+#: patterns/section/section-about-1.php:40
 msgctxt "Name for the skills list area"
 msgid "Skills list"
 msgstr ""
 
-#: patterns/section-team-1.php:36
+#: patterns/section/section-team-1.php:36
 msgctxt "Name for the team members area"
 msgid "Team members"
 msgstr ""
 
-#: patterns/section-team-1.php:16
+#: patterns/section/section-team-1.php:16
 msgctxt "Name for the Team section pattern"
 msgid "Team (style 1)"
 msgstr ""
 
-#: patterns/section-testimonials-1.php:16
+#: patterns/section/section-testimonials-1.php:16
 msgctxt "Name for the Team section pattern"
 msgid "Testimonials (style 1)"
 msgstr ""
 
-#: patterns/section-testimonials-1.php:28
+#: patterns/section/section-testimonials-1.php:28
 msgctxt "Name for the testimonials area"
 msgid "Testimonials"
 msgstr ""
 
-#: patterns/section-testimonials-1.php:30
-#: patterns/section-testimonials-1.php:64
-#: patterns/section-testimonials-1.php:94
-#: patterns/section-testimonials-1.php:128
-#: patterns/section-testimonials-1.php:162
+#: patterns/section/section-testimonials-1.php:30
+#: patterns/section/section-testimonials-1.php:64
+#: patterns/section/section-testimonials-1.php:94
+#: patterns/section/section-testimonials-1.php:128
+#: patterns/section/section-testimonials-1.php:162
 msgctxt "Name for the testimonials item area"
 msgid "Item"
 msgstr ""
 
-#: patterns/section-testimonials-1.php:60
-#: patterns/section-testimonials-1.php:124
-#: patterns/section-testimonials-1.php:158
+#: patterns/section/section-testimonials-1.php:60
+#: patterns/section/section-testimonials-1.php:124
+#: patterns/section/section-testimonials-1.php:158
 msgctxt "Name for the testimonials item area"
 msgid "Item (empty)"
 msgstr ""
 
-#: patterns/page-contact-1.php:80
+#: patterns/page/page-contact-1.php:80
 msgctxt "Name for the working hours block"
 msgid "Working hours block"
 msgstr ""
@@ -1321,541 +1361,541 @@ msgstr ""
 msgid "Pages"
 msgstr ""
 
-#: patterns/footer.php:2
+#: patterns/footer/footer.php:2
 msgctxt "Pattern description"
 msgid "A default footer section."
 msgstr ""
 
-#: patterns/page-about-1.php:2
+#: patterns/page/page-about-1.php:2
 msgctxt "Pattern description"
 msgid ""
 "Agency about page with hero section, about section, awards section, awards "
 "section, team section, clients section, and contact section."
 msgstr ""
 
-#: patterns/page-contact-1.php:2
+#: patterns/page/page-contact-1.php:2
 msgctxt "Pattern description"
 msgid "Agency contact page with contact text, blocks and form."
 msgstr ""
 
-#: patterns/page-home-agency.php:2
+#: patterns/page/page-home-agency.php:2
 msgctxt "Pattern description"
 msgid "An agency homepage pattern."
 msgstr ""
 
-#: patterns/header-fixed.php:2
+#: patterns/header/header-fixed.php:2
 msgctxt "Pattern description"
 msgid "Default header section (fixed)."
 msgstr ""
 
-#: patterns/header.php:2
+#: patterns/header/header.php:2
 msgctxt "Pattern description"
 msgid "Default header section."
 msgstr ""
 
-#: patterns/counters-3.php:2 patterns/counters-2.php:2
-#: patterns/counters-1.php:2
+#: patterns/counters/counters-3.php:2 patterns/counters/counters-2.php:2
+#: patterns/counters/counters-1.php:2
 msgctxt "Pattern description"
 msgid "Displays a grid of animated counters."
 msgstr ""
 
-#: patterns/section-clients-1.php:2
+#: patterns/section/section-clients-1.php:2
 msgctxt "Pattern description"
 msgid "Displays a grid of clients with icons."
 msgstr ""
 
-#: patterns/section-testimonials-1.php:2
+#: patterns/section/section-testimonials-1.php:2
 msgctxt "Pattern description"
 msgid "Displays a grid of testimonials."
 msgstr ""
 
-#: patterns/section-about-1.php:2
+#: patterns/section/section-about-1.php:2
 msgctxt "Pattern description"
 msgid "Displays about heading, text and skills list."
 msgstr ""
 
-#: patterns/section-awards-1.php:2
+#: patterns/section/section-awards-1.php:2
 msgctxt "Pattern description"
 msgid "Displays awards heading, text and awards items."
 msgstr ""
 
-#: patterns/accordion-2.php:2 patterns/accordion-1.php:2
+#: patterns/accordion/accordion-2.php:2 patterns/accordion/accordion-1.php:2
 msgctxt "Pattern description"
 msgid "Displays collapsible content panels for presenting information."
 msgstr ""
 
-#: patterns/section-contact-1.php:2
+#: patterns/section/section-contact-1.php:2
 msgctxt "Pattern description"
 msgid "Displays contact text and button."
 msgstr ""
 
-#: patterns/section-mission-1.php:2
+#: patterns/section/section-mission-1.php:2
 msgctxt "Pattern description"
 msgid "Displays mission heading and text."
 msgstr ""
 
-#: patterns/section-keep-reading-1.php:2
+#: patterns/section/section-keep-reading-1.php:2
 msgctxt "Pattern description"
 msgid "Displays related articles from the blog."
 msgstr ""
 
-#: patterns/section-related-projects-1.php:2
+#: patterns/section/section-related-projects-1.php:2
 msgctxt "Pattern description"
 msgid "Displays related projects from the portfolio."
 msgstr ""
 
-#: patterns/section-services-1.php:2
+#: patterns/section/section-services-1.php:2
 msgctxt "Pattern description"
 msgid "Displays services heading and texts."
 msgstr ""
 
-#: patterns/section-team-1.php:2
+#: patterns/section/section-team-1.php:2
 msgctxt "Pattern description"
 msgid "Displays team heading, text and team members."
 msgstr ""
 
-#: patterns/section-cover-1.php:2
+#: patterns/section/section-cover-1.php:2
 msgctxt "Pattern description"
 msgid "Displays the cover image."
 msgstr ""
 
-#: patterns/section-hero-1.php:2
+#: patterns/section/section-hero-1.php:2
 msgctxt "Pattern description"
 msgid "Displays the hero info and image."
 msgstr ""
 
-#: patterns/section-hero-2.php:2 patterns/section-hero-3.php:2
+#: patterns/section/section-hero-2.php:2 patterns/section/section-hero-3.php:2
 msgctxt "Pattern description"
 msgid "Displays the hero info."
 msgstr ""
 
-#: patterns/section-recent-projects-1.php:2
+#: patterns/section/section-recent-projects-1.php:2
 msgctxt "Pattern description"
 msgid "Displays the latest projects from the portfolio."
 msgstr ""
 
-#: patterns/page-documentation.php:2
+#: patterns/page/page-documentation.php:2
 msgctxt "Pattern description"
 msgid "Documentation page with sidebar and main content."
 msgstr ""
 
-#: patterns/footer-links.php:2
+#: patterns/footer/footer-links.php:2
 msgctxt "Pattern description"
 msgid "Footer links section."
 msgstr ""
 
-#: patterns/gallery-1.php:2
+#: patterns/gallery/gallery-1.php:2
 msgctxt "Pattern description"
 msgid "Gallery section with images in 2 columns."
 msgstr ""
 
-#: patterns/gallery-2.php:2
+#: patterns/gallery/gallery-2.php:2
 msgctxt "Pattern description"
 msgid "Gallery section with images in 3 columns."
 msgstr ""
 
-#: patterns/gallery-3.php:2
+#: patterns/gallery/gallery-3.php:2
 msgctxt "Pattern description"
 msgid "Gallery section with images in 4 columns."
 msgstr ""
 
-#: patterns/gallery-6.php:2
+#: patterns/gallery/gallery-6.php:2
 msgctxt "Pattern description"
 msgid "Gallery section with mixed images and mixed columns."
 msgstr ""
 
-#: patterns/gallery-4.php:2
+#: patterns/gallery/gallery-4.php:2
 msgctxt "Pattern description"
 msgid "Gallery section with mixed images in 2 columns."
 msgstr ""
 
-#: patterns/gallery-7.php:2 patterns/gallery-5.php:2
+#: patterns/gallery/gallery-7.php:2 patterns/gallery/gallery-5.php:2
 msgctxt "Pattern description"
 msgid "Gallery section with mixed images in 3 columns."
 msgstr ""
 
-#: patterns/page-header-archive-1.php:2
+#: patterns/page-header/page-header-archive-1.php:2
 msgctxt "Pattern description"
 msgid "Header section for archive pages."
 msgstr ""
 
-#: patterns/page-header-blog-1.php:2
+#: patterns/page-header/page-header-blog-1.php:2
 msgctxt "Pattern description"
 msgid "Header section for blog pages."
 msgstr ""
 
-#: patterns/page-header-portfolio-archive-1.php:2
+#: patterns/page-header/page-header-portfolio-archive-1.php:2
 msgctxt "Pattern description"
 msgid "Header section for portfolio archive pages."
 msgstr ""
 
-#: patterns/page-header-portfolio-1.php:2
+#: patterns/page-header/page-header-portfolio-1.php:2
 msgctxt "Pattern description"
 msgid "Header section for portfolio pages."
 msgstr ""
 
-#: patterns/page-header-search-1.php:2
+#: patterns/page-header/page-header-search-1.php:2
 msgctxt "Pattern description"
 msgid "Header section for search pages."
 msgstr ""
 
-#: patterns/template-query-posts-grid-1.php:2
-#: patterns/template-query-posts-grid-2.php:2
+#: patterns/template/template-query-posts-grid-1.php:2
+#: patterns/template/template-query-posts-grid-2.php:2
 msgctxt "Pattern description"
 msgid ""
 "List of posts, grid with featured image, category, post date, title and "
 "excerpt."
 msgstr ""
 
-#: patterns/template-query-projects-grid-1.php:2
+#: patterns/template/template-query-projects-grid-1.php:2
 msgctxt "Pattern description"
 msgid "List of projects, grid with featured image, category and title."
 msgstr ""
 
-#: patterns/template-query-projects-grid-2.php:2
-#: patterns/template-query-projects-grid-3.php:2
-#: patterns/template-query-projects-grid-4.php:2
+#: patterns/template/template-query-projects-grid-2.php:2
+#: patterns/template/template-query-projects-grid-3.php:2
+#: patterns/template/template-query-projects-grid-4.php:2
 msgctxt "Pattern description"
 msgid "List of projects, grid with featured image, date and title."
 msgstr ""
 
-#: patterns/template-query-projects-grid-5.php:2
+#: patterns/template/template-query-projects-grid-5.php:2
 msgctxt "Pattern description"
 msgid "List of projects, grid with featured image, title and date."
 msgstr ""
 
-#: patterns/project-description-1.php:2
+#: patterns/portfolio/project-description-1.php:2
 msgctxt "Pattern description"
 msgid "Project description with title, text and project info."
 msgstr ""
 
-#: patterns/page-project-1.php:2
+#: patterns/page/page-project-1.php:2
 msgctxt "Pattern description"
 msgid "Project page, contains project information and gallery."
 msgstr ""
 
-#: patterns/page-about-1.php:2
+#: patterns/page/page-about-1.php:2
 msgctxt "Pattern title"
 msgid "About page (style 1)"
 msgstr ""
 
-#: patterns/section-about-1.php:2
+#: patterns/section/section-about-1.php:2
 msgctxt "Pattern title"
 msgid "About section (style 1)"
 msgstr ""
 
-#: patterns/accordion-1.php:2
+#: patterns/accordion/accordion-1.php:2
 msgctxt "Pattern title"
 msgid "Accordion (style 1)"
 msgstr ""
 
-#: patterns/accordion-2.php:2
+#: patterns/accordion/accordion-2.php:2
 msgctxt "Pattern title"
 msgid "Accordion (style 2)"
 msgstr ""
 
-#: patterns/page-home-agency.php:2
+#: patterns/page/page-home-agency.php:2
 msgctxt "Pattern title"
 msgid "Agency home page"
 msgstr ""
 
-#: patterns/template-home-agency.php:2
+#: patterns/template/template-home-agency.php:2
 msgctxt "Pattern title"
 msgid "Agency home template"
 msgstr ""
 
-#: patterns/page-header-archive-1.php:2
+#: patterns/page-header/page-header-archive-1.php:2
 msgctxt "Pattern title"
 msgid "Archive page header (style 1)"
 msgstr ""
 
-#: patterns/section-awards-1.php:2
+#: patterns/section/section-awards-1.php:2
 msgctxt "Pattern title"
 msgid "Awards section (style 1)"
 msgstr ""
 
-#: patterns/template-home-blog.php:2
+#: patterns/template/template-home-blog.php:2
 msgctxt "Pattern title"
 msgid "Blog home template"
 msgstr ""
 
-#: patterns/page-header-blog-1.php:2
+#: patterns/page-header/page-header-blog-1.php:2
 msgctxt "Pattern title"
 msgid "Blog page header (style 1)"
 msgstr ""
 
-#: patterns/section-clients-1.php:2
+#: patterns/section/section-clients-1.php:2
 msgctxt "Pattern title"
 msgid "Clients section (style 1)"
 msgstr ""
 
-#: patterns/page-contact-1.php:2
+#: patterns/page/page-contact-1.php:2
 msgctxt "Pattern title"
 msgid "Contact page (style 1)"
 msgstr ""
 
-#: patterns/section-contact-1.php:2
+#: patterns/section/section-contact-1.php:2
 msgctxt "Pattern title"
 msgid "Contact section (style 1)"
 msgstr ""
 
-#: patterns/counters-1.php:2
+#: patterns/counters/counters-1.php:2
 msgctxt "Pattern title"
 msgid "Counters (style 1)"
 msgstr ""
 
-#: patterns/counters-2.php:2
+#: patterns/counters/counters-2.php:2
 msgctxt "Pattern title"
 msgid "Counters (style 2)"
 msgstr ""
 
-#: patterns/counters-3.php:2
+#: patterns/counters/counters-3.php:2
 msgctxt "Pattern title"
 msgid "Counters (style 3)"
 msgstr ""
 
-#: patterns/section-cover-1.php:2
+#: patterns/section/section-cover-1.php:2
 msgctxt "Pattern title"
 msgid "Cover section (style 1)"
 msgstr ""
 
-#: patterns/footer.php:2
+#: patterns/footer/footer.php:2
 msgctxt "Pattern title"
 msgid "Default footer"
 msgstr ""
 
-#: patterns/header.php:2
+#: patterns/header/header.php:2
 msgctxt "Pattern title"
 msgid "Default header"
 msgstr ""
 
-#: patterns/header-fixed.php:2
+#: patterns/header/header-fixed.php:2
 msgctxt "Pattern title"
 msgid "Default header (fixed)"
 msgstr ""
 
-#: patterns/page-documentation.php:2
+#: patterns/page/page-documentation.php:2
 msgctxt "Pattern title"
 msgid "Documentation page"
 msgstr ""
 
-#: patterns/footer-links.php:2
+#: patterns/footer/footer-links.php:2
 msgctxt "Pattern title"
 msgid "Footer links"
 msgstr ""
 
-#: patterns/gallery-1.php:2
+#: patterns/gallery/gallery-1.php:2
 msgctxt "Pattern title"
 msgid "Gallery (style 1)"
 msgstr ""
 
-#: patterns/gallery-2.php:2
+#: patterns/gallery/gallery-2.php:2
 msgctxt "Pattern title"
 msgid "Gallery (style 2)"
 msgstr ""
 
-#: patterns/gallery-3.php:2
+#: patterns/gallery/gallery-3.php:2
 msgctxt "Pattern title"
 msgid "Gallery (style 3)"
 msgstr ""
 
-#: patterns/gallery-4.php:2
+#: patterns/gallery/gallery-4.php:2
 msgctxt "Pattern title"
 msgid "Gallery (style 4)"
 msgstr ""
 
-#: patterns/gallery-5.php:2
+#: patterns/gallery/gallery-5.php:2
 msgctxt "Pattern title"
 msgid "Gallery (style 5)"
 msgstr ""
 
-#: patterns/gallery-6.php:2
+#: patterns/gallery/gallery-6.php:2
 msgctxt "Pattern title"
 msgid "Gallery (style 6)"
 msgstr ""
 
-#: patterns/gallery-7.php:2
+#: patterns/gallery/gallery-7.php:2
 msgctxt "Pattern title"
 msgid "Gallery (style 7)"
 msgstr ""
 
-#: patterns/section-hero-1.php:2
+#: patterns/section/section-hero-1.php:2
 msgctxt "Pattern title"
 msgid "Hero section (style 1)"
 msgstr ""
 
-#: patterns/section-hero-2.php:2
+#: patterns/section/section-hero-2.php:2
 msgctxt "Pattern title"
 msgid "Hero section (style 2)"
 msgstr ""
 
-#: patterns/section-hero-3.php:2
+#: patterns/section/section-hero-3.php:2
 msgctxt "Pattern title"
 msgid "Hero section (style 3)"
 msgstr ""
 
-#: patterns/hidden-404.php:2
+#: patterns/hidden/hidden-404.php:2
 msgctxt "Pattern title"
 msgid "Hidden 404"
 msgstr ""
 
-#: patterns/hidden-comments.php:2
+#: patterns/hidden/hidden-comments.php:2
 msgctxt "Pattern title"
 msgid "Hidden comments"
 msgstr ""
 
-#: patterns/hidden-no-results.php:2
+#: patterns/hidden/hidden-no-results.php:2
 msgctxt "Pattern title"
 msgid "Hidden no results content"
 msgstr ""
 
-#: patterns/section-keep-reading-1.php:2
+#: patterns/section/section-keep-reading-1.php:2
 msgctxt "Pattern title"
 msgid "Keep reading section (style 1)"
 msgstr ""
 
-#: patterns/template-query-posts-grid-1.php:2
+#: patterns/template/template-query-posts-grid-1.php:2
 msgctxt "Pattern title"
 msgid "List of posts, grid (style 1)"
 msgstr ""
 
-#: patterns/template-query-posts-grid-2.php:2
+#: patterns/template/template-query-posts-grid-2.php:2
 msgctxt "Pattern title"
 msgid "List of posts, grid (style 2)"
 msgstr ""
 
-#: patterns/template-query-projects-grid-1.php:2
+#: patterns/template/template-query-projects-grid-1.php:2
 msgctxt "Pattern title"
 msgid "List of projects, grid (style 1)"
 msgstr ""
 
-#: patterns/template-query-projects-grid-2.php:2
+#: patterns/template/template-query-projects-grid-2.php:2
 msgctxt "Pattern title"
 msgid "List of projects, grid (style 2)"
 msgstr ""
 
-#: patterns/template-query-projects-grid-3.php:2
+#: patterns/template/template-query-projects-grid-3.php:2
 msgctxt "Pattern title"
 msgid "List of projects, grid (style 3)"
 msgstr ""
 
-#: patterns/template-query-projects-grid-4.php:2
+#: patterns/template/template-query-projects-grid-4.php:2
 msgctxt "Pattern title"
 msgid "List of projects, grid (style 4)"
 msgstr ""
 
-#: patterns/template-query-projects-grid-5.php:2
+#: patterns/template/template-query-projects-grid-5.php:2
 msgctxt "Pattern title"
 msgid "List of projects, grid (style 5)"
 msgstr ""
 
-#: patterns/section-mission-1.php:2
+#: patterns/section/section-mission-1.php:2
 msgctxt "Pattern title"
 msgid "Mission section (style 1)"
 msgstr ""
 
-#: patterns/template-page.php:2
+#: patterns/template/template-page.php:2
 msgctxt "Pattern title"
 msgid "Pages with wide featured image"
 msgstr ""
 
-#: patterns/page-header-portfolio-archive-1.php:2
+#: patterns/page-header/page-header-portfolio-archive-1.php:2
 msgctxt "Pattern title"
 msgid "Portfolio archive page header (style 1)"
 msgstr ""
 
-#: patterns/page-header-portfolio-1.php:2
+#: patterns/page-header/page-header-portfolio-1.php:2
 msgctxt "Pattern title"
 msgid "Portfolio page header (style 1)"
 msgstr ""
 
-#: patterns/template-archive-posts-1.php:2
+#: patterns/template/template-archive-posts-1.php:2
 msgctxt "Pattern title"
 msgid "Posts archive template (style 1)"
 msgstr ""
 
-#: patterns/project-description-1.php:2
+#: patterns/portfolio/project-description-1.php:2
 msgctxt "Pattern title"
 msgid "Project description (style 1)"
 msgstr ""
 
-#: patterns/page-project-1.php:2
+#: patterns/page/page-project-1.php:2
 msgctxt "Pattern title"
 msgid "Project page (style 1)"
 msgstr ""
 
-#: patterns/template-project.php:2
+#: patterns/template/template-project.php:2
 msgctxt "Pattern title"
 msgid "Project with wide featured image"
 msgstr ""
 
-#: patterns/template-archive-projects-1.php:2
+#: patterns/template/template-archive-projects-1.php:2
 msgctxt "Pattern title"
 msgid "Projects archive template (style 1)"
 msgstr ""
 
-#: patterns/template-taxonomy-projects-1.php:2
+#: patterns/template/template-taxonomy-projects-1.php:2
 msgctxt "Pattern title"
 msgid "Projects taxonomy template (style 1)"
 msgstr ""
 
-#: patterns/section-recent-projects-1.php:2
+#: patterns/section/section-recent-projects-1.php:2
 msgctxt "Pattern title"
 msgid "Recent projects section (style 1)"
 msgstr ""
 
-#: patterns/section-related-projects-1.php:2
+#: patterns/section/section-related-projects-1.php:2
 msgctxt "Pattern title"
 msgid "Related projects section (style 1)"
 msgstr ""
 
-#: patterns/hidden-search.php:2
+#: patterns/hidden/hidden-search.php:2
 msgctxt "Pattern title"
 msgid "Search"
 msgstr ""
 
-#: patterns/page-header-search-1.php:2
+#: patterns/page-header/page-header-search-1.php:2
 msgctxt "Pattern title"
 msgid "Search page header (style 1)"
 msgstr ""
 
-#: patterns/template-search-1.php:2
+#: patterns/template/template-search-1.php:2
 msgctxt "Pattern title"
 msgid "Search template (style 1)"
 msgstr ""
 
-#: patterns/section-services-1.php:2
+#: patterns/section/section-services-1.php:2
 msgctxt "Pattern title"
 msgid "Services section (style 1)"
 msgstr ""
 
-#: patterns/hidden-sidebar.php:2
+#: patterns/hidden/hidden-sidebar.php:2
 msgctxt "Pattern title"
 msgid "Sidebar"
 msgstr ""
 
-#: patterns/template-single.php:2
+#: patterns/template/template-single.php:2
 msgctxt "Pattern title"
 msgid "Single posts with featured image"
 msgstr ""
 
-#: patterns/section-team-1.php:2
+#: patterns/section/section-team-1.php:2
 msgctxt "Pattern title"
 msgid "Team section (style 1)"
 msgstr ""
 
-#: patterns/section-testimonials-1.php:2
+#: patterns/section/section-testimonials-1.php:2
 msgctxt "Pattern title"
 msgid "Testimonials section (style 1)"
 msgstr ""
 
 #. "Contact phone" text.
-#: patterns/page-contact-1.php:46
+#: patterns/page/page-contact-1.php:46
 #, php-format
 msgid "Phone: %s"
 msgstr ""
 
-#: patterns/hidden-search.php:14 patterns/hidden-sidebar.php:30
+#: patterns/hidden/hidden-search.php:14 patterns/hidden/hidden-sidebar.php:30
 msgctxt "Placeholder for search field"
 msgid "Search..."
 msgstr ""
@@ -1864,22 +1904,22 @@ msgstr ""
 msgid "Portfolio"
 msgstr ""
 
-#: patterns/page-header-portfolio-1.php:25
+#: patterns/page-header/page-header-portfolio-1.php:25
 msgctxt "Portfolio page header text"
 msgid "Where ideas evolve into tangible structures of meaning."
 msgstr ""
 
-#: patterns/page-header-portfolio-1.php:19
+#: patterns/page-header/page-header-portfolio-1.php:19
 msgctxt "Portfolio page header title"
 msgid "Digital<br>Aesthetics"
 msgstr ""
 
-#: patterns/project-description-1.php:46
+#: patterns/portfolio/project-description-1.php:46
 msgctxt "Project client name"
 msgid "Mroya Studio"
 msgstr ""
 
-#: patterns/project-description-1.php:32
+#: patterns/portfolio/project-description-1.php:32
 msgctxt "Project description text"
 msgid ""
 "Aenean eu finibus mauris, eget tempus nisi. Sed faucibus dui vel mattis "
@@ -1889,69 +1929,69 @@ msgid ""
 "fermentum. Phasellus tincidunt elit at volutpat feugiat."
 msgstr ""
 
-#: patterns/project-description-1.php:18
+#: patterns/portfolio/project-description-1.php:18
 msgctxt "Project description title"
 msgid "About the project"
 msgstr ""
 
-#: patterns/project-description-1.php:28
+#: patterns/portfolio/project-description-1.php:28
 msgctxt "Project description title"
 msgid ""
 "Proin quis lobortis elit vivamus vestibulum lorem sit amet scelerisque "
 "gravida. Nam fermentum consequat suscipit"
 msgstr ""
 
-#: patterns/project-description-1.php:42
+#: patterns/portfolio/project-description-1.php:42
 msgctxt "Project information label"
 msgid "Client"
 msgstr ""
 
-#: patterns/project-description-1.php:58
+#: patterns/portfolio/project-description-1.php:58
 msgctxt "Project information label"
 msgid "Services"
 msgstr ""
 
-#: patterns/project-description-1.php:74
+#: patterns/portfolio/project-description-1.php:74
 msgctxt "Project information label"
 msgid "Year"
 msgstr ""
 
-#: patterns/project-description-1.php:62
+#: patterns/portfolio/project-description-1.php:62
 msgctxt "Project services list"
 msgid "Branding, Design"
 msgstr ""
 
-#: patterns/project-description-1.php:78
+#: patterns/portfolio/project-description-1.php:78
 msgctxt "Project year"
 msgid "2025"
 msgstr ""
 
-#: patterns/section-recent-projects-1.php:60
+#: patterns/section/section-recent-projects-1.php:60
 msgctxt "Recent projects section button text"
 msgid "See all Projects"
 msgstr ""
 
-#: patterns/section-recent-projects-1.php:25
+#: patterns/section/section-recent-projects-1.php:25
 msgctxt "Recent projects section text"
 msgid "# Recent Projects"
 msgstr ""
 
-#: patterns/section-recent-projects-1.php:21
+#: patterns/section/section-recent-projects-1.php:21
 msgctxt "Recent projects section title"
 msgid "[ Portfolio ]"
 msgstr ""
 
-#: patterns/section-related-projects-1.php:28
+#: patterns/section/section-related-projects-1.php:28
 msgctxt "Related projects section button text"
 msgid "All Projects"
 msgstr ""
 
-#: patterns/section-related-projects-1.php:21
+#: patterns/section/section-related-projects-1.php:21
 msgctxt "Related projects section title"
 msgid "Related Projects"
 msgstr ""
 
-#: patterns/hidden-search.php:14 patterns/hidden-sidebar.php:30
+#: patterns/hidden/hidden-search.php:14 patterns/hidden/hidden-sidebar.php:30
 msgid "Search"
 msgstr ""
 
@@ -2003,72 +2043,72 @@ msgstr ""
 msgid "Sections (Testimonials)"
 msgstr ""
 
-#: patterns/section-services-1.php:173
+#: patterns/section/section-services-1.php:173
 msgctxt "Services section item tags"
 msgid "#Corporate"
 msgstr ""
 
-#: patterns/section-services-1.php:73
+#: patterns/section/section-services-1.php:73
 msgctxt "Services section item tags"
 msgid "#Design_System"
 msgstr ""
 
-#: patterns/section-services-1.php:169
+#: patterns/section/section-services-1.php:169
 msgctxt "Services section item tags"
 msgid "#E-commerce"
 msgstr ""
 
-#: patterns/section-services-1.php:121
+#: patterns/section/section-services-1.php:121
 msgctxt "Services section item tags"
 msgid "#Framer"
 msgstr ""
 
-#: patterns/section-services-1.php:165
+#: patterns/section/section-services-1.php:165
 msgctxt "Services section item tags"
 msgid "#Landing_pages"
 msgstr ""
 
-#: patterns/section-services-1.php:65
+#: patterns/section/section-services-1.php:65
 msgctxt "Services section item tags"
 msgid "#Research"
 msgstr ""
 
-#: patterns/section-services-1.php:125
+#: patterns/section/section-services-1.php:125
 msgctxt "Services section item tags"
 msgid "#Web3"
 msgstr ""
 
-#: patterns/section-services-1.php:117
+#: patterns/section/section-services-1.php:117
 msgctxt "Services section item tags"
 msgid "#Webflow"
 msgstr ""
 
-#: patterns/section-services-1.php:69
+#: patterns/section/section-services-1.php:69
 msgctxt "Services section item tags"
 msgid "#Wireframing"
 msgstr ""
 
-#: patterns/section-services-1.php:113
+#: patterns/section/section-services-1.php:113
 msgctxt "Services section item tags"
 msgid "#Wordpress"
 msgstr ""
 
-#: patterns/section-services-1.php:43
+#: patterns/section/section-services-1.php:43
 msgctxt "Services section item text"
 msgid "01"
 msgstr ""
 
-#: patterns/section-services-1.php:91
+#: patterns/section/section-services-1.php:91
 msgctxt "Services section item text"
 msgid "02"
 msgstr ""
 
-#: patterns/section-services-1.php:143
+#: patterns/section/section-services-1.php:143
 msgctxt "Services section item text"
 msgid "03"
 msgstr ""
 
-#: patterns/section-services-1.php:157
+#: patterns/section/section-services-1.php:157
 msgctxt "Services section item text"
 msgid ""
 "Looking for an end-to-end solution? Our full package merges design and "
@@ -2076,7 +2116,7 @@ msgid ""
 "tailored to your brand and audience."
 msgstr ""
 
-#: patterns/section-services-1.php:105
+#: patterns/section/section-services-1.php:105
 msgctxt "Services section item text"
 msgid ""
 "We build fast, responsive, and reliable websites using modern technologies. "
@@ -2084,7 +2124,7 @@ msgid ""
 "works in perfect harmony."
 msgstr ""
 
-#: patterns/section-services-1.php:57
+#: patterns/section/section-services-1.php:57
 msgctxt "Services section item text"
 msgid ""
 "We design intuitive, engaging interfaces where usability meets aesthetics. "
@@ -2092,163 +2132,163 @@ msgid ""
 "delight in every interaction."
 msgstr ""
 
-#: patterns/section-services-1.php:51
+#: patterns/section/section-services-1.php:51
 msgctxt "Services section item title"
 msgid "Design"
 msgstr ""
 
-#: patterns/section-services-1.php:99
+#: patterns/section/section-services-1.php:99
 msgctxt "Services section item title"
 msgid "Development"
 msgstr ""
 
-#: patterns/section-services-1.php:151
+#: patterns/section/section-services-1.php:151
 msgctxt "Services section item title"
 msgid "The full package"
 msgstr ""
 
-#: patterns/section-services-1.php:25
+#: patterns/section/section-services-1.php:25
 msgctxt "Services section text"
 msgid "# How can we help"
 msgstr ""
 
-#: patterns/section-services-1.php:21
+#: patterns/section/section-services-1.php:21
 msgctxt "Services section title"
 msgid "[ Services ]"
 msgstr ""
 
-#: patterns/hidden-sidebar.php:23
+#: patterns/hidden/hidden-sidebar.php:23
 msgctxt "Sidebar close button text"
 msgid "Close"
 msgstr ""
 
-#: patterns/section-about-1.php:85
+#: patterns/section/section-about-1.php:85
 msgctxt "Skills block item title"
 msgid "Brand Identity"
 msgstr ""
 
-#: patterns/section-about-1.php:73
+#: patterns/section/section-about-1.php:73
 msgctxt "Skills block item title"
 msgid "Creative Direction"
 msgstr ""
 
-#: patterns/section-about-1.php:61
+#: patterns/section/section-about-1.php:61
 msgctxt "Skills block item title"
 msgid "Product and Visual Design"
 msgstr ""
 
-#: patterns/section-about-1.php:49
+#: patterns/section/section-about-1.php:49
 msgctxt "Skills block item title"
 msgid "Prototyping and User Research"
 msgstr ""
 
-#: patterns/section-about-1.php:37
+#: patterns/section/section-about-1.php:37
 msgctxt "Skills block title"
 msgid "Our Super Powers"
 msgstr ""
 
-#: patterns/section-team-1.php:27
+#: patterns/section/section-team-1.php:27
 msgctxt "Team section text"
 msgid ""
 "We’re a tight-knit crew of designers, developers, and strategists united by "
 "a passion for building things that matter."
 msgstr ""
 
-#: patterns/section-team-1.php:21
+#: patterns/section/section-team-1.php:21
 msgctxt "Team section title"
 msgid "[ Our Team ]"
 msgstr ""
 
-#: patterns/page-contact-1.php:47
+#: patterns/page/page-contact-1.php:47
 msgid "tel:44209555014"
 msgstr ""
 
-#: patterns/section-testimonials-1.php:181
+#: patterns/section/section-testimonials-1.php:181
 msgctxt "Testimonials item author"
 msgid "Chloe Adams"
 msgstr ""
 
-#: patterns/section-testimonials-1.php:83
+#: patterns/section/section-testimonials-1.php:83
 msgctxt "Testimonials item author"
 msgid "Daniel Foster"
 msgstr ""
 
-#: patterns/section-testimonials-1.php:147
+#: patterns/section/section-testimonials-1.php:147
 msgctxt "Testimonials item author"
 msgid "Lucas Turner"
 msgstr ""
 
-#: patterns/section-testimonials-1.php:113
+#: patterns/section/section-testimonials-1.php:113
 msgctxt "Testimonials item author"
 msgid "Maya Rodriguez"
 msgstr ""
 
-#: patterns/section-testimonials-1.php:49
+#: patterns/section/section-testimonials-1.php:49
 msgctxt "Testimonials item author"
 msgid "Olivia Bennett"
 msgstr ""
 
-#: patterns/section-testimonials-1.php:87
+#: patterns/section/section-testimonials-1.php:87
 msgctxt "Testimonials item company"
 msgid "Apex Digital"
 msgstr ""
 
-#: patterns/section-testimonials-1.php:117
+#: patterns/section/section-testimonials-1.php:117
 msgctxt "Testimonials item company"
 msgid "Brightline Agency"
 msgstr ""
 
-#: patterns/section-testimonials-1.php:53
+#: patterns/section/section-testimonials-1.php:53
 msgctxt "Testimonials item company"
 msgid "Horizon Studio"
 msgstr ""
 
-#: patterns/section-testimonials-1.php:151
+#: patterns/section/section-testimonials-1.php:151
 msgctxt "Testimonials item company"
 msgid "Nova Works"
 msgstr ""
 
-#: patterns/section-testimonials-1.php:185
+#: patterns/section/section-testimonials-1.php:185
 msgctxt "Testimonials item company"
 msgid "Skyline Creative"
 msgstr ""
 
-#: patterns/section-testimonials-1.php:75
+#: patterns/section/section-testimonials-1.php:75
 msgctxt "Testimonials item text"
 msgid ""
 "Communication was smooth from start to finish. They quickly understood our "
 "goals and turned them into a clean, modern website."
 msgstr ""
 
-#: patterns/section-testimonials-1.php:41
+#: patterns/section/section-testimonials-1.php:41
 msgctxt "Testimonials item text"
 msgid ""
 "The agency guided us through the redesign with clarity and confidence. The "
 "final website strengthened our brand and noticeably improved user engagement."
 msgstr ""
 
-#: patterns/section-testimonials-1.php:173
+#: patterns/section/section-testimonials-1.php:173
 msgctxt "Testimonials item text"
 msgid ""
 "The team injected new energy into our brand with a bold and purposeful "
 "design. Collaboration was easy and productive throughout."
 msgstr ""
 
-#: patterns/section-testimonials-1.php:105
+#: patterns/section/section-testimonials-1.php:105
 msgctxt "Testimonials item text"
 msgid ""
 "Their attention to detail truly stood out. The team delivered a polished, "
 "high-performance site that exceeded our expectations."
 msgstr ""
 
-#: patterns/section-testimonials-1.php:139
+#: patterns/section/section-testimonials-1.php:139
 msgctxt "Testimonials item text"
 msgid ""
 "We appreciated their creative approach and technical skill. The result feels "
 "authentic to our brand and was delivered right on time."
 msgstr ""
 
-#: patterns/section-testimonials-1.php:21
+#: patterns/section/section-testimonials-1.php:21
 msgctxt "Testimonials section title"
 msgid "Testimonials"
 msgstr ""
@@ -2388,43 +2428,43 @@ msgstr ""
 msgid "VS Meta Description"
 msgstr ""
 
-#: patterns/hidden-sidebar.php:35
+#: patterns/hidden/hidden-sidebar.php:35
 msgctxt "Widget title"
 msgid "Categories"
 msgstr ""
 
-#: patterns/hidden-sidebar.php:65
+#: patterns/hidden/hidden-sidebar.php:65
 msgctxt "Widget title"
 msgid "Latest Comments"
 msgstr ""
 
-#: patterns/hidden-sidebar.php:45
+#: patterns/hidden/hidden-sidebar.php:45
 msgctxt "Widget title"
 msgid "Latest Posts"
 msgstr ""
 
-#: patterns/hidden-sidebar.php:55
+#: patterns/hidden/hidden-sidebar.php:55
 msgctxt "Widget title"
 msgid "Tags"
 msgstr ""
 
-#: patterns/page-contact-1.php:83
+#: patterns/page/page-contact-1.php:83
 msgctxt "Working hours block title"
 msgid "Working Hours"
 msgstr ""
 
-#: patterns/page-contact-1.php:89
+#: patterns/page/page-contact-1.php:89
 msgctxt "Working hours text"
 msgid "Mon–Sat: 9am to 5pm"
 msgstr ""
 
-#: patterns/page-contact-1.php:93
+#: patterns/page/page-contact-1.php:93
 msgctxt "Working hours text"
 msgid "Sunday – Closed"
 msgstr ""
 
 #. Copyright text.
-#: patterns/footer-links.php:21
+#: patterns/footer/footer-links.php:21
 #, php-format
 msgid "© 2026, %s"
 msgstr ""
