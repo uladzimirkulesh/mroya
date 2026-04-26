@@ -3,8 +3,6 @@ const defaultConfig = require( '@wordpress/scripts/config/webpack.config' );
 
 // Plugins.
 const RemoveEmptyScriptsPlugin = require( 'webpack-remove-empty-scripts' );
-const { CleanWebpackPlugin } = require( 'clean-webpack-plugin' );
-const CopyPlugin = require( 'copy-webpack-plugin' );
 const BrowserSyncPlugin = require( 'browser-sync-webpack-plugin' )
 
 // Utilities.
@@ -29,36 +27,6 @@ module.exports = {
 			// sets it after WP has generated its `*.asset.php` file.
 			new RemoveEmptyScriptsPlugin( {
 				stage: RemoveEmptyScriptsPlugin.STAGE_AFTER_PROCESS_PLUGINS
-			} ),
-
-			new CleanWebpackPlugin( {
-				cleanOnceBeforeBuildPatterns: [
-					path.join( process.cwd(), 'assets/images/*' ),
-					path.join( process.cwd(), 'assets/fonts/*' ),
-				],
-				verbose: true,
-				dry: false,
-			} ),
-
-			new CopyPlugin( {
-				patterns: [
-					{
-						from: path.resolve( 'src/images' ),
-						to: path.resolve( 'assets/images' ),
-						toType: 'dir',
-						globOptions: {
-							ignore: [ '*.DS_Store', 'Thumbs.db' ],
-						},
-					},
-					{
-						from: path.resolve( 'src/fonts' ),
-						to: path.resolve( 'assets/fonts' ),
-						toType: 'dir',
-						globOptions: {
-							ignore: [ '*.DS_Store', 'Thumbs.db' ],
-						},
-					},
-				],
 			} ),
 
 			new BrowserSyncPlugin(
