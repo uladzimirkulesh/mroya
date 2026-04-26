@@ -38,7 +38,7 @@
 					<!-- /wp:image -->
 
 					<!-- wp:paragraph {"className":"testimonials__text","style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"fontSize":"medium"} -->
-					<p class="testimonials__text has-medium-font-size" style="font-style:normal;font-weight:500"><?php echo esc_html_x( 'The agency guided us through the redesign with clarity and confidence. The final website strengthened our brand and noticeably improved user engagement.', 'Testimonials item text', 'mroya' ); ?></p>
+					<p class="testimonials__text has-medium-font-size" style="font-style:normal;font-weight:500"><?php echo esc_html_x( 'The studio guided us through the redesign with clarity and confidence. The final website strengthened our brand and noticeably improved user engagement.', 'Testimonials item text', 'mroya' ); ?></p>
 					<!-- /wp:paragraph -->
 				</div>
 				<!-- /wp:group -->

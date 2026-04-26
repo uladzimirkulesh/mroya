@@ -13,7 +13,7 @@
 				"base": "#0a0a0a",
 				"contrast": "#ffffff",
 				"contrast-2": "color-mix(in srgb, #ffffff 75%, transparent)",
-				"contrast-3": "color-mix(in srgb, #ffffff 40%, transparent)",
+				"contrast-3": "color-mix(in srgb, #ffffff 45%, transparent)",
 				"contrast-4": "color-mix(in srgb, #ffffff 15%, transparent)",
 				"contrast-5": "color-mix(in srgb, #ffffff 3%, transparent)"
 			},
@@ -72,7 +72,7 @@
 					"slug": "contrast-2"
 				},
 				{
-					"color": "color-mix(in srgb, #0a0a0a 50%, transparent)",
+					"color": "color-mix(in srgb, #0a0a0a 57%, transparent)",
 					"name": "Contrast / Three",
 					"slug": "contrast-3"
 				},

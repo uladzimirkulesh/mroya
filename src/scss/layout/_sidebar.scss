@@ -163,6 +163,10 @@ Sidebar opener
 		mask-repeat: no-repeat;
 		mask-size: cover;
 	}
+
+	.has-modal-open & {
+		visibility: hidden;
+	}
 }
 
 /*
