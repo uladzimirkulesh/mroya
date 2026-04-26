@@ -13,7 +13,7 @@
 				"base": "#0a0a0a",
 				"contrast": "#ffffff",
 				"contrast-2": "color-mix(in srgb, #ffffff 75%, transparent)",
-				"contrast-3": "color-mix(in srgb, #ffffff 45%, transparent)",
+				"contrast-3": "color-mix(in srgb, #ffffff 47%, transparent)",
 				"contrast-4": "color-mix(in srgb, #ffffff 15%, transparent)",
 				"contrast-5": "color-mix(in srgb, #ffffff 3%, transparent)"
 			},

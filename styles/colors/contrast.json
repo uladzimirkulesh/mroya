@@ -36,7 +36,7 @@
 					"slug": "contrast-2"
 				},
 				{
-					"color": "color-mix(in srgb, #ffffff 45%, transparent)",
+					"color": "color-mix(in srgb, #ffffff 47%, transparent)",
 					"name": "Contrast / Three",
 					"slug": "contrast-3"
 				},
