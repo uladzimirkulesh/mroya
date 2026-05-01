@@ -28,7 +28,7 @@ The Hero Pattern (style 2) displays your current local time in its bottom-right 
 Mroya WordPress Theme, Copyright 2026 Uladzimir Kulesh.
 Mroya is distributed under the terms of the GNU General Public License v2 or later.
 
-Images used in screenshot.png and placeholder.webp - an images by Uladzimir Kulesh (https://uladzimirkulesh.com/), licensed under Creative Commons Zero https://creativecommons.org/publicdomain/zero/1.0/
+Images used in screenshot.png and placeholder.webp - an images by Uladzimir Kulesh (https://mroya.eu/), licensed under Creative Commons Zero https://creativecommons.org/publicdomain/zero/1.0/
 
 == Credits ==
 

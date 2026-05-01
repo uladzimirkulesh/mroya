@@ -19,8 +19,6 @@
   "devDependencies": {
     "@wordpress/scripts": "^31.6.0",
     "browser-sync-webpack-plugin": "^2.4.0",
-    "clean-webpack-plugin": "^4.0.0",
-    "copy-webpack-plugin": "^14.0.0",
     "path": "^0.12.7",
     "webpack-remove-empty-scripts": "^1.1.1"
   }
