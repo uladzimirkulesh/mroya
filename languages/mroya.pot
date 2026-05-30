@@ -3,7 +3,7 @@
 msgstr ""
 "Project-Id-Version: Mroya\n"
 "Report-Msgid-Bugs-To: https://mroya.eu\n"
-"POT-Creation-Date: 2026-04-26 12:19+0000\n"
+"POT-Creation-Date: 2026-05-30 20:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Uladzimir Kulesh <hello@mroya.eu>\n"
 "Language-Team: Uladzimir Kulesh <hello@mroya.eu>\n"
@@ -1318,11 +1318,6 @@ msgctxt "Name for the Team section pattern"
 msgid "Team (style 1)"
 msgstr ""
 
-#: patterns/section/section-testimonials-1.php:16
-msgctxt "Name for the Team section pattern"
-msgid "Testimonials (style 1)"
-msgstr ""
-
 #: patterns/section/section-testimonials-1.php:28
 msgctxt "Name for the testimonials area"
 msgid "Testimonials"
@@ -1342,6 +1337,11 @@ msgstr ""
 #: patterns/section/section-testimonials-1.php:158
 msgctxt "Name for the testimonials item area"
 msgid "Item (empty)"
+msgstr ""
+
+#: patterns/section/section-testimonials-1.php:16
+msgctxt "Name for the Testimonials section pattern"
+msgid "Testimonials (style 1)"
 msgstr ""
 
 #: patterns/page/page-contact-1.php:80
