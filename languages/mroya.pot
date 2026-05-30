@@ -1,5 +1,6 @@
 # Copyright (C) 2026 Uladzimir Kulesh
-# This file is distributed under the same license as the Mroya package.msgid ""
+# This file is distributed under the same license as the Mroya package.
+msgid ""
 msgstr ""
 "Project-Id-Version: Mroya\n"
 "Report-Msgid-Bugs-To: https://mroya.eu\n"
