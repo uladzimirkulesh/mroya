@@ -13,7 +13,7 @@
  */
 
 ?>
-<!-- wp:group {"tagName":"section","metadata":{"name":"<?php echo esc_html_x( 'Testimonials (style 1)', 'Name for the Team section pattern', 'mroya' ); ?>"},"align":"full","className":"is-style-section-contrast section section--testimonials-1","style":{"spacing":{"padding":{"top":"var:preset|spacing|20","bottom":"var:preset|spacing|30"},"margin":{"top":"0"},"blockGap":"2rem"}},"layout":{"type":"constrained"}} -->
+<!-- wp:group {"tagName":"section","metadata":{"name":"<?php echo esc_html_x( 'Testimonials (style 1)', 'Name for the Testimonials section pattern', 'mroya' ); ?>"},"align":"full","className":"is-style-section-contrast section section--testimonials-1","style":{"spacing":{"padding":{"top":"var:preset|spacing|20","bottom":"var:preset|spacing|30"},"margin":{"top":"0"},"blockGap":"2rem"}},"layout":{"type":"constrained"}} -->
 <section class="wp-block-group alignfull is-style-section-contrast section section--testimonials-1" id="section-testimonials-1" style="margin-top:0;padding-top:var(--wp--preset--spacing--20);padding-bottom:var(--wp--preset--spacing--30)">
 	<!-- wp:group {"tagName":"header","metadata":{"name":"<?php echo esc_html_x( 'Header', 'Name for the section header area', 'mroya' ); ?>"},"align":"wide","className":"section__header","layout":{"type":"default"}} -->
 	<header class="wp-block-group alignwide section__header">
