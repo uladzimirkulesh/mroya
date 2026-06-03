@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mroya\n"
 "Report-Msgid-Bugs-To: https://mroya.eu\n"
-"POT-Creation-Date: 2026-05-30 20:53+0000\n"
+"POT-Creation-Date: 2026-06-03 16:41+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Uladzimir Kulesh <hello@mroya.eu>\n"
 "Language-Team: Uladzimir Kulesh <hello@mroya.eu>\n"
@@ -1035,8 +1035,8 @@ msgstr ""
 #: patterns/template/template-archive-posts-1.php:16
 #: patterns/template/template-page.php:16
 #: patterns/template/template-home-blog.php:16
+#: patterns/template/template-home-studio.php:13
 #: patterns/template/template-project.php:16
-#: patterns/template/template-home-agency.php:13
 #: patterns/template/template-taxonomy-projects-1.php:16
 #: patterns/template/template-archive-projects-1.php:16
 #: patterns/template/template-search-1.php:16
@@ -1367,21 +1367,9 @@ msgctxt "Pattern description"
 msgid "A default footer section."
 msgstr ""
 
-#: patterns/page/page-about-1.php:2
+#: patterns/page/page-home-studio.php:2
 msgctxt "Pattern description"
-msgid ""
-"Agency about page with hero section, about section, awards section, awards "
-"section, team section, clients section, and contact section."
-msgstr ""
-
-#: patterns/page/page-contact-1.php:2
-msgctxt "Pattern description"
-msgid "Agency contact page with contact text, blocks and form."
-msgstr ""
-
-#: patterns/page/page-home-agency.php:2
-msgctxt "Pattern description"
-msgid "An agency homepage pattern."
+msgid "A studio homepage pattern."
 msgstr ""
 
 #: patterns/header/header-fixed.php:2
@@ -1576,6 +1564,18 @@ msgid "Project page, contains project information and gallery."
 msgstr ""
 
 #: patterns/page/page-about-1.php:2
+msgctxt "Pattern description"
+msgid ""
+"Studio about page with hero section, about section, awards section, awards "
+"section, team section, clients section, and contact section."
+msgstr ""
+
+#: patterns/page/page-contact-1.php:2
+msgctxt "Pattern description"
+msgid "Studio contact page with contact text, blocks and form."
+msgstr ""
+
+#: patterns/page/page-about-1.php:2
 msgctxt "Pattern title"
 msgid "About page (style 1)"
 msgstr ""
@@ -1593,16 +1593,6 @@ msgstr ""
 #: patterns/accordion/accordion-2.php:2
 msgctxt "Pattern title"
 msgid "Accordion (style 2)"
-msgstr ""
-
-#: patterns/page/page-home-agency.php:2
-msgctxt "Pattern title"
-msgid "Agency home page"
-msgstr ""
-
-#: patterns/template/template-home-agency.php:2
-msgctxt "Pattern title"
-msgid "Agency home template"
 msgstr ""
 
 #: patterns/page-header/page-header-archive-1.php:2
@@ -1878,6 +1868,16 @@ msgstr ""
 #: patterns/template/template-single.php:2
 msgctxt "Pattern title"
 msgid "Single posts with featured image"
+msgstr ""
+
+#: patterns/page/page-home-studio.php:2
+msgctxt "Pattern title"
+msgid "Studio home page"
+msgstr ""
+
+#: patterns/template/template-home-studio.php:2
+msgctxt "Pattern title"
+msgid "Studio home template"
 msgstr ""
 
 #: patterns/section/section-team-1.php:2

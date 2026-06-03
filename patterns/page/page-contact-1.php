@@ -3,10 +3,10 @@
  * Title: Contact page (style 1)
  * Slug: mroya/page-contact-1
  * Categories: mroya_pages
- * Keywords: agency, contact, starter
+ * Keywords: studio, contact, starter
  * Block Types: core/post-content
  * Post Types: page
- * Description: Agency contact page with contact text, blocks and form.
+ * Description: Studio contact page with contact text, blocks and form.
  * Viewport width: 1440
  */
 

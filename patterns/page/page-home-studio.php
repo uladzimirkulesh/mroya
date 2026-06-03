@@ -1,12 +1,12 @@
 <?php
 /**
- * Title: Agency home page
- * Slug: mroya/page-home-agency
+ * Title: Studio home page
+ * Slug: mroya/page-home-studio
  * Categories: mroya_pages, featured
- * Keywords: agency, home, starter
+ * Keywords: studio, home, starter
  * Block Types: core/post-content
  * Post Types: page, wp_template
- * Description: An agency homepage pattern.
+ * Description: A studio homepage pattern.
  * Viewport width: 1440
  */
 

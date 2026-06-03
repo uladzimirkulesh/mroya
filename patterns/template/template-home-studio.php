@@ -1,7 +1,7 @@
 <?php
 /**
- * Title: Agency home template
- * Slug: mroya/template-home-agency
+ * Title: Studio home template
+ * Slug: mroya/template-home-studio
  * Template Types: front-page, index, home
  * Viewport width: 1440
  * Inserter: no
@@ -12,7 +12,7 @@
 
 <!-- wp:group {"tagName":"main","metadata":{"name":"<?php echo esc_html_x( 'Main', 'Name for the Main part', 'mroya' ); ?>"},"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"constrained"}} -->
 <main class="wp-block-group">
-	<!-- wp:pattern {"slug":"mroya/page-home-agency"} /-->
+	<!-- wp:pattern {"slug":"mroya/page-home-studio"} /-->
 </main>
 <!-- /wp:group -->
 

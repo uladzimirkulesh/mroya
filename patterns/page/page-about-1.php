@@ -3,10 +3,10 @@
  * Title: About page (style 1)
  * Slug: mroya/page-about-1
  * Categories: mroya_pages
- * Keywords: agency, about, starter
+ * Keywords: studio, about, starter
  * Block Types: core/post-content
  * Post Types: page
- * Description: Agency about page with hero section, about section, awards section, awards section, team section, clients section, and contact section.
+ * Description: Studio about page with hero section, about section, awards section, awards section, team section, clients section, and contact section.
  * Viewport width: 1440
  */
 
