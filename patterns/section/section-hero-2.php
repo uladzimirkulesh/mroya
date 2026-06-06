@@ -24,7 +24,7 @@
 				<!-- wp:group {"metadata":{"name":"<?php echo esc_html_x( 'Block', 'Name for the section block area', 'mroya' ); ?>"},"className":"section__block","style":{"spacing":{"blockGap":"1rem"}},"layout":{"type":"default"}} -->
 				<div class="wp-block-group section__block">
 					<!-- wp:heading {"level":1,"className":"is-style-text-giant"} -->
-					<h1 class="wp-block-heading is-style-text-giant"><?php echo wp_kses_post( _x( 'Mroya<br>+ Studio<span class="dot">.</span><span class="dot">.</span><span class="dot">.</span>', 'Hero section title', 'mroya' ) ); ?></h1>
+					<h1 class="wp-block-heading is-style-text-giant"><?php echo wp_kses_post( _x( 'Mroya<br>Creative<span class="dot">.</span><span class="dot">.</span><span class="dot">.</span>', 'Hero section title', 'mroya' ) ); ?></h1>
 					<!-- /wp:heading -->
 
 					<!-- wp:group {"layout":{"type":"constrained","contentSize":"640px","wideSize":"100%","justifyContent":"left"}} -->

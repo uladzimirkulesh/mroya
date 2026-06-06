@@ -1,2 +1,2 @@
-1.0.0: Jun 03, 2026
+1.0.0: Jun 06, 2026
 - New: First release.

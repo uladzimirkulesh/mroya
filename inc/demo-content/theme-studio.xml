@@ -26,7 +26,7 @@
 >
 
 <channel>
-	<title>Mroya + S</title>
+	<title>Mroya Std.</title>
 	<link>https://theme.mroya.eu</link>
 	<description>WordPress Theme for Freelancers and Agencies</description>
 	<pubDate>Tue, 28 Apr 2026 17:19:17 +0000</pubDate>
@@ -159,7 +159,7 @@
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
 		<wp:term_name><![CDATA[Development]]></wp:term_name>
 	</wp:term>
-		
+
 	<generator>https://wordpress.org/?v=6.9.4</generator>
 
 		<item>
@@ -925,7 +925,7 @@
 <div class="wp-block-group alignwide section__content"><!-- wp:group {"align":"wide","layout":{"type":"grid","columnCount":2,"minimumColumnWidth":null}} -->
 <div class="wp-block-group alignwide"><!-- wp:group {"metadata":{"name":"Block"},"className":"section__block","style":{"spacing":{"blockGap":"1rem"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group section__block"><!-- wp:heading {"level":1,"className":"is-style-text-giant"} -->
-<h1 class="wp-block-heading is-style-text-giant">Mroya<br>+ Studio<span class="dot">.</span><span class="dot">.</span><span class="dot">.</span></h1>
+<h1 class="wp-block-heading is-style-text-giant">Mroya<br>Creative<span class="dot">.</span><span class="dot">.</span><span class="dot">.</span></h1>
 <!-- /wp:heading -->
 
 <!-- wp:group {"layout":{"type":"constrained","contentSize":"640px","wideSize":"100%","justifyContent":"left"}} -->
@@ -4347,7 +4347,7 @@ Subject: [your-subject]
 Message Body:
 [your-message]
 
--- 
+--
 This is a notification that a contact form was submitted on your website ([_site_title] [_site_url]).
 Reply-To: [your-email]
 
@@ -4360,7 +4360,7 @@ Reply-To: [your-email]
 Message Body:
 [your-message]
 
--- 
+--
 This email is a receipt for your contact form submission on our website ([_site_title] [_site_url]) in which your email address was used. If that was not you, please ignore this message.
 Reply-To: [_site_admin_email]
 
@@ -4425,7 +4425,7 @@ Subject: [your-subject]
 Message Body:
 [your-message]
 
--- 
+--
 This is a notification that a contact form was submitted on your website ([_site_title] [_site_url]).";s:18:"additional_headers";s:22:"Reply-To: [your-email]";s:11:"attachments";s:0:"";s:8:"use_html";b:1;s:13:"exclude_blank";b:1;}]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
@@ -4433,7 +4433,7 @@ This is a notification that a contact form was submitted on your website ([_site
 		<wp:meta_value><![CDATA[a:9:{s:6:"active";b:0;s:7:"subject";s:30:"[_site_title] "[your-subject]"";s:6:"sender";s:40:"[_site_title] <wordpress@theme.mroya.eu>";s:9:"recipient";s:12:"[your-email]";s:4:"body";s:220:"Message Body:
 [your-message]
 
--- 
+--
 This email is a receipt for your contact form submission on our website ([_site_title] [_site_url]) in which your email address was used. If that was not you, please ignore this message.";s:18:"additional_headers";s:29:"Reply-To: [_site_admin_email]";s:11:"attachments";s:0:"";s:8:"use_html";b:1;s:13:"exclude_blank";b:1;}]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
@@ -5776,4 +5776,3 @@ This email is a receipt for your contact form submission on our website ([_site_
 							</item>
 				</channel>
 </rss>
-	
