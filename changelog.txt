@@ -1,2 +1,6 @@
-1.0.0: Jun 23, 2026
+1.0.1: Jun 23, 2026
+- Fix: License details for the TGM plugin activation code in the readme.txt file.
+- Fix: The original files, as well as the minified files, are included in the theme folder.
+
+1.0.0: Jun 06, 2026
 - New: First release.
