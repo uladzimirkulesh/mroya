@@ -34,11 +34,15 @@ if ( ! function_exists( 'mroya_assets' ) ) :
 	 * @return void
 	 */
 	function mroya_assets() {
+		$suffix    = SCRIPT_DEBUG ? '' : '.min';
+		$src       = 'style' . $suffix . '.css';
+		$screenCss = 'assets/css/screen' . $suffix . '.css';
+		$screenJs  = 'assets/js/screen' . $suffix . '.js';
 
 		// Enqueue main stylesheet.
 		wp_enqueue_style(
 			'mroya-style',
-			get_parent_theme_file_uri( 'style.css' ),
+			get_parent_theme_file_uri( $src ),
 			array(),
 			wp_get_theme()->get( 'Version' )
 		);
@@ -46,7 +50,7 @@ if ( ! function_exists( 'mroya_assets' ) ) :
 		// Enqueue screen stylesheets.
 		wp_enqueue_style(
 			'mroya-screen',
-			get_parent_theme_file_uri( 'assets/css/screen.css' ),
+			get_parent_theme_file_uri( $screenCss ),
 			array( 'mroya-style' ),
 			wp_get_theme()->get( 'Version' )
 		);
@@ -54,7 +58,7 @@ if ( ! function_exists( 'mroya_assets' ) ) :
 		// Enqueue screen scripts.
 		wp_enqueue_script(
 			'mroya-screen',
-			get_parent_theme_file_uri( 'assets/js/screen.js' ),
+			get_parent_theme_file_uri( $screenJs ),
 			array(
 				'jquery',
 				'wp-i18n'
@@ -78,10 +82,13 @@ if ( ! function_exists( 'mroya_editor_styles' ) ) :
 	 * @return void
 	 */
 	function mroya_editor_styles() {
+		$suffix    = SCRIPT_DEBUG ? '' : '.min';
+		$editorCss = 'assets/css/editor' . $suffix . '.css';
+		$screenCss = 'assets/css/screen' . $suffix . '.css';
 
 		// Enqueue styles.
-		add_editor_style( 'assets/css/editor.css' );
-		add_editor_style( 'assets/css/screen.css' );
+		add_editor_style( $editorCss );
+		add_editor_style( $screenCss );
 	}
 
 endif;

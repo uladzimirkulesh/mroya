@@ -33,8 +33,12 @@ Images used in screenshot.png and placeholder.webp - an images by Uladzimir Kule
 == Credits ==
 
 Material Design icons, Copyright Google
-License: Apache license version 2.0.
+License: Apache license version 2.0
 Source: https://material.io/tools/icons/
+
+TGM Plugin Activation, Copyright (c) 2011, Thomas Griffin
+License: GPL-2.0+
+Source: http://tgmpluginactivation.com/
 
 === Fonts ===
 

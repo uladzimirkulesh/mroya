@@ -3,77 +3,77 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Mroya\n"
-"Report-Msgid-Bugs-To: https://mroya.eu\n"
-"POT-Creation-Date: 2026-06-06 14:23+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-06-23 16:52+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Uladzimir Kulesh <hello@mroya.eu>\n"
-"Language-Team: Uladzimir Kulesh <hello@mroya.eu>\n"
-"Language: English\n"
+"Language-Team: English\n"
+"Language: \n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Loco https://localise.biz/\n"
-"X-Loco-Version: 2.8.3; wp-6.9.4; php-8.2.27\n"
+"X-Loco-Version: 2.8.5; wp-7.0; php-8.2.27\n"
 "X-Domain: mroya"
 
-#: functions.php:188
+#: functions.php:195
 msgid "A collection of about section patterns."
 msgstr ""
 
-#: functions.php:156
+#: functions.php:163
 msgid "A collection of archive header patterns."
 msgstr ""
 
-#: functions.php:236
+#: functions.php:243
 msgid "A collection of awards section patterns."
 msgstr ""
 
-#: functions.php:252
+#: functions.php:259
 msgid "A collection of clients section patterns."
 msgstr ""
 
-#: functions.php:196
+#: functions.php:203
 msgid "A collection of contact section patterns."
 msgstr ""
 
-#: functions.php:268
+#: functions.php:275
 msgid "A collection of cover section patterns."
 msgstr ""
 
-#: functions.php:164
+#: functions.php:171
 msgid "A collection of full page layouts."
 msgstr ""
 
-#: functions.php:180
+#: functions.php:187
 msgid "A collection of hero section patterns."
 msgstr ""
 
-#: functions.php:228
+#: functions.php:235
 msgid "A collection of mission section patterns."
 msgstr ""
 
-#: functions.php:172
+#: functions.php:179
 msgid "A collection of portfolio patterns."
 msgstr ""
 
-#: functions.php:212
+#: functions.php:219
 msgid "A collection of posts section patterns."
 msgstr ""
 
-#: functions.php:220
+#: functions.php:227
 msgid "A collection of projects section patterns."
 msgstr ""
 
-#: functions.php:204
+#: functions.php:211
 msgid "A collection of services section patterns."
 msgstr ""
 
-#: functions.php:244
+#: functions.php:251
 msgid "A collection of team section patterns."
 msgstr ""
 
-#: functions.php:260
+#: functions.php:267
 msgid "A collection of testimonials section patterns."
 msgstr ""
 
@@ -489,7 +489,7 @@ msgctxt "Error code for a webpage that is not found."
 msgid "Error 404"
 msgstr ""
 
-#: functions.php:133
+#: functions.php:140
 msgid "Header area for archive pages."
 msgstr ""
 
@@ -1350,15 +1350,15 @@ msgctxt "Name for the working hours block"
 msgid "Working hours block"
 msgstr ""
 
-#: functions.php:132
+#: functions.php:139
 msgid "Page header"
 msgstr ""
 
-#: functions.php:155
+#: functions.php:162
 msgid "Page headers"
 msgstr ""
 
-#: functions.php:163
+#: functions.php:170
 msgid "Pages"
 msgstr ""
 
@@ -1901,7 +1901,7 @@ msgctxt "Placeholder for search field"
 msgid "Search..."
 msgstr ""
 
-#: functions.php:171
+#: functions.php:178
 msgid "Portfolio"
 msgstr ""
 
@@ -1996,51 +1996,51 @@ msgstr ""
 msgid "Search"
 msgstr ""
 
-#: functions.php:187
+#: functions.php:194
 msgid "Sections (About)"
 msgstr ""
 
-#: functions.php:235
+#: functions.php:242
 msgid "Sections (Awards)"
 msgstr ""
 
-#: functions.php:251
+#: functions.php:258
 msgid "Sections (Clients)"
 msgstr ""
 
-#: functions.php:195
+#: functions.php:202
 msgid "Sections (Contact)"
 msgstr ""
 
-#: functions.php:267
+#: functions.php:274
 msgid "Sections (Cover)"
 msgstr ""
 
-#: functions.php:179
+#: functions.php:186
 msgid "Sections (Hero)"
 msgstr ""
 
-#: functions.php:227
+#: functions.php:234
 msgid "Sections (Mission)"
 msgstr ""
 
-#: functions.php:211
+#: functions.php:218
 msgid "Sections (Posts)"
 msgstr ""
 
-#: functions.php:219
+#: functions.php:226
 msgid "Sections (Projects)"
 msgstr ""
 
-#: functions.php:203
+#: functions.php:210
 msgid "Sections (Services)"
 msgstr ""
 
-#: functions.php:243
+#: functions.php:250
 msgid "Sections (Team)"
 msgstr ""
 
-#: functions.php:259
+#: functions.php:266
 msgid "Sections (Testimonials)"
 msgstr ""
 
@@ -2294,77 +2294,77 @@ msgctxt "Testimonials section title"
 msgid "Testimonials"
 msgstr ""
 
-#: inc/theme-info.php:79
+#: inc/theme-info.php:82
 msgctxt "Theme info column left title"
 msgid "Mroya Free"
 msgstr ""
 
-#: inc/theme-info.php:107
+#: inc/theme-info.php:110
 msgctxt "Theme info column left title"
 msgid "Plugin Features"
 msgstr ""
 
-#: inc/theme-info.php:83
+#: inc/theme-info.php:86
 msgctxt "Theme info column left title"
 msgid "Theme Features"
 msgstr ""
 
-#: inc/theme-info.php:103
+#: inc/theme-info.php:106
 msgctxt "Theme info column right title"
 msgid "Mroya Premium Plugin"
 msgstr ""
 
-#: inc/theme-info.php:98
+#: inc/theme-info.php:101
 msgctxt "Theme info page button text"
 msgid "Prebuild Demos"
 msgstr ""
 
-#: inc/theme-info.php:120
+#: inc/theme-info.php:123
 msgctxt "Theme info page button text"
 msgid "Purchase Now"
 msgstr ""
 
-#: inc/theme-info.php:122
+#: inc/theme-info.php:125
 msgctxt "Theme info page button text"
 msgid "Support"
 msgstr ""
 
-#: inc/theme-info.php:96
+#: inc/theme-info.php:99
 msgctxt "Theme info page button text"
 msgid "Theme Homepage"
 msgstr ""
 
-#: inc/theme-info.php:110
+#: inc/theme-info.php:113
 msgctxt "Theme info page text"
 msgid "Advanced GSAP-powered animations."
 msgstr ""
 
-#: inc/theme-info.php:88
+#: inc/theme-info.php:91
 msgctxt "Theme info page text"
 msgid "Carefully crafted block patterns."
 msgstr ""
 
-#: inc/theme-info.php:86
+#: inc/theme-info.php:89
 msgctxt "Theme info page text"
 msgid "Clean and minimal design."
 msgstr ""
 
-#: inc/theme-info.php:113
+#: inc/theme-info.php:116
 msgctxt "Theme info page text"
 msgid "Continuous updates and new features."
 msgstr ""
 
-#: inc/theme-info.php:112
+#: inc/theme-info.php:115
 msgctxt "Theme info page text"
 msgid "Enhanced UI components and transitions."
 msgstr ""
 
-#: inc/theme-info.php:87
+#: inc/theme-info.php:90
 msgctxt "Theme info page text"
 msgid "Full Site Editing (FSE)."
 msgstr ""
 
-#: inc/theme-info.php:81
+#: inc/theme-info.php:84
 msgctxt "Theme info page text"
 msgid ""
 "Mroya is a modern, versatile WordPress block theme designed for web "
@@ -2375,44 +2375,44 @@ msgid ""
 "websites with ease."
 msgstr ""
 
-#: inc/theme-info.php:105
+#: inc/theme-info.php:108
 msgctxt "Theme info page text"
 msgid ""
 "Mroya Premium Plugin unlocks the full potential of the theme with smooth, "
 "professional animations powered by GSAP and advanced UI enhancements."
 msgstr ""
 
-#: inc/theme-info.php:90
+#: inc/theme-info.php:93
 msgctxt "Theme info page text"
 msgid "Optimized for performance."
 msgstr ""
 
-#: inc/theme-info.php:114
+#: inc/theme-info.php:117
 msgctxt "Theme info page text"
 msgid "Priority email support."
 msgstr ""
 
-#: inc/theme-info.php:89
+#: inc/theme-info.php:92
 msgctxt "Theme info page text"
 msgid "Responsive and accessible layout."
 msgstr ""
 
-#: inc/theme-info.php:111
+#: inc/theme-info.php:114
 msgctxt "Theme info page text"
 msgid "Scroll-based and interactive effects."
 msgstr ""
 
-#: inc/theme-info.php:93
+#: inc/theme-info.php:96
 msgctxt "Theme info page text"
 msgid "Start building with Mroya — completely free!"
 msgstr ""
 
-#: inc/theme-info.php:117
+#: inc/theme-info.php:120
 msgctxt "Theme info page text"
 msgid "Upgrade to Premium and make your website unforgettable!"
 msgstr ""
 
-#: inc/theme-info.php:75
+#: inc/theme-info.php:78
 msgctxt "Theme info page title"
 msgid "Theme Information"
 msgstr ""

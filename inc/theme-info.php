@@ -31,10 +31,13 @@ if ( ! function_exists( 'mroya_theme_info_styles' ) ) {
 		$theme_version  = wp_get_theme()->get( 'Version' );
 		$version_string = is_string( $theme_version ) ? $theme_version : false;
 
+		$suffix    = SCRIPT_DEBUG ? '' : '.min';
+		$themeInfo = 'assets/css/theme-info' . $suffix . '.css';
+
 		// Register admin stylesheets.
 		wp_register_style(
 			'mroya-theme-info',
-			get_template_directory_uri() . '/assets/css/theme-info.css',
+			get_parent_theme_file_uri( $themeInfo ),
 			array(),
 			$version_string
 		);
