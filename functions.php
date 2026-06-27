@@ -32,41 +32,27 @@ if ( ! function_exists( 'mroya_assets' ) ) :
 	 * @return void
 	 */
 	function mroya_assets() {
-		$suffix    = SCRIPT_DEBUG ? '' : '.min';
-		$src       = 'style' . $suffix . '.css';
-		$screenCss = 'assets/css/screen' . $suffix . '.css';
-		$screenJs  = 'assets/js/screen' . $suffix . '.js';
+		$suffix = defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ? '' : '.min';
+		$srcCss = 'style' . $suffix . '.css';
+		$srcJs  = 'assets/js/screen' . $suffix . '.js';
 
 		// Enqueue main stylesheet.
 		wp_enqueue_style(
 			'mroya-style',
-			get_parent_theme_file_uri( $src ),
+			get_parent_theme_file_uri( $srcCss ),
 			array(),
 			wp_get_theme()->get( 'Version' )
 		);
 		wp_style_add_data(
 			'mroya-style',
 			'path',
-			get_parent_theme_file_path( $src )
-		);
-
-		// Enqueue screen stylesheets.
-		wp_enqueue_style(
-			'mroya-screen',
-			get_parent_theme_file_uri( $screenCss ),
-			array( 'mroya-style' ),
-			wp_get_theme()->get( 'Version' )
-		);
-		wp_style_add_data(
-			'mroya-screen',
-			'path',
-			get_parent_theme_file_path( $screenCss )
+			get_parent_theme_file_path( $srcCss )
 		);
 
 		// Enqueue screen scripts.
 		wp_enqueue_script(
 			'mroya-screen',
-			get_parent_theme_file_uri( $screenJs ),
+			get_parent_theme_file_uri( $srcJs ),
 			array(
 				'jquery',
 				'wp-i18n'
@@ -77,7 +63,7 @@ if ( ! function_exists( 'mroya_assets' ) ) :
 		wp_script_add_data(
 			'mroya-screen',
 			'path',
-			get_parent_theme_file_path( $screenJs )
+			get_parent_theme_file_path( $srcJs )
 		);
 
 		wp_set_script_translations( 'mroya-screen', 'mroya' );
@@ -94,7 +80,10 @@ if ( ! function_exists( 'mroya_editor_style' ) ) :
 	 * @return void
 	 */
 	function mroya_editor_style() {
-		add_editor_style( 'assets/css/editor.css' );
+		$suffix = defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ? '' : '.min';
+		$src    = 'editor' . $suffix . '.css';
+
+		add_editor_style( $src );
 	}
 endif;
 add_action( 'after_setup_theme', 'mroya_editor_style' );
@@ -103,15 +92,17 @@ if ( ! function_exists( 'mroya_editor_assets' ) ) :
 	/**
 	 * Enqueue scripts in the editors.
 	 *
-	 * @since Mroya 1.0.0
+	 * @since Mroya 2.0.0
 	 *
 	 * @return void
 	 */
 	function mroya_editor_assets() {
-		// Enqueue editor scripts.
+		$suffix = defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ? '' : '.min';
+		$src    = 'editor' . $suffix . '.js';
+
 		wp_enqueue_script(
 			'mroya-editor',
-			get_theme_file_uri( 'assets/js/editor.js' ),
+			get_theme_file_uri( $src ),
 			array(
 				'wp-blocks',
 				'wp-dom-ready',

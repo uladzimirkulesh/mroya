@@ -1,0 +1,23 @@
+=== Contributing to Mroya ===
+
+= Minifying CSS and JS =
+
+Mroya has a stylesheet and js files which is enqueued in addition to the global styles and scripts coming from core. On a normal production site, when `SCRIPT_DEBUG` is disabled, then the minified versions of files will be enqueued instead. If you make a change to `src/scss/*.scss` or `src/js/*.js`, you'll need to re-minify files using the built-in npm build tool. As always, it is preferable to use the Site Editor to supply Additional CSS instead of directly editing the theme stylesheet.
+
+Installation instructions
+
+1. Ensure you have the following tools installed:
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/) (comes with Node.js)
+
+2. Download or clone this repository: https://github.com/uladzimirkulesh/mroya. You'll want to add it to your local WordPress `wp-content/themes/` directory.
+
+3. Type `npm install` into the command line, and press the [return] key, to install all Node.js dependencies.
+
+4. The dependencies may take a few minutes to download but once it completes, you’re done.
+
+Usage instructions
+
+1. After making a changes, run `npm run build` from within the theme directory to regenerate files with your new changes.
+
+2. You can also “watch” the theme directory for changes and re-minify the CSS and JS anytime a change occurs by running: `npm run watch`.

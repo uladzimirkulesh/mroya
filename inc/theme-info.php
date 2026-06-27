@@ -1,6 +1,9 @@
 <?php
 /**
  * Builds theme info page.
+ *
+ * @package Mroya
+ * @since Mroya 1.0.0
  */
 
 // Exit if accessed directly.
@@ -8,43 +11,40 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define('MROYA_THEME_URI','https://mroya.eu/portfolio/mroya');
-define('MROYA_THEME_URI_DEMOS','https://mroya.eu/portfolio/mroya/#demos');
-define('MROYA_THEME_URI_PURCHASE','https://mroya.eu/portfolio/mroya/#purchase');
-define('MROYA_THEME_URI_SUPPORT','https://mroya.eu/portfolio/mroya/#support');
+define('MROYA_URI',      'https://mroya.eu/portfolio/mroya');
+define('MROYA_DEMOS',    'https://mroya.eu/portfolio/mroya/#demos');
+define('MROYA_PURCHASE', 'https://mroya.eu/portfolio/mroya/#purchase');
+define('MROYA_SUPPORT',  'https://mroya.eu/portfolio/mroya/#support');
 
 if ( ! function_exists( 'mroya_theme_info_styles' ) ) {
 	/**
 	 * Enqueue theme info styles.
 	 *
-	 * @since Mroya 1.0.0
+	 * @since Mroya 2.0.0
 	 *
 	 * @return void
 	 */
 	function mroya_theme_info_styles( $hook ){
-
 		if ( 'appearance_page_mroya-theme-info' != $hook ) {
 			return;
 		}
 
-		$theme_version  = wp_get_theme()->get( 'Version' );
-		$version_string = is_string( $theme_version ) ? $theme_version : false;
+		$suffix = defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ? '' : '.min';
+		$src = 'assets/css/admin' . $suffix . '.css';
 
-		$suffix    = SCRIPT_DEBUG ? '' : '.min';
-		$themeInfo = 'assets/css/theme-info' . $suffix . '.css';
-
-		// Register admin stylesheets.
-		wp_register_style(
+		// Enqueue admin stylesheet.
+		wp_enqueue_style(
 			'mroya-theme-info',
-			get_parent_theme_file_uri( $themeInfo ),
+			get_parent_theme_file_uri( $src ),
 			array(),
-			$version_string
+			wp_get_theme()->get( 'Version' )
 		);
-
-		// Enqueue admin stylesheets.
-		wp_enqueue_style( 'mroya-theme-info' );
+		wp_style_add_data(
+			'mroya-theme-info',
+			'path',
+			get_parent_theme_file_path( $src )
+		);
 	}
-
 }
 add_action( 'admin_enqueue_scripts', 'mroya_theme_info_styles');
 
@@ -59,7 +59,6 @@ if ( ! function_exists( 'mroya_create_admin_menu_item' ) ) {
 	function mroya_create_admin_menu_item() {
 		add_theme_page( 'Mroya Theme Info', 'Mroya Theme Info', 'edit_theme_options', 'mroya-theme-info', 'mroya_theme_info_page' );
 	}
-
 }
 add_action( 'admin_menu', 'mroya_create_admin_menu_item' );
 
@@ -95,9 +94,9 @@ if ( ! function_exists( 'mroya_theme_info_page' ) ) {
 					<p class="theme-description"><?php echo esc_html_x( 'Start building with Mroya — completely free!', 'Theme info page text', 'mroya' ); ?></p>
 
 					<p class="submit">
-						<a href="<?php echo esc_url( MROYA_THEME_URI ); ?>" class="button button-primary" target="_blank"><?php echo esc_html_x( 'Theme Homepage', 'Theme info page button text', 'mroya' ); ?></a>
+						<a href="<?php echo esc_url( MROYA_URI ); ?>" class="button button-primary" target="_blank"><?php echo esc_html_x( 'Theme Homepage', 'Theme info page button text', 'mroya' ); ?></a>
 
-						<a href="<?php echo esc_url( MROYA_THEME_URI_DEMOS ); ?>" class="button" target="_blank"><?php echo esc_html_x( 'Prebuild Demos', 'Theme info page button text', 'mroya' ); ?></a>
+						<a href="<?php echo esc_url( MROYA_DEMOS ); ?>" class="button" target="_blank"><?php echo esc_html_x( 'Prebuild Demos', 'Theme info page button text', 'mroya' ); ?></a>
 					</p>
 				</div>
 
@@ -119,9 +118,9 @@ if ( ! function_exists( 'mroya_theme_info_page' ) ) {
 					<p class="theme-description"><?php echo esc_html_x( 'Upgrade to Premium and make your website unforgettable!', 'Theme info page text', 'mroya' ); ?></p>
 
 					<p class="submit">
-						<a href="<?php echo esc_url( MROYA_THEME_URI_PURCHASE ); ?>" class="button button-primary" target="_blank"><?php echo esc_html_x( 'Purchase Now', 'Theme info page button text', 'mroya' ); ?></a>
+						<a href="<?php echo esc_url( MROYA_PURCHASE ); ?>" class="button button-primary" target="_blank"><?php echo esc_html_x( 'Purchase Now', 'Theme info page button text', 'mroya' ); ?></a>
 
-						<a href="<?php echo esc_url( MROYA_THEME_URI_SUPPORT ); ?>" class="button" target="_blank"><?php echo esc_html_x( 'Support', 'Theme info page button text', 'mroya' ); ?></a>
+						<a href="<?php echo esc_url( MROYA_SUPPORT ); ?>" class="button" target="_blank"><?php echo esc_html_x( 'Support', 'Theme info page button text', 'mroya' ); ?></a>
 					</p>
 				</div>
 			</div>

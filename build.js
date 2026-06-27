@@ -47,7 +47,7 @@ async function buildAll() {
       format: 'esm',
     }),
     buildPair({
-      entryPoints: ['src/scss/screen.scss', 'src/scss/editor.scss', 'src/scss/theme-info.scss'],
+      entryPoints: ['src/scss/editor.scss', 'src/scss/admin.scss'],
       outdir: 'assets/css',
     }),
     buildPair({

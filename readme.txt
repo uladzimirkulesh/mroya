@@ -19,10 +19,6 @@ Mroya is a modern, versatile WordPress block theme designed for web designers, d
 3. Click "Activate" to use your new theme right away.
 4. Navigate to "Appearance > Editor" in your admin panel and customize to taste.
 
-== Setting the time zone ==
-
-The Hero Pattern (style 2) displays your current local time in its bottom-right corner. For users from other countries, this time will be shown adjusted to their time zone. To set your time zone, after adding the pattern, click on the “Local time” label in its bottom-right corner and, in the editor’s right sidebar, specify your time zone in the “HTML Anchor” field. A list of time zones can be found on Wikipedia - https://en.wikipedia.org/wiki/List_of_tz_database_time_zones/.
-
 == Copyright ==
 
 Mroya WordPress Theme, Copyright 2026 Uladzimir Kulesh.
@@ -36,16 +32,8 @@ Material Design icons, Copyright Google
 License: Apache license version 2.0
 Source: https://material.io/tools/icons/
 
-TGM Plugin Activation, Copyright (c) 2011, Thomas Griffin
-License: GPL-2.0+
-Source: http://tgmpluginactivation.com/
-
 === Fonts ===
 
 Inter, Copyright 2016 Rasmus Andersson (RSMS), https://rsms.me/
 License: SIL Open Font License, Version 1.1, http://scripts.sil.org/OFL
 Source: https://rsms.me/inter/
-
-Azeret Mono, Copyright 2021 Indian Type Foundry
-License: SIL Open Font License, Version 1.1, http://scripts.sil.org/OFL
-Source: https://www.fontshare.com/
