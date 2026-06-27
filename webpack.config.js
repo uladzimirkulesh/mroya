@@ -39,7 +39,7 @@ module.exports = {
 					// proxy the Webpack Dev Server endpoint
 					// (which should be serving on http://wordpress.local/)
 					// through BrowserSync
-					proxy: 'http://wordpress.local/',
+					proxy: 'http://mroya.local/',
 
 					// Stop the browser from automatically opening
 					open: false,

@@ -4,76 +4,76 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mroya\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-23 16:52+0000\n"
+"POT-Creation-Date: 2026-06-27 10:32+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Uladzimir Kulesh <hello@mroya.eu>\n"
-"Language-Team: English\n"
-"Language: \n"
+"Language-Team: \n"
+"Language: English\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Loco https://localise.biz/\n"
-"X-Loco-Version: 2.8.5; wp-7.0; php-8.2.27\n"
+"X-Loco-Version: 2.8.5; wp-7.0; php-8.2.29\n"
 "X-Domain: mroya"
 
-#: functions.php:195
+#: functions.php:194
 msgid "A collection of about section patterns."
 msgstr ""
 
-#: functions.php:163
+#: functions.php:162
 msgid "A collection of archive header patterns."
 msgstr ""
 
-#: functions.php:243
+#: functions.php:242
 msgid "A collection of awards section patterns."
 msgstr ""
 
-#: functions.php:259
+#: functions.php:258
 msgid "A collection of clients section patterns."
 msgstr ""
 
-#: functions.php:203
+#: functions.php:202
 msgid "A collection of contact section patterns."
 msgstr ""
 
-#: functions.php:275
+#: functions.php:274
 msgid "A collection of cover section patterns."
 msgstr ""
 
-#: functions.php:171
+#: functions.php:170
 msgid "A collection of full page layouts."
 msgstr ""
 
-#: functions.php:187
+#: functions.php:186
 msgid "A collection of hero section patterns."
 msgstr ""
 
-#: functions.php:235
+#: functions.php:234
 msgid "A collection of mission section patterns."
 msgstr ""
 
-#: functions.php:179
+#: functions.php:178
 msgid "A collection of portfolio patterns."
 msgstr ""
 
-#: functions.php:219
+#: functions.php:218
 msgid "A collection of posts section patterns."
 msgstr ""
 
-#: functions.php:227
+#: functions.php:226
 msgid "A collection of projects section patterns."
 msgstr ""
 
-#: functions.php:211
+#: functions.php:210
 msgid "A collection of services section patterns."
 msgstr ""
 
-#: functions.php:251
+#: functions.php:250
 msgid "A collection of team section patterns."
 msgstr ""
 
-#: functions.php:267
+#: functions.php:266
 msgid "A collection of testimonials section patterns."
 msgstr ""
 
@@ -489,7 +489,7 @@ msgctxt "Error code for a webpage that is not found."
 msgid "Error 404"
 msgstr ""
 
-#: functions.php:140
+#: functions.php:139
 msgid "Header area for archive pages."
 msgstr ""
 
@@ -1350,15 +1350,15 @@ msgctxt "Name for the working hours block"
 msgid "Working hours block"
 msgstr ""
 
-#: functions.php:139
+#: functions.php:138
 msgid "Page header"
 msgstr ""
 
-#: functions.php:162
+#: functions.php:161
 msgid "Page headers"
 msgstr ""
 
-#: functions.php:170
+#: functions.php:169
 msgid "Pages"
 msgstr ""
 
@@ -1901,7 +1901,7 @@ msgctxt "Placeholder for search field"
 msgid "Search..."
 msgstr ""
 
-#: functions.php:178
+#: functions.php:177
 msgid "Portfolio"
 msgstr ""
 
@@ -1996,51 +1996,51 @@ msgstr ""
 msgid "Search"
 msgstr ""
 
-#: functions.php:194
+#: functions.php:193
 msgid "Sections (About)"
 msgstr ""
 
-#: functions.php:242
+#: functions.php:241
 msgid "Sections (Awards)"
 msgstr ""
 
-#: functions.php:258
+#: functions.php:257
 msgid "Sections (Clients)"
 msgstr ""
 
-#: functions.php:202
+#: functions.php:201
 msgid "Sections (Contact)"
 msgstr ""
 
-#: functions.php:274
+#: functions.php:273
 msgid "Sections (Cover)"
 msgstr ""
 
-#: functions.php:186
+#: functions.php:185
 msgid "Sections (Hero)"
 msgstr ""
 
-#: functions.php:234
+#: functions.php:233
 msgid "Sections (Mission)"
 msgstr ""
 
-#: functions.php:218
+#: functions.php:217
 msgid "Sections (Posts)"
 msgstr ""
 
-#: functions.php:226
+#: functions.php:225
 msgid "Sections (Projects)"
 msgstr ""
 
-#: functions.php:210
+#: functions.php:209
 msgid "Sections (Services)"
 msgstr ""
 
-#: functions.php:250
+#: functions.php:249
 msgid "Sections (Team)"
 msgstr ""
 
-#: functions.php:266
+#: functions.php:265
 msgid "Sections (Testimonials)"
 msgstr ""
 

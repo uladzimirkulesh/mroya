@@ -29,20 +29,19 @@ if ( ! function_exists( 'mroya_assets' ) ) :
 	/**
 	 * Enqueue styles and scripts.
 	 *
-	 * @since Mroya 1.0.0
+	 * @since Mroya 1.0.2
 	 *
 	 * @return void
 	 */
 	function mroya_assets() {
 		$suffix    = SCRIPT_DEBUG ? '' : '.min';
-		$src       = 'style' . $suffix . '.css';
 		$screenCss = 'assets/css/screen' . $suffix . '.css';
 		$screenJs  = 'assets/js/screen' . $suffix . '.js';
 
 		// Enqueue main stylesheet.
 		wp_enqueue_style(
 			'mroya-style',
-			get_parent_theme_file_uri( $src ),
+			get_parent_theme_file_uri( 'style.css' ),
 			array(),
 			wp_get_theme()->get( 'Version' )
 		);
