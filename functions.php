@@ -33,26 +33,24 @@ if ( ! function_exists( 'mroya_assets' ) ) :
 	 */
 	function mroya_assets() {
 		$suffix = defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ? '' : '.min';
-		$srcCss = 'style' . $suffix . '.css';
-		$srcJs  = 'assets/js/screen' . $suffix . '.js';
 
 		// Enqueue main stylesheet.
 		wp_enqueue_style(
 			'mroya-style',
-			get_parent_theme_file_uri( $srcCss ),
+			get_parent_theme_file_uri( 'style' . $suffix . '.css' ),
 			array(),
 			wp_get_theme()->get( 'Version' )
 		);
 		wp_style_add_data(
 			'mroya-style',
 			'path',
-			get_parent_theme_file_path( $srcCss )
+			get_parent_theme_file_path( 'style' . $suffix . '.css' )
 		);
 
 		// Enqueue screen scripts.
 		wp_enqueue_script(
 			'mroya-screen',
-			get_parent_theme_file_uri( $srcJs ),
+			get_parent_theme_file_uri( 'assets/js/screen' . $suffix . '.js' ),
 			array(
 				'jquery',
 				'wp-i18n'
@@ -63,7 +61,7 @@ if ( ! function_exists( 'mroya_assets' ) ) :
 		wp_script_add_data(
 			'mroya-screen',
 			'path',
-			get_parent_theme_file_path( $srcJs )
+			get_parent_theme_file_path( 'assets/js/screen' . $suffix . '.js' )
 		);
 
 		wp_set_script_translations( 'mroya-screen', 'mroya' );
@@ -81,9 +79,11 @@ if ( ! function_exists( 'mroya_editor_style' ) ) :
 	 */
 	function mroya_editor_style() {
 		$suffix = defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ? '' : '.min';
-		$src    = 'editor' . $suffix . '.css';
 
-		add_editor_style( $src );
+		add_editor_style( array(
+			'style' . $suffix . '.css',
+			'assets/css/editor' . $suffix . '.css',
+		) );
 	}
 endif;
 add_action( 'after_setup_theme', 'mroya_editor_style' );
@@ -98,11 +98,10 @@ if ( ! function_exists( 'mroya_editor_assets' ) ) :
 	 */
 	function mroya_editor_assets() {
 		$suffix = defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ? '' : '.min';
-		$src    = 'editor' . $suffix . '.js';
 
 		wp_enqueue_script(
 			'mroya-editor',
-			get_theme_file_uri( $src ),
+			get_theme_file_uri( 'editor' . $suffix . '.js' ),
 			array(
 				'wp-blocks',
 				'wp-dom-ready',
