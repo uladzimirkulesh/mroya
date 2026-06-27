@@ -1,0 +1,28 @@
+@use "../tools/mixins";
+
+/*-------------------------------------------------------
+Pullquote
+-------------------------------------------------------*/
+
+.wp-block-pullquote > blockquote {
+
+	@include mixins.media("break-small") {
+		margin-left: var(--wp--style--block-gap);
+		margin-right: var(--wp--style--block-gap);
+	}
+}
+
+/*
+Add additional margin to the quote block within post content.
+*/
+
+.wp-block-post-content {
+
+	:not(.wp-block-post-content) + .wp-block-pullquote:not([style*="margin-top"]) {
+		margin-block-start: calc(var(--wp--style--block-gap) * 2);
+	}
+
+	* + .wp-block-pullquote:not([style*="margin-bottom"]):not(:last-child) {
+		margin-block-end: calc(var(--wp--style--block-gap) * 2);
+	}
+}

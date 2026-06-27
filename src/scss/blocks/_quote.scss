@@ -1,0 +1,23 @@
+/*-------------------------------------------------------
+Quote
+-------------------------------------------------------*/
+
+:root :where(.wp-block-quote) {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*
+Add additional margin to the quote block within post content.
+*/
+
+.wp-block-post-content {
+
+	:not(.wp-block-post-content) + .wp-block-quote:not([style*="margin-top"]) {
+		margin-block-start: calc(var(--wp--style--block-gap) * 2);
+	}
+
+	* + .wp-block-quote:not([style*="margin-bottom"]):not(:last-child) {
+		margin-block-end: calc(var(--wp--style--block-gap) * 2);
+	}
+}

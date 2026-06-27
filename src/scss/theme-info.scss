@@ -1,0 +1,47 @@
+@use "./tools/mixins";
+
+/*-------------------------------------------------------
+Theme Info Page
+-------------------------------------------------------*/
+
+.mroya__wrap {
+
+	.columns {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: auto;
+		gap: 1.5rem;
+		margin-top: 1rem;
+
+		@include mixins.media("break-wide") {
+			grid-template-columns: 2fr 1fr;
+		}
+
+		.column {
+			padding: 1.5rem;
+			background-color: #ffffff;
+
+			@include mixins.media("break-medium") {
+				padding: 2.25rem;
+			}
+
+			ul {
+				list-style: disc;
+				padding-left: 1.125rem;
+			}
+
+			> * {
+
+				&:first-child {
+					margin-top: 0;
+					padding-top: 0;
+				}
+
+				&:last-child {
+					margin-bottom: 0;
+					padding-bottom: 0;
+				}
+			}
+		}
+	}
+}

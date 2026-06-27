@@ -1,0 +1,40 @@
+@use "sass:map";
+
+// Breakpoints
+$breakpoints: (
+	"break-mobile":	480px,
+	"break-small":	600px,
+	"break-medium":	782px,
+	"break-large":	960px,
+	"break-xlarge":	1080px,
+	"break-wide":	1200px,
+	"break-huge":	1440px,
+	"break-xhuge":	1920px,
+);
+
+@mixin media( $res, $type: min ) {
+
+	@if map.has-key($breakpoints, $res) {
+
+		$res: map.get($breakpoints, $res);
+
+		@if $type == max {
+			$res: $res - 1px;
+		}
+
+		@media only screen and (#{$type}-width: $res) {
+
+			@content;
+		}
+	} @else {
+
+		@if $type == max {
+			$res: $res - 1px;
+		}
+
+		@media only screen and (#{$type}-width: $res) {
+
+			@content;
+		}
+	}
+}

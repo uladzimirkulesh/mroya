@@ -1,0 +1,92 @@
+/*-------------------------------------------------------
+Pagination
+-------------------------------------------------------*/
+
+.wp-block-query-pagination {
+	gap: 0.5rem;
+
+	> .wp-block-query-pagination-next,
+	> .wp-block-query-pagination-previous {
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+
+	> .wp-block-query-pagination-next,
+	> .wp-block-query-pagination-numbers,
+	> .wp-block-query-pagination-previous {
+		margin: 0;
+	}
+
+	> .wp-block-query-pagination-numbers {
+		display: flex;
+		gap: 0.5rem;
+	}
+
+	.page-numbers {
+		display: inline-block;
+		min-width: 2.25rem;
+
+		&.current {
+			padding: 0.3125rem 0.875rem;
+
+			color: var(--wp--preset--color--base);
+			background-color: var(--wp--preset--color--contrast);
+			border: 1px solid var(--wp--preset--color--contrast);
+			border-radius: var(--wp--custom--border--radius);
+		}
+
+		&.dots {
+			padding: 0.3125rem 0.5rem;
+		}
+	}
+
+	// Arrows
+	.wp-block-query-pagination-previous-arrow {
+		margin-right: 0.75rem;
+
+		&:not(.is-arrow-chevron) {
+			position: relative;
+			top: -1px;
+		}
+	}
+
+	.wp-block-query-pagination-next-arrow {
+		margin-left: 0.75rem;
+
+		&:not(.is-arrow-chevron) {
+			top: -1px;
+			position: relative;
+		}
+	}
+}
+
+/*
+Animation for pagination arrows
+*/
+
+.wp-block-query-pagination-next .wp-block-query-pagination-next-arrow,
+.wp-block-query-pagination-previous .wp-block-query-pagination-previous-arrow {
+	transition: transform 0.25s ease-in-out;
+}
+
+.wp-block-query-pagination-previous {
+
+	&:hover,
+	&:focus {
+
+		.wp-block-query-pagination-previous-arrow {
+			transform: translateX(-0.25rem);
+		}
+	}
+}
+
+.wp-block-query-pagination-next {
+
+	&:hover,
+	&:focus {
+
+		.wp-block-query-pagination-next-arrow {
+			transform: translateX(0.25rem);
+		}
+	}
+}

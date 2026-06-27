@@ -1,0 +1,5 @@
+// src/js/editor.js
+wp.domReady(() => {
+  wp.blocks.unregisterBlockStyle("core/quote", "default");
+  wp.blocks.unregisterBlockStyle("core/quote", "plain");
+});

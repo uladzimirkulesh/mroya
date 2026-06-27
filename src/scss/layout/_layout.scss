@@ -1,0 +1,81 @@
+@use "../tools/mixins";
+
+/*-------------------------------------------------------
+Theme layout
+-------------------------------------------------------*/
+
+:root .is-root-container:not(.wp-block-post-content),
+:root .wp-site-blocks {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: auto 1fr auto;
+
+	position: relative;
+	padding-top: 0;
+	padding-bottom: 0;
+	overflow: clip;
+
+	> * {
+		grid-column: 1/-1;
+		margin-block-start: 0;
+	}
+
+	> .header,
+	> .footer {
+		z-index: 10000;
+	}
+
+	> .header {
+		grid-row: 1/2;
+	}
+
+	> main {
+		grid-row: 2/3;
+		align-content: center;
+	}
+
+	> .footer {
+		grid-row: 3/4;
+	}
+
+	// Change "main" position based on "header"
+	&:has(.header__inner) {
+
+		> main {
+			grid-row: 1/3;
+		}
+	}
+
+	// Change "main" position based on "footer"
+	&:has(.footer__inner) {
+
+		> main {
+			grid-row: 2/4;
+		}
+	}
+
+	// Change "main" position based on "header" and "footer"
+	&:has(.header__inner):has(.footer__inner) {
+
+		> main {
+			grid-row: 1/4;
+		}
+	}
+}
+
+:root .wp-site-blocks {
+	min-height: 100vh;
+	min-height: 100dvh;
+}
+
+:root .is-root-container:not(.wp-block-post-content):not(.wp-site-blocks) {
+
+	> main {
+		min-height: 100vh;
+		min-height: 100dvh;
+	}
+}
+
+body[data-sidebar="opened"] {
+	overflow: hidden;
+}

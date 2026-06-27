@@ -1,0 +1,32 @@
+@use "../tools/mixins";
+
+/*-------------------------------------------------------
+Footer
+-------------------------------------------------------*/
+
+/*
+Footer links section
+*/
+
+.footer__links {
+	row-gap: 0.25rem;
+
+	> * {
+		line-height: var(--wp--style--block-gap);
+	}
+
+	.footer__copyrights {
+
+		a {
+			text-underline-offset: 0.25em;
+			text-decoration-color: transparent;
+
+			&:hover,
+			&:focus,
+			&:active {
+				text-underline-offset: 0.15em;
+				text-decoration-color: currentColor;
+			}
+		}
+	}
+}

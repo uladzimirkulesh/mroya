@@ -1,0 +1,262 @@
+/*-------------------------------------------------------
+Button
+-------------------------------------------------------*/
+
+.wp-block-button {
+
+	.has-background {
+		border-color: transparent;
+	}
+}
+
+/*
+Style "Outline"
+*/
+
+.wp-block-button .wp-block-button__link.is-style-outline,
+.wp-block-button.is-style-outline > .wp-block-button__link {
+
+	&:not(.has-text-color):not(.has-background) {
+
+		&:hover,
+		&:focus,
+		&:active {
+			color: var(--wp--preset--color--base);
+			background-color: var(--wp--preset--color--contrast);
+		}
+	}
+
+	&.has-text-color {
+		border-color: currentColor;
+	}
+
+	&.has-background {
+		border-color: transparent;
+	}
+}
+
+/*
+Style "Link 1"
+*/
+
+.wp-block-button.is-style-link-1 {
+
+	> .wp-block-button__link {
+		text-underline-offset: 0.25em;
+		text-decoration-color: transparent;
+
+		&:hover,
+		&:focus,
+		&:active {
+			text-underline-offset: 0.15em;
+			text-decoration-color: currentColor;
+		}
+
+		&.has-background {
+			padding: 0.5rem 1.25rem;
+		}
+	}
+}
+
+/*
+Style "Link 2"
+*/
+
+.wp-block-button.is-style-link-2 {
+
+	> .wp-block-button__link {
+		text-underline-offset: 0.25em;
+		text-decoration-color: transparent;
+
+		&::after {
+			transition: all 0.35s ease-in-out;
+		}
+
+		&:hover,
+		&:focus,
+		&:active {
+			text-underline-offset: 0.15em;
+			text-decoration-color: currentColor;
+
+			&::after {
+				transform: translateX(0.25rem);
+			}
+		}
+
+		&.has-background {
+			padding: 0.5rem 1.25rem;
+		}
+	}
+}
+
+/*
+Style "Link 3"
+*/
+
+.wp-block-button.is-style-link-3 {
+
+	> .wp-block-button__link {
+		text-underline-offset: 0.25em;
+		text-decoration-color: transparent;
+
+		&:hover,
+		&:focus,
+		&:active {
+			text-underline-offset: 0.15em;
+			text-decoration-color: currentColor;
+
+			&::after {
+				animation: 0.35s iconArrow45 ease-in-out;
+			}
+		}
+
+		&.has-background {
+			padding: 0.5rem 1.25rem;
+		}
+	}
+}
+
+/*
+Style "Link 4"
+*/
+
+.wp-block-button.is-style-link-4 {
+
+	> .wp-block-button__link {
+		text-underline-offset: 0.25em;
+		text-decoration-color: transparent;
+
+		&::after {
+			transform: rotate(0deg);
+			transition: transform 0.35s ease-in-out;
+		}
+
+		&:hover,
+		&:focus,
+		&:active {
+			text-underline-offset: 0.15em;
+			text-decoration-color: currentColor;
+
+			&::after {
+				transform: rotate(180deg);
+			}
+		}
+
+		&.has-background {
+			padding: 0.5rem 1.25rem;
+		}
+	}
+}
+
+/*
+Style "Link 5"
+*/
+
+.wp-block-button.is-style-link-5 {
+
+	> .wp-block-button__link {
+
+		&::after {
+			transition: all 0.35s ease-in-out;
+		}
+
+		&:hover,
+		&:focus,
+		&:active {
+
+			&::after {
+				transform: translateX(0.25rem);
+			}
+		}
+
+		&.has-background {
+			padding: 0.5rem 1.25rem;
+		}
+	}
+}
+
+/*
+Style "Link 6"
+*/
+
+.wp-block-button.is-style-link-6 {
+
+	> .wp-block-button__link {
+		text-underline-offset: 0.15em;
+		text-decoration-color: currentColor;
+
+		&::after {
+			transition: all 0.35s ease-in-out;
+		}
+
+		&:hover,
+		&:focus,
+		&:active {
+			text-underline-offset: 0.25em;
+			text-decoration-color: transparent;
+
+			&::after {
+				transform: translateX(0.25em);
+			}
+		}
+
+		&.has-background {
+			padding: 0.5em 1em;
+			text-decoration: none;
+		}
+	}
+}
+
+
+/*
+Style "Link 7"
+*/
+
+.wp-block-button.is-style-link-7 {
+
+	> .wp-block-button__link {
+
+		&::after {
+			transition: all 0.35s ease-in-out;
+		}
+
+		&:hover,
+		&:focus,
+		&:active {
+
+			&::before {
+				animation: 0.35s iconArrowDown ease-out;
+			}
+		}
+
+		&.has-background {
+			padding: 0.5rem 1.25rem;
+		}
+	}
+}
+
+/*
+Animation for arrow down icon
+*/
+
+@keyframes iconArrowDown {
+
+	0% {
+		transform: translateY(0);
+		opacity: 1;
+	}
+
+	75% {
+		transform: translateY(0.25rem);
+		opacity: 0;
+	}
+
+	76% {
+		transform: translateY(-0.25rem);
+	}
+
+	100% {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}

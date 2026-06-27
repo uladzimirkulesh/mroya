@@ -1,0 +1,101 @@
+/*-------------------------------------------------------
+Search
+-------------------------------------------------------*/
+
+.wp-block-search {
+
+	&__inside-wrapper {
+		position: relative;
+		margin-top: 0;
+	}
+
+	&__button {
+		margin-left: 0.75rem;
+
+		svg {
+			transform: scaleX(-1);
+		}
+	}
+
+	// Icon button
+	&__icon-button {
+
+		.wp-block-search {
+
+			&__button {
+				padding-left: 0.875rem;
+				padding-right: 0.875rem;
+			}
+		}
+	}
+
+	// Button inside
+	&__button-inside {
+
+		.wp-block-search {
+
+			&__inside-wrapper {
+				padding: 0;
+				background-color: transparent;
+				border: none;
+			}
+
+			&__button {
+				position: absolute;
+				right: 0;
+				margin-left: 0;
+
+				color: var(--wp--preset--color--contrast-3);
+				background-color: transparent;
+				border-color: transparent;
+
+				&:hover,
+				&:focus,
+				&:active {
+					color: var(--wp--preset--color--contrast-2);
+				}
+			}
+		}
+
+		// Icon button
+		&.wp-block-search__icon-button {
+
+			.wp-block-search {
+
+				&__input {
+					padding-right: 4rem !important;
+				}
+			}
+		}
+
+		// Text button
+		&.wp-block-search__text-button {
+
+			.wp-block-search {
+
+				&__input {
+					padding-right: 6rem !important;
+				}
+
+				&__button {
+					padding-left: 1.25rem;
+					padding-right: 1.25rem;
+				}
+			}
+		}
+	}
+
+	// Button only
+	&__button-only {
+
+		&:not(.wp-block-search__searchfield-hidden) {
+
+			.wp-block-search {
+
+				&__button {
+					margin-left: 0.75rem;
+				}
+			}
+		}
+	}
+}
