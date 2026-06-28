@@ -1,12 +1,12 @@
 @use "../../tools/mixins";
 
 /*-------------------------------------------------------
-Posts grid layout (style 1)
+Posts grid layout
 -------------------------------------------------------*/
 
 .wp-block-query {
 
-	.is-layout-posts-grid--1 {
+	.is-layout-grid {
 		row-gap: var(--wp--preset--spacing--20);
 
 		&.columns-4 {

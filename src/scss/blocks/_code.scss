@@ -9,10 +9,10 @@ Add additional margin to the code block within post content.
 .wp-block-post-content {
 
 	:not(.wp-block-post-content) + .wp-block-code:not([style*="margin-top"]) {
-		margin-block-start: calc(var(--wp--style--block-gap) * 2);
+		margin-block-start: calc(var(--wp--style--block-gap) * 1.5);
 	}
 
 	* + .wp-block-code:not([style*="margin-bottom"]):not(:last-child) {
-		margin-block-end: calc(var(--wp--style--block-gap) * 2);
+		margin-block-end: calc(var(--wp--style--block-gap) * 1.5);
 	}
 }

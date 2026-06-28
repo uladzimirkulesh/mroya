@@ -101,7 +101,7 @@ if ( ! function_exists( 'mroya_editor_assets' ) ) :
 
 		wp_enqueue_script(
 			'mroya-editor',
-			get_theme_file_uri( 'editor' . $suffix . '.js' ),
+			get_theme_file_uri( 'assets/js/editor' . $suffix . '.js' ),
 			array(
 				'wp-blocks',
 				'wp-dom-ready',

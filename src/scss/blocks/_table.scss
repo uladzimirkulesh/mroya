@@ -12,3 +12,18 @@ Table
 		}
 	}
 }
+
+/*
+Add additional margin to the tabble block within post content.
+*/
+
+.wp-block-post-content {
+
+	:not(.wp-block-post-content) + .wp-block-table:not([style*="margin-top"]) {
+		margin-block-start: calc(var(--wp--style--block-gap) * 1.5);
+	}
+
+	* + .wp-block-table:not([style*="margin-bottom"]):not(:last-child) {
+		margin-block-end: calc(var(--wp--style--block-gap) * 1.5);
+	}
+}

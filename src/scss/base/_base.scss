@@ -20,10 +20,6 @@ html {
 	box-sizing: border-box;
 }
 
-.required {
-	color: var(--wp--preset--color--danger);
-}
-
 /*
 Clearings
 */
@@ -135,4 +131,12 @@ Removing the "more" tag to remove space before it
 
 span[id^="more"] {
 	display: none;
+}
+
+/*
+ * Prevents unnecessary scrollbars while handling long lines of preformatted text.
+ * https://core.trac.wordpress.org/ticket/63875
+ */
+:where(pre) {
+	overflow-x: auto;
 }

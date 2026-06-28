@@ -30,41 +30,4 @@ Header (default)
 			}
 		}
 	}
-
-	// Header with contrast links
-	&.has-contrast-links {
-		color: var(--wp--preset--color--base);
-
-		a {
-			color: var(--wp--preset--color--base);
-		}
-	}
-
-	// Header with white links
-	&.has-white-links {
-		color: var(--wp--preset--color--white);
-
-		a {
-			color: var(--wp--preset--color--white);
-		}
-	}
-}
-
-/*-------------------------------------------------------
-Header (default, fixed)
--------------------------------------------------------*/
-
-.header--fixed {
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-
-	body.admin-bar & {
-		top: 46px;
-
-		@media only screen and (min-width: 783px) {
-			top: 32px;
-		}
-	}
 }
