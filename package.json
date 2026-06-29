@@ -1,25 +1,29 @@
 {
   "name": "mroya",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Mroya WordPress Theme",
   "author": "Uladzimir Kulesh",
-  "license": "GNU General Public License v2 or later",
-  "main": "webpack.config.js",
+  "license": "GPL-2.0-or-later",
+  "keywords": [
+    "WordPress",
+    "Theme"
+  ],
+  "bugs": {
+    "url": "https://github.com/uladzimirkulesh/mroya/issues"
+  },
+  "homepage": "https://github.com/uladzimirkulesh/mroya#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uladzimirkulesh/mroya.git"
+  },
+  "type": "module",
   "scripts": {
-    "setup": "npm install",
-    "start": "wp-scripts start --webpack-src-dir=src --output-path=assets",
-    "lint:css": "wp-scripts lint-style './src/scss'",
-    "lint:js": "wp-scripts lint-js ./src/js",
-    "format": "wp-scripts format ./src/js",
-    "build": "wp-scripts build --webpack-src-dir=src --output-path=assets",
-    "zip": "./theme-zip.sh",
-    "check-engines": "wp-scripts check-engines",
-    "packages-update": "wp-scripts packages-update"
+    "build": "node build.js",
+    "watch": "node build.js --watch"
   },
   "devDependencies": {
-    "@wordpress/scripts": "^31.6.0",
-    "browser-sync-webpack-plugin": "^2.4.0",
-    "path": "^0.12.7",
-    "webpack-remove-empty-scripts": "^1.1.1"
+    "esbuild": "^0.28.1",
+    "esbuild-sass-plugin": "^3.7.0",
+    "sass": "^1.101.0"
   }
 }

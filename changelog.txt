@@ -1,3 +1,6 @@
+1.0.3: Jun 29, 2026
+- Switched: The build process from wp-scripts to esbuild.
+
 1.0.2: Jun 27, 2026
 - Fix: Enqueue main stylesheet in functions.php.
 

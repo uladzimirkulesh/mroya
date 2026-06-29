@@ -1,20 +1,35 @@
+# Normalize line endings
+* text=auto eol=lf
+
+# Images
+*.png binary
+*.webp binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.svg text
+
+# Fonts
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.eot binary
+
+# Minified files
+*.min.js -diff
+*.min.css -diff
+
 # macOS
 *.DS_Store export-ignore
-
-# Package files
-package-lock.json export-ignore
-README.md export-ignore
-theme-zip.sh export-ignore
-
-# Node modules
-node_modules/ export-ignore
 
 # Git и GitHub
 .git* export-ignore
 .github/ export-ignore
 .gitignore export-ignore
 
-# Styles and JS
-assets/css/*-rtl.css export-ignore
-assets/css/*.php export-ignore
-assets/js/*.php export-ignore
+# Package files
+package-lock.json export-ignore
+README.md export-ignore
+
+# Node modules
+node_modules/ export-ignore
