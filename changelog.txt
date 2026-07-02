@@ -1,3 +1,6 @@
+1.0.4: Jul 2, 2026
+- Changed: Home page from blog to studio.
+
 1.0.3: Jun 29, 2026
 - Switched: The build process from wp-scripts to esbuild.
 
