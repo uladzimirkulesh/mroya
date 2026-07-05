@@ -10,11 +10,6 @@ Entry
 	.wp-block-post-title {
 		position: relative;
 		left: -0.35vw;
-
-		@include mixins.media("break-large") {
-			max-width: calc(75% - var(--wp--style--block-gap));
-			margin-left: 0 !important;
-		}
 	}
 
 	// Entry content
@@ -58,7 +53,7 @@ Entry
 			color: var(--wp--preset--color--contrast);
 			text-decoration: none;
 			border: 1px solid var(--wp--preset--color--contrast-4);
-			border-radius: var(--wp--custom--border--radius);
+			border-radius: var(--wp--custom--border--radius--normal);
 
 			&:hover,
 			&:focus,

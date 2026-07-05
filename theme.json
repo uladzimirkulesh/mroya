@@ -5,20 +5,13 @@
 		"appearanceTools": true,
 		"custom": {
 			"color": {
-				"background": "var:preset|color|accent",
-				"cursor": "var:preset|color|base",
+				"background": "var:preset|color|base",
 				"sidebar": {
-					"background": "var:preset|color|accent"
-				},
-				"base": "#0a0a0a",
-				"contrast": "#ffffff",
-				"contrast-2": "color-mix(in srgb, #ffffff 75%, transparent)",
-				"contrast-3": "color-mix(in srgb, #ffffff 47%, transparent)",
-				"contrast-4": "color-mix(in srgb, #ffffff 15%, transparent)",
-				"contrast-5": "color-mix(in srgb, #ffffff 3%, transparent)"
+					"background": "var:preset|color|base"
+				}
 			},
 			"typography": {
-				"fontVariationSettings": "\"opsz\" 25",
+				"fontVariationSettings": "\"opsz\" 30",
 				"fontFeatureSettings": "\"cv10\", \"ss03\", \"cv01\", \"cv09\", \"cv03\", \"cv04\"",
 				"lineHeight": {
 					"xx-small": "1.5",
@@ -36,19 +29,22 @@
 				"letterSpacing": {
 					"xx-small": "0",
 					"x-small": "0",
-					"small": "0",
-					"normal": "0",
-					"medium": "-0.003em",
-					"large": "-0.003em",
-					"x-large": "-0.01em",
-					"xx-large": "-0.01em",
-					"xxx-large": "-0.015em",
-					"huge": "calc(-1 * clamp(0.015em, 0.2vw, 0.03em))",
-					"display": "calc(-1 * clamp(0.015em, 0.3vw, 0.04em))"
+					"small": "-0.007em",
+					"normal": "-0.007em",
+					"medium": "-0.011em",
+					"large": "-0.016em",
+					"x-large": "-0.02em",
+					"xx-large": "-0.024em",
+					"xxx-large": "-0.026em",
+					"huge": "calc(-1 * clamp(0.035em, 0.35vw, 0.04em))",
+					"display": "calc(-1 * clamp(0.035em, 0.35vw, 0.04em))"
 				}
 			},
 			"border": {
-				"radius": "0.25rem"
+				"radius": {
+					"normal": "0.25rem",
+					"large": "0.5rem"
+				}
 			}
 		},
 		"color": {
@@ -57,50 +53,55 @@
 			"defaultPalette": false,
 			"palette": [
 				{
-					"color": "#ffffff",
+					"color": "#e6e6e6",
 					"name": "Base",
 					"slug": "base"
 				},
 				{
-					"color": "#0a0a0a",
+					"color": "#242424",
 					"name": "Contrast",
 					"slug": "contrast"
 				},
 				{
-					"color": "color-mix(in srgb, #0a0a0a 95%, transparent)",
+					"color": "color-mix(in srgb, #242424 95%, #e6e6e6)",
 					"name": "Contrast / Two",
 					"slug": "contrast-2"
 				},
 				{
-					"color": "color-mix(in srgb, #0a0a0a 57%, transparent)",
+					"color": "color-mix(in srgb, #242424 66%, #e6e6e6)",
 					"name": "Contrast / Three",
 					"slug": "contrast-3"
 				},
 				{
-					"color": "color-mix(in srgb, #0a0a0a 14%, transparent)",
+					"color": "color-mix(in srgb, #242424 25%, #e6e6e6)",
 					"name": "Contrast / Four",
 					"slug": "contrast-4"
 				},
 				{
-					"color": "color-mix(in srgb, #0a0a0a 2%, transparent)",
+					"color": "color-mix(in srgb, #242424 6.5%, #e6e6e6)",
 					"name": "Contrast / Five",
 					"slug": "contrast-5"
 				},
 				{
-					"color": "#f4f4f4",
+					"color": "#1a1a1a",
 					"name": "Accent",
 					"slug": "accent"
 				},
 				{
-					"color": "#df042d",
-					"name": "Danger",
-					"slug": "danger"
+					"color": "#f1f1f1",
+					"name": "Accent / Two",
+					"slug": "accent-2"
+				},
+				{
+					"color": "#ffffff",
+					"name": "Accent / Three",
+					"slug": "accent-3"
 				}
 			]
 		},
 		"layout": {
-			"contentSize": "760px",
-			"wideSize": "100%"
+			"contentSize": "720px",
+			"wideSize": "1600px"
 		},
 		"spacing": {
 			"defaultSpacingSizes": false,
@@ -261,10 +262,10 @@
 				{
 					"fluid": {
 						"min": "2.25rem",
-						"max": "6.75rem"
+						"max": "6rem"
 					},
 					"name": "Display",
-					"size": "6.75rem",
+					"size": "6rem",
 					"slug": "display"
 				}
 			]
@@ -279,8 +280,8 @@
 		"spacing": {
 			"blockGap": "1.5rem",
 			"padding": {
-				"right": "clamp(1.125rem, 2.5vw, 2rem)",
-				"left": "clamp(1.125rem, 2.5vw, 2rem)",
+				"right": "clamp(1.5rem, 2.5vw, 2rem)",
+				"left": "clamp(1.5rem, 2.5vw, 2rem)",
 				"top": "clamp(1.25rem, 0.625vw + 1.125rem, 1.875rem)",
 				"bottom": "clamp(1.25rem, 0.625vw + 1.125rem, 1.875rem)"
 			}
@@ -289,7 +290,7 @@
 			"fontFamily": "var:preset|font-family|font-primary",
 			"fontSize": "var:preset|font-size|normal",
 			"fontStyle": "normal",
-			"fontWeight": "400",
+			"fontWeight": "420",
 			"lineHeight": "var:custom|typography|line-height|normal",
 			"letterSpacing": "var:custom|typography|letter-spacing|normal"
 		},
@@ -299,10 +300,10 @@
 					"text": "var:preset|color|contrast"
 				},
 				"typography": {
-					"fontSize": "1.3125rem !important",
+					"fontSize": "1.25rem !important",
 					"fontWeight": "500",
 					"lineHeight": "3rem",
-					"letterSpacing": "-0.02em"
+					"letterSpacing": "-0.035em"
 				},
 				"elements": {
 					"link": {
@@ -326,8 +327,9 @@
 			},
 			"core/navigation": {
 				"typography": {
-					"fontWeight": "500",
-					"letterSpacing": "-0.01em"
+					"fontSize": "var:preset|font-size|small",
+					"fontWeight": "550",
+					"letterSpacing": "-0.025em"
 				},
 				"elements": {
 					"link": {
@@ -368,13 +370,13 @@
 			},
 			"core/post-featured-image": {
 				"border": {
-					"radius": "var:custom|border|radius"
+					"radius": "var:custom|border|radius|large"
 				},
 				"css": "& { overflow: hidden; }"
 			},
 			"core/image": {
 				"border": {
-					"radius": "var:custom|border|radius"
+					"radius": "var:custom|border|radius|large"
 				},
 				"variations": {
 					"rounded": {
@@ -395,6 +397,7 @@
 				},
 				"typography": {
 					"fontSize": "var:preset|font-size|small",
+					"fontWeight": "475",
 					"lineHeight": "var:custom|typography|line-height|small",
 					"letterSpacing": "var:custom|typography|letter-spacing|small"
 				}
@@ -448,14 +451,15 @@
 				"css": "& > * { display: inline-block; } &.taxonomy-post_tag a::before { content: '#'; } &.taxonomy-uk-project_tag a::before { content: '#'; }"
 			},
 			"core/term-description": {
-				"color": {
-					"text": "var:preset|color|contrast"
+				"typography": {
+					"fontWeight": "500",
+					"letterSpacing": "-0.015em"
 				}
 			},
 			"core/post-author-name": {
 				"typography": {
 					"fontWeight": "500",
-					"letterSpacing": "-0.01em"
+					"letterSpacing": "-0.015em"
 				}
 			},
 			"core/comments-title": {
@@ -469,7 +473,7 @@
 			"core/comment-author-name": {
 				"typography": {
 					"fontWeight": "500",
-					"letterSpacing": "-0.01em"
+					"letterSpacing": "-0.015em"
 				},
 				"elements": {
 					"link": {
@@ -568,7 +572,7 @@
 							"width": "1px",
 							"style": "solid",
 							"color": "var:preset|color|contrast-4",
-							"radius": "var:custom|border|radius"
+							"radius": "var:custom|border|radius|normal"
 						},
 						"spacing": {
 							"padding": {
@@ -819,19 +823,16 @@
 					"fontSize": "var:preset|font-size|small",
 					"fontWeight": "400",
 					"lineHeight": "var:custom|typography|line-height|small",
-					"letterSpacing": "var:custom|typography|letter-spacing|small"
+					"letterSpacing": "0"
 				},
 				"border": {
-					"width": "1px",
-					"style": "solid",
-					"color": "var:preset|color|contrast-4",
-					"radius": "var:custom|border|radius"
+					"radius": "var:custom|border|radius|large"
 				},
 				"spacing": {
 					"padding": {
-						"top": "1.5rem",
+						"top": "1.25rem",
 						"left": "1.5rem",
-						"bottom": "1.5rem",
+						"bottom": "1.25rem",
 						"right": "1.5rem"
 					}
 				}
@@ -842,7 +843,7 @@
 					"fontSize": "var:preset|font-size|small",
 					"fontWeight": "400",
 					"lineHeight": "var:custom|typography|line-height|small",
-					"letterSpacing": "var:custom|typography|letter-spacing|small"
+					"letterSpacing": "0"
 				}
 			},
 			"core/verse": {
@@ -851,7 +852,7 @@
 					"fontSize": "var:preset|font-size|small",
 					"fontWeight": "400",
 					"lineHeight": "var:custom|typography|line-height|small",
-					"letterSpacing": "var:custom|typography|letter-spacing|small"
+					"letterSpacing": "0"
 				}
 			},
 			"core/list": {
@@ -990,9 +991,6 @@
 					}
 				},
 				"css": "& li { margin: 0.125rem 0; } & li.current-menu-item > a { text-decoration: underline !important; text-underline-offset: 0.15em !important; } & ul { padding-left: 1.75rem; }"
-			},
-			"core/group": {
-				"css": "&.is-style-section-contrast { --wp--preset--color--base: var(--wp--custom--color--base) !important; --wp--preset--color--contrast: var(--wp--custom--color--contrast) !important; --wp--preset--color--contrast-2: var(--wp--custom--color--contrast-2) !important; --wp--preset--color--contrast-3: var(--wp--custom--color--contrast-3) !important; --wp--preset--color--contrast-4: var(--wp--custom--color--contrast-4) !important; --wp--preset--color--contrast-5: var(--wp--custom--color--contrast-5) !important; }"
 			}
 		},
 		"elements": {
@@ -1003,23 +1001,23 @@
 				},
 				"typography": {
 					"fontFamily": "var:preset|font-family|font-primary",
-					"fontSize": "var:preset|font-size|normal",
-					"fontWeight": "500",
+					"fontSize": "var:preset|font-size|small",
+					"fontWeight": "550",
 					"lineHeight": "var:style|block-gap",
-					"letterSpacing": "-0.01em"
+					"letterSpacing": "-0.025em"
 				},
 				"border": {
 					"width": "2px",
 					"style": "solid",
 					"color": "var:preset|color|contrast",
-					"radius": "var:custom|border|radius"
+					"radius": "var:custom|border|radius|normal"
 				},
 				"spacing": {
 					"padding": {
-						"top": "0.5rem",
-						"right": "1.125rem",
-						"bottom": "0.5rem",
-						"left": "1.125rem"
+						"top": "0.5625rem",
+						"right": "1.375rem",
+						"bottom": "0.5625rem",
+						"left": "1.375rem"
 					}
 				},
 				":hover": {
@@ -1140,7 +1138,7 @@
 						"textDecoration": "underline"
 					}
 				},
-				"css": "& { text-underline-offset: 0.125em; text-decoration-thickness: 1px !important; } &:hover { text-underline-offset: 0.175em; text-decoration-color: transparent; } &:active { text-underline-offset: 0.175em; text-decoration-color: transparent; }"
+				"css": "& { text-underline-offset: 0.125em; text-decoration-thickness: 1px !important; transition: all 0.25s ease-in-out; } &:hover { text-underline-offset: 0.175em; text-decoration-color: transparent; } &:active { text-underline-offset: 0.175em; text-decoration-color: transparent; }"
 			}
 		}
 	},
@@ -1154,6 +1152,11 @@
 			"area": "footer",
 			"name": "footer",
 			"title": "Footer"
+		},
+		{
+			"area": "navigation-overlay",
+			"name": "navigation-overlay",
+			"title": "Navigation overlay"
 		},
 		{
 			"area": "page-header",
@@ -1171,16 +1174,6 @@
 			"title": "Search page header"
 		},
 		{
-			"area": "page-header",
-			"name": "page-header-portfolio",
-			"title": "Portfolio page header"
-		},
-		{
-			"area": "page-header",
-			"name": "page-header-portfolio-archive",
-			"title": "Portfolio archive page header"
-		},
-		{
 			"area": "uncategorized",
 			"name": "sidebar",
 			"title": "Sidebar"
@@ -1191,26 +1184,6 @@
 			"name": "blank",
 			"postTypes": [ "page" ],
 			"title": "Blank template"
-		},
-		{
-			"name": "single-uk-project",
-			"postTypes": [ "none" ],
-			"title": "Single projects"
-		},
-		{
-			"name": "archive-uk-project",
-			"postTypes": [ "none" ],
-			"title": "Portfolio"
-		},
-		{
-			"name": "taxonomy-uk-project_category",
-			"postTypes": [ "none" ],
-			"title": "Portfolio category archive"
-		},
-		{
-			"name": "taxonomy-uk-project_tag",
-			"postTypes": [ "none" ],
-			"title": "Portfolio tag archive"
 		}
 	]
 }

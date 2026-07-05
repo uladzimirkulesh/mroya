@@ -1,0 +1,18 @@
+{
+	"$schema": "https://schemas.wp.org/wp/6.7/theme.json",
+	"version": 3,
+	"slug": "section-1",
+	"title": "Style 1",
+	"blockTypes": [
+		"core/group",
+		"core/columns",
+		"core/column"
+	],
+	"styles": {
+		"color": {
+			"background": "var:preset|color|accent",
+			"text": "var:preset|color|accent-3"
+		},
+		"css": "& { --wp--preset--color--base: #242424; --wp--preset--color--contrast: #ffffff; --wp--preset--color--contrast-2: color-mix(in srgb, #ffffff 95%, #242424); --wp--preset--color--contrast-3: color-mix(in srgb, #ffffff 66%, #242424); --wp--preset--color--contrast-4: color-mix(in srgb, #ffffff 25%, #242424); --wp--preset--color--contrast-5: color-mix(in srgb, #ffffff 6.5%, #242424); }"
+	}
+}

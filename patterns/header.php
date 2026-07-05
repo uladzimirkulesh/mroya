@@ -13,18 +13,28 @@
  */
 
 ?>
-<!-- wp:group {"metadata":{"name":"<?php echo esc_html_x( 'Header (default)', 'Name for the Default header pattern', 'mroya' ); ?>"},"className":"header__inner has-global-padding","layout":{"type":"constrained"}} -->
-<div class="wp-block-group header__inner has-global-padding">
-	<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|10","bottom":"var:preset|spacing|10"}}},"layout":{"type":"grid","columnCount":2,"minimumColumnWidth":null}} -->
-	<div class="wp-block-group alignwide" style="padding-top:var(--wp--preset--spacing--10);padding-bottom:var(--wp--preset--spacing--10)">
+<!-- wp:group {"metadata":{"name":"<?php echo esc_html_x( 'Header', 'Name for the Default header pattern', 'mroya' ); ?>"},"className":"header__inner is-style-section-2","layout":{"type":"constrained"}} -->
+<div class="wp-block-group header__inner is-style-section-2">
+	<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"0.75rem","bottom":"0.75rem"}}},"layout":{"type":"grid","columnCount":3,"minimumColumnWidth":null}} -->
+	<div class="wp-block-group alignwide" style="padding-top:0.75rem;padding-bottom:0.75rem">
 		<!-- wp:group {"metadata":{"name":"<?php echo esc_html_x( 'Site Branding', 'Name for the site branding part', 'mroya' ); ?>"},"className":"site-branding","style":{"spacing":{"blockGap":"1rem"},"layout":{"selfStretch":"fixed","flexSize":"50%"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 		<div class="wp-block-group site-branding">
-			<!-- wp:site-logo {"width":32,"shouldSyncIcon":true,"className":"is-style-rounded"} /-->
+			<!-- wp:site-logo {"width":44,"shouldSyncIcon":true,"className":"is-style-rounded"} /-->
 			<!-- wp:site-title {"level":0} /-->
 		</div>
 		<!-- /wp:group -->
 
-		<!-- wp:navigation {"overlayBackgroundColor":"contrast","overlayTextColor":"base","style":{"layout":{"selfStretch":"fixed","flexSize":"50%"}},"layout":{"type":"flex","justifyContent":"right","flexWrap":"nowrap"}} /-->
+		<!-- wp:navigation {"overlay":"navigation-overlay","overlayBackgroundColor":"contrast","overlayTextColor":"base","style":{"layout":{"selfStretch":"fixed","flexSize":"50%"}},"layout":{"type":"flex","justifyContent":"center","flexWrap":"nowrap"}} /-->
+
+		<!-- wp:buttons {"metadata":{"blockVisibility":{"viewport":{"tablet":false,"mobile":false}}},"layout":{"type":"flex","justifyContent":"right"}} -->
+		<div class="wp-block-buttons">
+			<!-- wp:button -->
+			<div class="wp-block-button">
+				<a class="wp-block-button__link wp-element-button"><?php echo esc_html_x( 'Get in Touch', 'Header button text', 'mroya' ); ?></a>
+			</div>
+			<!-- /wp:button -->
+		</div>
+		<!-- /wp:buttons -->
 	</div>
 	<!-- /wp:group -->
 </div>

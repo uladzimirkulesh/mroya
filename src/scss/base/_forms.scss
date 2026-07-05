@@ -64,7 +64,7 @@ select {
 	border-width: 1px;
 	border-style: solid;
 	border-color: var(--wp--custom--color--input--border, var(--wp--preset--color--contrast-4));
-	border-radius: var(--wp--custom--border--radius);
+	border-radius: var(--wp--custom--border--radius--normal);
 	box-shadow: inset 0 1px 3px 0 var(--wp--preset--color--contrast-5);
 
 	transition: all 0.25s ease-in-out;

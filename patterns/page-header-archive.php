@@ -19,7 +19,7 @@
 
 	<!-- wp:group {"align":"wide","layout":{"type":"constrained","contentSize":"480px","justifyContent":"left","wideSize":"100%"}} -->
 	<div class="wp-block-group alignwide">
-		<!-- wp:term-description {"className":"page-header__description","style":{"typography":{"fontStyle":"normal","fontWeight":"500","letterSpacing":"-0.01em"},"elements":{"link":{"color":{"text":"var:preset|color|contrast-2"}}}},"textColor":"contrast-2"} /-->
+		<!-- wp:term-description {"className":"page-header__description"} /-->
 	</div>
 	<!-- /wp:group -->
 </div>
