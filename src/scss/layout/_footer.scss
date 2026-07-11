@@ -4,22 +4,21 @@
 Footer
 -------------------------------------------------------*/
 
-/*
-Footer links section
-*/
+.footer {
 
-.footer__links {
-	row-gap: 0.25rem;
+	&__line--first {
 
-	> * {
-		line-height: var(--wp--style--block-gap);
+		@include mixins.media("break-medium", max) {
+			grid-template-columns: repeat(2, minmax(0, 1fr));
+		}
 	}
 
-	.footer__copyrights {
+	&__block {
 
 		a {
 			text-underline-offset: 0.25em;
 			text-decoration-color: transparent;
+			text-wrap: nowrap;
 
 			&:hover,
 			&:focus,

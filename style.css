@@ -731,19 +731,19 @@ input[type=checkbox] + label {
   background-color: var(--wp--preset--color--contrast);
   border-color: transparent;
 }
-.footer__links {
-  row-gap: 0.25rem;
+@media only screen and (max-width: 782px) {
+  .footer__line--first {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
-.footer__links > * {
-  line-height: var(--wp--style--block-gap);
-}
-.footer__links .footer__copyrights a {
+.footer__block a {
   text-underline-offset: 0.25em;
   text-decoration-color: transparent;
+  text-wrap: nowrap;
 }
-.footer__links .footer__copyrights a:hover,
-.footer__links .footer__copyrights a:focus,
-.footer__links .footer__copyrights a:active {
+.footer__block a:hover,
+.footer__block a:focus,
+.footer__block a:active {
   text-underline-offset: 0.15em;
   text-decoration-color: currentColor;
 }
