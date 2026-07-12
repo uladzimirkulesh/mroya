@@ -20,11 +20,6 @@ Theme layout
 		margin-block-start: 0;
 	}
 
-	> .header,
-	> .footer {
-		z-index: 10000;
-	}
-
 	> .header {
 		grid-row: 1/2;
 	}
@@ -39,26 +34,39 @@ Theme layout
 	}
 
 	// Change "main" position based on "header"
-	&:has(.header__inner) {
+	&:has(.header--overlaid) {
 
 		> main {
 			grid-row: 1/3;
 		}
+
+		> .header {
+			z-index: 10000;
+		}
 	}
 
 	// Change "main" position based on "footer"
-	&:has(.footer__inner) {
+	&:has(.footer--overlaid) {
 
 		> main {
 			grid-row: 2/4;
 		}
+
+		> .footer {
+			z-index: 10000;
+		}
 	}
 
 	// Change "main" position based on "header" and "footer"
-	&:has(.header__inner):has(.footer__inner) {
+	&:has(.header--overlaid):has(.footer--overlaid) {
 
 		> main {
 			grid-row: 1/4;
+		}
+
+		> .header,
+		> .footer {
+			z-index: 10000;
 		}
 	}
 }
