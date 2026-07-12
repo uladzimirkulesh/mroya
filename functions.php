@@ -175,6 +175,23 @@ if ( ! function_exists( 'mroya_register_block_pattern_categories' ) ) :
 endif;
 add_action( 'init', 'mroya_register_block_pattern_categories', 9 );
 
+if ( ! function_exists( 'mroya_body_class' ) ) :
+	/**
+	 * Add body class.
+	 *
+	 * @since Mroya 2.0.0
+	 *
+	 * @return array
+	 */
+	function mroya_body_class( $classes ) {
+
+		$classes[] = 'mroya--default';
+
+		return $classes;
+	}
+endif;
+add_filter( 'body_class', 'mroya_body_class' );
+
 if ( ! function_exists( 'mroya_related_posts' ) ) :
 	/**
 	 * Filtering the query to display related posts.

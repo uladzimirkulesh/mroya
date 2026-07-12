@@ -4,27 +4,30 @@
 Footer
 -------------------------------------------------------*/
 
-.footer {
+.mroya--default {
 
-	&__line--first {
+	.footer {
 
-		@include mixins.media("break-medium", max) {
-			grid-template-columns: repeat(2, minmax(0, 1fr));
+		&__line--first {
+
+			@include mixins.media("break-medium", max) {
+				grid-template-columns: repeat(2, minmax(0, 1fr));
+			}
 		}
-	}
 
-	&__block {
+		&__block {
 
-		a {
-			text-underline-offset: 0.25em;
-			text-decoration-color: transparent;
-			text-wrap: nowrap;
+			a {
+				text-underline-offset: 0.25em;
+				text-decoration-color: transparent;
+				text-wrap: nowrap;
 
-			&:hover,
-			&:focus,
-			&:active {
-				text-underline-offset: 0.15em;
-				text-decoration-color: currentColor;
+				&:hover,
+				&:focus,
+				&:active {
+					text-underline-offset: 0.15em;
+					text-decoration-color: currentColor;
+				}
 			}
 		}
 	}

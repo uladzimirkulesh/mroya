@@ -145,19 +145,14 @@
 			<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide"/>
 			<!-- /wp:separator -->
 
-			<!-- wp:group {"style":{"css":"row-gap: 0.25rem;","spacing":{"padding":{"top":"var:preset|spacing|10","bottom":"var:preset|spacing|10"}}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
-			<div class="wp-block-group has-custom-css" style="padding-top:var(--wp--preset--spacing--10);padding-bottom:var(--wp--preset--spacing--10)">
-				<!-- wp:paragraph {"className":"footer__copyrights","style":{"css":"font-weight: 550; letter-spacing: -0.025em; line-height: var(--wp--style--block-gap);"}} -->
-				<p class="footer__copyrights has-custom-css"><?php
-				printf(
-					/* translators: Copyright text. */
-					esc_html__( '© 2026, %s', 'mroya' ),
-					'<a href="' . esc_url( __( 'https://mroya.eu/portfolio/mroya/', 'mroya' ) ) . '" target="_blank">Mroya Theme</a>' )
-				?></p>
+			<!-- wp:group {"style":{"css":"row-gap: 0.25rem; font-weight: 550; letter-spacing: -0.025em; line-height: var(--wp--style--block-gap);","spacing":{"padding":{"top":"var:preset|spacing|10","bottom":"var:preset|spacing|10"}},"elements":{"link":{"color":{"text":"var:preset|color|contrast-3"}}}},"textColor":"contrast-3","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
+			<div class="wp-block-group has-custom-css has-contrast-3-color has-text-color has-link-color" style="padding-top:var(--wp--preset--spacing--10);padding-bottom:var(--wp--preset--spacing--10)">
+				<!-- wp:paragraph {"className":"footer__copyrights"} -->
+				<p class="footer__copyrights"><?php echo esc_html_x( '© 2026, Mroya Theme', 'Footer copyright text', 'mroya' ); ?></p>
 				<!-- /wp:paragraph -->
 
-				<!-- wp:paragraph {"className":"footer__developer","style":{"css":"font-weight: 550; letter-spacing: -0.025em; line-height: var(--wp--style--block-gap);"}} -->
-				<p class="footer__developer has-custom-css"><?php
+				<!-- wp:paragraph {"className":"footer__developer"} -->
+				<p class="footer__developer"><?php
 				printf(
 					/* translators: Footer developer credit text. */
 					esc_html__( 'Design by %s', 'mroya' ),
