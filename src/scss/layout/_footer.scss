@@ -4,30 +4,13 @@
 Footer
 -------------------------------------------------------*/
 
-.mroya--default {
+.footer--default:not(.is-custom) {
 
 	.footer {
-
 		&__line--first {
 
 			@include mixins.media("break-medium", max) {
 				grid-template-columns: repeat(2, minmax(0, 1fr));
-			}
-		}
-
-		&__block {
-
-			a {
-				text-underline-offset: 0.25em;
-				text-decoration-color: transparent;
-				text-wrap: nowrap;
-
-				&:hover,
-				&:focus,
-				&:active {
-					text-underline-offset: 0.15em;
-					text-decoration-color: currentColor;
-				}
 			}
 		}
 	}

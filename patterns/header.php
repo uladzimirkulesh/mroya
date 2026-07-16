@@ -24,7 +24,13 @@
 		</div>
 		<!-- /wp:group -->
 
-		<!-- wp:navigation {"overlay":"navigation-overlay","overlayBackgroundColor":"contrast","overlayTextColor":"base","style":{"layout":{"selfStretch":"fixed","flexSize":"50%"}},"layout":{"type":"flex","justifyContent":"center","flexWrap":"nowrap"}} /-->
+		<!-- wp:navigation {"overlay":"navigation-overlay","overlayBackgroundColor":"contrast","overlayTextColor":"base","style":{"layout":{"selfStretch":"fixed","flexSize":"50%"},"css":"line-height: 3rem;"},"layout":{"type":"flex","justifyContent":"center","flexWrap":"nowrap"}} -->
+			<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Home', 'mroya' ); ?>","url":"#"} /-->
+			<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Services', 'mroya' ); ?>","url":"#"} /-->
+			<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Articles', 'mroya' ); ?>","url":"#"} /-->
+			<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Contact', 'mroya' ); ?>","url":"#"} /-->
+			<!-- wp:navigation-link {"label":"<?php esc_html_e( 'About', 'mroya' ); ?>","url":"#"} /-->
+		<!-- /wp:navigation -->
 
 		<!-- wp:buttons {"metadata":{"blockVisibility":{"viewport":{"tablet":false,"mobile":false}}},"layout":{"type":"flex","justifyContent":"right"}} -->
 		<div class="wp-block-buttons">

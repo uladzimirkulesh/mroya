@@ -34,7 +34,7 @@ Theme layout
 	}
 
 	// Change "main" position based on "header"
-	&:has(.header--overlaid) {
+	&:has(.header.is-overlaid) {
 
 		> main {
 			grid-row: 1/3;
@@ -46,7 +46,7 @@ Theme layout
 	}
 
 	// Change "main" position based on "footer"
-	&:has(.footer--overlaid) {
+	&:has(.footer.is-overlaid) {
 
 		> main {
 			grid-row: 2/4;
@@ -58,7 +58,7 @@ Theme layout
 	}
 
 	// Change "main" position based on "header" and "footer"
-	&:has(.header--overlaid):has(.footer--overlaid) {
+	&:has(.header.is-overlaid):has(.footer.is-overlaid) {
 
 		> main {
 			grid-row: 1/4;

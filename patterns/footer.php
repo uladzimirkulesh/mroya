@@ -33,33 +33,14 @@
 					<p class="has-contrast-3-color has-text-color has-link-color"><?php echo esc_html_x( 'Discover', 'Footer block title', 'mroya' ); ?></p>
 					<!-- /wp:paragraph -->
 
-					<!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"constrained"}} -->
-					<div class="wp-block-group">
-						<!-- wp:paragraph -->
-						<p><a href="#"><?php echo esc_html_x( 'Home', 'Footer link text', 'mroya' ); ?></a></p>
-						<!-- /wp:paragraph -->
-
-						<!-- wp:paragraph -->
-						<p><a href="#"><?php echo esc_html_x( 'Services', 'Footer link text', 'mroya' ); ?></a></p>
-						<!-- /wp:paragraph -->
-
-						<!-- wp:paragraph -->
-						<p><a href="#"><?php echo esc_html_x( 'Articles', 'Footer link text', 'mroya' ); ?></a></p>
-						<!-- /wp:paragraph -->
-
-						<!-- wp:paragraph -->
-						<p><a href="#"><?php echo esc_html_x( 'Contacts', 'Footer link text', 'mroya' ); ?></a></p>
-						<!-- /wp:paragraph -->
-
-						<!-- wp:paragraph -->
-						<p><a href="#"><?php echo esc_html_x( 'About', 'Footer link text', 'mroya' ); ?></a></p>
-						<!-- /wp:paragraph -->
-
-						<!-- wp:paragraph -->
-						<p><a href="#"><?php echo esc_html_x( 'FAQ', 'Footer link text', 'mroya' ); ?></a></p>
-						<!-- /wp:paragraph -->
-					</div>
-					<!-- /wp:group -->
+					<!-- wp:navigation {"overlayMenu":"never","layout":{"type":"flex","orientation":"vertical"}} -->
+						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Home', 'mroya' ); ?>","url":"#"} /-->
+						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Services', 'mroya' ); ?>","url":"#"} /-->
+						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Articles', 'mroya' ); ?>","url":"#"} /-->
+						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Contact', 'mroya' ); ?>","url":"#"} /-->
+						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'About', 'mroya' ); ?>","url":"#"} /-->
+						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'FAQ', 'mroya' ); ?>","url":"#"} /-->
+					<!-- /wp:navigation -->
 				</div>
 				<!-- /wp:group -->
 
@@ -69,21 +50,11 @@
 					<p class="has-contrast-3-color has-text-color has-link-color"><?php echo esc_html_x( 'Legals', 'Footer block title', 'mroya' ); ?></p>
 					<!-- /wp:paragraph -->
 
-					<!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"constrained"}} -->
-					<div class="wp-block-group">
-						<!-- wp:paragraph -->
-						<p><a href="#"><?php echo esc_html_x( 'Terms & Conditions', 'Footer link text', 'mroya' ); ?></a></p>
-						<!-- /wp:paragraph -->
-
-						<!-- wp:paragraph -->
-						<p><a href="#"><?php echo esc_html_x( 'Privacy Policy', 'Footer link text', 'mroya' ); ?></a></p>
-						<!-- /wp:paragraph -->
-
-						<!-- wp:paragraph -->
-						<p><a href="#"><?php echo esc_html_x( 'Cookies', 'Footer link text', 'mroya' ); ?></a></p>
-						<!-- /wp:paragraph -->
-					</div>
-					<!-- /wp:group -->
+					<!-- wp:navigation {"overlayMenu":"never","layout":{"type":"flex","orientation":"vertical"}} -->
+						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Terms & Conditions', 'mroya' ); ?>","url":"#"} /-->
+						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Privacy Policy', 'mroya' ); ?>","url":"#"} /-->
+						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Cookies', 'mroya' ); ?>","url":"#"} /-->
+					<!-- /wp:navigation -->
 				</div>
 				<!-- /wp:group -->
 			</div>
@@ -97,17 +68,10 @@
 					<p class="has-contrast-3-color has-text-color has-link-color"><?php echo esc_html_x( 'Contact', 'Footer block title', 'mroya' ); ?></p>
 					<!-- /wp:paragraph -->
 
-					<!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"constrained"}} -->
-					<div class="wp-block-group">
-						<!-- wp:paragraph -->
-						<p><a href="#"><?php echo esc_html_x( 'hello@yoursite.com', 'Footer link text', 'mroya' ); ?></a></p>
-						<!-- /wp:paragraph -->
-
-						<!-- wp:paragraph -->
-						<p><a href="#"><?php echo esc_html_x( '+420 123-456-78', 'Footer link text', 'mroya' ); ?></a></p>
-						<!-- /wp:paragraph -->
-					</div>
-					<!-- /wp:group -->
+					<!-- wp:navigation {"overlayMenu":"never","layout":{"type":"flex","orientation":"vertical"}} -->
+						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'hello@yoursite.com', 'mroya' ); ?>","url":"#"} /-->
+						<!-- wp:navigation-link {"label":"<?php esc_html_e( '+420 123-456-78', 'mroya' ); ?>","url":"#"} /-->
+					<!-- /wp:navigation -->
 				</div>
 				<!-- /wp:group -->
 
@@ -117,21 +81,11 @@
 					<p class="has-contrast-3-color has-text-color has-link-color"><?php echo esc_html_x( 'Social Media', 'Footer block title', 'mroya' ); ?></p>
 					<!-- /wp:paragraph -->
 
-					<!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"constrained"}} -->
-					<div class="wp-block-group">
-						<!-- wp:paragraph -->
-						<p><a href="#"><?php echo esc_html_x( 'Instagram', 'Footer link text', 'mroya' ); ?></a></p>
-						<!-- /wp:paragraph -->
-
-						<!-- wp:paragraph -->
-						<p><a href="#"><?php echo esc_html_x( 'Facebook', 'Footer link text', 'mroya' ); ?></a></p>
-						<!-- /wp:paragraph -->
-
-						<!-- wp:paragraph -->
-						<p><a href="#"><?php echo esc_html_x( 'LinkedIn', 'Footer link text', 'mroya' ); ?></a></p>
-						<!-- /wp:paragraph -->
-					</div>
-					<!-- /wp:group -->
+					<!-- wp:navigation {"overlayMenu":"never","layout":{"type":"flex","orientation":"vertical"}} -->
+						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Instagram', 'mroya' ); ?>","url":"#"} /-->
+						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Facebook', 'mroya' ); ?>","url":"#"} /-->
+						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'LinkedIn', 'mroya' ); ?>","url":"#"} /-->
+					<!-- /wp:navigation -->
 				</div>
 				<!-- /wp:group -->
 			</div>

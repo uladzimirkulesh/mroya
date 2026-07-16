@@ -19,6 +19,7 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   scroll-behavior: smooth;
+  font-size: clamp(1rem, 0.625vw + 0.375rem, 1.125rem);
   font-variation-settings: var(--wp--custom--typography--font-variation-settings, normal);
   font-feature-settings: var(--wp--custom--typography--font-feature-settings, normal);
 }
@@ -685,9 +686,18 @@ input[type=checkbox] + label {
 .wp-block-post-content * + .wp-block-table:not([style*=margin-bottom]):not(:last-child) {
   margin-block-end: calc(var(--wp--style--block-gap) * 1.5);
 }
-.entry .wp-block-post-title {
-  position: relative;
-  left: -0.35vw;
+.entry .featured-image--singular > img,
+.entry .featured-image--singular > .block-editor-media-placeholder {
+  height: 100%;
+}
+.entry .featured-image--singular::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  pointer-events: none;
+  inset: 0;
 }
 @media only screen and (max-width: 959px) {
   body.wp-singular:not(.uk-project-template) .entry .entry-content {
@@ -732,37 +742,47 @@ input[type=checkbox] + label {
   border-color: transparent;
 }
 @media only screen and (max-width: 782px) {
-  .mroya--default .footer__line--first {
+  .footer--default:not(.is-custom) .footer__line--first {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
-.mroya--default .footer__block a {
-  text-underline-offset: 0.25em;
-  text-decoration-color: transparent;
-  text-wrap: nowrap;
-}
-.mroya--default .footer__block a:hover,
-.mroya--default .footer__block a:focus,
-.mroya--default .footer__block a:active {
-  text-underline-offset: 0.15em;
-  text-decoration-color: currentColor;
-}
-.mroya--default .header--default > .wp-block-group.is-layout-grid {
+.header--default:not(.is-custom) > .wp-block-group.is-layout-grid {
   grid-template-columns: repeat(2, minmax(0, auto));
   row-gap: 0;
 }
 @media only screen and (min-width: 783px) {
-  .mroya--default .header--default > .wp-block-group.is-layout-grid {
+  .header--default:not(.is-custom) > .wp-block-group.is-layout-grid {
     grid-template-columns: 1fr auto 1fr;
   }
 }
 @media only screen and (max-width: 782px) {
-  .mroya--default .header--default .wp-block-navigation {
+  .header--default:not(.is-custom) .wp-block-navigation {
     justify-content: flex-end;
   }
 }
-.mroya--default .header--default .wp-block-navigation .wp-block-navigation__responsive-container-content > .wp-block-navigation__container > li > a {
-  line-height: 3rem;
+.header--default:not(.is-custom) .wp-block-navigation__submenu-container .wp-block-navigation-item__content {
+  line-height: var(--wp--custom--typography--line-height--small);
+}
+.header.has-overlaid-colors .header--default:not(.is-custom) {
+  color: var(--wp--preset--color--accent-3);
+  background-color: transparent;
+}
+.header.has-overlaid-colors .header--default:not(.is-custom) a {
+  color: var(--wp--preset--color--accent-3);
+}
+.header.has-overlaid-colors .header--default:not(.is-custom) .wp-element-button,
+.header.has-overlaid-colors .header--default:not(.is-custom) .wp-block-button__link {
+  background-color: rgba(255, 255, 255, 0.15);
+  border-color: transparent;
+}
+.header.has-overlaid-colors .header--default:not(.is-custom) .wp-element-button:hover,
+.header.has-overlaid-colors .header--default:not(.is-custom) .wp-element-button:focus,
+.header.has-overlaid-colors .header--default:not(.is-custom) .wp-element-button:active,
+.header.has-overlaid-colors .header--default:not(.is-custom) .wp-block-button__link:hover,
+.header.has-overlaid-colors .header--default:not(.is-custom) .wp-block-button__link:focus,
+.header.has-overlaid-colors .header--default:not(.is-custom) .wp-block-button__link:active {
+  background-color: transparent;
+  border-color: rgba(255, 255, 255, 0.15);
 }
 :root .is-root-container:not(.wp-block-post-content),
 :root .wp-site-blocks {
@@ -792,30 +812,30 @@ input[type=checkbox] + label {
 :root .wp-site-blocks > .footer {
   grid-row: 3/4;
 }
-:root .is-root-container:not(.wp-block-post-content):has(.header--overlaid) > main,
-:root .wp-site-blocks:has(.header--overlaid) > main {
+:root .is-root-container:not(.wp-block-post-content):has(.header.is-overlaid) > main,
+:root .wp-site-blocks:has(.header.is-overlaid) > main {
   grid-row: 1/3;
 }
-:root .is-root-container:not(.wp-block-post-content):has(.header--overlaid) > .header,
-:root .wp-site-blocks:has(.header--overlaid) > .header {
+:root .is-root-container:not(.wp-block-post-content):has(.header.is-overlaid) > .header,
+:root .wp-site-blocks:has(.header.is-overlaid) > .header {
   z-index: 10000;
 }
-:root .is-root-container:not(.wp-block-post-content):has(.footer--overlaid) > main,
-:root .wp-site-blocks:has(.footer--overlaid) > main {
+:root .is-root-container:not(.wp-block-post-content):has(.footer.is-overlaid) > main,
+:root .wp-site-blocks:has(.footer.is-overlaid) > main {
   grid-row: 2/4;
 }
-:root .is-root-container:not(.wp-block-post-content):has(.footer--overlaid) > .footer,
-:root .wp-site-blocks:has(.footer--overlaid) > .footer {
+:root .is-root-container:not(.wp-block-post-content):has(.footer.is-overlaid) > .footer,
+:root .wp-site-blocks:has(.footer.is-overlaid) > .footer {
   z-index: 10000;
 }
-:root .is-root-container:not(.wp-block-post-content):has(.header--overlaid):has(.footer--overlaid) > main,
-:root .wp-site-blocks:has(.header--overlaid):has(.footer--overlaid) > main {
+:root .is-root-container:not(.wp-block-post-content):has(.header.is-overlaid):has(.footer.is-overlaid) > main,
+:root .wp-site-blocks:has(.header.is-overlaid):has(.footer.is-overlaid) > main {
   grid-row: 1/4;
 }
-:root .is-root-container:not(.wp-block-post-content):has(.header--overlaid):has(.footer--overlaid) > .header,
-:root .is-root-container:not(.wp-block-post-content):has(.header--overlaid):has(.footer--overlaid) > .footer,
-:root .wp-site-blocks:has(.header--overlaid):has(.footer--overlaid) > .header,
-:root .wp-site-blocks:has(.header--overlaid):has(.footer--overlaid) > .footer {
+:root .is-root-container:not(.wp-block-post-content):has(.header.is-overlaid):has(.footer.is-overlaid) > .header,
+:root .is-root-container:not(.wp-block-post-content):has(.header.is-overlaid):has(.footer.is-overlaid) > .footer,
+:root .wp-site-blocks:has(.header.is-overlaid):has(.footer.is-overlaid) > .header,
+:root .wp-site-blocks:has(.header.is-overlaid):has(.footer.is-overlaid) > .footer {
   z-index: 10000;
 }
 :root .wp-site-blocks {
