@@ -13,7 +13,7 @@
  */
 
 ?>
-<!-- wp:group {"metadata":{"name":"<?php echo esc_html_x( 'Blog page header', 'Name for the Blog page header pattern', 'mroya' ); ?>"},"align":"wide","className":"page-header__inner--blog-1","layout":{"type":"constrained"}} -->
+<!-- wp:group {"align":"wide","className":"page-header__inner--blog-1","layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignwide page-header__inner--blog-1">
 	<!-- wp:heading {"level":1,"align":"wide","className":"is-style-text-giant page-header__title"} -->
 	<h1 class="wp-block-heading alignwide is-style-text-giant page-header__title"><?php echo wp_kses_post( _x( 'Mind<br>Fragments', 'Blog page header title', 'mroya' ) ); ?></h1>

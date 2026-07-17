@@ -13,7 +13,7 @@
  */
 
 ?>
-<!-- wp:group {"metadata":{"name":"<?php echo esc_html_x( 'Archive page header', 'Name for the Archive page header pattern', 'mroya' ); ?>"},"align":"wide","className":"page-header__inner--archive-1","layout":{"type":"constrained"}} -->
+<!-- wp:group {"align":"wide","className":"page-header__inner--archive-1","layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignwide page-header__inner--archive-1">
 	<!-- wp:query-title {"type":"archive","showPrefix":false,"align":"wide","className":"page-header__title"} /-->
 

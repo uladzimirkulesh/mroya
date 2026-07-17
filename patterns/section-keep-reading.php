@@ -13,9 +13,9 @@
  */
 
 ?>
-<!-- wp:group {"tagName":"section","metadata":{"name":"<?php echo esc_html_x( 'Keep Reading', 'Name for the Keep reading section pattern', 'mroya' ); ?>"},"align":"full","className":"section section--keep-reading section--keep-reading-1","style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"constrained"}} -->
-<section class="wp-block-group alignfull section section--keep-reading section--keep-reading-1">
-	<!-- wp:group {"tagName":"header","metadata":{"name":"<?php echo esc_html_x( 'Header', 'Name for the section header area', 'mroya' ); ?>"},"align":"wide","className":"section__header","style":{"border":{"top":{"color":"var:preset|color|contrast-4","style":"solid","width":"1px"}},"spacing":{"padding":{"top":"1rem"}}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between","verticalAlignment":"center"}} -->
+<!-- wp:group {"tagName":"section","align":"full","className":"section section--keep-reading","style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"constrained"}} -->
+<section class="wp-block-group alignfull section section--keep-reading">
+	<!-- wp:group {"tagName":"header","align":"wide","className":"section__header","style":{"border":{"top":{"color":"var:preset|color|contrast-4","style":"solid","width":"1px"}},"spacing":{"padding":{"top":"1rem"}}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between","verticalAlignment":"center"}} -->
 	<header class="wp-block-group alignwide section__header" style="border-top-color:var(--wp--preset--color--contrast-4);border-top-style:solid;border-top-width:1px;padding-top:1rem">
 		<!-- wp:heading -->
 		<h2 class="wp-block-heading"><?php echo esc_html_x( 'Keep Reading', 'Keep reading section title', 'mroya' ); ?></h2>
@@ -33,7 +33,7 @@
 	</header>
 	<!-- /wp:group -->
 
-	<!-- wp:group {"metadata":{"name":"<?php echo esc_html_x( 'Content', 'Name for the section content area', 'mroya' ); ?>"},"align":"wide","className":"section__content","layout":{"type":"constrained"}} -->
+	<!-- wp:group {"align":"wide","className":"section__content","layout":{"type":"constrained"}} -->
 	<div class="wp-block-group alignwide section__content">
 		<!-- wp:query {"query":{"blockName":"related-posts","perPage":4,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false},"align":"wide"} -->
 		<div class="wp-block-query alignwide">

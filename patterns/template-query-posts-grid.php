@@ -13,7 +13,7 @@
  */
 
 ?>
-<!-- wp:query {"metadata":{"name":"<?php echo esc_html_x( 'List of posts, grid', 'Name for the List of posts pattern', 'mroya' ); ?>"},"query":{"perPage":12,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true},"align":"wide","layout":{"type":"constrained"}} -->
+<!-- wp:query {"query":{"perPage":12,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true},"align":"wide","layout":{"type":"constrained"}} -->
 <div class="wp-block-query alignwide">
 	<!-- wp:post-template {"align":"wide","layout":{"type":"grid","columnCount":4,"minimumColumnWidth":null}} -->
 		<!-- wp:post-featured-image {"isLink":true,"aspectRatio":"3/4","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|10"}}}} /-->
