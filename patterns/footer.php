@@ -27,10 +27,10 @@
 
 			<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"default"}} -->
 			<div class="wp-block-group">
-				<!-- wp:group {"className":"footer__block","style":{"spacing":{"blockGap":"0.75rem"},"css":"font-weight: 550;","typography":{"letterSpacing":"-0.025em"}},"fontSize":"small","layout":{"type":"constrained"}} -->
-				<div class="wp-block-group footer__block has-custom-css has-small-font-size" style="letter-spacing:-0.025em">
-					<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast-3"}}}},"textColor":"contrast-3"} -->
-					<p class="has-contrast-3-color has-text-color has-link-color"><?php echo esc_html_x( 'Discover', 'Footer block title', 'mroya' ); ?></p>
+				<!-- wp:group {"className":"footer__block","style":{"spacing":{"blockGap":"0.75rem"}},"layout":{"type":"constrained"}} -->
+				<div class="wp-block-group footer__block">
+					<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast-3"}}},"typography":{"fontStyle":"normal","fontWeight":"500"}},"textColor":"contrast-3","fontSize":"small"} -->
+					<p class="has-contrast-3-color has-text-color has-link-color has-small-font-size" style="font-style:normal;font-weight:500"><?php echo esc_html_x( 'Discover', 'Footer block title', 'mroya' ); ?></p>
 					<!-- /wp:paragraph -->
 
 					<!-- wp:navigation {"overlayMenu":"never","layout":{"type":"flex","orientation":"vertical"}} -->
@@ -44,10 +44,10 @@
 				</div>
 				<!-- /wp:group -->
 
-				<!-- wp:group {"className":"footer__block","style":{"spacing":{"blockGap":"0.75rem"},"css":"font-weight: 550;","typography":{"letterSpacing":"-0.025em"}},"fontSize":"small","layout":{"type":"constrained"}} -->
-				<div class="wp-block-group footer__block has-custom-css has-small-font-size" style="letter-spacing:-0.025em">
-					<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast-3"}}}},"textColor":"contrast-3"} -->
-					<p class="has-contrast-3-color has-text-color has-link-color"><?php echo esc_html_x( 'Legals', 'Footer block title', 'mroya' ); ?></p>
+				<!-- wp:group {"className":"footer__block","style":{"spacing":{"blockGap":"0.75rem"}},"layout":{"type":"constrained"}} -->
+				<div class="wp-block-group footer__block">
+					<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast-3"}}},"typography":{"fontStyle":"normal","fontWeight":"500"}},"textColor":"contrast-3","fontSize":"small"} -->
+					<p class="has-contrast-3-color has-text-color has-link-color has-small-font-size" style="font-style:normal;font-weight:500"><?php echo esc_html_x( 'Legals', 'Footer block title', 'mroya' ); ?></p>
 					<!-- /wp:paragraph -->
 
 					<!-- wp:navigation {"overlayMenu":"never","layout":{"type":"flex","orientation":"vertical"}} -->
@@ -62,10 +62,10 @@
 
 			<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"default"}} -->
 			<div class="wp-block-group">
-				<!-- wp:group {"className":"footer__block","style":{"spacing":{"blockGap":"0.75rem"},"css":"font-weight: 550;","typography":{"letterSpacing":"-0.025em"}},"fontSize":"small","layout":{"type":"constrained"}} -->
-				<div class="wp-block-group footer__block has-custom-css has-small-font-size" style="letter-spacing:-0.025em">
-					<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast-3"}}}},"textColor":"contrast-3"} -->
-					<p class="has-contrast-3-color has-text-color has-link-color"><?php echo esc_html_x( 'Contact', 'Footer block title', 'mroya' ); ?></p>
+				<!-- wp:group {"className":"footer__block","style":{"spacing":{"blockGap":"0.75rem"}},"layout":{"type":"constrained"}} -->
+				<div class="wp-block-group footer__block">
+					<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast-3"}}},"typography":{"fontStyle":"normal","fontWeight":"500"}},"textColor":"contrast-3","fontSize":"small"} -->
+					<p class="has-contrast-3-color has-text-color has-link-color has-small-font-size" style="font-style:normal;font-weight:500"><?php echo esc_html_x( 'Contact', 'Footer block title', 'mroya' ); ?></p>
 					<!-- /wp:paragraph -->
 
 					<!-- wp:navigation {"overlayMenu":"never","layout":{"type":"flex","orientation":"vertical"}} -->
@@ -75,10 +75,10 @@
 				</div>
 				<!-- /wp:group -->
 
-				<!-- wp:group {"className":"footer__block","style":{"spacing":{"blockGap":"0.75rem"},"css":"font-weight: 550;","typography":{"letterSpacing":"-0.025em"}},"fontSize":"small","layout":{"type":"constrained"}} -->
-				<div class="wp-block-group footer__block has-custom-css has-small-font-size" style="letter-spacing:-0.025em">
-					<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast-3"}}}},"textColor":"contrast-3"} -->
-					<p class="has-contrast-3-color has-text-color has-link-color"><?php echo esc_html_x( 'Social Media', 'Footer block title', 'mroya' ); ?></p>
+				<!-- wp:group {"className":"footer__block","style":{"spacing":{"blockGap":"0.75rem"}},"layout":{"type":"constrained"}} -->
+				<div class="wp-block-group footer__block">
+					<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast-3"}}},"typography":{"fontStyle":"normal","fontWeight":"500"}},"textColor":"contrast-3","fontSize":"small"} -->
+					<p class="has-contrast-3-color has-text-color has-link-color has-small-font-size" style="font-style:normal;font-weight:500"><?php echo esc_html_x( 'Social Media', 'Footer block title', 'mroya' ); ?></p>
 					<!-- /wp:paragraph -->
 
 					<!-- wp:navigation {"overlayMenu":"never","layout":{"type":"flex","orientation":"vertical"}} -->
@@ -99,8 +99,8 @@
 			<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide"/>
 			<!-- /wp:separator -->
 
-			<!-- wp:group {"style":{"css":"row-gap: 0.25rem; font-weight: 550; letter-spacing: -0.025em; line-height: var(--wp--style--block-gap);","spacing":{"padding":{"top":"var:preset|spacing|10","bottom":"var:preset|spacing|10"}},"elements":{"link":{"color":{"text":"var:preset|color|contrast-3"}}}},"textColor":"contrast-3","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
-			<div class="wp-block-group has-custom-css has-contrast-3-color has-text-color has-link-color" style="padding-top:var(--wp--preset--spacing--10);padding-bottom:var(--wp--preset--spacing--10)">
+			<!-- wp:group {"style":{"css":"row-gap: 0.25rem; line-height: var(--wp--style--lock-gap);","spacing":{"padding":{"top":"var:preset|spacing|10","bottom":"var:preset|spacing|10"}},"elements":{"link":{"color":{"text":"var:preset|color|contrast-3"}}},"typography":{"fontStyle":"normal","fontWeight":"500"}},"textColor":"contrast-3","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
+			<div class="wp-block-group has-custom-css has-contrast-3-color has-text-color has-link-color" style="padding-top:var(--wp--preset--spacing--10);padding-bottom:var(--wp--preset--spacing--10);font-style:normal;font-weight:500">
 				<!-- wp:paragraph {"className":"footer__copyrights"} -->
 				<p class="footer__copyrights"><?php echo esc_html_x( '© 2026, Mroya Theme', 'Footer copyright text', 'mroya' ); ?></p>
 				<!-- /wp:paragraph -->

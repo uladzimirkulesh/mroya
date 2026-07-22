@@ -18,7 +18,6 @@ html {
   -webkit-text-size-adjust: 100%;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  scroll-behavior: smooth;
   font-size: var(--wp--custom--typography--html-font-size, 16px);
   font-variation-settings: var(--wp--custom--typography--font-variation-settings, normal);
   font-feature-settings: var(--wp--custom--typography--font-feature-settings, normal);
@@ -684,31 +683,14 @@ input[type=checkbox] + label {
 .wp-block-post-content * + .wp-block-table:not([style*=margin-bottom]):not(:last-child) {
   margin-block-end: calc(var(--wp--style--block-gap) * 1.5);
 }
-.entry .featured-image--singular > img,
-.entry .featured-image--singular > .block-editor-media-placeholder {
-  height: 100%;
-}
-.entry .featured-image--singular::after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.4);
-  pointer-events: none;
-  inset: 0;
-}
-@media only screen and (max-width: 959px) {
-  body.wp-singular:not(.uk-project-template) .entry .entry-content {
-    margin-block-start: clamp(1.5rem, 3.75vw + 0.75rem, 4.5rem);
-  }
-}
-.entry .entry-header + .entry-content:has(.project-description) {
-  margin-top: 2rem;
+.entry .wp-block-post-title {
+  position: relative;
+  left: -0.35vw;
 }
 .entry .entry-footer:not(:has(*)) {
   display: none;
 }
-.entry .post-nav-links {
+.entry:not(.is-custom) .post-nav-links {
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -720,7 +702,7 @@ input[type=checkbox] + label {
   line-height: var(--wp--style--block-gap);
   text-align: center;
 }
-.entry .post-nav-links .post-page-numbers {
+.entry:not(.is-custom) .post-nav-links .post-page-numbers {
   padding: 0.3125rem 0.875rem;
   min-width: 2.25rem;
   color: var(--wp--preset--color--contrast);
@@ -728,13 +710,10 @@ input[type=checkbox] + label {
   border: 1px solid var(--wp--preset--color--contrast-4);
   border-radius: var(--wp--custom--border--radius--normal);
 }
-.entry .post-nav-links .post-page-numbers:hover,
-.entry .post-nav-links .post-page-numbers:focus,
-.entry .post-nav-links .post-page-numbers:active {
-  color: var(--wp--preset--color--base);
-  background-color: var(--wp--preset--color--contrast);
-}
-.entry .post-nav-links .post-page-numbers.current {
+.entry:not(.is-custom) .post-nav-links .post-page-numbers:hover,
+.entry:not(.is-custom) .post-nav-links .post-page-numbers:focus,
+.entry:not(.is-custom) .post-nav-links .post-page-numbers:active,
+.entry:not(.is-custom) .post-nav-links .post-page-numbers.current {
   color: var(--wp--preset--color--base);
   background-color: var(--wp--preset--color--contrast);
   border-color: transparent;
