@@ -22,7 +22,7 @@
 
 	<!-- wp:group {"metadata":{"name":"<?php echo esc_html_x( 'Content', 'Name for the project description content', 'mroya' ); ?>"},"className":"project-description__content","style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"default"}} -->
 	<div class="wp-block-group project-description__content">
-		<!-- wp:group {"layout":{"type":"constrained"}} -->
+		<!-- wp:group {"layout":{"type":"default"}} -->
 		<div class="wp-block-group">
 			<!-- wp:heading {"level":3} -->
 			<h3 class="wp-block-heading"><?php echo esc_html_x( 'Proin quis lobortis elit vivamus vestibulum lorem sit amet scelerisque gravida. Nam fermentum consequat suscipit', 'Project description title', 'mroya' ); ?></h3>
