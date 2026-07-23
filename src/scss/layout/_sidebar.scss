@@ -4,9 +4,10 @@
 Sidebar
 -------------------------------------------------------*/
 
-.sidebar {
+.sidebar:not(.is-custom) {
 	position: fixed;
 	width: 100%;
+	height: 100vh;
 	height: 100dvh;
 	z-index: 100000;
 
@@ -14,34 +15,37 @@ Sidebar
 		display: none;
 	}
 
-	// Inner
-	&__inner {
-		width: 100%;
-		height: 100%;
-	}
+	.sidebar {
 
-	// Overlay
-	&__overlay {
-		position: absolute !important;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		z-index: 0;
-		cursor: pointer;
-	}
+		// Inner
+		&__inner {
+			width: 100%;
+			height: 100%;
+		}
 
-	// Widgets
-	&__widgets {
-		position: relative;
-		width: 100%;
-		height: 100%;
-		z-index: 10;
-		overflow-y: auto;
-		background-color: var(--wp--custom--color--sidebar--background);
+		// Overlay
+		&__overlay {
+			position: absolute !important;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			z-index: 0;
+			cursor: pointer;
+		}
 
-		@include mixins.media("break-mobile") {
-			max-width: 26rem;
+		// Widgets
+		&__widgets {
+			position: relative;
+			width: 100%;
+			height: 100%;
+			z-index: 10;
+			overflow-y: auto;
+			background-color: var(--wp--custom--color--sidebar--background, var(--wp--preset--color--base));
+
+			@include mixins.media("break-mobile") {
+				max-width: 26rem;
+			}
 		}
 	}
 }
@@ -52,21 +56,24 @@ Sidebar animations
 
 body:not(.editor-styles-wrapper) {
 
-	.sidebar {
+	.sidebar:not(.is-custom) {
 		visibility: hidden;
 		pointer-events: none;
 		transition: visibility 0.3s ease-out;
 
-		// Overlay
-		&__overlay {
-			opacity: 0;
-			transition: opacity 0.3s ease-out;
-		}
+		.sidebar {
 
-		// Widgets
-		&__widgets {
-			transform: translate(120%, 0);
-			transition: transform 0.3s ease-out;
+			// Overlay
+			&__overlay {
+				opacity: 0;
+				transition: opacity 0.3s ease-out;
+			}
+
+			// Widgets
+			&__widgets {
+				transform: translate(120%, 0);
+				transition: transform 0.3s ease-out;
+			}
 		}
 
 		// Opened sidebar
@@ -116,7 +123,7 @@ body:not(.editor-styles-wrapper) {
 Sidebar opener
 */
 
-.sidebar-opener {
+.sidebar-opener:not(.is-custom) {
 	display: block;
 	margin: 0;
 	padding: 1rem;
@@ -175,7 +182,7 @@ Sidebar opener animations
 
 body:not(.editor-styles-wrapper) {
 
-	.sidebar-opener {
+	.sidebar-opener:not(.is-custom) {
 		opacity: 0;
 		transform: translateY(50%);
 		animation: 0.3s buttonFadeInUp 0.3s ease-out forwards;

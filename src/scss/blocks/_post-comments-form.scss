@@ -5,7 +5,7 @@ Post comments form
 -------------------------------------------------------*/
 
 .wp-block-comments > * + .wp-block-post-comments-form {
-	margin-top: var(--wp--preset--spacing--60);
+	margin-top: var(--wp--preset--spacing--50);
 }
 
 .comment + .wp-block-post-comments-form {
@@ -15,14 +15,18 @@ Post comments form
 .wp-block-post-comments-form .comment-reply-title {
 	margin-top: 0;
 	margin-bottom: 0.75rem;
+
 	font-size: var(--wp--preset--font-size--xxx-large);
+	letter-spacing: var(--wp--custom--typography--letter-spacing--xxx-large, inherit);
+	line-height: var(--wp--custom--typography--line-height--xxx-large, inherit);
 
 	small {
-		letter-spacing: -0.01em;
+		letter-spacing: var(--wp--custom--typography--letter-spacing--medium, inherit);
+		line-height: var(--wp--custom--typography--line-height--medium, inherit);
 	}
 
 	@include mixins.media("break-small") {
-		margin-bottom: 0.125rem;
+		margin-bottom: 0.25rem;
 	}
 }
 
@@ -33,7 +37,8 @@ Post comments form
 		color: var(--wp--preset--color--contrast-3);
 		font-size: var(--wp--preset--font-size--small);
 		font-weight: 450;
-		letter-spacing: 0;
+		letter-spacing: var(--wp--custom--typography--letter-spacing--small, inherit);
+		line-height: var(--wp--custom--typography--line-height--small, inherit);
 	}
 
 	.logged-in-as a {

@@ -40,7 +40,7 @@ Entry
 				color: var(--wp--preset--color--contrast);
 				text-decoration: none;
 				border: 1px solid var(--wp--preset--color--contrast-4);
-				border-radius: var(--wp--custom--border--radius--normal);
+				border-radius: var(--wp--custom--border--radius--normal, 0.25rem);
 
 				&:hover,
 				&:focus,

@@ -4,7 +4,7 @@
 Navigation
 -------------------------------------------------------*/
 
-.wp-block-navigation {
+.wp-block-navigation:not(.is-custom) {
 
 	// Item
 	.wp-block-navigation-item {
@@ -41,7 +41,7 @@ Navigation
 				border: none;
 			}
 
-			@include mixins.media("break-small") {
+			@include mixins.media("break-large") {
 				padding: calc(var(--wp--style--block-gap) / 2) 0;
 			}
 
@@ -88,7 +88,7 @@ Navigation
 Mobile menu
 -------------------------------------------------------*/
 
-.navigation-overlay {
+.navigation-overlay:not(.is-custom) {
 
 	.wp-block-navigation {
 
@@ -102,8 +102,8 @@ Mobile menu
 
 			> .wp-block-navigation-item > .wp-block-navigation-item__content {
 				font-size: var(--wp--preset--font-size--xxx-large);
-				line-height: var(--wp--custom--typography--line-height--xxx-large);
-				letter-spacing: var(--wp--custom--typography--letter-spacing--xxx-large);
+				line-height: var(--wp--custom--typography--line-height--xxx-large, inherit);
+				letter-spacing: var(--wp--custom--typography--letter-spacing--xxx-large, inherit);
 			}
 		}
 

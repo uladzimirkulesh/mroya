@@ -24,22 +24,5 @@ Posts grid layout
 				grid-template-columns: repeat(4, minmax(0, 1fr));
 			}
 		}
-
-		.wp-block-post {
-
-			&:nth-child(3n-2) {
-
-				.wp-block-post-featured-image {
-					aspect-ratio: 1 !important;
-				}
-			}
-
-			&:nth-child(3n) {
-
-				.wp-block-post-featured-image {
-					aspect-ratio: 4/3 !important;
-				}
-			}
-		}
 	}
 }

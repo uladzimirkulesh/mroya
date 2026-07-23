@@ -24,7 +24,7 @@ Header
 		&__submenu-container {
 
 			.wp-block-navigation-item__content {
-				line-height: var(--wp--custom--typography--line-height--small);
+				line-height: var(--wp--custom--typography--line-height--small, inherit);
 			}
 		}
 	}
