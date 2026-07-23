@@ -683,7 +683,6 @@ input[type=checkbox] + label {
 }
 .entry .wp-block-post-title {
   position: relative;
-  left: -0.35vw;
 }
 .entry .entry-footer:not(:has(*)) {
   display: none;
@@ -739,11 +738,11 @@ input[type=checkbox] + label {
   line-height: var(--wp--custom--typography--line-height--small, inherit);
 }
 .header.has-overlaid-colors .header--default:not(.is-custom) {
-  color: var(--wp--preset--color--accent-3);
+  color: rgb(255, 255, 255);
   background-color: transparent;
 }
 .header.has-overlaid-colors .header--default:not(.is-custom) a {
-  color: var(--wp--preset--color--accent-3);
+  color: rgb(255, 255, 255);
 }
 .header.has-overlaid-colors .header--default:not(.is-custom) .wp-element-button,
 .header.has-overlaid-colors .header--default:not(.is-custom) .wp-block-button__link {

@@ -36,7 +36,7 @@
 		<div class="wp-block-buttons">
 			<!-- wp:button -->
 			<div class="wp-block-button">
-				<a class="wp-block-button__link wp-element-button"><?php echo esc_html_x( 'Get in Touch', 'Header button text', 'mroya' ); ?></a>
+				<a class="wp-block-button__link wp-element-button" href="#"><?php echo esc_html_x( 'Get in Touch', 'Header button text', 'mroya' ); ?></a>
 			</div>
 			<!-- /wp:button -->
 		</div>

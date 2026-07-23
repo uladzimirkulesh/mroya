@@ -1,0 +1,31 @@
+{
+	"$schema": "https://schemas.wp.org/wp/6.7/theme.json",
+	"version": 3,
+	"title": "Pill 2",
+	"slug": "pill-2",
+	"blockTypes": [
+		"core/post-terms"
+	],
+	"styles": {
+		"color": {
+			"text": "var:preset|color|base"
+		},
+		"typography": {
+			"fontSize": "var:preset|font-size|xx-small",
+			"fontWeight": "500",
+			"lineHeight": "var:custom|typography|line-height|xx-small",
+			"letterSpacing": "var:custom|typography|letter-spacing|xx-small"
+		},
+		"elements": {
+			"link": {
+				"color": {
+					"text": "currentColor"
+				},
+				"typography": {
+					"textDecoration": "none"
+				}
+			}
+		},
+		"css": "& a, span:not([class], [data-rich-text-placeholder]) { padding: 0.375rem 0.75rem; background-color: var(--wp--preset--color--contrast); border-radius: var(--wp--custom--border--radius--small); } & a:hover, a:focus, a:active { background-color: var(--wp--preset--color--contrast-2); }"
+	}
+}

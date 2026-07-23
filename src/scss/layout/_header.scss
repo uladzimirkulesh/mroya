@@ -31,11 +31,11 @@ Header
 
 	// Header has overlaid colors
 	.header.has-overlaid-colors & {
-		color: var(--wp--preset--color--accent-3);
+		color: rgb(255, 255, 255);
 		background-color: transparent;
 
 		a {
-			color: var(--wp--preset--color--accent-3);
+			color: rgb(255, 255, 255);
 		}
 
 		.wp-element-button,

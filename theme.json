@@ -14,7 +14,7 @@
 				}
 			},
 			"typography": {
-				"htmlFontSize": "clamp(1rem, 0.3125vi + 0.6875rem, 1.1875rem)",
+				"htmlFontSize": "clamp(1rem, 0.3125vw + 0.6875rem, 1.1875rem)",
 				"fontVariationSettings": "\"opsz\" 28",
 				"fontFeatureSettings": "\"cv10\", \"ss03\", \"cv01\", \"cv09\", \"cv03\", \"cv04\"",
 				"lineHeight": {
@@ -28,11 +28,11 @@
 					"xx-large": "clamp(1.875rem, 0.625vw + 1.75rem, 2.375rem)",
 					"xxx-large": "clamp(2.25rem, 0.46875vw + 2.15625rem, 2.625rem)",
 					"huge": "clamp(2.625rem, 1.875vw + 2.25rem, 4.125rem)",
-					"display": "clamp(2.625rem, 5.46875vi + 1.53125rem, 7rem)"
+					"display": "clamp(2.625rem, 5.46875vw + 1.53125rem, 7rem)"
 				},
 				"letterSpacing": {
-					"xx-small": "0",
-					"x-small": "0",
+					"xx-small": "-0.008em",
+					"x-small": "-0.008em",
 					"small": "-0.008em",
 					"normal": "0",
 					"medium": "-0.012em",
@@ -46,6 +46,7 @@
 			},
 			"border": {
 				"radius": {
+					"small": "0.1875rem",
 					"normal": "0.25rem",
 					"large": "0.5rem"
 				}
@@ -62,32 +63,32 @@
 					"slug": "base"
 				},
 				{
-					"color": "#161616",
+					"color": "#1a1a1a",
 					"name": "Contrast",
 					"slug": "contrast"
 				},
 				{
-					"color": "color-mix(in srgb, #161616 96%, #e6e6e6)",
+					"color": "color-mix(in srgb, #1a1a1a 95%, #e6e6e6)",
 					"name": "Contrast / Two",
 					"slug": "contrast-2"
 				},
 				{
-					"color": "color-mix(in srgb, #161616 64%, #e6e6e6)",
+					"color": "color-mix(in srgb, #1a1a1a 63%, #e6e6e6)",
 					"name": "Contrast / Three",
 					"slug": "contrast-3"
 				},
 				{
-					"color": "color-mix(in srgb, #161616 22%, #e6e6e6)",
+					"color": "color-mix(in srgb, #1a1a1a 13%, #e6e6e6)",
 					"name": "Contrast / Four",
 					"slug": "contrast-4"
 				},
 				{
-					"color": "color-mix(in srgb, #161616 6%, #e6e6e6)",
+					"color": "color-mix(in srgb, #1a1a1a 6.5%, #e6e6e6)",
 					"name": "Contrast / Five",
 					"slug": "contrast-5"
 				},
 				{
-					"color": "#1a1a1a",
+					"color": "#ffffff",
 					"name": "Accent",
 					"slug": "accent"
 				},
@@ -95,11 +96,6 @@
 					"color": "#f1f1f1",
 					"name": "Accent / Two",
 					"slug": "accent-2"
-				},
-				{
-					"color": "#ffffff",
-					"name": "Accent / Three",
-					"slug": "accent-3"
 				}
 			]
 		},
@@ -128,12 +124,12 @@
 				},
 				{
 					"name": "X-Large",
-					"size": "clamp(3.75rem, 2.8125vi + 3.1875rem, 6rem)",
+					"size": "clamp(3.75rem, 2.8125vw + 3.1875rem, 6rem)",
 					"slug": "40"
 				},
 				{
 					"name": "2X-Large",
-					"size": "clamp(4.5rem, 3.75vw + 3.75rem, 7.5rem)",
+					"size": "clamp(6rem, 5.625vw + 4.875rem, 10.5rem)",
 					"slug": "50"
 				},
 				{
@@ -412,7 +408,7 @@
 				},
 				"typography": {
 					"fontSize": "var:preset|font-size|small",
-					"fontWeight": "450",
+					"fontWeight": "500",
 					"lineHeight": "var:custom|typography|line-height|small",
 					"letterSpacing": "var:custom|typography|letter-spacing|small"
 				},
@@ -431,7 +427,7 @@
 				},
 				"typography": {
 					"fontSize": "var:preset|font-size|small",
-					"fontWeight": "450",
+					"fontWeight": "500",
 					"lineHeight": "var:custom|typography|line-height|small",
 					"letterSpacing": "var:custom|typography|letter-spacing|small"
 				},
@@ -442,7 +438,7 @@
 						}
 					}
 				},
-				"css": "& > * { display: inline-block; } &.taxonomy-post_tag a::before { content: '#'; }"
+				"css": "& > * { display: inline-block; }"
 			},
 			"core/term-description": {
 				"typography": {
@@ -1137,7 +1133,7 @@
 						"textDecoration": "underline"
 					}
 				},
-				"css": "& { text-underline-offset: 0.125em; text-decoration-thickness: 1px !important; transition: all 0.25s ease-in-out; } &:hover { text-underline-offset: 0.175em; text-decoration-color: transparent; } &:active { text-underline-offset: 0.175em; text-decoration-color: transparent; }"
+				"css": "& { text-underline-offset: 0.125em; text-decoration-thickness: 1px !important; transition-property: color, background-color, border-color, opacity, text-decoration-color, text-underline-offset; transition-duration: 0.25s; transition-timing-function: ease-in-out; } &:hover { text-underline-offset: 0.175em; text-decoration-color: transparent; } &:active { text-underline-offset: 0.175em; text-decoration-color: transparent; }"
 			}
 		}
 	},
