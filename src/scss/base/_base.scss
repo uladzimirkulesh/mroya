@@ -46,12 +46,15 @@ button,
 .wp-element-button,
 .wp-block-button__link {
 	cursor: pointer;
-	text-decoration: none;
 	text-shadow: none;
 
 	transition-property: color, background-color, border-color, opacity, text-decoration-color, text-underline-offset;
 	transition-duration: 0.25s;
 	transition-timing-function: ease-in-out;
+}
+
+button {
+	text-decoration: none;
 }
 
 /*

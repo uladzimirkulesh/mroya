@@ -19,8 +19,8 @@
 	<div class="wp-block-group sidebar__widgets widgets" style="min-height:100%;padding-top:2.25rem;padding-right:var(--wp--preset--spacing--20);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--20)">
 		<!-- wp:buttons {"className":"sidebar-close","layout":{"type":"flex","justifyContent":"right"}} -->
 		<div class="wp-block-buttons sidebar-close">
-			<!-- wp:button {"className":"is-style-link-4"} -->
-			<div class="wp-block-button is-style-link-4"><a class="wp-block-button__link wp-element-button" href="#"><?php echo esc_html_x( 'Close', 'Sidebar close button text', 'mroya' ); ?></a></div>
+			<!-- wp:button {"className":"is-style-close"} -->
+			<div class="wp-block-button is-style-close"><a class="wp-block-button__link wp-element-button" href="#"><?php echo esc_html_x( 'Close', 'Sidebar close button text', 'mroya' ); ?></a></div>
 			<!-- /wp:button -->
 		</div>
 		<!-- /wp:buttons -->
