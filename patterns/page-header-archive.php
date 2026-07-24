@@ -9,13 +9,13 @@
  * Viewport Width: 1440
  *
  * @package Mroya
- * @since Mroya 1.0.0
+ * @since Mroya 2.0.0
  */
 
 ?>
-<!-- wp:group {"align":"wide","className":"page-header__inner--archive-1","layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignwide page-header__inner--archive-1">
-	<!-- wp:query-title {"type":"archive","showPrefix":false,"align":"wide","className":"page-header__title"} /-->
+<!-- wp:group {"align":"wide","className":"page-header--archive","style":{"spacing":{"blockGap":"0.5rem"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignwide page-header--archive">
+	<!-- wp:query-title {"type":"archive","showPrefix":false,"align":"wide","className":"page-header__title","style":{"css":"left: -0.35vw;"}} /-->
 
 	<!-- wp:group {"align":"wide","layout":{"type":"constrained","contentSize":"480px","justifyContent":"left","wideSize":"100%"}} -->
 	<div class="wp-block-group alignwide">

@@ -443,13 +443,13 @@
 			"core/term-description": {
 				"typography": {
 					"fontWeight": "500",
-					"letterSpacing": "-0.015em"
+					"letterSpacing": "-0.02em"
 				}
 			},
 			"core/post-author-name": {
 				"typography": {
 					"fontWeight": "500",
-					"letterSpacing": "-0.015em"
+					"letterSpacing": "-0.02em"
 				}
 			},
 			"core/comments-title": {
