@@ -9,22 +9,22 @@
  * Viewport width: 1440
  *
  * @package Mroya
- * @since Mroya 1.0.0
+ * @since Mroya 2.0.0
  */
 
 ?>
 <!-- wp:query {"query":{"perPage":12,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true},"align":"wide","layout":{"type":"constrained"}} -->
 <div class="wp-block-query alignwide">
 	<!-- wp:post-template {"align":"wide","layout":{"type":"grid","columnCount":4,"minimumColumnWidth":null}} -->
-		<!-- wp:post-featured-image {"isLink":true,"aspectRatio":"3/4","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|10"}}}} /-->
+		<!-- wp:post-featured-image {"isLink":true,"aspectRatio":"4/3","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|10"}},"border":{"radius":{"topLeft":"0.375rem","topRight":"0.375rem","bottomLeft":"0.375rem","bottomRight":"0.375rem"}}}} /-->
 
-		<!-- wp:post-terms {"term":"category","style":{"spacing":{"margin":{"bottom":"0.5rem"}}}} /-->
+		<!-- wp:post-terms {"term":"category","style":{"spacing":{"margin":{"bottom":"0.75rem"}}}} /-->
 
-		<!-- wp:post-title {"isLink":true,"style":{"spacing":{"margin":{"top":"0","bottom":"0.75rem"}},"typography":{"lineHeight":"1.38889"}},"fontSize":"medium"} /-->
+		<!-- wp:post-title {"isLink":true,"style":{"spacing":{"margin":{"top":"0","bottom":"0.75rem"}}},"fontSize":"large"} /-->
 
-		<!-- wp:post-excerpt {"moreText":"","showMoreOnNewLine":false,"excerptLength":26,"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast-3"},":hover":{"color":{"text":"var:preset|color|contrast-2"}}}},"spacing":{"margin":{"top":"0","bottom":"1rem"}}},"textColor":"contrast-2","fontSize":"small"} /-->
+		<!-- wp:post-excerpt {"moreText":"","showMoreOnNewLine":false,"excerptLength":25,"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast-3"},":hover":{"color":{"text":"var:preset|color|contrast-2"}}}},"spacing":{"margin":{"top":"0","bottom":"1rem"}}},"textColor":"contrast-2","fontSize":"small"} /-->
 
-		<!-- wp:post-date {"format":"M j, Y"} /-->
+		<!-- wp:post-date {"format":"M j, Y","metadata":{"bindings":{"datetime":{"source":"core/post-data","args":{"field":"date"}}}},"fontSize":"x-small"} /-->
 	<!-- /wp:post-template -->
 
 	<!-- wp:query-no-results -->

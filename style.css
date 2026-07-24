@@ -862,7 +862,6 @@ body[data-sidebar=opened] {
 }
 .page-header__title {
   position: relative;
-  left: -0.35vw;
 }
 .sidebar:not(.is-custom) {
   position: fixed;
