@@ -66,3 +66,35 @@ Style "Close"
 		}
 	}
 }
+
+/*
+Style "Next"
+*/
+
+.wp-block-button.is-style-next {
+
+	> .wp-block-button__link {
+		text-underline-offset: 0.25em;
+		text-decoration-color: transparent;
+
+		&::after {
+			transform: rotate(0deg);
+			transition: transform 0.35s ease-in-out;
+		}
+
+		&:hover,
+		&:focus,
+		&:active {
+			text-underline-offset: 0.15em;
+			text-decoration-color: currentColor;
+
+			&::after {
+				transform: translateX(0.25rem);
+			}
+		}
+
+		&.has-background {
+			padding: 0.5rem 1.25rem;
+		}
+	}
+}

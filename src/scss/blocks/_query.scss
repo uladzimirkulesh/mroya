@@ -12,13 +12,6 @@ Query Item
 
 	.wp-block-post {
 		position: relative;
-
-		&:not(.has-post-thumbnail) {
-			align-self: self-start;
-			padding: var(--wp--preset--spacing--10);
-			background-color: var(--wp--custom--color--card--background, var(--wp--preset--color--base));
-			border-radius: var(--wp--custom--border--radius--large, 0.25rem);
-		}
 	}
 
 	// Query item featured image
