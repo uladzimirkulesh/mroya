@@ -456,14 +456,14 @@
 				"spacing": {
 					"margin": {
 						"top": "0",
-						"bottom": "var:preset|spacing|10"
+						"bottom": "0.75rem"
 					}
 				}
 			},
 			"core/comment-author-name": {
 				"typography": {
 					"fontWeight": "500",
-					"letterSpacing": "-0.015em"
+					"letterSpacing": "-0.02em"
 				},
 				"elements": {
 					"link": {
@@ -501,7 +501,8 @@
 							"typography": {
 								"textDecoration": "underline dotted"
 							}
-						}
+						},
+						"css": "& { text-decoration-color: transparent; text-underline-offset: 0.175em; } &:hover { text-decoration-color: currentColor; text-underline-offset: 0.125em; } &:focus { text-decoration-color: currentColor; text-underline-offset: 0.125em; } &:active { text-decoration-color: currentColor; text-underline-offset: 0.125em; }"
 					}
 				}
 			},
@@ -524,7 +525,8 @@
 							"typography": {
 								"textDecoration": "underline dotted"
 							}
-						}
+						},
+						"css": "& { text-decoration-color: transparent; text-underline-offset: 0.175em; } &:hover { text-decoration-color: currentColor; text-underline-offset: 0.125em; } &:focus { text-decoration-color: currentColor; text-underline-offset: 0.125em; } &:active { text-decoration-color: currentColor; text-underline-offset: 0.125em; }"
 					}
 				}
 			},
@@ -543,7 +545,8 @@
 				"elements": {
 					"link": {
 						"color": {
-							"text": "var:preset|color|contrast"
+							"text": "var:preset|color|contrast",
+							"background": "var:preset|color|contrast-5"
 						},
 						"typography": {
 							"textDecoration": "none"
@@ -551,15 +554,15 @@
 						"border": {
 							"width": "1px",
 							"style": "solid",
-							"color": "var:preset|color|contrast-4",
+							"color": "var:preset|color|contrast-5",
 							"radius": "var:custom|border|radius|normal"
 						},
 						"spacing": {
 							"padding": {
-								"top": "0.25rem",
-								"right": "1rem",
-								"bottom": "0.25rem",
-								"left": "1rem"
+								"top": "0.1875rem",
+								"right": "0.875rem",
+								"bottom": "0.1875rem",
+								"left": "0.875rem"
 							}
 						},
 						":hover": {

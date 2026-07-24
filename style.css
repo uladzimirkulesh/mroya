@@ -410,23 +410,20 @@ input[type=checkbox] + label {
   margin-top: var(--wp--preset--spacing--50);
 }
 .comment + .wp-block-post-comments-form {
-  margin-bottom: var(--wp--preset--spacing--20);
+  margin-bottom: 2.25rem;
 }
 .wp-block-post-comments-form .comment-reply-title {
   margin-top: 0;
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.5rem;
   font-size: var(--wp--preset--font-size--xxx-large);
   letter-spacing: var(--wp--custom--typography--letter-spacing--xxx-large, inherit);
   line-height: var(--wp--custom--typography--line-height--xxx-large, inherit);
 }
 .wp-block-post-comments-form .comment-reply-title small {
-  letter-spacing: var(--wp--custom--typography--letter-spacing--medium, inherit);
-  line-height: var(--wp--custom--typography--line-height--medium, inherit);
-}
-@media only screen and (min-width: 600px) {
-  .wp-block-post-comments-form .comment-reply-title {
-    margin-bottom: 0.25rem;
-  }
+  margin-left: 0.75rem;
+  font-size: var(--wp--preset--font-size--normal);
+  letter-spacing: -0.02em;
+  line-height: var(--wp--custom--typography--line-height--normal, inherit);
 }
 .comment-form .comment-notes,
 .comment-form .logged-in-as {

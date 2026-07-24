@@ -9,24 +9,23 @@ Post comments form
 }
 
 .comment + .wp-block-post-comments-form {
-	margin-bottom: var(--wp--preset--spacing--20);
+	margin-bottom: 2.25rem;
 }
 
 .wp-block-post-comments-form .comment-reply-title {
 	margin-top: 0;
-	margin-bottom: 0.75rem;
+	margin-bottom: 0.5rem;
 
 	font-size: var(--wp--preset--font-size--xxx-large);
 	letter-spacing: var(--wp--custom--typography--letter-spacing--xxx-large, inherit);
 	line-height: var(--wp--custom--typography--line-height--xxx-large, inherit);
 
 	small {
-		letter-spacing: var(--wp--custom--typography--letter-spacing--medium, inherit);
-		line-height: var(--wp--custom--typography--line-height--medium, inherit);
-	}
+		margin-left: 0.75rem;
 
-	@include mixins.media("break-small") {
-		margin-bottom: 0.25rem;
+		font-size: var(--wp--preset--font-size--normal);
+		letter-spacing: -0.02em;
+		line-height: var(--wp--custom--typography--line-height--normal, inherit);
 	}
 }
 
