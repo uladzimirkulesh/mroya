@@ -1182,6 +1182,11 @@
 			"name": "blank",
 			"postTypes": [ "page" ],
 			"title": "Blank template"
+		},
+		{
+			"name": "blank-2",
+			"postTypes": [ "page" ],
+			"title": "Blank template (style 2)"
 		}
 	]
 }
