@@ -25,7 +25,7 @@ if ( ! function_exists( 'mroya_theme_info_styles' ) ) {
 	 * @return void
 	 */
 	function mroya_theme_info_styles( $hook ){
-		if ( 'appearance_page_mroya-theme-info' != $hook ) {
+		if ( 'appearance_page_mroya-theme' != $hook ) {
 			return;
 		}
 
@@ -57,7 +57,7 @@ if ( ! function_exists( 'mroya_create_admin_menu_item' ) ) {
 	 * @return void
 	 */
 	function mroya_create_admin_menu_item() {
-		add_theme_page( 'Mroya Theme Info', 'Mroya Theme Info', 'edit_theme_options', 'mroya-theme-info', 'mroya_theme_info_page' );
+		add_theme_page( 'Mroya Theme', 'Mroya Theme', 'edit_theme_options', 'mroya-theme', 'mroya_theme_info_page' );
 	}
 }
 add_action( 'admin_menu', 'mroya_create_admin_menu_item' );
@@ -77,9 +77,17 @@ if ( ! function_exists( 'mroya_theme_info_page' ) ) {
 
 			<div class="columns">
 				<div class="column column--left">
-					<h2><?php echo esc_html_x( 'Mroya Free', 'Theme info column left title', 'mroya' ); ?></h2>
+					<h2><?php echo esc_html_x( 'Mroya Theme', 'Theme info column left title', 'mroya' ); ?></h2>
 
-					<p class="theme-description"><?php echo esc_html_x( 'Mroya is a modern, versatile WordPress block theme designed for web designers, developers and agencies. The theme features are tailored to each audience and a rich library of reusable block patterns, allowing you to craft unique layouts effortlessly. Fully responsive, accessible, and performance-optimized, Mroya empowers you to build stunning, professional websites with ease.', 'Theme info page text', 'mroya' ); ?></p>
+					<p class="theme-description"><?php echo esc_html_x( 'Mroya is a lightweight Full Site Editing (FSE) WordPress theme designed for building fast, modern, and professional websites. Built with performance and simplicity in mind, it provides a clean foundation without unnecessary code or bloated features, making it easy to customize and extend.', 'Theme info page text', 'mroya' ); ?></p>
+
+					<p class="theme-description"><?php echo esc_html_x( 'The theme includes carefully crafted templates and patterns for essential pages such as the homepage, about, contact, blog, and archives, offering a solid starting point for business websites while remaining flexible enough for many other projects.', 'Theme info page text', 'mroya' ); ?></p>
+
+					<p class="theme-description"><?php echo esc_html_x( 'Mroya fully supports the WordPress Site Editor and follows modern development best practices, including responsive layouts, semantic markup, accessibility considerations, and compatibility with popular SEO plugins.', 'Theme info page text', 'mroya' ); ?></p>
+
+					<p class="theme-description"><?php echo esc_html_x( 'Additional functionality, including advanced GSAP-powered animations, can be added through an optional premium companion plugin while keeping the core theme lightweight.', 'Theme info page text', 'mroya' ); ?></p>
+
+					<p class="theme-description"><?php echo esc_html_x( 'Version 2.0 introduces a new parent theme architecture focused on long-term flexibility and future child theme development. Learn more about these changes in our website.', 'Theme info page text', 'mroya' ); ?></p>
 
 					<h3><?php echo esc_html_x( 'Theme Features', 'Theme info column left title', 'mroya' ); ?></h3>
 

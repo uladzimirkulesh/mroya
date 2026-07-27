@@ -4,7 +4,7 @@ Theme Name: Mroya
 Theme URI: https://mroya.eu/portfolio/mroya/
 Author: Uladzimir Kulesh
 Author URI: https://mroya.eu/
-Description: Mroya is a modern, versatile WordPress block theme designed for web designers, developers and agencies. The theme features are tailored to each audience and a rich library of reusable block patterns, allowing you to craft unique layouts effortlessly. Fully responsive, accessible, and performance-optimized, Mroya empowers you to build stunning, professional websites with ease.
+Description: Mroya is a lightweight Full Site Editing (FSE) WordPress theme designed for building fast, modern, and professional websites. Built with performance and simplicity in mind, it provides a clean foundation without unnecessary code or bloated features, making it easy to customize and extend. The theme includes carefully crafted templates and patterns for essential pages such as the homepage, about, contact, blog, and archives, offering a solid starting point for business websites while remaining flexible enough for many other projects. Mroya fully supports the WordPress Site Editor and follows modern development best practices, including responsive layouts, semantic markup, accessibility considerations, and compatibility with popular SEO plugins. Additional functionality, including advanced GSAP-powered animations, can be added through an optional premium companion plugin while keeping the core theme lightweight. Version 2.0 introduces a new parent theme architecture focused on long-term flexibility and future child theme development. Learn more about these changes in our website - https://mroya.eu/portfolio/mroya/.
 Requires at least: 6.7
 Tested up to: 7.0
 Requires PHP: 7.2
@@ -12,7 +12,7 @@ Version: 2.0.0
 License: GNU General Public License v2 or later
 License URI: URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 Text Domain: mroya
-Tags: one-column, two-columns, three-columns, four-columns, custom-colors, custom-header, custom-menu, custom-logo, featured-images, full-site-editing, block-patterns, sticky-post, threaded-comments, translation-ready, block-styles, style-variations, blog, portfolio
+Tags: one-column, two-columns, three-columns, four-columns, custom-colors, custom-header, custom-menu, custom-logo, featured-images, full-site-editing, block-patterns, sticky-post, threaded-comments, translation-ready, block-styles, style-variations, blog
 */
 html {
   -webkit-text-size-adjust: 100%;
@@ -642,7 +642,7 @@ input[type=checkbox] + label {
   position: relative;
   height: 0.75rem;
   width: 0.75rem;
-  top: -0.2em;
+  top: -0.25em;
   left: 0.2em;
   transform: rotate(45deg);
   background-color: currentColor;

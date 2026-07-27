@@ -1,22 +1,3 @@
-// src/js/helpers/current-menu-item.js
-function setCurrentMenuItemClass() {
-  const menuItems = document.querySelectorAll(".wp-block-navigation-item");
-  if (!menuItems.length) return;
-  for (let i = 0; i < menuItems.length; i++) {
-    if (menuItems[i].classList.contains("current-menu-item")) {
-      return;
-    }
-  }
-  const url = window.location.href.endsWith("/") ? window.location.href : `${window.location.href}/`;
-  for (let i = 0; i < menuItems.length; i++) {
-    const link = menuItems[i].querySelector("a");
-    const linkURL = link.href.endsWith("/") ? link.href : `${link.href}/`;
-    if (linkURL === url) {
-      menuItems[i].classList.add("current-menu-item");
-    }
-  }
-}
-
 // src/js/helpers/figure-border-radius.js
 function setFigureBorderRadius() {
   const imgFigures = document.querySelectorAll(".wp-block-image, .wp-block-post-featured-image");
@@ -104,7 +85,6 @@ function initSidebar() {
 
 // src/js/screen.js
 document.addEventListener("DOMContentLoaded", () => {
-  setCurrentMenuItemClass();
   setFigureBorderRadius();
 });
 window.addEventListener("load", () => {

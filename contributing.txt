@@ -7,8 +7,8 @@ Mroya has a stylesheet and js files which is enqueued in addition to the global 
 Installation instructions
 
 1. Ensure you have the following tools installed:
-- [Node.js](https://nodejs.org/)
-- [npm](https://www.npmjs.com/) (comes with Node.js)
+- Node.js (https://nodejs.org/),
+- npm (https://www.npmjs.com/ - comes with Node.js).
 
 2. Download or clone this repository: https://github.com/uladzimirkulesh/mroya. You'll want to add it to your local WordPress `wp-content/themes/` directory.
 

@@ -20,7 +20,7 @@
 		<!-- wp:group {"tagName":"header","className":"entry-header","style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"constrained"}} -->
 		<header class="wp-block-group entry-header">
 			<!-- wp:post-title {"level":1,"style":{"css":"left: -0.35vw;"}} /-->
-			<!-- wp:post-featured-image {"align":"wide","className":"featured-image--singular"} /-->
+			<!-- wp:post-featured-image /-->
 		</header>
 		<!-- /wp:group -->
 
