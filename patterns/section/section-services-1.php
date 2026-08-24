@@ -110,7 +110,7 @@
 					<!-- wp:group {"metadata":{"name":"<?php echo esc_html_x( 'Tags', 'Name for the services item tags block area', 'mroya' ); ?>"},"className":"item__tags","style":{"spacing":{"blockGap":"1rem"}},"layout":{"type":"flex","flexWrap":"wrap"}} -->
 					<div class="wp-block-group item__tags">
 						<!-- wp:paragraph {"className":"is-style-text-mono","fontSize":"xx-small"} -->
-						<p class="is-style-text-mono has-xx-small-font-size"><?php echo esc_html_x( '#Wordpress', 'Services section item tags', 'mroya' ); ?></p>
+						<p class="is-style-text-mono has-xx-small-font-size"><?php echo esc_html_x( '#WordPress', 'Services section item tags', 'mroya' ); ?></p>
 						<!-- /wp:paragraph -->
 
 						<!-- wp:paragraph {"className":"is-style-text-mono","fontSize":"xx-small"} -->
