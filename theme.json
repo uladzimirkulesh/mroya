@@ -15,7 +15,7 @@
 			},
 			"typography": {
 				"htmlFontSize": "clamp(1rem, 0.3125vw + 0.6875rem, 1.1875rem)",
-				"fontVariationSettings": "\"opsz\" 28",
+				"fontVariationSettings": "\"opsz\" 30",
 				"fontFeatureSettings": "\"cv10\", \"ss03\", \"cv01\", \"cv09\", \"cv03\", \"cv04\"",
 				"lineHeight": {
 					"xx-small": "1.5",
@@ -139,7 +139,7 @@
 				},
 				{
 					"name": "Huge",
-					"size": "max(13.5rem, 20vw)",
+					"size": "max(13.5rem, 16vw)",
 					"slug": "70"
 				}
 			],
@@ -280,8 +280,8 @@
 		"spacing": {
 			"blockGap": "1.5rem",
 			"padding": {
-				"right": "clamp(1.25rem, 2.5vw, 2rem)",
-				"left": "clamp(1.25rem, 2.5vw, 2rem)",
+				"right": "clamp(1rem, 2.5vw, 2rem)",
+				"left": "clamp(1rem, 2.5vw, 2rem)",
 				"top": "clamp(1.25rem, 0.625vw + 1.125rem, 1.875rem)",
 				"bottom": "clamp(1.25rem, 0.625vw + 1.125rem, 1.875rem)"
 			}
@@ -370,7 +370,7 @@
 			},
 			"core/post-featured-image": {
 				"border": {
-					"radius": "var:custom|border|radius|large"
+					"radius": "var:custom|border|radius|normal"
 				},
 				"css": "& { overflow: hidden; }"
 			},
@@ -423,22 +423,25 @@
 			},
 			"core/post-terms": {
 				"color": {
-					"text": "var:preset|color|contrast-3"
+					"text": "var:preset|color|contrast"
 				},
 				"typography": {
-					"fontSize": "var:preset|font-size|small",
+					"fontSize": "var:preset|font-size|xx-small",
 					"fontWeight": "500",
-					"lineHeight": "var:custom|typography|line-height|small",
-					"letterSpacing": "var:custom|typography|letter-spacing|small"
+					"lineHeight": "var:custom|typography|line-height|xx-small",
+					"letterSpacing": "var:custom|typography|letter-spacing|xx-small"
 				},
 				"elements": {
 					"link": {
 						"color": {
 							"text": "currentColor"
+						},
+						"typography": {
+							"textDecoration": "none"
 						}
 					}
 				},
-				"css": "& > * { display: inline-block; }"
+				"css": "& > * { display: inline-block; } & a, span:not([class], [data-rich-text-placeholder]) { padding: 0.375rem 0.75rem; background-color: var(--wp--preset--color--accent-2); border-radius: var(--wp--custom--border--radius--small); } & a:hover, a:focus, a:active { background-color: var(--wp--preset--color--accent); }"
 			},
 			"core/term-description": {
 				"typography": {
@@ -546,7 +549,7 @@
 					"link": {
 						"color": {
 							"text": "var:preset|color|contrast",
-							"background": "var:preset|color|contrast-5"
+							"background": "var:preset|color|accent-2"
 						},
 						"typography": {
 							"textDecoration": "none"
@@ -554,7 +557,7 @@
 						"border": {
 							"width": "1px",
 							"style": "solid",
-							"color": "var:preset|color|contrast-5",
+							"color": "var:preset|color|accent-2",
 							"radius": "var:custom|border|radius|normal"
 						},
 						"spacing": {
@@ -730,7 +733,7 @@
 				},
 				"spacing": {
 					"margin": {
-						"top": "var:preset|spacing|40"
+						"top": "var:preset|spacing|30"
 					}
 				},
 				"elements": {
@@ -994,7 +997,7 @@
 		"elements": {
 			"button": {
 				"color": {
-					"text": "var:preset|color|base",
+					"text": "var:preset|color|accent",
 					"background": "var:preset|color|contrast"
 				},
 				"typography": {

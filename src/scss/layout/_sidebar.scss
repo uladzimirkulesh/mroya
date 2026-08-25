@@ -44,7 +44,7 @@ Sidebar
 			background-color: var(--wp--custom--color--sidebar--background, var(--wp--preset--color--base));
 
 			@include mixins.media("break-mobile") {
-				max-width: 26rem;
+				max-width: 27rem;
 			}
 		}
 	}

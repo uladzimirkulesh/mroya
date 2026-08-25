@@ -8,7 +8,7 @@
 	],
 	"styles": {
 		"color": {
-			"text": "var:preset|color|base"
+			"text": "var:preset|color|contrast-3"
 		},
 		"typography": {
 			"fontSize": "var:preset|font-size|xx-small",
@@ -26,6 +26,6 @@
 				}
 			}
 		},
-		"css": "& a, span:not([class], [data-rich-text-placeholder]) { padding: 0.375rem 0.75rem; background-color: var(--wp--preset--color--contrast); border-radius: var(--wp--custom--border--radius--small); } & a:hover, a:focus, a:active { background-color: var(--wp--preset--color--contrast-2); }"
+		"css": "& a, span:not([class], [data-rich-text-placeholder]) { padding: 0.375rem 0.75rem; background-color: var(--wp--preset--color--base); border-radius: var(--wp--custom--border--radius--small); } & a:hover, a:focus, a:active { background-color: var(--wp--preset--color--contrast-5); }"
 	}
 }

@@ -587,27 +587,6 @@ input[type=checkbox] + label {
 .wp-block-query-pagination-next:focus .wp-block-query-pagination-next-arrow {
   transform: translateX(0.25rem);
 }
-.wp-block-query .is-layout-grid {
-  row-gap: var(--wp--preset--spacing--20);
-}
-.wp-block-query .is-layout-grid.columns-4 {
-  grid-template-columns: 1fr;
-}
-@media only screen and (min-width: 783px) {
-  .wp-block-query .is-layout-grid.columns-4 {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-}
-@media only screen and (min-width: 960px) {
-  .wp-block-query .is-layout-grid.columns-4 {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-}
-@media only screen and (min-width: 1200px) {
-  .wp-block-query .is-layout-grid.columns-4 {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-  }
-}
 .wp-block-query .wp-block-post {
   position: relative;
 }
@@ -752,11 +731,6 @@ input[type=checkbox] + label {
   background-color: var(--wp--preset--color--contrast);
   border-color: transparent;
 }
-@media only screen and (max-width: 782px) {
-  .footer--default:not(.is-custom) .footer__line--first {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-}
 .header--default:not(.is-custom) > .wp-block-group.is-layout-grid {
   grid-template-columns: repeat(2, minmax(0, auto));
   row-gap: 0;
@@ -785,6 +759,7 @@ input[type=checkbox] + label {
 .header.has-overlaid-colors .header--default:not(.is-custom) .wp-block-button__link {
   background-color: rgba(255, 255, 255, 0.15);
   border-color: transparent;
+  backdrop-filter: blur(8px);
 }
 .header.has-overlaid-colors .header--default:not(.is-custom) .wp-element-button:hover,
 .header.has-overlaid-colors .header--default:not(.is-custom) .wp-element-button:focus,
@@ -792,8 +767,7 @@ input[type=checkbox] + label {
 .header.has-overlaid-colors .header--default:not(.is-custom) .wp-block-button__link:hover,
 .header.has-overlaid-colors .header--default:not(.is-custom) .wp-block-button__link:focus,
 .header.has-overlaid-colors .header--default:not(.is-custom) .wp-block-button__link:active {
-  background-color: transparent;
-  border-color: rgba(255, 255, 255, 0.15);
+  background-color: rgba(255, 255, 255, 0.2);
 }
 :root .is-root-container:not(.wp-block-post-content),
 :root .wp-site-blocks {
@@ -896,7 +870,7 @@ body.editor-styles-wrapper .sidebar:not(.is-custom) {
 }
 @media only screen and (min-width: 480px) {
   .sidebar:not(.is-custom) .sidebar__widgets {
-    max-width: 26rem;
+    max-width: 27rem;
   }
 }
 body:not(.editor-styles-wrapper) .sidebar:not(.is-custom) {

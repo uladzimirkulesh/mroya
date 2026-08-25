@@ -28,7 +28,7 @@
 					<div class="wp-block-group alignwide">
 						<!-- wp:group {"className":"entry-meta","layout":{"type":"flex","justifyContent":"center","orientation":"horizontal","flexWrap":"wrap"}} -->
 						<div class="wp-block-group entry-meta">
-							<!-- wp:post-terms {"term":"category","separator":"","className":"is-style-pill-2"} /-->
+							<!-- wp:post-terms {"term":"category","separator":"","className":"is-style-pill"} /-->
 						</div>
 						<!-- /wp:group -->
 
@@ -51,7 +51,7 @@
 
 		<!-- wp:group {"tagName":"footer","className":"entry-footer","style":{"spacing":{"margin":{"top":"2.25rem"}}},"layout":{"type":"constrained"}} -->
 		<footer class="wp-block-group entry-footer" style="margin-top:2.25rem">
-			<!-- wp:post-terms {"term":"post_tag","separator":"","className":"is-style-pill"} /-->
+			<!-- wp:post-terms {"term":"post_tag","separator":""} /-->
 		</footer>
 		<!-- /wp:group -->
 	</article>

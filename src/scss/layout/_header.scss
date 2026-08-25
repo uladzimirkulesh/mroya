@@ -42,12 +42,12 @@ Header
 		.wp-block-button__link {
 			background-color: rgba(255, 255, 255, 0.15);
 			border-color: transparent;
+			backdrop-filter: blur(8px);
 
 			&:hover,
 			&:focus,
 			&:active {
-				background-color: transparent;
-				border-color: rgba(255, 255, 255, 0.15);
+				background-color: rgba(255, 255, 255, 0.2);
 			}
 		}
 	}
