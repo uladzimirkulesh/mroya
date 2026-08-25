@@ -1,3 +1,15 @@
+1.0.6: Aug 24, 2026
+- Checked: Compatibility with WordPress 7.1.
+
+1.0.5: Jul 22, 2026
+- Fix: Content width in project-description-1 pattern.
+
+1.0.4: Jul 2, 2026
+- Changed: Home page from blog to studio.
+
+1.0.3: Jun 29, 2026
+- Switched: The build process from wp-scripts to esbuild.
+
 1.0.2: Jun 27, 2026
 - Fix: Enqueue main stylesheet in functions.php.
 
