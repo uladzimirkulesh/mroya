@@ -980,3 +980,6 @@ body:not(.editor-styles-wrapper) .sidebar-opener:not(.is-custom) {
   position: relative;
   overflow: clip;
 }
+.section + .section {
+  margin-top: 0;
+}

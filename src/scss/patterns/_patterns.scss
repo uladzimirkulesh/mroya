@@ -7,4 +7,8 @@ Patterns
 .section {
 	position: relative;
 	overflow: clip;
+
+	+ .section {
+		margin-top: 0;
+	}
 }

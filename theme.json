@@ -27,8 +27,8 @@
 					"x-large": "clamp(1.75rem, 0.3125vw + 1.6875rem, 2rem)",
 					"xx-large": "clamp(1.875rem, 0.625vw + 1.75rem, 2.375rem)",
 					"xxx-large": "clamp(2.25rem, 0.46875vw + 2.15625rem, 2.625rem)",
-					"huge": "clamp(2.625rem, 1.875vw + 2.25rem, 4.125rem)",
-					"display": "1.15"
+					"huge": "clamp(2.625rem, 2.8125vw + 2.0625rem, 4.875rem)",
+					"display": "1.125"
 				},
 				"letterSpacing": {
 					"xx-small": "-0.008em",
@@ -253,19 +253,19 @@
 				{
 					"fluid": {
 						"min": "2.25rem",
-						"max": "3.75rem"
+						"max": "4.5rem"
 					},
 					"name": "Huge",
-					"size": "3.75rem",
+					"size": "4.5rem",
 					"slug": "huge"
 				},
 				{
 					"fluid": {
 						"min": "2.25rem",
-						"max": "6rem"
+						"max": "5.375rem"
 					},
 					"name": "Display",
-					"size": "6rem",
+					"size": "5.375rem",
 					"slug": "display"
 				}
 			]

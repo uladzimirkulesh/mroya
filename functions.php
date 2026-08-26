@@ -149,9 +149,9 @@ if ( ! function_exists( 'mroya_register_block_pattern_categories' ) ) :
 	 */
 	function mroya_register_block_pattern_categories() {
 		register_block_pattern_category(
-			'mroya_page_header',
+			'mroya_page_headers',
 			array(
-				'label'       => esc_html__( 'Page headers', 'mroya' ),
+				'label'       => esc_html__( 'Page Headers', 'mroya' ),
 				'description' => esc_html__( 'A collection of archive header patterns.', 'mroya' ),
 			)
 		);
@@ -165,10 +165,10 @@ if ( ! function_exists( 'mroya_register_block_pattern_categories' ) ) :
 		);
 
 		register_block_pattern_category(
-			'mroya_sections_posts',
+			'mroya_sections',
 			array(
-				'label'       => esc_html__( 'Sections (Posts)', 'mroya' ),
-				'description' => esc_html__( 'A collection of posts section patterns.', 'mroya' ),
+				'label'       => esc_html__( 'Sections', 'mroya' ),
+				'description' => esc_html__( 'A collection of section patterns.', 'mroya' ),
 			)
 		);
 	}

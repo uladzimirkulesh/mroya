@@ -3,7 +3,7 @@
  * Title: Archive page header
  * Slug: mroya/page-header-archive
  * Description: Header section for archive pages.
- * Categories: mroya_page_header
+ * Categories: mroya_page_headers
  * Template Types: page-header-archive
  * Post Types: wp_template, wp_template_part
  * Viewport Width: 1440

@@ -2,7 +2,7 @@
 /**
  * Title: Keep reading section
  * Slug: mroya/section-keep-reading
- * Categories: mroya_sections_posts
+ * Categories: mroya_sections
  * Description: Displays related articles from the blog.
  * Keywords: section, related, articles, blog
  * Post Types: wp_template

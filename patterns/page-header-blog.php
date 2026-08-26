@@ -3,7 +3,7 @@
  * Title: Blog page header
  * Slug: mroya/page-header-blog
  * Description: Header section for blog pages.
- * Categories: mroya_page_header
+ * Categories: mroya_page_headers
  * Template Types: page-header-blog
  * Post Types: wp_template, wp_template_part
  * Viewport Width: 1440
