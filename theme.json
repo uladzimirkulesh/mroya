@@ -27,6 +27,7 @@
 					"x-large": "clamp(1.75rem, 0.3125vw + 1.6875rem, 2rem)",
 					"xx-large": "clamp(1.875rem, 0.625vw + 1.75rem, 2.375rem)",
 					"xxx-large": "clamp(2.25rem, 0.46875vw + 2.15625rem, 2.625rem)",
+					"xxxx-large": "clamp(2.625rem, 0.9375vw + 2.4375rem, 3.375rem)",
 					"huge": "clamp(2.625rem, 2.8125vw + 2.0625rem, 4.875rem)",
 					"display": "1.125"
 				},
@@ -40,6 +41,7 @@
 					"x-large": "-0.022em",
 					"xx-large": "-0.026em",
 					"xxx-large": "-0.028em",
+					"xxxx-large": "-0.032em",
 					"huge": "calc(-1 * clamp(0.032em, 0.32vw, 0.036em))",
 					"display": "calc(-1 * clamp(0.032em, 0.32vw, 0.036em))"
 				}
@@ -68,22 +70,22 @@
 					"slug": "contrast"
 				},
 				{
-					"color": "color-mix(in srgb, #1a1a1a 95%, #e6e6e6)",
+					"color": "color-mix(in srgb, #1a1a1a 95%, transparent)",
 					"name": "Contrast / Two",
 					"slug": "contrast-2"
 				},
 				{
-					"color": "color-mix(in srgb, #1a1a1a 63%, #e6e6e6)",
+					"color": "color-mix(in srgb, #1a1a1a 63%, transparent)",
 					"name": "Contrast / Three",
 					"slug": "contrast-3"
 				},
 				{
-					"color": "color-mix(in srgb, #1a1a1a 13%, #e6e6e6)",
+					"color": "color-mix(in srgb, #1a1a1a 13%, transparent)",
 					"name": "Contrast / Four",
 					"slug": "contrast-4"
 				},
 				{
-					"color": "color-mix(in srgb, #1a1a1a 6.5%, #e6e6e6)",
+					"color": "color-mix(in srgb, #1a1a1a 6.5%, transparent)",
 					"name": "Contrast / Five",
 					"slug": "contrast-5"
 				},
@@ -249,6 +251,15 @@
 					"name": "3X Large",
 					"size": "2.25rem",
 					"slug": "xxx-large"
+				},
+				{
+					"fluid": {
+						"min": "2.25rem",
+						"max": "3rem"
+					},
+					"name": "4X Large",
+					"size": "3rem",
+					"slug": "xxxx-large"
 				},
 				{
 					"fluid": {
