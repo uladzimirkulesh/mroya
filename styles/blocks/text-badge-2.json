@@ -1,0 +1,44 @@
+{
+	"$schema": "https://schemas.wp.org/wp/6.7/theme.json",
+	"version": 3,
+	"title": "Badge 2",
+	"slug": "text-badge-2",
+	"blockTypes": [
+		"core/heading",
+		"core/paragraph"
+	],
+	"styles": {
+		"color": {
+			"text": "var:preset|color|contrast",
+			"background": "var:preset|color|accent-2"
+		},
+		"typography": {
+			"fontSize": "var:preset|font-size|xx-small",
+			"fontWeight": "500",
+			"lineHeight": "var:custom|typography|line-height|xx-small",
+			"letterSpacing": "var:custom|typography|letter-spacing|xx-small"
+		},
+		"spacing": {
+			"padding": {
+				"top": "0.375rem",
+				"right": "0.75rem",
+				"bottom": "0.375rem",
+				"left": "0.75rem"
+			}
+		},
+		"border": {
+			"radius": "0.1875rem"
+		},
+		"elements": {
+			"link": {
+				"color": {
+					"text": "currentColor"
+				},
+				"typography": {
+					"textDecoration": "none"
+				}
+			}
+		},
+		"css": "& { display: inline-block; }"
+	}
+}

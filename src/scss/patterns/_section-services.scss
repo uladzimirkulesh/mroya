@@ -1,0 +1,21 @@
+@use "../tools/mixins";
+
+/*-------------------------------------------------------
+Section "Services"
+-------------------------------------------------------*/
+
+.section--services {
+
+	.services-list {
+
+		&__item {
+
+			&::after {
+
+				@include mixins.media("break-medium", max) {
+					display: none;
+				}
+			}
+		}
+	}
+}

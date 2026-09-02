@@ -12,5 +12,6 @@
 
 ?>
 <!-- wp:pattern {"slug":"mroya/section-hero"} /-->
- <!-- wp:pattern {"slug":"mroya/section-features"} /-->
+<!-- wp:pattern {"slug":"mroya/section-features"} /-->
+<!-- wp:pattern {"slug":"mroya/section-services"} /-->
 <!-- wp:pattern {"slug":"mroya/section-contact"} /-->
