@@ -729,7 +729,8 @@
 							"letterSpacing": "var:custom|typography|letter-spacing|small"
 						}
 					}
-				}
+				},
+				"css": "& > blockquote { margin-left: clamp(0.0625rem, 8.21429vw + -1.58036rem, 1.5rem) !important; margin-right: clamp(0.0625rem, 8.21429vw + -1.58036rem, 1.5rem) !important; }"
 			},
 			"core/query-pagination": {
 				"color": {
@@ -873,6 +874,16 @@
 						"left": "2.5rem"
 					}
 				}
+			},
+			"core/table": {
+				"variations": {
+					"stripes": {
+						"css": "& tbody tr:nth-child(2n+1) { background-color: var(--wp--preset--color--contrast-5) !important; }"
+					}
+				}
+			},
+			"core/file": {
+				"css": "&:not(.wp-element-button) { font-size: var(--wp--preset--font-size--small ) !important; }"
 			},
 			"core/archives": {
 				"color": {

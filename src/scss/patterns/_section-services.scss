@@ -4,7 +4,7 @@
 Section "Services"
 -------------------------------------------------------*/
 
-.section--services {
+.section--services:not(.is-custom) {
 
 	.services-list {
 

@@ -24,18 +24,13 @@ Base Styles
 Block Styles
 -------------------------------------------------------*/
 @use "blocks/button";
-@use "blocks/code";
 @use "blocks/comment-content";
 @use "blocks/comments-pagination";
-@use "blocks/file";
-@use "blocks/heading";
 @use "blocks/navigation";
 @use "blocks/post-author";
 @use "blocks/post-comments-form";
-@use "blocks/pullquote";
 @use "blocks/query-pagination";
 @use "blocks/query";
-@use "blocks/quote";
 @use "blocks/search";
 @use "blocks/table";
 
