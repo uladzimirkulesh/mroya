@@ -23,6 +23,7 @@ Base Styles
 /*-------------------------------------------------------
 Block Styles
 -------------------------------------------------------*/
+@use "blocks/accordion";
 @use "blocks/button";
 @use "blocks/comment-content";
 @use "blocks/comments-pagination";
