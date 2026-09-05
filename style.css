@@ -302,27 +302,34 @@ input[type=checkbox] + label {
 .wp-block-button.is-style-close > .wp-block-button__link.has-background {
   padding: 0.5rem 1.25rem;
 }
-.wp-block-button.is-style-next > .wp-block-button__link {
+.wp-block-button.is-style-more > .wp-block-button__link {
   text-underline-offset: 0.25em;
   text-decoration-color: transparent;
 }
-.wp-block-button.is-style-next > .wp-block-button__link::after {
-  transform: rotate(0deg);
+.wp-block-button.is-style-more > .wp-block-button__link::after {
   transition: transform 0.35s ease-in-out;
 }
-.wp-block-button.is-style-next > .wp-block-button__link:hover,
-.wp-block-button.is-style-next > .wp-block-button__link:focus,
-.wp-block-button.is-style-next > .wp-block-button__link:active {
+.wp-block-button.is-style-more > .wp-block-button__link:hover,
+.wp-block-button.is-style-more > .wp-block-button__link:focus,
+.wp-block-button.is-style-more > .wp-block-button__link:active {
   text-underline-offset: 0.15em;
   text-decoration-color: currentColor;
 }
-.wp-block-button.is-style-next > .wp-block-button__link:hover::after,
-.wp-block-button.is-style-next > .wp-block-button__link:focus::after,
-.wp-block-button.is-style-next > .wp-block-button__link:active::after {
+.wp-block-button.is-style-more > .wp-block-button__link:hover::after,
+.wp-block-button.is-style-more > .wp-block-button__link:focus::after,
+.wp-block-button.is-style-more > .wp-block-button__link:active::after {
   transform: translateX(0.25rem);
 }
-.wp-block-button.is-style-next > .wp-block-button__link.has-background {
+.wp-block-button.is-style-more > .wp-block-button__link.has-background {
   padding: 0.5rem 1.25rem;
+}
+.wp-block-button.is-style-more-2 > .wp-block-button__link::after {
+  transition: transform 0.25s ease-in-out;
+}
+.wp-block-button.is-style-more-2 > .wp-block-button__link:hover::after,
+.wp-block-button.is-style-more-2 > .wp-block-button__link:focus::after,
+.wp-block-button.is-style-more-2 > .wp-block-button__link:active::after {
+  transform: translateX(0.25rem);
 }
 .comment-body .comment-content {
   margin-top: calc(var(--wp--style--block-gap) / 1.5);

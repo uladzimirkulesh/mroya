@@ -23,8 +23,8 @@
 
 		<!-- wp:buttons -->
 		<div class="wp-block-buttons">
-			<!-- wp:button {"className":"is-style-next"} -->
-			<div class="wp-block-button is-style-next">
+			<!-- wp:button {"className":"is-style-more"} -->
+			<div class="wp-block-button is-style-more">
 				<a class="wp-block-button__link wp-element-button" href="<?php echo esc_url( home_url( '/' ) ); ?>blog/"><?php echo esc_html_x( 'All Stories', 'Keep reading section button text', 'mroya' ); ?></a>
 			</div>
 			<!-- /wp:button -->

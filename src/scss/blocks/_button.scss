@@ -68,17 +68,16 @@ Style "Close"
 }
 
 /*
-Style "Next"
+Style "More"
 */
 
-.wp-block-button.is-style-next {
+.wp-block-button.is-style-more {
 
 	> .wp-block-button__link {
 		text-underline-offset: 0.25em;
 		text-decoration-color: transparent;
 
 		&::after {
-			transform: rotate(0deg);
 			transition: transform 0.35s ease-in-out;
 		}
 
@@ -95,6 +94,30 @@ Style "Next"
 
 		&.has-background {
 			padding: 0.5rem 1.25rem;
+		}
+	}
+}
+
+
+/*
+Style "More 2"
+*/
+
+.wp-block-button.is-style-more-2 {
+
+	> .wp-block-button__link {
+
+		&::after {
+			transition: transform 0.25s ease-in-out;
+		}
+
+		&:hover,
+		&:focus,
+		&:active {
+
+			&::after {
+				transform: translateX(0.25rem);
+			}
 		}
 	}
 }
