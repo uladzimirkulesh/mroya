@@ -39,7 +39,7 @@
 
 				<!-- wp:group {"style":{"spacing":{"blockGap":"0"},"@tablet":{"layout":{"columnCount":1}},"@mobile":{"layout":{"columnCount":1}}},"layout":{"type":"grid","columnCount":2}} -->
 				<div class="wp-block-group">
-					<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|10","bottom":"var:preset|spacing|10","right":"2rem"}}},"layout":{"type":"constrained"}} -->
+					<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|10","bottom":"var:preset|spacing|10","right":"2rem"}}},"layout":{"type":"default"}} -->
 					<div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--10);padding-right:2rem;padding-bottom:var(--wp--preset--spacing--10)">
 						<!-- wp:heading {"level":3,"fontSize":"xxx-large"} -->
 						<h3 class="wp-block-heading has-xxx-large-font-size"><?php echo esc_html_x( 'Design', 'Services section item title', 'mroya' ); ?></h3>
@@ -47,7 +47,7 @@
 					</div>
 					<!-- /wp:group -->
 
-					<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30","padding":{"top":"var:preset|spacing|10","bottom":"var:preset|spacing|10","left":"2rem","right":"2rem"}},"@tablet":{"spacing":{"padding":{"right":"0","left":"0","top":"0","bottom":"0"}}},"@mobile":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"}}}},"layout":{"type":"constrained"}} -->
+					<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30","padding":{"top":"var:preset|spacing|10","bottom":"var:preset|spacing|10","left":"2rem","right":"2rem"}},"@tablet":{"spacing":{"padding":{"right":"0","left":"0","top":"0","bottom":"0"}}},"@mobile":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"}}}},"layout":{"type":"constrained","justifyContent":"left"}} -->
 					<div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--10);padding-right:2rem;padding-bottom:var(--wp--preset--spacing--10);padding-left:2rem">
 						<!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"fontSize":"large"} -->
 						<p class="has-large-font-size" style="font-style:normal;font-weight:500"><?php echo esc_html_x( 'Thoughtful design goes beyond appearance. We focus on intuitive layouts, strong visual communication, and user-centered experiences that build trust and strengthen your brand.', 'Services section item text', 'mroya' ); ?></p>
@@ -87,7 +87,7 @@
 
 				<!-- wp:group {"style":{"spacing":{"blockGap":"0"},"@tablet":{"layout":{"columnCount":1}},"@mobile":{"layout":{"columnCount":1}}},"layout":{"type":"grid","columnCount":2}} -->
 				<div class="wp-block-group">
-					<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|10","bottom":"var:preset|spacing|10","right":"2rem"}}},"layout":{"type":"constrained"}} -->
+					<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|10","bottom":"var:preset|spacing|10","right":"2rem"}}},"layout":{"type":"default"}} -->
 					<div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--10);padding-right:2rem;padding-bottom:var(--wp--preset--spacing--10)">
 						<!-- wp:heading {"level":3,"fontSize":"xxx-large"} -->
 						<h3 class="wp-block-heading has-xxx-large-font-size"><?php echo esc_html_x( 'Development', 'Services section item title', 'mroya' ); ?></h3>
@@ -95,7 +95,7 @@
 					</div>
 					<!-- /wp:group -->
 
-					<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30","padding":{"top":"var:preset|spacing|10","bottom":"var:preset|spacing|10","left":"2rem","right":"2rem"}},"@tablet":{"spacing":{"padding":{"right":"0","left":"0","top":"0","bottom":"0"}}},"@mobile":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"}}}},"layout":{"type":"constrained"}} -->
+					<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30","padding":{"top":"var:preset|spacing|10","bottom":"var:preset|spacing|10","left":"2rem","right":"2rem"}},"@tablet":{"spacing":{"padding":{"right":"0","left":"0","top":"0","bottom":"0"}}},"@mobile":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"}}}},"layout":{"type":"constrained","justifyContent":"left"}} -->
 					<div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--10);padding-right:2rem;padding-bottom:var(--wp--preset--spacing--10);padding-left:2rem">
 						<!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"fontSize":"large"} -->
 						<p class="has-large-font-size" style="font-style:normal;font-weight:500"><?php echo esc_html_x( 'From initial planning to final implementation, we build scalable, high-quality solutions designed for performance, flexibility, and the evolving needs of your business.', 'Services section item text', 'mroya' ); ?></p>
@@ -135,7 +135,7 @@
 
 				<!-- wp:group {"style":{"spacing":{"blockGap":"0"},"@tablet":{"layout":{"columnCount":1}},"@mobile":{"layout":{"columnCount":1}}},"layout":{"type":"grid","columnCount":2}} -->
 				<div class="wp-block-group">
-					<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|10","bottom":"var:preset|spacing|10","right":"2rem"}}},"layout":{"type":"constrained"}} -->
+					<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|10","bottom":"var:preset|spacing|10","right":"2rem"}}},"layout":{"type":"default"}} -->
 					<div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--10);padding-right:2rem;padding-bottom:var(--wp--preset--spacing--10)">
 						<!-- wp:heading {"level":3,"fontSize":"xxx-large"} -->
 						<h3 class="wp-block-heading has-xxx-large-font-size"><?php echo esc_html_x( 'Support', 'Services section item title', 'mroya' ); ?></h3>
@@ -143,7 +143,7 @@
 					</div>
 					<!-- /wp:group -->
 
-					<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30","padding":{"top":"var:preset|spacing|10","bottom":"var:preset|spacing|10","left":"2rem","right":"2rem"}},"@tablet":{"spacing":{"padding":{"right":"0","left":"0","top":"0","bottom":"0"}}},"@mobile":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"}}}},"layout":{"type":"constrained"}} -->
+					<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30","padding":{"top":"var:preset|spacing|10","bottom":"var:preset|spacing|10","left":"2rem","right":"2rem"}},"@tablet":{"spacing":{"padding":{"right":"0","left":"0","top":"0","bottom":"0"}}},"@mobile":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"}}}},"layout":{"type":"constrained","justifyContent":"left"}} -->
 					<div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--10);padding-right:2rem;padding-bottom:var(--wp--preset--spacing--10);padding-left:2rem">
 						<!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"fontSize":"large"} -->
 						<p class="has-large-font-size" style="font-style:normal;font-weight:500"><?php echo esc_html_x( 'Our work continues after launch. Ongoing support, maintenance, and continuous improvements help keep your projects secure, efficient, and prepared for future growth.', 'Services section item text', 'mroya' ); ?></p>

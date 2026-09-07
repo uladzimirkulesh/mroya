@@ -17,10 +17,10 @@
 <div class="wp-block-group alignfull section section--faq" style="padding-top:var(--wp--preset--spacing--20);padding-bottom:var(--wp--preset--spacing--40)">
 	<!-- wp:group {"align":"wide","style":{"@tablet":{"layout":{"columnCount":1}},"@mobile":{"layout":{"columnCount":1}}},"layout":{"type":"grid","columnCount":2}} -->
 	<div class="wp-block-group alignwide">
-		<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20","padding":{"bottom":"var:preset|spacing|10"}}},"layout":{"type":"default"}} -->
+		<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20","padding":{"bottom":"var:preset|spacing|10"}}},"layout":{"type":"constrained","justifyContent":"left"}} -->
 		<div class="wp-block-group" style="padding-bottom:var(--wp--preset--spacing--10)">
-			<!-- wp:heading {"fontSize":"huge"} -->
-			<h2 class="wp-block-heading has-huge-font-size"><?php echo esc_html_x( 'Frequently Asked Questions', 'FAQ section title', 'mroya' ); ?></h2>
+			<!-- wp:heading {"style":{"css":"position: relative; left: -0.2vw;"},"fontSize":"huge"} -->
+			<h2 class="wp-block-heading has-custom-css has-huge-font-size"><?php echo esc_html_x( 'Frequently Asked Questions', 'FAQ section title', 'mroya' ); ?></h2>
 			<!-- /wp:heading -->
 
 			<!-- wp:buttons -->

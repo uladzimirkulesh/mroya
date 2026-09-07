@@ -15,5 +15,6 @@
 <!-- wp:pattern {"slug":"mroya/section-features"} /-->
 <!-- wp:pattern {"slug":"mroya/section-services"} /-->
 <!-- wp:pattern {"slug":"mroya/section-mission"} /-->
+<!-- wp:pattern {"slug":"mroya/section-testimonials"} /-->
 <!-- wp:pattern {"slug":"mroya/section-faq"} /-->
 <!-- wp:pattern {"slug":"mroya/section-contact"} /-->

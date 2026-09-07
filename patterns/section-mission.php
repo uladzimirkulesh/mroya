@@ -30,7 +30,7 @@
 			</header>
 			<!-- /wp:group -->
 
-			<!-- wp:group {"layout":{"type":"constrained","contentSize":"860px"}} -->
+			<!-- wp:group {"layout":{"type":"constrained","contentSize":"880px"}} -->
 			<div class="wp-block-group">
 				<!-- wp:paragraph {"style":{"typography":{"textAlign":"center","fontStyle":"normal","fontWeight":"500"}},"fontSize":"huge"} -->
 				<p class="has-text-align-center has-huge-font-size" style="font-style:normal;font-weight:500"><?php echo esc_html_x( 'Creating digital experiences that make a difference', 'Mission section text', 'mroya' ); ?></p>
