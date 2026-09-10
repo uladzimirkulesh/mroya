@@ -13,8 +13,8 @@
  */
 
 ?>
-<!-- wp:group {"align":"full","className":"section section--faq","style":{"spacing":{"padding":{"top":"var:preset|spacing|20","bottom":"var:preset|spacing|40"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull section section--faq" style="padding-top:var(--wp--preset--spacing--20);padding-bottom:var(--wp--preset--spacing--40)">
+<!-- wp:group {"tagName":"section","align":"full","className":"section section--faq","style":{"spacing":{"padding":{"top":"var:preset|spacing|20","bottom":"var:preset|spacing|40"}}},"layout":{"type":"constrained"}} -->
+<section class="wp-block-group alignfull section section--faq" style="padding-top:var(--wp--preset--spacing--20);padding-bottom:var(--wp--preset--spacing--40)">
 	<!-- wp:group {"align":"wide","style":{"@tablet":{"layout":{"columnCount":1}},"@mobile":{"layout":{"columnCount":1}}},"layout":{"type":"grid","columnCount":2}} -->
 	<div class="wp-block-group alignwide">
 		<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20","padding":{"bottom":"var:preset|spacing|10"}}},"layout":{"type":"constrained","justifyContent":"left"}} -->
@@ -169,5 +169,5 @@
 		<!-- /wp:group -->
 	</div>
 	<!-- /wp:group -->
-</div>
+</section>
 <!-- /wp:group -->

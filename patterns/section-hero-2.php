@@ -13,8 +13,8 @@
  */
 
 ?>
-<!-- wp:group {"align":"full","className":"section section--hero-2","style":{"spacing":{"padding":{"top":"var:preset|spacing|70"},"blockGap":"var:preset|spacing|20"}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull section section--hero-2" style="padding-top:var(--wp--preset--spacing--70)">
+<!-- wp:group {"tagName":"section","align":"full","className":"section section--hero-2","style":{"spacing":{"padding":{"top":"var:preset|spacing|70"},"blockGap":"var:preset|spacing|20"}},"layout":{"type":"constrained"}} -->
+<section class="wp-block-group alignfull section section--hero-2" style="padding-top:var(--wp--preset--spacing--70)">
 	<!-- wp:group {"align":"wide","layout":{"type":"constrained","contentSize":"1280px"}} -->
 	<div class="wp-block-group alignwide">
 		<!-- wp:group {"align":"wide","layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
@@ -44,5 +44,5 @@
 		</div>
 	</div>
 	<!-- /wp:cover -->
-</div>
+</section>
 <!-- /wp:group -->
