@@ -42,12 +42,12 @@ async function buildAll() {
 
   await Promise.all([
     buildPair({
-      entryPoints: ['src/js/screen.js', 'src/js/editor.js'],
+      entryPoints: ['src/js/screen.js', 'src/js/editor.js', 'src/js/animations.js'],
       outdir: 'assets/js',
       format: 'esm',
     }),
     buildPair({
-      entryPoints: ['src/scss/editor.scss', 'src/scss/admin.scss'],
+      entryPoints: ['src/scss/editor.scss', 'src/scss/admin.scss', 'src/scss/animations.scss'],
       outdir: 'assets/css',
     }),
     buildPair({

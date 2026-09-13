@@ -1,0 +1,4 @@
+/* src/scss/animations.scss */
+.section--mission .wp-block-cover__image-background {
+  transform: scale(1.15);
+}
