@@ -17,6 +17,7 @@ Accordion
 			.wp-block-accordion-panel {
 				margin-top: 0.75rem;
 				margin-bottom: 1.5rem;
+				content-visibility: visible;
 			}
 		}
 	}
@@ -38,6 +39,10 @@ Accordion
 				}
 			}
 		}
+	}
+
+	.wp-block-accordion-panel {
+		content-visibility: hidden;
 	}
 
 	// Icon

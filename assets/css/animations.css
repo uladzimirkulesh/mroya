@@ -1,4 +1,7 @@
 /* src/scss/animations.scss */
+.section--contact .wp-block-cover__image-background {
+  transform: scale(1.05);
+}
 .section--mission .wp-block-cover__image-background {
-  transform: scale(1.15);
+  transform: scale(1.05);
 }

@@ -218,6 +218,7 @@ input[type=checkbox] + label {
 .wp-block-accordion .wp-block-accordion-item.is-open .wp-block-accordion-panel {
   margin-top: 0.75rem;
   margin-bottom: 1.5rem;
+  content-visibility: visible;
 }
 .wp-block-accordion .wp-block-accordion-heading {
   font-size: var(--wp--preset--font-size--medium);
@@ -231,6 +232,9 @@ input[type=checkbox] + label {
 }
 .wp-block-accordion .wp-block-accordion-heading__toggle:hover .wp-block-accordion-heading__toggle-title {
   text-decoration: none;
+}
+.wp-block-accordion .wp-block-accordion-panel {
+  content-visibility: hidden;
 }
 .wp-block-accordion .wp-block-accordion-heading__toggle-icon {
   display: block;

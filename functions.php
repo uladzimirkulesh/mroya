@@ -27,7 +27,7 @@ if ( ! function_exists( 'mroya_assets' ) ) :
 	/**
 	 * Enqueue styles and scripts
 	 *
-	 * @since Mroya 2.0.0
+	 * @since Mroya 1.0.0
 	 *
 	 * @return void
 	 */
@@ -64,36 +64,59 @@ if ( ! function_exists( 'mroya_assets' ) ) :
 			get_parent_theme_file_path( 'assets/js/screen' . $suffix . '.js' )
 		);
 
-		if ( wp_script_is( 'mroya-premium-screen', 'registered' ) ) {
-			// Animations stylesheet
+		/**
+		 * Enqueue styles and scripts only for the parent theme,
+		 * not for child themes
+		 */
+		if ( ! is_child_theme() ) {
+			// Enqueue theme stylesheet
 			wp_enqueue_style(
-				'mroya-animations',
-				get_parent_theme_file_uri( 'assets/css/animations' . $suffix . '.css' ),
-				array(),
+				'mroya-theme-style',
+				get_parent_theme_file_uri( 'assets/css/theme-style' . $suffix . '.css' ),
+				array( 'mroya-style' ),
 				wp_get_theme()->get( 'Version' )
 			);
 			wp_style_add_data(
-				'mroya-animations',
+				'mroya-theme-style',
 				'path',
-				get_parent_theme_file_path( 'assets/css/animations' . $suffix . '.css' )
+				get_parent_theme_file_path( 'assets/css/theme-style' . $suffix . '.css' )
 			);
 
-			// Animations scripts
-			wp_enqueue_script(
-				'mroya-animations',
-				get_stylesheet_directory_uri() . '/assets/js/animations' . $suffix . '.js',
-				array(
-					'mroya-screen',
-					'mroya-premium-screen'
-				),
-				wp_get_theme()->get( 'Version' ),
-				true
-			);
-			wp_script_add_data(
-				'mroya-animations',
-				'path',
-				get_parent_theme_file_path( 'assets/js/animations' . $suffix . '.js' )
-			);
+			/**
+			 * Enqueue styles and scripts only if the Mroya Premium
+			 * plugin is installed and activated
+			 */
+			if ( wp_script_is( 'mroya-premium-screen', 'registered' ) ) {
+				// Animations stylesheet
+				wp_enqueue_style(
+					'mroya-animations',
+					get_parent_theme_file_uri( 'assets/css/animations' . $suffix . '.css' ),
+					array( 'mroya-style' ),
+					wp_get_theme()->get( 'Version' )
+				);
+				wp_style_add_data(
+					'mroya-animations',
+					'path',
+					get_parent_theme_file_path( 'assets/css/animations' . $suffix . '.css' )
+				);
+
+				// Animations scripts
+				wp_enqueue_script(
+					'mroya-animations',
+					get_stylesheet_directory_uri() . '/assets/js/animations' . $suffix . '.js',
+					array(
+						'mroya-screen',
+						'mroya-premium-screen'
+					),
+					wp_get_theme()->get( 'Version' ),
+					true
+				);
+				wp_script_add_data(
+					'mroya-animations',
+					'path',
+					get_parent_theme_file_path( 'assets/js/animations' . $suffix . '.js' )
+				);
+			}
 		}
 
 		wp_set_script_translations( 'mroya-screen', 'mroya' );
@@ -105,7 +128,7 @@ if ( ! function_exists( 'mroya_editor_style' ) ) :
 	/**
 	 * Enqueues editor-style.css in the editors
 	 *
-	 * @since Mroya 2.0.0
+	 * @since Mroya 1.0.0
 	 *
 	 * @return void
 	 */
@@ -124,7 +147,7 @@ if ( ! function_exists( 'mroya_editor_assets' ) ) :
 	/**
 	 * Enqueue scripts in the editors
 	 *
-	 * @since Mroya 2.0.0
+	 * @since Mroya 1.0.0
 	 *
 	 * @return void
 	 */
@@ -175,7 +198,7 @@ if ( ! function_exists( 'mroya_register_block_pattern_categories' ) ) :
 	/**
 	 * Registers block pattern categories
 	 *
-	 * @since Mroya 2.0.0
+	 * @since Mroya 1.0.0
 	 *
 	 * @return void
 	 */
