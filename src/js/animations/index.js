@@ -3,4 +3,5 @@ export { sectionHero2 } from './section-hero-2';
 export { sectionHero3 } from './section-hero-3';
 export { sectionMission } from './section-mission';
 export { sectionContact } from './section-contact';
+export { sectionFeatures } from './section-features';
 export { singularPage } from './singular';

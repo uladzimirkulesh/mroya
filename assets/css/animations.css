@@ -2,6 +2,9 @@
 .section--contact .wp-block-cover__image-background {
   transform: scale(1.05);
 }
+.section--features .featured-list__item {
+  visibility: hidden;
+}
 .section--mission .wp-block-cover__image-background {
   transform: scale(1.05);
 }

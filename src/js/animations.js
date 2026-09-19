@@ -11,5 +11,6 @@ window.addEventListener( 'load', () => {
 	Animate.sectionHero3();
 	Animate.sectionMission();
 	Animate.sectionContact();
+	Animate.sectionFeatures();
 	Animate.singularPage();
 } );

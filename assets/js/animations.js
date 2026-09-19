@@ -65,6 +65,15 @@ function sectionContact() {
   });
 }
 
+// src/js/animations/section-features.js
+function sectionFeatures() {
+  const sections = gsap.utils.toArray(".section--features");
+  sections.forEach((section) => {
+    const cards = section.querySelectorAll(".featured-list__item");
+    cards?.length && gsap.effects.fadeInUpBatch(cards);
+  });
+}
+
 // src/js/animations/singular.js
 function singularPage() {
   if (!document.body.classList.contains("wp-singular")) return;
@@ -88,5 +97,6 @@ window.addEventListener("load", () => {
   sectionHero3();
   sectionMission();
   sectionContact();
+  sectionFeatures();
   singularPage();
 });
