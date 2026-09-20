@@ -4,4 +4,5 @@ export { sectionHero3 } from './section-hero-3';
 export { sectionMission } from './section-mission';
 export { sectionContact } from './section-contact';
 export { sectionFeatures } from './section-features';
+export { sectionTestimonials } from './section-testimonials';
 export { singularPage } from './singular';

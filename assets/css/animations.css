@@ -5,6 +5,9 @@
 .section--features .featured-list__item {
   visibility: hidden;
 }
+.section--testimonials .testimonials-list__item {
+  visibility: hidden;
+}
 .section--mission .wp-block-cover__image-background {
   transform: scale(1.05);
 }
