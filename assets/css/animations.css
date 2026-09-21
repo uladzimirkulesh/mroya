@@ -8,6 +8,16 @@
 .section--testimonials .testimonials-list__item {
   visibility: hidden;
 }
+.section--services:not(.is-custom) .services-list__item {
+  --services-line-scale: 0;
+}
+.section--services:not(.is-custom) .services-list__item::after {
+  transform: scaleY(var(--services-line-scale));
+  transform-origin: top center;
+}
 .section--mission .wp-block-cover__image-background {
   transform: scale(1.05);
+}
+.section--clients .clients-list__item {
+  visibility: hidden;
 }

@@ -1,0 +1,18 @@
+/*-------------------------------------------------------
+Section "Services"
+-------------------------------------------------------*/
+
+.section--services:not(.is-custom) {
+
+	.services-list {
+
+		&__item {
+			--services-line-scale: 0;
+
+			&::after {
+				transform: scaleY( var( --services-line-scale ) );
+				transform-origin: top center;
+			}
+		}
+	}
+}

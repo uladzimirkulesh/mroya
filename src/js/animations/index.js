@@ -5,4 +5,6 @@ export { sectionMission } from './section-mission';
 export { sectionContact } from './section-contact';
 export { sectionFeatures } from './section-features';
 export { sectionTestimonials } from './section-testimonials';
+export { sectionServices } from './section-services';
+export { sectionClients } from './section-clients';
 export { singularPage } from './singular';

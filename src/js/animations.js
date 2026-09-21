@@ -13,5 +13,7 @@ window.addEventListener( 'load', () => {
 	Animate.sectionContact();
 	Animate.sectionFeatures();
 	Animate.sectionTestimonials();
+	Animate.sectionServices();
+	Animate.sectionClients();
 	Animate.singularPage();
 } );
