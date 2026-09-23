@@ -21,3 +21,6 @@
 .section--clients .clients-list__item {
   visibility: hidden;
 }
+.section--team .members-list__item {
+  visibility: hidden;
+}

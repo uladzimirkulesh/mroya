@@ -7,4 +7,5 @@ export { sectionFeatures } from './section-features';
 export { sectionTestimonials } from './section-testimonials';
 export { sectionServices } from './section-services';
 export { sectionClients } from './section-clients';
+export { sectionTeam } from './section-team';
 export { singularPage } from './singular';
