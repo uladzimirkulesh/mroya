@@ -27,8 +27,8 @@
 
 		<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|50"}},"layout":{"type":"default"}} -->
 		<div class="wp-block-group">
-			<!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"fontSize":"x-large"} -->
-			<p class="has-x-large-font-size" style="font-style:normal;font-weight:500"><?php echo esc_html_x( 'It started with a simple idea to create digital experiences that feel both human and timeless. Over time, our work evolved through exploration, curiosity, and attention to detail, blending design, motion, and technology into one cohesive language. Each project has been a step forward, shaping our perspective and refining the way we bring ideas to life.', 'About section text', 'mroya' ); ?></p>
+			<!-- wp:paragraph {"className":"section__text","style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"fontSize":"x-large"} -->
+			<p class="section__text has-x-large-font-size" style="font-style:normal;font-weight:500"><?php echo esc_html_x( 'It started with a simple idea to create digital experiences that feel both human and timeless. Over time, our work evolved through exploration, curiosity, and attention to detail, blending design, motion, and technology into one cohesive language. Each project has been a step forward, shaping our perspective and refining the way we bring ideas to life.', 'About section text', 'mroya' ); ?></p>
 			<!-- /wp:paragraph -->
 
 			<!-- wp:group {"className":"block--skills","style":{"spacing":{"blockGap":"0.75rem"}},"layout":{"type":"default"}} -->

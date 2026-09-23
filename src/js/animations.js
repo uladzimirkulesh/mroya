@@ -16,5 +16,6 @@ window.addEventListener( 'load', () => {
 	Animate.sectionServices();
 	Animate.sectionClients();
 	Animate.sectionTeam();
+	Animate.sectionAbout();
 	Animate.singularPage();
 } );

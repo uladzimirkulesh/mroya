@@ -8,4 +8,5 @@ export { sectionTestimonials } from './section-testimonials';
 export { sectionServices } from './section-services';
 export { sectionClients } from './section-clients';
 export { sectionTeam } from './section-team';
+export { sectionAbout } from './section-about';
 export { singularPage } from './singular';
