@@ -9,4 +9,5 @@ export { sectionServices } from './section-services';
 export { sectionClients } from './section-clients';
 export { sectionTeam } from './section-team';
 export { sectionAbout } from './section-about';
+export { sectionAwards } from './section-awards';
 export { singularPage } from './singular';

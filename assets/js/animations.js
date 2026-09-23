@@ -162,6 +162,25 @@ function sectionAbout() {
   });
 }
 
+// src/js/animations/section-awards.js
+function sectionAwards() {
+  const sections = gsap.utils.toArray(".section--awards");
+  sections.forEach((section) => {
+    const awardsBlock = section.querySelector(".awards-list");
+    const awards = awardsBlock?.children;
+    if (!awards.length) return;
+    ScrollTrigger.create({
+      trigger: awardsBlock,
+      start: ScrollTrigger.defaults().start,
+      toggleActions: "play none none none",
+      onEnter: () => {
+        gsap.effects.fadeInUp(awards);
+      },
+      once: true
+    });
+  });
+}
+
 // src/js/animations/singular.js
 function singularPage() {
   if (!document.body.classList.contains("wp-singular")) return;
@@ -191,5 +210,6 @@ window.addEventListener("load", () => {
   sectionClients();
   sectionTeam();
   sectionAbout();
+  sectionAwards();
   singularPage();
 });
