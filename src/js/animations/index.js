@@ -3,6 +3,7 @@ export { sectionHero2 } from './section-hero-2';
 export { sectionHero3 } from './section-hero-3';
 export { sectionMission } from './section-mission';
 export { sectionContact } from './section-contact';
+export { sectionContacts } from './section-contacts';
 export { sectionFeatures } from './section-features';
 export { sectionTestimonials } from './section-testimonials';
 export { sectionServices } from './section-services';

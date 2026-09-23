@@ -11,6 +11,7 @@ window.addEventListener( 'load', () => {
 	Animate.sectionHero3();
 	Animate.sectionMission();
 	Animate.sectionContact();
+	Animate.sectionContacts();
 	Animate.sectionFeatures();
 	Animate.sectionTestimonials();
 	Animate.sectionServices();

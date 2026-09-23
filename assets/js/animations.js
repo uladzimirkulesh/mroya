@@ -65,6 +65,15 @@ function sectionContact() {
   });
 }
 
+// src/js/animations/section-contacts.js
+function sectionContacts() {
+  const sections = gsap.utils.toArray(".section--contacts");
+  sections.forEach((section) => {
+    const text = section.querySelector(".section__text");
+    text && gsap.effects.splitTextWords(text);
+  });
+}
+
 // src/js/animations/section-features.js
 function sectionFeatures() {
   const sections = gsap.utils.toArray(".section--features");
@@ -204,6 +213,7 @@ window.addEventListener("load", () => {
   sectionHero3();
   sectionMission();
   sectionContact();
+  sectionContacts();
   sectionFeatures();
   sectionTestimonials();
   sectionServices();

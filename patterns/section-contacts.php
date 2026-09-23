@@ -27,8 +27,8 @@
 
 		<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|40"}},"layout":{"type":"default"}} -->
 		<div class="wp-block-group">
-			<!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"fontSize":"x-large"} -->
-			<p class="has-x-large-font-size" style="font-style:normal;font-weight:500"><?php echo esc_html_x( 'We’d love to hear from you. Whether you have a project in mind, a question about our services, or simply want to learn more about what we do, feel free to get in touch. Our team is always happy to start a conversation and find the best way to help.', 'Contacts section text', 'mroya' ); ?></p>
+			<!-- wp:paragraph {"className":"section__text","style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"fontSize":"x-large"} -->
+			<p class="section__text has-x-large-font-size" style="font-style:normal;font-weight:500"><?php echo esc_html_x( 'We’d love to hear from you. Whether you have a project in mind, a question about our services, or simply want to learn more about what we do, feel free to get in touch. Our team is always happy to start a conversation and find the best way to help.', 'Contacts section text', 'mroya' ); ?></p>
 			<!-- /wp:paragraph -->
 
 			<!-- wp:group {"className":"contacts-list","style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"constrained"}} -->
