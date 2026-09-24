@@ -33,3 +33,11 @@
 .section--awards .awards-list > * {
   visibility: hidden;
 }
+.section--keep-reading .wp-block-post {
+  visibility: hidden;
+}
+.blog .wp-block-post-template.is-layout-grid .wp-block-post,
+.archive .wp-block-post-template.is-layout-grid .wp-block-post,
+.search .wp-block-post-template.is-layout-grid .wp-block-post {
+  visibility: hidden;
+}

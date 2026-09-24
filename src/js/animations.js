@@ -19,5 +19,7 @@ window.addEventListener( 'load', () => {
 	Animate.sectionTeam();
 	Animate.sectionAbout();
 	Animate.sectionAwards();
-	Animate.singularPage();
+	Animate.sectionKeepReading();
+	Animate.pageArchive();
+	Animate.pageSingular();
 } );

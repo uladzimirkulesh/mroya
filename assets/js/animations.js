@@ -190,8 +190,24 @@ function sectionAwards() {
   });
 }
 
-// src/js/animations/singular.js
-function singularPage() {
+// src/js/animations/section-keep-reading.js
+function sectionKeepReading() {
+  const sections = gsap.utils.toArray(".section--keep-reading");
+  sections.forEach((section) => {
+    const cards = section.querySelectorAll(".wp-block-post");
+    cards?.length && gsap.effects.fadeInUpBatch(cards);
+  });
+}
+
+// src/js/animations/page-archive.js
+function pageArchive() {
+  if (!document.body.classList.contains("blog") && !document.body.classList.contains("archive") && !document.body.classList.contains("search")) return;
+  const posts = gsap.utils.toArray(".wp-block-post-template.is-layout-grid .wp-block-post");
+  posts?.length && gsap.effects.fadeInUpBatch(posts, { batchMax: 3 });
+}
+
+// src/js/animations/page-singular.js
+function pageSingular() {
   if (!document.body.classList.contains("wp-singular")) return;
   const entry = document.querySelector(".entry");
   const featuredImg = entry?.querySelector(".wp-block-cover");
@@ -221,5 +237,7 @@ window.addEventListener("load", () => {
   sectionTeam();
   sectionAbout();
   sectionAwards();
-  singularPage();
+  sectionKeepReading();
+  pageArchive();
+  pageSingular();
 });

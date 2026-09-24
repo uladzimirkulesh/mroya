@@ -1,7 +1,7 @@
 /*-------------------------------------------------------
 Singular page animations
 -------------------------------------------------------*/
-export function singularPage() {
+export function pageSingular() {
 	if ( ! document.body.classList.contains( 'wp-singular' ) ) return;
 
 	const entry = document.querySelector( '.entry' );

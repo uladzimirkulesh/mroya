@@ -1,0 +1,12 @@
+/*-------------------------------------------------------
+Page "Archive"
+-------------------------------------------------------*/
+
+.blog,
+.archive,
+.search {
+
+	.wp-block-post-template.is-layout-grid .wp-block-post {
+		visibility: hidden;
+	}
+}

@@ -11,4 +11,6 @@ export { sectionClients } from './section-clients';
 export { sectionTeam } from './section-team';
 export { sectionAbout } from './section-about';
 export { sectionAwards } from './section-awards';
-export { singularPage } from './singular';
+export { sectionKeepReading } from './section-keep-reading';
+export { pageArchive } from './page-archive';
+export { pageSingular } from './page-singular';
