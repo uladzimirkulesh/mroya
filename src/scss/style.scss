@@ -39,7 +39,6 @@ Block Styles
 Layout Styles
 -------------------------------------------------------*/
 @use "layout/entry";
-@use "layout/header";
 @use "layout/layout";
 @use "layout/page-header";
 @use "layout/sidebar";
@@ -48,4 +47,3 @@ Layout Styles
 Pattern Styles
 -------------------------------------------------------*/
 @use "patterns/patterns";
-@use "patterns/section-services";

@@ -1,1 +1,44 @@
 /* src/scss/theme-style.scss */
+.header--default > .wp-block-group.is-layout-grid {
+  grid-template-columns: repeat(2, minmax(0, auto));
+  row-gap: 0;
+}
+@media only screen and (min-width: 783px) {
+  .header--default > .wp-block-group.is-layout-grid {
+    grid-template-columns: 1fr auto 1fr;
+  }
+}
+@media only screen and (max-width: 782px) {
+  .header--default .wp-block-navigation {
+    justify-content: flex-end;
+  }
+}
+.header--default .wp-block-navigation__submenu-container .wp-block-navigation-item__content {
+  line-height: var(--wp--custom--typography--line-height--small, inherit);
+}
+.header.has-overlaid-colors .header--default {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+}
+.header.has-overlaid-colors .header--default a {
+  color: rgb(255, 255, 255);
+}
+.header.has-overlaid-colors .header--default .wp-element-button,
+.header.has-overlaid-colors .header--default .wp-block-button__link {
+  background-color: rgba(255, 255, 255, 0.15);
+  border-color: transparent;
+  backdrop-filter: blur(8px);
+}
+.header.has-overlaid-colors .header--default .wp-element-button:hover,
+.header.has-overlaid-colors .header--default .wp-element-button:focus,
+.header.has-overlaid-colors .header--default .wp-element-button:active,
+.header.has-overlaid-colors .header--default .wp-block-button__link:hover,
+.header.has-overlaid-colors .header--default .wp-block-button__link:focus,
+.header.has-overlaid-colors .header--default .wp-block-button__link:active {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+@media only screen and (max-width: 782px) {
+  .section--services .services-list__item::after {
+    display: none;
+  }
+}

@@ -126,7 +126,7 @@ add_action( 'wp_enqueue_scripts', 'mroya_assets' );
 
 if ( ! function_exists( 'mroya_editor_style' ) ) :
 	/**
-	 * Enqueues editor-style.css in the editors
+	 * Enqueues editor styles
 	 *
 	 * @since Mroya 1.0.0
 	 *
@@ -135,10 +135,17 @@ if ( ! function_exists( 'mroya_editor_style' ) ) :
 	function mroya_editor_style() {
 		$suffix = defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ? '' : '.min';
 
-		add_editor_style( array(
+		$editor_styles = array(
 			'style' . $suffix . '.css',
 			'assets/css/editor' . $suffix . '.css',
-		) );
+		);
+
+		// Load parent theme styles only for the parent theme
+		if ( ! is_child_theme() ) {
+			$editor_styles[] = 'assets/css/theme-style' . $suffix . '.css';
+		}
+
+		add_editor_style( $editor_styles );
 	}
 endif;
 add_action( 'after_setup_theme', 'mroya_editor_style' );
