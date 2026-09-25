@@ -6,20 +6,20 @@ Fire on window load
 
 window.addEventListener( 'load', () => {
 	// Init Animations
-	Animate.sectionHero();
-	Animate.sectionHero2();
-	Animate.sectionHero3();
-	Animate.sectionMission();
+	Animate.pageArchive();
+	Animate.pageSingular();
+	Animate.sectionAbout();
+	Animate.sectionAwards();
+	Animate.sectionClients();
 	Animate.sectionContact();
 	Animate.sectionContacts();
 	Animate.sectionFeatures();
-	Animate.sectionTestimonials();
-	Animate.sectionServices();
-	Animate.sectionClients();
-	Animate.sectionTeam();
-	Animate.sectionAbout();
-	Animate.sectionAwards();
+	Animate.sectionHero();
+	Animate.sectionHero2();
+	Animate.sectionHero3();
 	Animate.sectionKeepReading();
-	Animate.pageArchive();
-	Animate.pageSingular();
+	Animate.sectionMission();
+	Animate.sectionServices();
+	Animate.sectionTeam();
+	Animate.sectionTestimonials();
 } );

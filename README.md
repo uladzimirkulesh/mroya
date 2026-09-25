@@ -4,7 +4,7 @@ Mroya is a lightweight Full Site Editing (FSE) WordPress theme designed for buil
 
 The theme includes carefully crafted templates and patterns for essential pages such as the homepage, about, contact, blog, and archives, offering a solid starting point for business websites while remaining flexible enough for many other projects.
 
-Mroya fully supports the WordPress Site Editor and follows modern development best practices, including responsive layouts, semantic markup, accessibility considerations, and compatibility with popular SEO plugins.
+Mroya fully supports the WordPress Site Editor and follows modern development best practices, including responsive layouts, semantic markup and accessibility considerations.
 
 Additional functionality, including advanced GSAP-powered animations, can be added through an optional premium companion plugin while keeping the core theme lightweight.
 

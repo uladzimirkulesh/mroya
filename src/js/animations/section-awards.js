@@ -1,6 +1,7 @@
 /*-------------------------------------------------------
 Section "Awards"
 -------------------------------------------------------*/
+
 export function sectionAwards() {
 	const sections = gsap.utils.toArray( '.section--awards' );
 

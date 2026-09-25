@@ -1,21 +1,24 @@
+2.0.0: Sep 25, 2026
+- CHANGED: Theme restructuring and redesign. The previous design version has been moved to a child theme.
+
 1.0.6: Aug 24, 2026
-- Checked: Compatibility with WordPress 7.1.
+- CHECKED: Compatibility with WordPress 7.1.
 
 1.0.5: Jul 22, 2026
-- Fix: Content width in project-description-1 pattern.
+- FIX: Content width in project-description-1 pattern.
 
 1.0.4: Jul 2, 2026
-- Changed: Home page from blog to studio.
+- CHANGED: Home page from blog to studio.
 
 1.0.3: Jun 29, 2026
-- Switched: The build process from wp-scripts to esbuild.
+- SWITCHED: The build process from wp-scripts to esbuild.
 
 1.0.2: Jun 27, 2026
-- Fix: Enqueue main stylesheet in functions.php.
+- FIX: Enqueue main stylesheet in functions.php.
 
 1.0.1: Jun 23, 2026
-- Fix: License details for the TGM plugin activation code in the readme.txt file.
-- Fix: The original files, as well as the minified files, are included in the theme folder.
+- FIX: License details for the TGM plugin activation code in the readme.txt file.
+- FIX: The original files, as well as the minified files, are included in the theme folder.
 
 1.0.0: Jun 06, 2026
-- New: First release.
+- NEW: First release.

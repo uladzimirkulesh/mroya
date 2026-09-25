@@ -8,6 +8,9 @@
  * Post Types: page, wp_template
  * Description: A business homepage pattern.
  * Viewport width: 1440
+ *
+ * @package Mroya
+ * @since Mroya 2.0.0
  */
 
 ?>

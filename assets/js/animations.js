@@ -1,3 +1,90 @@
+// src/js/animations/page-archive.js
+function pageArchive() {
+  if (!document.body.classList.contains("blog") && !document.body.classList.contains("archive") && !document.body.classList.contains("search")) return;
+  const posts = gsap.utils.toArray(".wp-block-post-template.is-layout-grid .wp-block-post");
+  posts?.length && gsap.effects.fadeInUpBatch(posts, { batchMax: 3 });
+}
+
+// src/js/animations/page-singular.js
+function pageSingular() {
+  if (!document.body.classList.contains("wp-singular")) return;
+  const entry = document.querySelector(".entry");
+  const featuredImg = entry?.querySelector(".wp-block-cover");
+  const img = featuredImg?.querySelector(".wp-block-cover__image-background");
+  img && gsap.effects.parallax(img, {
+    yFrom: 0,
+    yTo: 5,
+    scaleFrom: 1,
+    scaleTo: 1.04,
+    parent: featuredImg,
+    start: "top top"
+  });
+}
+
+// src/js/animations/section-about.js
+function sectionAbout() {
+  const sections = gsap.utils.toArray(".section--about");
+  sections.forEach((section) => {
+    const text = section.querySelector(".section__text");
+    text && gsap.effects.splitTextWords(text);
+  });
+}
+
+// src/js/animations/section-awards.js
+function sectionAwards() {
+  const sections = gsap.utils.toArray(".section--awards");
+  sections.forEach((section) => {
+    const awardsBlock = section.querySelector(".awards-list");
+    const awards = awardsBlock?.children;
+    if (!awards.length) return;
+    ScrollTrigger.create({
+      trigger: awardsBlock,
+      start: ScrollTrigger.defaults().start,
+      toggleActions: "play none none none",
+      onEnter: () => {
+        gsap.effects.fadeInUp(awards);
+      },
+      once: true
+    });
+  });
+}
+
+// src/js/animations/section-clients.js
+function sectionClients() {
+  const sections = gsap.utils.toArray(".section--clients");
+  sections.forEach((section) => {
+    const cards = section.querySelectorAll(".clients-list__item");
+    cards?.length && gsap.effects.fadeInUpBatch(cards);
+  });
+}
+
+// src/js/animations/section-contact.js
+function sectionContact() {
+  const sections = gsap.utils.toArray(".section--contact");
+  sections.forEach((section) => {
+    const img = section.querySelector(".wp-block-cover__image-background");
+    img && gsap.effects.parallax(img, { parent: section });
+  });
+}
+
+// src/js/animations/section-contacts.js
+function sectionContacts() {
+  const sections = gsap.utils.toArray(".section--contacts");
+  sections.forEach((section) => {
+    const text = section.querySelector(".section__text");
+    text && gsap.effects.splitTextWords(text);
+  });
+}
+
+// src/js/animations/section-features.js
+function sectionFeatures() {
+  const sections = gsap.utils.toArray(".section--features");
+  sections.forEach((section) => {
+    const cards = section.querySelectorAll(".featured-list__item");
+    cards?.length && gsap.effects.fadeInUpBatch(cards);
+  });
+}
+
 // src/js/animations/section-hero.js
 function sectionHero() {
   const sections = gsap.utils.toArray(".section--hero");
@@ -47,6 +134,15 @@ function sectionHero3() {
   });
 }
 
+// src/js/animations/section-keep-reading.js
+function sectionKeepReading() {
+  const sections = gsap.utils.toArray(".section--keep-reading");
+  sections.forEach((section) => {
+    const cards = section.querySelectorAll(".wp-block-post");
+    cards?.length && gsap.effects.fadeInUpBatch(cards);
+  });
+}
+
 // src/js/animations/section-mission.js
 function sectionMission() {
   const sections = gsap.utils.toArray(".section--mission");
@@ -56,38 +152,11 @@ function sectionMission() {
   });
 }
 
-// src/js/animations/section-contact.js
-function sectionContact() {
-  const sections = gsap.utils.toArray(".section--contact");
+// src/js/animations/section-team.js
+function sectionTeam() {
+  const sections = gsap.utils.toArray(".section--team");
   sections.forEach((section) => {
-    const img = section.querySelector(".wp-block-cover__image-background");
-    img && gsap.effects.parallax(img, { parent: section });
-  });
-}
-
-// src/js/animations/section-contacts.js
-function sectionContacts() {
-  const sections = gsap.utils.toArray(".section--contacts");
-  sections.forEach((section) => {
-    const text = section.querySelector(".section__text");
-    text && gsap.effects.splitTextWords(text);
-  });
-}
-
-// src/js/animations/section-features.js
-function sectionFeatures() {
-  const sections = gsap.utils.toArray(".section--features");
-  sections.forEach((section) => {
-    const cards = section.querySelectorAll(".featured-list__item");
-    cards?.length && gsap.effects.fadeInUpBatch(cards);
-  });
-}
-
-// src/js/animations/section-testimonials.js
-function sectionTestimonials() {
-  const sections = gsap.utils.toArray(".section--testimonials");
-  sections.forEach((section) => {
-    const cards = section.querySelectorAll(".testimonials-list__item");
+    const cards = section.querySelectorAll(".members-list__item");
     cards?.length && gsap.effects.fadeInUpBatch(cards);
   });
 }
@@ -144,100 +213,31 @@ function animateItem(item) {
   };
 }
 
-// src/js/animations/section-clients.js
-function sectionClients() {
-  const sections = gsap.utils.toArray(".section--clients");
+// src/js/animations/section-testimonials.js
+function sectionTestimonials() {
+  const sections = gsap.utils.toArray(".section--testimonials");
   sections.forEach((section) => {
-    const cards = section.querySelectorAll(".clients-list__item");
+    const cards = section.querySelectorAll(".testimonials-list__item");
     cards?.length && gsap.effects.fadeInUpBatch(cards);
-  });
-}
-
-// src/js/animations/section-team.js
-function sectionTeam() {
-  const sections = gsap.utils.toArray(".section--team");
-  sections.forEach((section) => {
-    const cards = section.querySelectorAll(".members-list__item");
-    cards?.length && gsap.effects.fadeInUpBatch(cards);
-  });
-}
-
-// src/js/animations/section-about.js
-function sectionAbout() {
-  const sections = gsap.utils.toArray(".section--about");
-  sections.forEach((section) => {
-    const text = section.querySelector(".section__text");
-    text && gsap.effects.splitTextWords(text);
-  });
-}
-
-// src/js/animations/section-awards.js
-function sectionAwards() {
-  const sections = gsap.utils.toArray(".section--awards");
-  sections.forEach((section) => {
-    const awardsBlock = section.querySelector(".awards-list");
-    const awards = awardsBlock?.children;
-    if (!awards.length) return;
-    ScrollTrigger.create({
-      trigger: awardsBlock,
-      start: ScrollTrigger.defaults().start,
-      toggleActions: "play none none none",
-      onEnter: () => {
-        gsap.effects.fadeInUp(awards);
-      },
-      once: true
-    });
-  });
-}
-
-// src/js/animations/section-keep-reading.js
-function sectionKeepReading() {
-  const sections = gsap.utils.toArray(".section--keep-reading");
-  sections.forEach((section) => {
-    const cards = section.querySelectorAll(".wp-block-post");
-    cards?.length && gsap.effects.fadeInUpBatch(cards);
-  });
-}
-
-// src/js/animations/page-archive.js
-function pageArchive() {
-  if (!document.body.classList.contains("blog") && !document.body.classList.contains("archive") && !document.body.classList.contains("search")) return;
-  const posts = gsap.utils.toArray(".wp-block-post-template.is-layout-grid .wp-block-post");
-  posts?.length && gsap.effects.fadeInUpBatch(posts, { batchMax: 3 });
-}
-
-// src/js/animations/page-singular.js
-function pageSingular() {
-  if (!document.body.classList.contains("wp-singular")) return;
-  const entry = document.querySelector(".entry");
-  const featuredImg = entry?.querySelector(".wp-block-cover");
-  const img = featuredImg?.querySelector(".wp-block-cover__image-background");
-  img && gsap.effects.parallax(img, {
-    yFrom: 0,
-    yTo: 5,
-    scaleFrom: 1,
-    scaleTo: 1.04,
-    parent: featuredImg,
-    start: "top top"
   });
 }
 
 // src/js/animations.js
 window.addEventListener("load", () => {
-  sectionHero();
-  sectionHero2();
-  sectionHero3();
-  sectionMission();
+  pageArchive();
+  pageSingular();
+  sectionAbout();
+  sectionAwards();
+  sectionClients();
   sectionContact();
   sectionContacts();
   sectionFeatures();
-  sectionTestimonials();
-  sectionServices();
-  sectionClients();
-  sectionTeam();
-  sectionAbout();
-  sectionAwards();
+  sectionHero();
+  sectionHero2();
+  sectionHero3();
   sectionKeepReading();
-  pageArchive();
-  pageSingular();
+  sectionMission();
+  sectionServices();
+  sectionTeam();
+  sectionTestimonials();
 });

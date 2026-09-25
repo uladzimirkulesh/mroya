@@ -1,6 +1,7 @@
 /*-------------------------------------------------------
 Section "Keep Reading"
 -------------------------------------------------------*/
+
 export function sectionKeepReading() {
 	const sections = gsap.utils.toArray( '.section--keep-reading' );
 

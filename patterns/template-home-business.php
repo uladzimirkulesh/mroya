@@ -5,6 +5,9 @@
  * Template Types: front-page, index, home
  * Viewport width: 1440
  * Inserter: no
+ *
+ * @package Mroya
+ * @since Mroya 2.0.0
  */
 
 ?>

@@ -103,7 +103,7 @@ if ( ! function_exists( 'mroya_assets' ) ) :
 				// Animations scripts
 				wp_enqueue_script(
 					'mroya-animations',
-					get_stylesheet_directory_uri() . '/assets/js/animations' . $suffix . '.js',
+					get_parent_theme_file_uri( 'assets/js/animations' . $suffix . '.js' ),
 					array(
 						'mroya-screen',
 						'mroya-premium-screen'
