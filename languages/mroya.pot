@@ -1,0 +1,1425 @@
+# Copyright (C) 2026 Uladzimir Kulesh
+# This file is distributed under the same license as the Mroya package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Mroya\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-25 19:09+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Uladzimir Kulesh <hello@mroya.eu>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.8.8; wp-7.1.2; php-8.2.29\n"
+"X-Domain: mroya"
+
+#: patterns/footer.php:73
+msgid "+420 123-456-78"
+msgstr ""
+
+#: functions.php:217
+msgid "A collection of archive header patterns."
+msgstr ""
+
+#: functions.php:225
+msgid "A collection of full page layouts."
+msgstr ""
+
+#: functions.php:233
+msgid "A collection of section patterns."
+msgstr ""
+
+#: patterns/header.php:32 patterns/footer.php:41
+msgid "About"
+msgstr ""
+
+#: patterns/section-about.php:31
+msgctxt "About section text"
+msgid ""
+"It started with a simple idea to create digital experiences that feel both "
+"human and timeless. Over time, our work evolved through exploration, "
+"curiosity, and attention to detail, blending design, motion, and technology "
+"into one cohesive language. Each project has been a step forward, shaping "
+"our perspective and refining the way we bring ideas to life."
+msgstr ""
+
+#: patterns/section-about.php:23
+msgctxt "About section title"
+msgid "Our Journey"
+msgstr ""
+
+#: patterns/section-awards.php:55
+msgctxt "Awards item text"
+msgid "Developer Award"
+msgstr ""
+
+#: patterns/section-awards.php:111
+msgctxt "Awards item text"
+msgid "Honorable mention"
+msgstr ""
+
+#: patterns/section-awards.php:67
+msgctxt "Awards item text"
+msgid "Honourable Mention"
+msgstr ""
+
+#: patterns/section-awards.php:155
+msgctxt "Awards item text"
+msgid "Innovation Design Award"
+msgstr ""
+
+#: patterns/section-awards.php:211
+msgctxt "Awards item text"
+msgid "Nominee"
+msgstr ""
+
+#: patterns/section-awards.php:243
+msgctxt "Awards item text"
+msgid "Shortlists"
+msgstr ""
+
+#: patterns/section-awards.php:43 patterns/section-awards.php:99
+msgctxt "Awards item text"
+msgid "Site Of The Day"
+msgstr ""
+
+#: patterns/section-awards.php:167
+msgctxt "Awards item text"
+msgid "UI Design Award"
+msgstr ""
+
+#: patterns/section-awards.php:179
+msgctxt "Awards item text"
+msgid "UX Design Award"
+msgstr ""
+
+#: patterns/section-awards.php:143
+msgctxt "Awards item text"
+msgid "Website Of The Day"
+msgstr ""
+
+#: patterns/section-awards.php:215
+msgctxt "Awards item text"
+msgid "x1"
+msgstr ""
+
+#: patterns/section-awards.php:47
+msgctxt "Awards item text"
+msgid "x10"
+msgstr ""
+
+#: patterns/section-awards.php:171 patterns/section-awards.php:183
+msgctxt "Awards item text"
+msgid "x2"
+msgstr ""
+
+#: patterns/section-awards.php:115 patterns/section-awards.php:147
+#: patterns/section-awards.php:159
+msgctxt "Awards item text"
+msgid "x3"
+msgstr ""
+
+#: patterns/section-awards.php:59 patterns/section-awards.php:247
+msgctxt "Awards item text"
+msgid "x4"
+msgstr ""
+
+#: patterns/section-awards.php:103
+msgctxt "Awards item text"
+msgid "x5"
+msgstr ""
+
+#: patterns/section-awards.php:71
+msgctxt "Awards item text"
+msgid "x6"
+msgstr ""
+
+#: patterns/section-awards.php:35
+msgctxt "Awards item title"
+msgid "Awwwards"
+msgstr ""
+
+#: patterns/section-awards.php:235
+msgctxt "Awards item title"
+msgid "Creative Circle"
+msgstr ""
+
+#: patterns/section-awards.php:135
+msgctxt "Awards item title"
+msgid "CSSDA"
+msgstr ""
+
+#: patterns/section-awards.php:91
+msgctxt "Awards item title"
+msgid "The FWA"
+msgstr ""
+
+#: patterns/section-awards.php:203
+msgctxt "Awards item title"
+msgid "The Webby Awards"
+msgstr ""
+
+#: patterns/section-awards.php:265
+msgctxt "Awards section text"
+msgid ""
+"Our work has earned recognition and awards from leading industry experts, "
+"celebrating creativity, innovation, and meaningful impact across digital "
+"platforms."
+msgstr ""
+
+#: patterns/section-awards.php:23
+msgctxt "Awards section title"
+msgid "Recognition"
+msgstr ""
+
+#: patterns/hidden-404.php:26
+msgid "Back to Home"
+msgstr ""
+
+#: patterns/page-header-blog.php:19
+msgctxt "Blog page header title"
+msgid "Insights Hub"
+msgstr ""
+
+#: patterns/section-clients.php:25
+msgctxt "Clients section title"
+msgid "Our Clients"
+msgstr ""
+
+#: patterns/header.php:31 patterns/footer.php:40
+msgid "Contact"
+msgstr ""
+
+#: patterns/section-contact.php:45
+msgctxt "Contact section button text"
+msgid "Send a Message"
+msgstr ""
+
+#: patterns/section-contact.php:34
+msgctxt "Contact section text"
+msgid ""
+"Share a few details about your project, and we’ll get back to you with "
+"thoughtful feedback and next steps."
+msgstr ""
+
+#: patterns/section-contact.php:28
+msgctxt "Contact section title"
+msgid "Let's build something great together"
+msgstr ""
+
+#: patterns/section-contacts.php:51
+msgctxt "Contacts list item text"
+msgid "2118 Thornridge Cir. Syracuse,"
+msgstr ""
+
+#: patterns/section-contacts.php:55
+msgctxt "Contacts list item text"
+msgid "Connecticut 35624"
+msgstr ""
+
+#: patterns/section-contacts.php:117
+msgctxt "Contacts list item text"
+msgid "Mon–Sat: 9am to 5pm"
+msgstr ""
+
+#: patterns/section-contacts.php:121
+msgctxt "Contacts list item text"
+msgid "Sunday – Closed"
+msgstr ""
+
+#: patterns/section-contacts.php:45
+msgctxt "Contacts list item title"
+msgid "Adress"
+msgstr ""
+
+#: patterns/section-contacts.php:73
+msgctxt "Contacts list item title"
+msgid "Contacts"
+msgstr ""
+
+#: patterns/section-contacts.php:111
+msgctxt "Contacts list item title"
+msgid "Working Hours"
+msgstr ""
+
+#: patterns/section-contacts.php:31
+msgctxt "Contacts section text"
+msgid ""
+"We’d love to hear from you. Whether you have a project in mind, a question "
+"about our services, or simply want to learn more about what we do, feel free "
+"to get in touch. Our team is always happy to start a conversation and find "
+"the best way to help."
+msgstr ""
+
+#: patterns/section-contacts.php:23
+msgctxt "Contacts section title"
+msgid "Our Contacts"
+msgstr ""
+
+#: patterns/footer.php:56
+msgid "Cookies"
+msgstr ""
+
+#. Footer developer credit text.
+#: patterns/footer.php:112
+#, php-format
+msgid "Design by %s"
+msgstr ""
+
+#. "Contact mail" text.
+#: patterns/section-contacts.php:91
+#, php-format
+msgid "Email: %s"
+msgstr ""
+
+#: patterns/hidden-404.php:15
+msgctxt "Error code for a webpage that is not found."
+msgid "Error 404"
+msgstr ""
+
+#: patterns/footer.php:86
+msgid "Facebook"
+msgstr ""
+
+#: patterns/footer.php:42
+msgid "FAQ"
+msgstr ""
+
+#: patterns/section-faq.php:30
+msgctxt "FAQ section button text"
+msgid "Explore All"
+msgstr ""
+
+#: patterns/section-faq.php:83
+msgctxt "FAQ section item text"
+msgid ""
+"Absolutely. We can refresh the visual design, improve usability, optimize "
+"performance, or completely rebuild your existing website while preserving "
+"valuable content where possible. The best approach depends on your current "
+"platform and business goals."
+msgstr ""
+
+#: patterns/section-faq.php:158
+msgctxt "FAQ section item text"
+msgid ""
+"Definitely. We build websites with user-friendly content management tools "
+"that allow you to edit text, replace images, publish blog posts, and manage "
+"pages without writing code. If needed, we also provide documentation or a "
+"short training session to help your team get started."
+msgstr ""
+
+#: patterns/section-faq.php:58
+msgctxt "FAQ section item text"
+msgid ""
+"Every project is unique, so timelines depend on its scope and complexity. "
+"Smaller websites can often be completed within a few weeks, while larger "
+"custom solutions require additional planning, design, and testing. We always "
+"provide a clear timeline before development begins."
+msgstr ""
+
+#: patterns/section-faq.php:108
+msgctxt "FAQ section item text"
+msgid ""
+"Yes. Every website is designed with a responsive approach to ensure it looks "
+"and performs well on desktops, tablets, and smartphones. We also pay close "
+"attention to accessibility, loading speed, and overall user experience "
+"across different screen sizes."
+msgstr ""
+
+#: patterns/section-faq.php:133
+msgctxt "FAQ section item text"
+msgid ""
+"Yes. We offer ongoing maintenance, technical support, and regular updates to "
+"help keep your website secure and running smoothly. Whether you need "
+"occasional assistance or long-term support, we can tailor a plan that fits "
+"your needs."
+msgstr ""
+
+#: patterns/section-faq.php:147
+msgctxt "FAQ section item title"
+msgid "Can my team update the website without technical knowledge?"
+msgstr ""
+
+#: patterns/section-faq.php:72
+msgctxt "FAQ section item title"
+msgid "Can you redesign an existing website instead of building a new one?"
+msgstr ""
+
+#: patterns/section-faq.php:122
+msgctxt "FAQ section item title"
+msgid "Do you provide support after the project is finished?"
+msgstr ""
+
+#: patterns/section-faq.php:47
+msgctxt "FAQ section item title"
+msgid "How long does a typical project take?"
+msgstr ""
+
+#: patterns/section-faq.php:97
+msgctxt "FAQ section item title"
+msgid "Will my website be optimized for mobile devices?"
+msgstr ""
+
+#: patterns/section-faq.php:23
+msgctxt "FAQ section title"
+msgid "Frequently Asked Questions"
+msgstr ""
+
+#: patterns/section-features.php:43
+msgctxt "Features item number"
+msgid "01"
+msgstr ""
+
+#: patterns/section-features.php:81
+msgctxt "Features item number"
+msgid "02"
+msgstr ""
+
+#: patterns/section-features.php:119
+msgctxt "Features item number"
+msgid "03"
+msgstr ""
+
+#: patterns/section-features.php:157
+msgctxt "Features item number"
+msgid "04"
+msgstr ""
+
+#: patterns/section-features.php:47 patterns/section-features.php:85
+#: patterns/section-features.php:123 patterns/section-features.php:161
+msgctxt "Features item sign"
+msgid "●"
+msgstr ""
+
+#: patterns/section-features.php:181
+msgctxt "Features item text"
+msgid ""
+"Launching a product is only the beginning. We continue to provide updates, "
+"improvements, and technical support, helping your business evolve with "
+"confidence as new challenges arise."
+msgstr ""
+
+#: patterns/section-features.php:143
+msgctxt "Features item text"
+msgid ""
+"Quality is built into every stage of the process. Through thoughtful "
+"planning, careful implementation, and rigorous testing, we deliver digital "
+"products that are reliable, fast, and ready for long-term growth."
+msgstr ""
+
+#: patterns/section-features.php:105
+msgctxt "Features item text"
+msgid ""
+"We embrace modern technologies where they create real value. Every tool, "
+"framework, and workflow is chosen to improve performance, scalability, and "
+"the overall user experience — not simply to follow trends."
+msgstr ""
+
+#: patterns/section-features.php:67
+msgctxt "Features item text"
+msgid ""
+"Years of practical experience help us make informed decisions from the very "
+"beginning. We focus on maintainable architecture, clean code, and proven "
+"development practices to build products that stand the test of time."
+msgstr ""
+
+#: patterns/section-features.php:63
+msgctxt "Features item title"
+msgid "Experience"
+msgstr ""
+
+#: patterns/section-features.php:101
+msgctxt "Features item title"
+msgid "Innovation"
+msgstr ""
+
+#: patterns/section-features.php:139
+msgctxt "Features item title"
+msgid "Quality"
+msgstr ""
+
+#: patterns/section-features.php:177
+msgctxt "Features item title"
+msgid "Support"
+msgstr ""
+
+#: patterns/section-features.php:27
+msgctxt "Features section text"
+msgid "We build reliable digital products with modern technologies"
+msgstr ""
+
+#: patterns/section-features.php:23
+msgctxt "Features section title"
+msgid "Why Choose Us"
+msgstr ""
+
+#: patterns/footer.php:68
+msgctxt "Footer block title"
+msgid "Contact"
+msgstr ""
+
+#: patterns/footer.php:33
+msgctxt "Footer block title"
+msgid "Discover"
+msgstr ""
+
+#: patterns/footer.php:50
+msgctxt "Footer block title"
+msgid "Legals"
+msgstr ""
+
+#: patterns/footer.php:81
+msgctxt "Footer block title"
+msgid "Social Media"
+msgstr ""
+
+#: patterns/footer.php:105
+msgctxt "Footer copyright text"
+msgid "© 2026, Mroya Theme"
+msgstr ""
+
+#: functions.php:195
+msgid "Header area for archive pages."
+msgstr ""
+
+#: patterns/header.php:39
+msgctxt "Header button text"
+msgid "Get in Touch"
+msgstr ""
+
+#: patterns/footer.php:72
+msgid "hello@yoursite.com"
+msgstr ""
+
+#: patterns/section-hero.php:45
+msgctxt "Hero section button text"
+msgid "Get Started"
+msgstr ""
+
+#: patterns/section-hero.php:51
+msgctxt "Hero section button text"
+msgid "Learn More"
+msgstr ""
+
+#: patterns/section-hero-2.php:23
+msgctxt "Hero section text"
+msgid "Founded in 2016"
+msgstr ""
+
+#: patterns/section-hero.php:34
+msgctxt "Hero section text"
+msgid ""
+"We create thoughtful digital solutions that combine strategy, creativity, "
+"and technology to help businesses achieve lasting results."
+msgstr ""
+
+#: patterns/section-hero-2.php:27
+msgctxt "Hero section title"
+msgid "Designing better experiences for modern businesses"
+msgstr ""
+
+#: patterns/section-hero-3.php:28
+msgctxt "Hero section title"
+msgid "Let’s discuss your needs and find a solution that works for you"
+msgstr ""
+
+#: patterns/section-hero.php:28
+msgctxt "Hero section title"
+msgid "Smart solutions for ambitious businesses"
+msgstr ""
+
+#: patterns/header.php:28 patterns/footer.php:37
+msgid "Home"
+msgstr ""
+
+#. Author URI of the theme
+#: patterns/footer.php:113
+msgid "https://mroya.eu/"
+msgstr ""
+
+#. URI of the theme
+msgid "https://mroya.eu/portfolio/mroya/"
+msgstr ""
+
+#: patterns/header.php:30 patterns/footer.php:39
+msgid "Insights"
+msgstr ""
+
+#: patterns/footer.php:85
+msgid "Instagram"
+msgstr ""
+
+#: patterns/section-keep-reading.php:28
+msgctxt "Keep reading section button text"
+msgid "All Stories"
+msgstr ""
+
+#: patterns/section-keep-reading.php:21
+msgctxt "Keep reading section title"
+msgid "Keep Reading"
+msgstr ""
+
+#: patterns/hidden-search.php:14 patterns/hidden-sidebar.php:30
+msgctxt "Label"
+msgid "Search"
+msgstr ""
+
+#: patterns/footer.php:87
+msgid "LinkedIn"
+msgstr ""
+
+#: patterns/section-contacts.php:92
+msgid "mailto:hello@yoursite.com"
+msgstr ""
+
+#: patterns/hidden-no-results.php:15
+msgctxt "Message explaining that there are no posts in query loop."
+msgid "Sorry, but nothing was found."
+msgstr ""
+
+#: patterns/hidden-404.php:19
+msgctxt "Message to convey that a webpage could not be found"
+msgid "The page you are looking for cannot be found."
+msgstr ""
+
+#: patterns/section-mission.php:36
+msgctxt "Mission section text"
+msgid "Creating digital experiences that make a difference"
+msgstr ""
+
+#: patterns/section-mission.php:44
+msgctxt "Mission section text"
+msgid ""
+"Through collaboration, innovation, and attention to detail, we help "
+"businesses build meaningful connections and grow in a constantly evolving "
+"digital world."
+msgstr ""
+
+#: patterns/section-mission.php:28
+msgctxt "Mission section title"
+msgid "Our Mission"
+msgstr ""
+
+#. Name of the theme
+msgid "Mroya"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Mroya is a lightweight Full Site Editing (FSE) WordPress theme designed for "
+"building fast, modern, and professional websites. Built with performance and "
+"simplicity in mind, it provides a clean foundation without unnecessary code "
+"or bloated features, making it easy to customize and extend. The theme "
+"includes carefully crafted templates and patterns for essential pages such "
+"as the homepage, about, contact, blog, and archives, offering a solid "
+"starting point for business websites while remaining flexible enough for "
+"many other projects. Mroya fully supports the WordPress Site Editor and "
+"follows modern development best practices, including responsive layouts, "
+"semantic markup and accessibility considerations. Additional functionality, "
+"including advanced GSAP-powered animations, can be added through an optional "
+"premium companion plugin while keeping the core theme lightweight. Version 2."
+"0 introduces a new parent theme architecture focused on long-term "
+"flexibility and future child theme development. Learn more about these "
+"changes in our website - https://mroya.eu/portfolio/mroya/."
+msgstr ""
+
+#: patterns/template-single.php:18 patterns/template-page.php:18
+msgctxt "Name for the article template part"
+msgid "Article"
+msgstr ""
+
+#: patterns/template-archive-posts.php:16 patterns/template-single.php:16
+#: patterns/template-page.php:16 patterns/template-home-blog.php:16
+#: patterns/template-home-business.php:16 patterns/template-search.php:16
+msgctxt "Name for the main template part"
+msgid "Main"
+msgstr ""
+
+#: patterns/hidden-sidebar.php:14
+msgctxt "Name for the sidebar overlay template part"
+msgid "Overlay"
+msgstr ""
+
+#: patterns/hidden-sidebar.php:18
+msgctxt "Name for the sidebar widgets template part"
+msgid "Widgets"
+msgstr ""
+
+#: functions.php:194
+msgid "Page header"
+msgstr ""
+
+#: functions.php:216
+msgid "Page Headers"
+msgstr ""
+
+#: functions.php:224
+msgid "Pages"
+msgstr ""
+
+#: patterns/page-home-business.php:2
+msgctxt "Pattern description"
+msgid "A business homepage pattern."
+msgstr ""
+
+#: patterns/footer.php:2
+msgctxt "Pattern description"
+msgid "A default footer section."
+msgstr ""
+
+#: patterns/page-about.php:2
+msgctxt "Pattern description"
+msgid "About us page."
+msgstr ""
+
+#: patterns/page-contact.php:2
+msgctxt "Pattern description"
+msgid "Contact us page."
+msgstr ""
+
+#: patterns/header.php:2
+msgctxt "Pattern description"
+msgid "Default header section."
+msgstr ""
+
+#: patterns/section-features.php:2
+msgctxt "Pattern description"
+msgid "Displays a grid of features with icons and text."
+msgstr ""
+
+#: patterns/section-testimonials.php:2
+msgctxt "Pattern description"
+msgid "Displays a grid of testimonials with author information."
+msgstr ""
+
+#: patterns/section-services.php:2
+msgctxt "Pattern description"
+msgid "Displays a list of services."
+msgstr ""
+
+#: patterns/section-about.php:2
+msgctxt "Pattern description"
+msgid "Displays about heading, text and skills list."
+msgstr ""
+
+#: patterns/section-awards.php:2
+msgctxt "Pattern description"
+msgid "Displays awards list."
+msgstr ""
+
+#: patterns/section-clients.php:2
+msgctxt "Pattern description"
+msgid "Displays clients list."
+msgstr ""
+
+#: patterns/section-contacts.php:2
+msgctxt "Pattern description"
+msgid "Displays contact information."
+msgstr ""
+
+#: patterns/section-faq.php:2
+msgctxt "Pattern description"
+msgid "Displays FAQ items with questions and answers."
+msgstr ""
+
+#: patterns/section-hero-2.php:2 patterns/section-hero-3.php:2
+msgctxt "Pattern description"
+msgid "Displays image and hero text."
+msgstr ""
+
+#: patterns/section-mission.php:2
+msgctxt "Pattern description"
+msgid "Displays image and mission text."
+msgstr ""
+
+#: patterns/section-contact.php:2
+msgctxt "Pattern description"
+msgid "Displays image, contact text and button."
+msgstr ""
+
+#: patterns/section-hero.php:2
+msgctxt "Pattern description"
+msgid "Displays image, hero text and buttons."
+msgstr ""
+
+#: patterns/section-keep-reading.php:2
+msgctxt "Pattern description"
+msgid "Displays related articles from the blog."
+msgstr ""
+
+#: patterns/section-team.php:2
+msgctxt "Pattern description"
+msgid "Displays team members."
+msgstr ""
+
+#: patterns/page-header-archive.php:2
+msgctxt "Pattern description"
+msgid "Header section for archive pages."
+msgstr ""
+
+#: patterns/page-header-blog.php:2
+msgctxt "Pattern description"
+msgid "Header section for blog pages."
+msgstr ""
+
+#: patterns/page-header-search.php:2
+msgctxt "Pattern description"
+msgid "Header section for search pages."
+msgstr ""
+
+#: patterns/template-query-posts-grid.php:2
+msgctxt "Pattern description"
+msgid ""
+"List of posts, grid with featured image, category, post date, title and "
+"excerpt."
+msgstr ""
+
+#: patterns/page-about.php:2
+msgctxt "Pattern title"
+msgid "About page"
+msgstr ""
+
+#: patterns/section-about.php:2
+msgctxt "Pattern title"
+msgid "About section"
+msgstr ""
+
+#: patterns/page-header-archive.php:2
+msgctxt "Pattern title"
+msgid "Archive page header"
+msgstr ""
+
+#: patterns/section-awards.php:2
+msgctxt "Pattern title"
+msgid "Awards section"
+msgstr ""
+
+#: patterns/template-home-blog.php:2
+msgctxt "Pattern title"
+msgid "Blog home template"
+msgstr ""
+
+#: patterns/page-header-blog.php:2
+msgctxt "Pattern title"
+msgid "Blog page header"
+msgstr ""
+
+#: patterns/page-home-business.php:2
+msgctxt "Pattern title"
+msgid "Business home page"
+msgstr ""
+
+#: patterns/template-home-business.php:2
+msgctxt "Pattern title"
+msgid "Business home template"
+msgstr ""
+
+#: patterns/section-clients.php:2
+msgctxt "Pattern title"
+msgid "Clients section"
+msgstr ""
+
+#: patterns/page-contact.php:2
+msgctxt "Pattern title"
+msgid "Contact page"
+msgstr ""
+
+#: patterns/section-contact.php:2
+msgctxt "Pattern title"
+msgid "Contact section"
+msgstr ""
+
+#: patterns/section-contacts.php:2
+msgctxt "Pattern title"
+msgid "Contacts section"
+msgstr ""
+
+#: patterns/footer.php:2
+msgctxt "Pattern title"
+msgid "Default footer"
+msgstr ""
+
+#: patterns/header.php:2
+msgctxt "Pattern title"
+msgid "Default header"
+msgstr ""
+
+#: patterns/section-faq.php:2
+msgctxt "Pattern title"
+msgid "FAQ section"
+msgstr ""
+
+#: patterns/section-features.php:2
+msgctxt "Pattern title"
+msgid "Features section"
+msgstr ""
+
+#: patterns/section-hero.php:2
+msgctxt "Pattern title"
+msgid "Hero section"
+msgstr ""
+
+#: patterns/section-hero-2.php:2
+msgctxt "Pattern title"
+msgid "Hero section (style 2)"
+msgstr ""
+
+#: patterns/section-hero-3.php:2
+msgctxt "Pattern title"
+msgid "Hero section (style 3)"
+msgstr ""
+
+#: patterns/hidden-404.php:2
+msgctxt "Pattern title"
+msgid "Hidden 404"
+msgstr ""
+
+#: patterns/hidden-comments.php:2
+msgctxt "Pattern title"
+msgid "Hidden comments"
+msgstr ""
+
+#: patterns/hidden-no-results.php:2
+msgctxt "Pattern title"
+msgid "Hidden no results content"
+msgstr ""
+
+#: patterns/section-keep-reading.php:2
+msgctxt "Pattern title"
+msgid "Keep reading section"
+msgstr ""
+
+#: patterns/template-query-posts-grid.php:2
+msgctxt "Pattern title"
+msgid "List of posts, grid"
+msgstr ""
+
+#: patterns/section-mission.php:2
+msgctxt "Pattern title"
+msgid "Mission section"
+msgstr ""
+
+#: patterns/hidden-navigation-overlay.php:2
+msgctxt "Pattern title"
+msgid "Navigation overlay"
+msgstr ""
+
+#: patterns/template-page.php:2
+msgctxt "Pattern title"
+msgid "Pages with wide featured image"
+msgstr ""
+
+#: patterns/template-archive-posts.php:2
+msgctxt "Pattern title"
+msgid "Posts archive template"
+msgstr ""
+
+#: patterns/hidden-search.php:2
+msgctxt "Pattern title"
+msgid "Search"
+msgstr ""
+
+#: patterns/page-header-search.php:2
+msgctxt "Pattern title"
+msgid "Search page header"
+msgstr ""
+
+#: patterns/template-search.php:2
+msgctxt "Pattern title"
+msgid "Search template"
+msgstr ""
+
+#: patterns/section-services.php:2
+msgctxt "Pattern title"
+msgid "Services section"
+msgstr ""
+
+#: patterns/hidden-sidebar.php:2
+msgctxt "Pattern title"
+msgid "Sidebar"
+msgstr ""
+
+#: patterns/template-single.php:2
+msgctxt "Pattern title"
+msgid "Single posts with featured image"
+msgstr ""
+
+#: patterns/section-team.php:2
+msgctxt "Pattern title"
+msgid "Team section"
+msgstr ""
+
+#: patterns/section-testimonials.php:2
+msgctxt "Pattern title"
+msgid "Testimonials section"
+msgstr ""
+
+#. "Contact phone" text.
+#: patterns/section-contacts.php:82
+#, php-format
+msgid "Phone: %s"
+msgstr ""
+
+#: patterns/footer.php:55
+msgid "Privacy Policy"
+msgstr ""
+
+#: patterns/hidden-search.php:14 patterns/hidden-sidebar.php:30
+msgctxt "Search button text"
+msgid "Search"
+msgstr ""
+
+#: patterns/hidden-search.php:14 patterns/hidden-sidebar.php:30
+msgctxt "Search input field placeholder text"
+msgid "Type here..."
+msgstr ""
+
+#: functions.php:232
+msgid "Sections"
+msgstr ""
+
+#: patterns/header.php:29 patterns/footer.php:38
+msgid "Services"
+msgstr ""
+
+#: patterns/section-services.php:21
+msgctxt "Services section badge"
+msgid "How We Can Help"
+msgstr ""
+
+#: patterns/section-services.php:71
+msgctxt "Services section item tags"
+msgid "Accessibility"
+msgstr ""
+
+#: patterns/section-services.php:63
+msgctxt "Services section item tags"
+msgid "Branding"
+msgstr ""
+
+#: patterns/section-services.php:115
+msgctxt "Services section item tags"
+msgid "Integration"
+msgstr ""
+
+#: patterns/section-services.php:155
+msgctxt "Services section item tags"
+msgid "Maintenance"
+msgstr ""
+
+#: patterns/section-services.php:163
+msgctxt "Services section item tags"
+msgid "Monitoring"
+msgstr ""
+
+#: patterns/section-services.php:167
+msgctxt "Services section item tags"
+msgid "Optimization"
+msgstr ""
+
+#: patterns/section-services.php:107
+msgctxt "Services section item tags"
+msgid "Performance"
+msgstr ""
+
+#: patterns/section-services.php:67
+msgctxt "Services section item tags"
+msgid "Prototyping"
+msgstr ""
+
+#: patterns/section-services.php:111
+msgctxt "Services section item tags"
+msgid "Scalability"
+msgstr ""
+
+#: patterns/section-services.php:119
+msgctxt "Services section item tags"
+msgid "Security"
+msgstr ""
+
+#: patterns/section-services.php:59
+msgctxt "Services section item tags"
+msgid "UI/UX"
+msgstr ""
+
+#: patterns/section-services.php:159
+msgctxt "Services section item tags"
+msgid "Updates"
+msgstr ""
+
+#: patterns/section-services.php:101
+msgctxt "Services section item text"
+msgid ""
+"From initial planning to final implementation, we build scalable, high-"
+"quality solutions designed for performance, flexibility, and the evolving "
+"needs of your business."
+msgstr ""
+
+#: patterns/section-services.php:149
+msgctxt "Services section item text"
+msgid ""
+"Our work continues after launch. Ongoing support, maintenance, and "
+"continuous improvements help keep your projects secure, efficient, and "
+"prepared for future growth."
+msgstr ""
+
+#: patterns/section-services.php:53
+msgctxt "Services section item text"
+msgid ""
+"Thoughtful design goes beyond appearance. We focus on intuitive layouts, "
+"strong visual communication, and user-centered experiences that build trust "
+"and strengthen your brand."
+msgstr ""
+
+#: patterns/section-services.php:45
+msgctxt "Services section item title"
+msgid "Design"
+msgstr ""
+
+#: patterns/section-services.php:93
+msgctxt "Services section item title"
+msgid "Development"
+msgstr ""
+
+#: patterns/section-services.php:141
+msgctxt "Services section item title"
+msgid "Support"
+msgstr ""
+
+#: patterns/section-services.php:25
+msgctxt "Services section title"
+msgid "Our Services"
+msgstr ""
+
+#: patterns/hidden-sidebar.php:23
+msgctxt "Sidebar close button text"
+msgid "Close"
+msgstr ""
+
+#: patterns/section-about.php:99
+msgctxt "Skills block item title"
+msgid "Brand Identity"
+msgstr ""
+
+#: patterns/section-about.php:83
+msgctxt "Skills block item title"
+msgid "Creative Direction"
+msgstr ""
+
+#: patterns/section-about.php:67
+msgctxt "Skills block item title"
+msgid "Product and Visual Design"
+msgstr ""
+
+#: patterns/section-about.php:51
+msgctxt "Skills block item title"
+msgid "Prototyping and User Research"
+msgstr ""
+
+#: patterns/section-about.php:37
+msgctxt "Skills block title"
+msgid "Our Super Powers"
+msgstr ""
+
+#: patterns/section-team.php:145
+msgctxt "Team member name"
+msgid "Brandon Carter"
+msgstr ""
+
+#: patterns/section-team.php:71
+msgctxt "Team member name"
+msgid "Emily Harris"
+msgstr ""
+
+#: patterns/section-team.php:45
+msgctxt "Team member name"
+msgid "Jason Miller"
+msgstr ""
+
+#: patterns/section-team.php:119
+msgctxt "Team member name"
+msgid "Lauren Mitchell"
+msgstr ""
+
+#: patterns/section-team.php:93
+msgctxt "Team member name"
+msgid "Tyler Brooks"
+msgstr ""
+
+#: patterns/section-team.php:75 patterns/section-team.php:97
+msgctxt "Team member role"
+msgid "Designer"
+msgstr ""
+
+#: patterns/section-team.php:123 patterns/section-team.php:149
+msgctxt "Team member role"
+msgid "Developer"
+msgstr ""
+
+#: patterns/section-team.php:49
+msgctxt "Team member role"
+msgid "Founder"
+msgstr ""
+
+#: patterns/section-team.php:25
+msgctxt "Team section text"
+msgid ""
+"We’re a tight-knit crew of designers, developers, and strategists united by "
+"a passion for building things that matter."
+msgstr ""
+
+#: patterns/section-team.php:21
+msgctxt "Team section title"
+msgid "Our Team"
+msgstr ""
+
+#: patterns/section-contacts.php:83
+msgid "tel:42012345678"
+msgstr ""
+
+#: patterns/footer.php:54
+msgid "Terms & Conditions"
+msgstr ""
+
+#: patterns/section-testimonials.php:85
+msgctxt "Testimonials item text"
+msgid ""
+"\"From the very first conversation, we knew we were working with "
+"professionals. Every milestone was completed on time, communication was "
+"always clear, and the quality of the final result was exceptional. The team "
+"combined creativity with technical expertise, making the collaboration both "
+"efficient and enjoyable. They were proactive, responsive, and always willing "
+"to go the extra mile whenever we needed support. We would gladly recommend "
+"their services to anyone looking for a dependable partner.\""
+msgstr ""
+
+#: patterns/section-testimonials.php:127
+msgctxt "Testimonials item text"
+msgid ""
+"\"Their expertise, creativity, and dedication made a real difference to our "
+"project. They carefully listened to our feedback, provided valuable "
+"recommendations, and delivered a solution that perfectly matched our vision. "
+"The entire experience felt collaborative, transparent, and stress-free from "
+"beginning to end. We especially appreciated how they anticipated potential "
+"challenges and offered practical solutions before they became problems. We "
+"couldn't be happier with the outcome and the overall experience.\""
+msgstr ""
+
+#: patterns/section-testimonials.php:169
+msgctxt "Testimonials item text"
+msgid ""
+"\"What impressed us most was their professionalism and consistent attention "
+"to detail. The team kept us informed at every stage, responded quickly to "
+"our questions, and delivered high-quality work on schedule. They genuinely "
+"cared about achieving the best possible result and exceeded our expectations "
+"in several important areas. Their reliability and commitment made the entire "
+"collaboration feel effortless from start to finish. We look forward to "
+"working with them again in the future and highly recommend their services.\""
+msgstr ""
+
+#: patterns/section-testimonials.php:43
+msgctxt "Testimonials item text"
+msgid ""
+"\"Working with this team was one of the best decisions we made for our "
+"business. They quickly understood our goals, communicated clearly throughout "
+"the project, and delivered results that exceeded our expectations. Their "
+"attention to detail and professional approach made the entire process smooth "
+"and enjoyable. Every stage was handled with care, and the final outcome "
+"reflected the high standards they promised from the very beginning. We truly "
+"appreciated their reliability, expertise, and commitment to delivering "
+"outstanding work.\""
+msgstr ""
+
+#: patterns/section-testimonials.php:113
+msgctxt "Testimonials item user company"
+msgid "Apex Digital"
+msgstr ""
+
+#: patterns/section-testimonials.php:155
+msgctxt "Testimonials item user company"
+msgid "Brightline Agency"
+msgstr ""
+
+#: patterns/section-testimonials.php:71
+msgctxt "Testimonials item user company"
+msgid "Horizon Studio"
+msgstr ""
+
+#: patterns/section-testimonials.php:197
+msgctxt "Testimonials item user company"
+msgid "Nova Works"
+msgstr ""
+
+#: patterns/section-testimonials.php:109
+msgctxt "Testimonials item user name"
+msgid "Daniel Foster"
+msgstr ""
+
+#: patterns/section-testimonials.php:193
+msgctxt "Testimonials item user name"
+msgid "Lucas Turner"
+msgstr ""
+
+#: patterns/section-testimonials.php:151
+msgctxt "Testimonials item user name"
+msgid "Maya Rodriguez"
+msgstr ""
+
+#: patterns/section-testimonials.php:67
+msgctxt "Testimonials item user name"
+msgid "Olivia Bennett"
+msgstr ""
+
+#: patterns/section-testimonials.php:27
+msgctxt "Testimonials section text"
+msgid "Where great ideas become lasting partnerships"
+msgstr ""
+
+#: patterns/section-testimonials.php:23
+msgctxt "Testimonials section title"
+msgid "Testimonials"
+msgstr ""
+
+#: inc/theme-info.php:80
+msgctxt "Theme info column left title"
+msgid "Mroya Theme"
+msgstr ""
+
+#: inc/theme-info.php:108
+msgctxt "Theme info column left title"
+msgid "Plugin Features"
+msgstr ""
+
+#: inc/theme-info.php:84
+msgctxt "Theme info column left title"
+msgid "Theme Features"
+msgstr ""
+
+#: inc/theme-info.php:104
+msgctxt "Theme info column right title"
+msgid "Mroya Premium Plugin"
+msgstr ""
+
+#: inc/theme-info.php:99
+msgctxt "Theme info page button text"
+msgid "Prebuild Demos"
+msgstr ""
+
+#: inc/theme-info.php:120
+msgctxt "Theme info page button text"
+msgid "Purchase Now"
+msgstr ""
+
+#: inc/theme-info.php:122
+msgctxt "Theme info page button text"
+msgid "Support"
+msgstr ""
+
+#: inc/theme-info.php:97
+msgctxt "Theme info page button text"
+msgid "Theme Homepage"
+msgstr ""
+
+#: inc/theme-info.php:111
+msgctxt "Theme info page text"
+msgid "Advanced GSAP-powered animations."
+msgstr ""
+
+#: inc/theme-info.php:89
+msgctxt "Theme info page text"
+msgid "Carefully crafted patterns."
+msgstr ""
+
+#: inc/theme-info.php:87
+msgctxt "Theme info page text"
+msgid "Clean and minimal design."
+msgstr ""
+
+#: inc/theme-info.php:113
+msgctxt "Theme info page text"
+msgid "Continuous updates and new features."
+msgstr ""
+
+#: inc/theme-info.php:88
+msgctxt "Theme info page text"
+msgid "Full Site Editing (FSE)."
+msgstr ""
+
+#: inc/theme-info.php:82
+msgctxt "Theme info page text"
+msgid ""
+"Mroya is a lightweight Full Site Editing (FSE) WordPress theme designed for "
+"building fast, modern, and professional websites. Built with performance and "
+"simplicity in mind, it provides a clean foundation without unnecessary code "
+"or bloated features, making it easy to customize and extend."
+msgstr ""
+
+#: inc/theme-info.php:106
+msgctxt "Theme info page text"
+msgid ""
+"Mroya Premium unlocks the full potential of the Mroya theme and its child "
+"themes with smooth, professional animations."
+msgstr ""
+
+#: inc/theme-info.php:91
+msgctxt "Theme info page text"
+msgid "Optimized for performance."
+msgstr ""
+
+#: inc/theme-info.php:114
+msgctxt "Theme info page text"
+msgid "Priority email support."
+msgstr ""
+
+#: inc/theme-info.php:90
+msgctxt "Theme info page text"
+msgid "Responsive and accessible layout."
+msgstr ""
+
+#: inc/theme-info.php:112
+msgctxt "Theme info page text"
+msgid "Scroll-based and interactive effects."
+msgstr ""
+
+#: inc/theme-info.php:94
+msgctxt "Theme info page text"
+msgid "Start building with Mroya — completely free!"
+msgstr ""
+
+#: inc/theme-info.php:117
+msgctxt "Theme info page text"
+msgid "Upgrade to Premium and make your website unforgettable!"
+msgstr ""
+
+#: inc/theme-info.php:76
+msgctxt "Theme info page title"
+msgid "Theme Information"
+msgstr ""
+
+#. Author of the theme
+msgid "Uladzimir Kulesh"
+msgstr ""
+
+#: patterns/hidden-sidebar.php:35
+msgctxt "Widget title"
+msgid "Categories"
+msgstr ""
+
+#: patterns/hidden-sidebar.php:65
+msgctxt "Widget title"
+msgid "Latest Comments"
+msgstr ""
+
+#: patterns/hidden-sidebar.php:45
+msgctxt "Widget title"
+msgid "Latest Posts"
+msgstr ""
+
+#: patterns/hidden-sidebar.php:55
+msgctxt "Widget title"
+msgid "Tags"
+msgstr ""
