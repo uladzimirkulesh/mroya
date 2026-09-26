@@ -3,7 +3,6 @@
 /*-------------------------------------------------------
 Sidebar
 -------------------------------------------------------*/
-
 .sidebar {
 	position: fixed;
 	width: 100%;
@@ -53,7 +52,6 @@ Sidebar
 /*
 Sidebar animations
 */
-
 body:not(.editor-styles-wrapper) {
 
 	.sidebar {
@@ -122,7 +120,6 @@ body:not(.editor-styles-wrapper) {
 /*
 Sidebar opener
 */
-
 .sidebar-opener {
 	display: block;
 	margin: 0;
@@ -179,7 +176,6 @@ Sidebar opener
 /*
 Sidebar opener animations
 */
-
 body:not(.editor-styles-wrapper) {
 
 	.sidebar-opener {
@@ -192,7 +188,6 @@ body:not(.editor-styles-wrapper) {
 /*
 Animation for button fade-in-up
 */
-
 @keyframes buttonFadeInUp {
 
 	0% {
@@ -209,7 +204,6 @@ Animation for button fade-in-up
 /*
 Animation for button scale
 */
-
 @keyframes buttonScale {
 
 	0% {

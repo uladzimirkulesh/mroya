@@ -3,7 +3,6 @@
 /*-------------------------------------------------------
 Navigation
 -------------------------------------------------------*/
-
 .wp-block-navigation {
 
 	// Item
@@ -87,7 +86,6 @@ Navigation
 /*-------------------------------------------------------
 Mobile menu
 -------------------------------------------------------*/
-
 .navigation-overlay {
 
 	.wp-block-navigation {
@@ -129,7 +127,6 @@ Mobile menu
 /*-------------------------------------------------------
 Change mobile breaking point from 600px to 783px
 -------------------------------------------------------*/
-
 .wp-block-navigation__responsive-container {
 
 	@include mixins.media("break-small") {
@@ -183,7 +180,6 @@ Change mobile breaking point from 600px to 783px
 /*
 Button to open the menu
 */
-
 .wp-block-navigation__responsive-container-open {
 
 	&:not(.always-shown) {

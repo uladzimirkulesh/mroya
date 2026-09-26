@@ -1,7 +1,6 @@
 /*-------------------------------------------------------
 Forms
 -------------------------------------------------------*/
-
 ::placeholder {
 	color: var(--wp--preset--color--contrast-3);
 }
@@ -13,7 +12,6 @@ Forms
 /*
 Form
 */
-
 form {
 
 	> * {
@@ -29,7 +27,6 @@ form {
 /*
 Label
 */
-
 label,
 .wp-block-search__label {
 	display: inline-block;
@@ -44,7 +41,6 @@ label,
 /*
 Inputs
 */
-
 :not(.wp-block-more) > input:not([type="checkbox"]):not([type="submit"]),
 textarea,
 select {
@@ -117,7 +113,6 @@ textarea {
 /*
 Radio, checkbox
 */
-
 input[type="radio"],
 input[type="checkbox"] {
 	position: relative;

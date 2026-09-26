@@ -1,7 +1,6 @@
 /*-------------------------------------------------------
 Base styles
 -------------------------------------------------------*/
-
 html {
 	-webkit-text-size-adjust: 100%;
 	-moz-osx-font-smoothing: grayscale;
@@ -21,7 +20,6 @@ html {
 /*
 Clearings
 */
-
 .header,
 .footer,
 .wp-block-post-content,
@@ -39,7 +37,6 @@ Clearings
 /*
 Buttons
 */
-
 button,
 .wp-element-button,
 .wp-block-button__link {
@@ -58,7 +55,6 @@ button {
 /*
 Fonts
 */
-
 .has-xx-small-font-size {
 	line-height: var(--wp--custom--typography--line-height--xx-small, inherit);
 	letter-spacing: var(--wp--custom--typography--letter-spacing--xx-small, inherit);
@@ -123,7 +119,6 @@ Fonts
 Change the position of the more block on the front, by making it a block level element.
 https://github.com/WordPress/gutenberg/issues/65934
 */
-
 .more-link {
 	display: block;
 }
@@ -131,7 +126,6 @@ https://github.com/WordPress/gutenberg/issues/65934
 /*
 Removing the "more" tag to remove space before it
 */
-
 span[id^="more"] {
 	display: none;
 }
