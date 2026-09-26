@@ -24,7 +24,7 @@
 				<span aria-hidden="true" class="wp-block-cover__background has-background-dim-40 has-background-dim"></span>
 
 				<div class="wp-block-cover__inner-container">
-					<!-- wp:group {"align":"wide","layout":{"type":"constrained","contentSize":"960px","wideSize":"100%"}} -->
+					<!-- wp:group {"align":"wide","layout":{"type":"constrained","contentSize":"1080px","wideSize":"100%"}} -->
 					<div class="wp-block-group alignwide">
 						<!-- wp:group {"className":"entry-meta","layout":{"type":"flex","justifyContent":"center","orientation":"horizontal","flexWrap":"wrap"}} -->
 						<div class="wp-block-group entry-meta">

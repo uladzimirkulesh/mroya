@@ -20,7 +20,7 @@
 	<span aria-hidden="true" class="wp-block-cover__background has-black-background-color has-background-dim-40 has-background-dim"></span>
 
 	<div class="wp-block-cover__inner-container">
-		<!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"2.25rem"}},"layout":{"type":"constrained","contentSize":"700px"}} -->
+		<!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"2.25rem"}},"layout":{"type":"constrained","contentSize":"780px"}} -->
 		<div class="wp-block-group alignwide">
 			<!-- wp:group {"style":{"spacing":{"blockGap":"1.125rem"}},"layout":{"type":"default"}} -->
 			<div class="wp-block-group">

@@ -31,21 +31,21 @@
 			<p class="section__text has-x-large-font-size" style="font-style:normal;font-weight:500"><?php echo esc_html_x( 'We’d love to hear from you. Whether you have a project in mind, a question about our services, or simply want to learn more about what we do, feel free to get in touch. Our team is always happy to start a conversation and find the best way to help.', 'Contacts section text', 'mroya' ); ?></p>
 			<!-- /wp:paragraph -->
 
-			<!-- wp:group {"className":"contacts-list","style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"constrained"}} -->
+			<!-- wp:group {"className":"contacts-list","style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"default"}} -->
 			<div class="wp-block-group contacts-list">
-				<!-- wp:group {"className":"contacts-list__item","style":{"spacing":{"blockGap":"0.38rem"}},"layout":{"type":"constrained"}} -->
+				<!-- wp:group {"className":"contacts-list__item","style":{"spacing":{"blockGap":"0.38rem"}},"layout":{"type":"default"}} -->
 				<div class="wp-block-group contacts-list__item">
 					<!-- wp:separator {"className":"is-style-wide"} -->
 					<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide"/>
 					<!-- /wp:separator -->
 
-					<!-- wp:group {"layout":{"type":"constrained"}} -->
+					<!-- wp:group {"layout":{"type":"default"}} -->
 					<div class="wp-block-group">
 						<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast-3"}}}},"textColor":"contrast-3","fontSize":"small"} -->
 						<p class="has-contrast-3-color has-text-color has-link-color has-small-font-size"><?php echo esc_html_x( 'Adress', 'Contacts list item title', 'mroya' ); ?></p>
 						<!-- /wp:paragraph -->
 
-						<!-- wp:group {"style":{"spacing":{"blockGap":"0.13rem"}},"layout":{"type":"constrained"}} -->
+						<!-- wp:group {"style":{"spacing":{"blockGap":"0.13rem"}},"layout":{"type":"default"}} -->
 						<div class="wp-block-group">
 							<!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"fontSize":"medium"} -->
 							<p class="has-medium-font-size" style="font-style:normal;font-weight:500"><?php echo esc_html_x( '2118 Thornridge Cir. Syracuse,', 'Contacts list item text', 'mroya' ); ?></p>
@@ -61,19 +61,19 @@
 				</div>
 				<!-- /wp:group -->
 
-				<!-- wp:group {"className":"contacts-list__item","style":{"spacing":{"blockGap":"0.38rem"}},"layout":{"type":"constrained"}} -->
+				<!-- wp:group {"className":"contacts-list__item","style":{"spacing":{"blockGap":"0.38rem"}},"layout":{"type":"default"}} -->
 				<div class="wp-block-group contacts-list__item">
 					<!-- wp:separator {"className":"is-style-wide"} -->
 					<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide"/>
 					<!-- /wp:separator -->
 
-					<!-- wp:group {"layout":{"type":"constrained"}} -->
+					<!-- wp:group {"layout":{"type":"default"}} -->
 					<div class="wp-block-group">
 						<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast-3"}}}},"textColor":"contrast-3","fontSize":"small"} -->
 						<p class="has-contrast-3-color has-text-color has-link-color has-small-font-size"><?php echo esc_html_x( 'Contacts', 'Contacts list item title', 'mroya' ); ?></p>
 						<!-- /wp:paragraph -->
 
-						<!-- wp:group {"style":{"spacing":{"blockGap":"0.13rem"}},"layout":{"type":"constrained"}} -->
+						<!-- wp:group {"style":{"spacing":{"blockGap":"0.13rem"}},"layout":{"type":"default"}} -->
 						<div class="wp-block-group">
 							<!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"fontSize":"medium"} -->
 							<p class="has-medium-font-size" style="font-style:normal;font-weight:500"><?php
@@ -99,19 +99,19 @@
 				</div>
 				<!-- /wp:group -->
 
-				<!-- wp:group {"className":"contacts-list__item","style":{"spacing":{"blockGap":"0.38rem"}},"layout":{"type":"constrained"}} -->
+				<!-- wp:group {"className":"contacts-list__item","style":{"spacing":{"blockGap":"0.38rem"}},"layout":{"type":"default"}} -->
 				<div class="wp-block-group contacts-list__item">
 					<!-- wp:separator {"className":"is-style-wide"} -->
 					<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide"/>
 					<!-- /wp:separator -->
 
-					<!-- wp:group {"layout":{"type":"constrained"}} -->
+					<!-- wp:group {"layout":{"type":"default"}} -->
 					<div class="wp-block-group">
 						<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast-3"}}}},"textColor":"contrast-3","fontSize":"small"} -->
 						<p class="has-contrast-3-color has-text-color has-link-color has-small-font-size"><?php echo esc_html_x( 'Working Hours', 'Contacts list item title', 'mroya' ); ?></p>
 						<!-- /wp:paragraph -->
 
-						<!-- wp:group {"style":{"spacing":{"blockGap":"0.13rem"}},"layout":{"type":"constrained"}} -->
+						<!-- wp:group {"style":{"spacing":{"blockGap":"0.13rem"}},"layout":{"type":"default"}} -->
 						<div class="wp-block-group">
 							<!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"fontSize":"medium"} -->
 							<p class="has-medium-font-size" style="font-style:normal;font-weight:500"><?php echo esc_html_x( 'Mon–Sat: 9am to 5pm', 'Contacts list item text', 'mroya' ); ?></p>

@@ -14,7 +14,7 @@
 				}
 			},
 			"typography": {
-				"htmlFontSize": "clamp(1rem, 0.3125vw + 0.6875rem, 1.1875rem)",
+				"htmlFontSize": "clamp(1rem, 0.3125vw + 0.6875rem, 1.0625rem)",
 				"fontVariationSettings": "\"opsz\" 30",
 				"fontFeatureSettings": "\"cv10\", \"ss03\", \"cv01\", \"cv09\", \"cv03\", \"cv04\"",
 				"lineHeight": {
@@ -102,7 +102,7 @@
 			]
 		},
 		"layout": {
-			"contentSize": "max(760px, 45%)",
+			"contentSize": "760px",
 			"wideSize": "100%"
 		},
 		"spacing": {

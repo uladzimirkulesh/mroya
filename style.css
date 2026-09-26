@@ -380,6 +380,9 @@ input[type=checkbox] + label {
 .wp-block-comments-pagination .wp-block-comments-pagination-next:focus .wp-block-comments-pagination-next-arrow {
   transform: translateX(0.25rem);
 }
+:root :where(.wp-block-latest-posts:not(.is-grid) li + li) {
+  margin-top: 0;
+}
 .wp-block-navigation .wp-block-navigation-item .wp-block-navigation-item__content {
   text-underline-offset: 0.25em;
   text-decoration-color: transparent;
