@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mroya\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-26 07:15+0000\n"
+"POT-Creation-Date: 2026-09-26 15:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Uladzimir Kulesh <hello@mroya.eu>\n"
 "Language-Team: \n"
@@ -14,22 +14,22 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Loco https://localise.biz/\n"
-"X-Loco-Version: 2.8.8; wp-7.1.2; php-8.2.29\n"
+"X-Loco-Version: 2.8.8; wp-7.1.2; php-8.5.3\n"
 "X-Domain: mroya"
 
 #: patterns/footer.php:73
 msgid "+420 123-456-78"
 msgstr ""
 
-#: functions.php:217
+#: functions.php:218
 msgid "A collection of archive header patterns."
 msgstr ""
 
-#: functions.php:225
+#: functions.php:226
 msgid "A collection of full page layouts."
 msgstr ""
 
-#: functions.php:233
+#: functions.php:234
 msgid "A collection of section patterns."
 msgstr ""
 
@@ -482,7 +482,7 @@ msgctxt "Footer copyright text"
 msgid "© 2026, Mroya Theme"
 msgstr ""
 
-#: functions.php:195
+#: functions.php:196
 msgid "Header area for archive pages."
 msgstr ""
 
@@ -649,15 +649,15 @@ msgctxt "Name for the sidebar widgets template part"
 msgid "Widgets"
 msgstr ""
 
-#: functions.php:194
+#: functions.php:195
 msgid "Page header"
 msgstr ""
 
-#: functions.php:216
+#: functions.php:217
 msgid "Page Headers"
 msgstr ""
 
-#: functions.php:224
+#: functions.php:225
 msgid "Pages"
 msgstr ""
 
@@ -978,7 +978,7 @@ msgctxt "Search input field placeholder text"
 msgid "Type here..."
 msgstr ""
 
-#: functions.php:232
+#: functions.php:233
 msgid "Sections"
 msgstr ""
 

@@ -33,13 +33,14 @@ if ( ! function_exists( 'mroya_assets' ) ) :
 	 */
 	function mroya_assets() {
 		$suffix = defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ? '' : '.min';
+		$version = wp_get_theme()->get( 'Version' );
 
 		// Enqueue main stylesheet
 		wp_enqueue_style(
 			'mroya-style',
 			get_parent_theme_file_uri( 'style' . $suffix . '.css' ),
 			array(),
-			wp_get_theme()->get( 'Version' )
+			$version
 		);
 		wp_style_add_data(
 			'mroya-style',
@@ -55,7 +56,7 @@ if ( ! function_exists( 'mroya_assets' ) ) :
 				'jquery',
 				'wp-i18n'
 			),
-			wp_get_theme()->get( 'Version' ),
+			$version,
 			true
 		);
 		wp_script_add_data(
@@ -74,7 +75,7 @@ if ( ! function_exists( 'mroya_assets' ) ) :
 				'mroya-theme-style',
 				get_parent_theme_file_uri( 'assets/css/theme-style' . $suffix . '.css' ),
 				array( 'mroya-style' ),
-				wp_get_theme()->get( 'Version' )
+				$version
 			);
 			wp_style_add_data(
 				'mroya-theme-style',
@@ -92,7 +93,7 @@ if ( ! function_exists( 'mroya_assets' ) ) :
 					'mroya-animations',
 					get_parent_theme_file_uri( 'assets/css/animations' . $suffix . '.css' ),
 					array( 'mroya-style' ),
-					wp_get_theme()->get( 'Version' )
+					$version
 				);
 				wp_style_add_data(
 					'mroya-animations',
@@ -108,7 +109,7 @@ if ( ! function_exists( 'mroya_assets' ) ) :
 						'mroya-screen',
 						'mroya-premium-screen'
 					),
-					wp_get_theme()->get( 'Version' ),
+					$version,
 					true
 				);
 				wp_script_add_data(
