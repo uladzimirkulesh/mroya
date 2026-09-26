@@ -92,7 +92,10 @@ if ( ! function_exists( 'mroya_assets' ) ) :
 				wp_enqueue_style(
 					'mroya-animations',
 					get_parent_theme_file_uri( 'assets/css/animations' . $suffix . '.css' ),
-					array( 'mroya-style' ),
+					array(
+						'mroya-style',
+						'mroya-premium-screen'
+					),
 					$version
 				);
 				wp_style_add_data(
