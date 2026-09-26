@@ -27,7 +27,7 @@ if ( ! function_exists( 'mroya_assets' ) ) :
 	/**
 	 * Enqueue styles and scripts
 	 *
-	 * @since Mroya 1.0.2
+	 * @since Mroya 1.0.0
 	 *
 	 * @return void
 	 */
