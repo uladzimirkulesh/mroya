@@ -1,7 +1,6 @@
 /*-------------------------------------------------------
 Section "Hero (style 2)"
 -------------------------------------------------------*/
-
 export function sectionHero2() {
 	const sections = gsap.utils.toArray( '.section--hero-2' );
 

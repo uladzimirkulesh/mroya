@@ -1,7 +1,6 @@
 /*-------------------------------------------------------
 Archive page animations
 -------------------------------------------------------*/
-
 export function pageArchive() {
 	if (
 		! document.body.classList.contains( 'blog' ) &&

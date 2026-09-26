@@ -1,7 +1,6 @@
 /*-------------------------------------------------------
 Setting "border-radius" value for images figure element
 -------------------------------------------------------*/
-
 export function setFigureBorderRadius() {
 	const imgFigures = document.querySelectorAll( '.wp-block-image, .wp-block-post-featured-image' );
 

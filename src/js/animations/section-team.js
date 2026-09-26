@@ -1,7 +1,6 @@
 /*-------------------------------------------------------
 Section "Team"
 -------------------------------------------------------*/
-
 export function sectionTeam() {
 	const sections = gsap.utils.toArray( '.section--team' );
 

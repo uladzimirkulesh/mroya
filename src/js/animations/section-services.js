@@ -1,7 +1,6 @@
 /*-------------------------------------------------------
 Section "Services"
 -------------------------------------------------------*/
-
 export function sectionServices() {
 	const sections = gsap.utils.toArray( '.section--services' );
 

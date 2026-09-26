@@ -1,7 +1,6 @@
 /*-------------------------------------------------------
 Init sidebar
 -------------------------------------------------------*/
-
 export function initSidebar() {
 	const body = document.querySelector( 'body' );
 	const main = body?.querySelector( 'main' );
