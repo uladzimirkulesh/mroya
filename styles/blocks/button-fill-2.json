@@ -1,0 +1,48 @@
+{
+	"$schema": "https://schemas.wp.org/wp/6.7/theme.json",
+	"version": 3,
+	"title": "Fill 2",
+	"slug": "fill-2",
+	"blockTypes": [
+		"core/button"
+	],
+	"styles": {
+		"color": {
+			"text": "rgb(255, 255, 255)",
+			"background": "rgba(255, 255, 255, 0.15)"
+		},
+		"border": {
+			"width": "2px",
+			"style": "solid",
+			"color": "transparent"
+		},
+		"spacing": {
+			"padding": {
+				"top": "0.5625rem",
+				"right": "1.375rem",
+				"bottom": "0.5625rem",
+				"left": "1.375rem"
+			}
+		},
+		"elements": {
+			"button": {
+				":hover": {
+					"color": {
+						"background": "rgba(255, 255, 255, 0.2) !important"
+					}
+				},
+				":focus": {
+					"color": {
+						"background": "rgba(255, 255, 255, 0.2) !important"
+					}
+				},
+				":active": {
+					"color": {
+						"background": "rgba(255, 255, 255, 0.2) !important"
+					}
+				}
+			}
+		},
+		"css": "& { backdrop-filter: blur(8px); }"
+	}
+}

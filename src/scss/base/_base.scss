@@ -1,5 +1,3 @@
-@use "../tools/mixins";
-
 /*-------------------------------------------------------
 Base styles
 -------------------------------------------------------*/
@@ -8,8 +6,8 @@ html {
 	-webkit-text-size-adjust: 100%;
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
-	scroll-behavior: smooth;
 
+	font-size: var(--wp--custom--typography--html-font-size, 16px);
 	font-variation-settings: var(--wp--custom--typography--font-variation-settings, normal);
 	font-feature-settings: var(--wp--custom--typography--font-feature-settings, normal);
 }
@@ -18,10 +16,6 @@ html {
 *::before,
 *::after {
 	box-sizing: border-box;
-}
-
-.required {
-	color: var(--wp--preset--color--danger);
 }
 
 /*
@@ -43,22 +37,22 @@ Clearings
 }
 
 /*
-Links and buttons
+Buttons
 */
 
-a,
 button,
 .wp-element-button,
 .wp-block-button__link {
+	cursor: pointer;
+	text-shadow: none;
+
 	transition-property: color, background-color, border-color, opacity, text-decoration-color, text-underline-offset;
 	transition-duration: 0.25s;
 	transition-timing-function: ease-in-out;
 }
 
 button {
-	cursor: pointer;
 	text-decoration: none;
-	text-shadow: none;
 }
 
 /*
@@ -110,6 +104,11 @@ Fonts
 	letter-spacing: var(--wp--custom--typography--letter-spacing--xxx-large, inherit);
 }
 
+.has-xxxx-large-font-size {
+	line-height: var(--wp--custom--typography--line-height--xxxx-large, inherit);
+	letter-spacing: var(--wp--custom--typography--letter-spacing--xxxx-large, inherit);
+}
+
 .has-huge-font-size {
 	line-height: var(--wp--custom--typography--line-height--huge, inherit);
 	letter-spacing: var(--wp--custom--typography--letter-spacing--huge, inherit);
@@ -135,4 +134,12 @@ Removing the "more" tag to remove space before it
 
 span[id^="more"] {
 	display: none;
+}
+
+/*
+ * Prevents unnecessary scrollbars while handling long lines of preformatted text.
+ * https://core.trac.wordpress.org/ticket/63875
+ */
+:where(pre) {
+	overflow-x: auto;
 }

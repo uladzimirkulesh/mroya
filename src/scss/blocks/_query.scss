@@ -1,17 +1,4 @@
 /*-------------------------------------------------------
-Query
--------------------------------------------------------*/
-
-@use "query/posts-grid-1";
-@use "query/posts-grid-2";
-
-@use "query/projects-grid-1";
-@use "query/projects-grid-2";
-@use "query/projects-grid-3";
-@use "query/projects-grid-4";
-@use "query/projects-grid-5";
-
-/*-------------------------------------------------------
 Query Item
 -------------------------------------------------------*/
 
@@ -19,13 +6,6 @@ Query Item
 
 	.wp-block-post {
 		position: relative;
-
-		&:not(.has-post-thumbnail):not(.uk-project) {
-			align-self: self-start;
-			padding: var(--wp--preset--spacing--10);
-			background-color: var(--wp--custom--color--card--background, var(--wp--preset--color--base));
-			border-radius: var(--wp--custom--border--radius);
-		}
 	}
 
 	// Query item featured image
@@ -79,7 +59,7 @@ Sticky post
 			position: relative;
 			height: 0.75rem;
 			width: 0.75rem;
-			top: -0.2em;
+			top: -0.25em;
 			left: 0.2em;
 			transform: rotate(45deg);
 

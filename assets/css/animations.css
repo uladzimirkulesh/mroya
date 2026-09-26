@@ -1,0 +1,43 @@
+/* src/scss/animations.scss */
+.section--contact .wp-block-cover__image-background {
+  transform: scale(1.05);
+}
+.section--contacts .section__text > * {
+  opacity: 0.2;
+}
+.section--features .featured-list__item {
+  visibility: hidden;
+}
+.section--testimonials .testimonials-list__item {
+  visibility: hidden;
+}
+.section--services .services-list__item {
+  --services-line-scale: 0;
+}
+.section--services .services-list__item::after {
+  transform: scaleY(var(--services-line-scale));
+  transform-origin: top center;
+}
+.section--mission .wp-block-cover__image-background {
+  transform: scale(1.05);
+}
+.section--clients .clients-list__item {
+  visibility: hidden;
+}
+.section--team .members-list__item {
+  visibility: hidden;
+}
+.section--about .section__text > * {
+  opacity: 0.2;
+}
+.section--awards .awards-list > * {
+  visibility: hidden;
+}
+.section--keep-reading .wp-block-post {
+  visibility: hidden;
+}
+.blog .wp-block-post-template.is-layout-grid .wp-block-post,
+.archive .wp-block-post-template.is-layout-grid .wp-block-post,
+.search .wp-block-post-template.is-layout-grid .wp-block-post {
+  visibility: hidden;
+}

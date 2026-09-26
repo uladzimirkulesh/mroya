@@ -1,0 +1,16 @@
+export { pageArchive } from './page-archive';
+export { pageSingular } from './page-singular';
+export { sectionAbout } from './section-about';
+export { sectionAwards } from './section-awards';
+export { sectionClients } from './section-clients';
+export { sectionContact } from './section-contact';
+export { sectionContacts } from './section-contacts';
+export { sectionFeatures } from './section-features';
+export { sectionHero } from './section-hero';
+export { sectionHero2 } from './section-hero-2';
+export { sectionHero3 } from './section-hero-3';
+export { sectionKeepReading } from './section-keep-reading';
+export { sectionMission } from './section-mission';
+export { sectionTeam } from './section-team';
+export { sectionServices } from './section-services';
+export { sectionTestimonials } from './section-testimonials';

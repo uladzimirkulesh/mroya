@@ -7,9 +7,7 @@ Fire on document ready
 
 document.addEventListener( 'DOMContentLoaded', () => {
 	// Helpers
-	Helpers.setCurrentMenuItemClass();
 	Helpers.setFigureBorderRadius();
-	Helpers.localTime();
 } );
 
 /*-------------------------------------------------------
