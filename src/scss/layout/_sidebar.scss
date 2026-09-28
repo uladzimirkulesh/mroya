@@ -14,37 +14,34 @@ Sidebar
 		display: none;
 	}
 
-	.sidebar {
+	// Inner
+	&__inner {
+		width: 100%;
+		height: 100%;
+	}
 
-		// Inner
-		&__inner {
-			width: 100%;
-			height: 100%;
-		}
+	// Overlay
+	&__overlay {
+		position: absolute !important;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: 0;
+		cursor: pointer;
+	}
 
-		// Overlay
-		&__overlay {
-			position: absolute !important;
-			top: 0;
-			left: 0;
-			width: 100%;
-			height: 100%;
-			z-index: 0;
-			cursor: pointer;
-		}
+	// Widgets
+	&__widgets {
+		position: relative;
+		width: 100%;
+		height: 100%;
+		z-index: 10;
+		overflow-y: auto;
+		background-color: var(--wp--custom--color--sidebar--background, var(--wp--preset--color--base));
 
-		// Widgets
-		&__widgets {
-			position: relative;
-			width: 100%;
-			height: 100%;
-			z-index: 10;
-			overflow-y: auto;
-			background-color: var(--wp--custom--color--sidebar--background, var(--wp--preset--color--base));
-
-			@include mixins.media("break-mobile") {
-				max-width: 27rem;
-			}
+		@include mixins.media("break-mobile") {
+			max-width: 27rem;
 		}
 	}
 }
@@ -59,19 +56,16 @@ body:not(.editor-styles-wrapper) {
 		pointer-events: none;
 		transition: visibility 0.3s ease-out;
 
-		.sidebar {
+		// Overlay
+		&__overlay {
+			opacity: 0;
+			transition: opacity 0.3s ease-out;
+		}
 
-			// Overlay
-			&__overlay {
-				opacity: 0;
-				transition: opacity 0.3s ease-out;
-			}
-
-			// Widgets
-			&__widgets {
-				transform: translate(120%, 0);
-				transition: transform 0.3s ease-out;
-			}
+		// Widgets
+		&__widgets {
+			transform: translate(120%, 0);
+			transition: transform 0.3s ease-out;
 		}
 
 		// Opened sidebar
