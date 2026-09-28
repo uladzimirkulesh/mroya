@@ -84,9 +84,5 @@ function initSidebar() {
 }
 
 // src/js/screen.js
-document.addEventListener("DOMContentLoaded", () => {
-  setFigureBorderRadius();
-});
-window.addEventListener("load", () => {
-  initSidebar();
-});
+setFigureBorderRadius();
+initSidebar();

@@ -381,7 +381,7 @@
 			},
 			"core/post-featured-image": {
 				"border": {
-					"radius": "var:custom|border|radius|large"
+					"radius": "var:custom|border|radius|normal"
 				},
 				"css": "& { overflow: hidden; }"
 			},

@@ -1,18 +1,8 @@
 import * as Helpers from './helpers';
 import * as Layout from './layout';
 
-/*-------------------------------------------------------
-Fire on document ready
--------------------------------------------------------*/
-document.addEventListener( 'DOMContentLoaded', () => {
-	// Helpers
-	Helpers.setFigureBorderRadius();
-} );
+// Helpers
+Helpers.setFigureBorderRadius();
 
-/*-------------------------------------------------------
-Fire on window load
--------------------------------------------------------*/
-window.addEventListener( 'load', () => {
-	// Layout
-	Layout.initSidebar();
-} );
+// Layout
+Layout.initSidebar();
