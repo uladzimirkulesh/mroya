@@ -1,7 +1,7 @@
 <?php
 /**
- * Title: Business home template
- * Slug: mroya/template-home-business
+ * Title: Default home template
+ * Slug: mroya/template-home-default
  * Template Types: front-page, index, home
  * Viewport width: 1440
  * Inserter: no
@@ -15,7 +15,7 @@
 
 <!-- wp:group {"tagName":"main","metadata":{"name":"<?php echo esc_html_x( 'Main', 'Name for the main template part', 'mroya' ); ?>"},"layout":{"type":"constrained"}} -->
 <main class="wp-block-group">
-	<!-- wp:pattern {"slug":"mroya/page-home-business"} /-->
+	<!-- wp:pattern {"slug":"mroya/page-home-default"} /-->
 </main>
 <!-- /wp:group -->
 

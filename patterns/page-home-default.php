@@ -1,12 +1,12 @@
 <?php
 /**
- * Title: Business home page
- * Slug: mroya/page-home-business
+ * Title: Default home page
+ * Slug: mroya/page-home-default
  * Categories: mroya_pages, featured
- * Keywords: business, home, starter
+ * Keywords: default, home, starter
  * Block Types: core/post-content
  * Post Types: page, wp_template
- * Description: A business homepage pattern.
+ * Description: A default homepage pattern.
  * Viewport width: 1440
  *
  * @package Mroya

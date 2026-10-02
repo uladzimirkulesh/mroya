@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mroya\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-26 15:27+0000\n"
+"POT-Creation-Date: 2026-10-02 18:24+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Uladzimir Kulesh <hello@mroya.eu>\n"
 "Language-Team: \n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Loco https://localise.biz/\n"
-"X-Loco-Version: 2.8.8; wp-7.1.2; php-8.5.3\n"
+"X-Loco-Version: 2.8.9; wp-7.1.2; php-8.5.3\n"
 "X-Domain: mroya"
 
 #: patterns/footer.php:73
@@ -634,7 +634,7 @@ msgstr ""
 
 #: patterns/template-archive-posts.php:16 patterns/template-single.php:16
 #: patterns/template-page.php:16 patterns/template-home-blog.php:16
-#: patterns/template-home-business.php:16 patterns/template-search.php:16
+#: patterns/template-home-default.php:16 patterns/template-search.php:16
 msgctxt "Name for the main template part"
 msgid "Main"
 msgstr ""
@@ -661,14 +661,14 @@ msgstr ""
 msgid "Pages"
 msgstr ""
 
-#: patterns/page-home-business.php:2
-msgctxt "Pattern description"
-msgid "A business homepage pattern."
-msgstr ""
-
 #: patterns/footer.php:2
 msgctxt "Pattern description"
 msgid "A default footer section."
+msgstr ""
+
+#: patterns/page-home-default.php:2
+msgctxt "Pattern description"
+msgid "A default homepage pattern."
 msgstr ""
 
 #: patterns/page-about.php:2
@@ -808,16 +808,6 @@ msgctxt "Pattern title"
 msgid "Blog page header"
 msgstr ""
 
-#: patterns/page-home-business.php:2
-msgctxt "Pattern title"
-msgid "Business home page"
-msgstr ""
-
-#: patterns/template-home-business.php:2
-msgctxt "Pattern title"
-msgid "Business home template"
-msgstr ""
-
 #: patterns/section-clients.php:2
 msgctxt "Pattern title"
 msgid "Clients section"
@@ -846,6 +836,16 @@ msgstr ""
 #: patterns/header.php:2
 msgctxt "Pattern title"
 msgid "Default header"
+msgstr ""
+
+#: patterns/page-home-default.php:2
+msgctxt "Pattern title"
+msgid "Default home page"
+msgstr ""
+
+#: patterns/template-home-default.php:2
+msgctxt "Pattern title"
+msgid "Default home template"
 msgstr ""
 
 #: patterns/section-faq.php:2
