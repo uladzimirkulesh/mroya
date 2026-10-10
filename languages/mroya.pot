@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mroya\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-02 18:24+0000\n"
+"POT-Creation-Date: 2026-10-10 06:42+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Uladzimir Kulesh <hello@mroya.eu>\n"
 "Language-Team: \n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Loco https://localise.biz/\n"
-"X-Loco-Version: 2.8.9; wp-7.1.2; php-8.5.3\n"
+"X-Loco-Version: 2.8.9; wp-7.1.3; php-8.5.3\n"
 "X-Domain: mroya"
 
 #: patterns/footer.php:73
@@ -910,7 +910,7 @@ msgstr ""
 
 #: patterns/template-page.php:2
 msgctxt "Pattern title"
-msgid "Pages with wide featured image"
+msgid "Pages with featured image"
 msgstr ""
 
 #: patterns/template-archive-posts.php:2

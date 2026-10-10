@@ -1,4 +1,4 @@
-2.0.0: Sep 25, 2026
+2.0.0: Oct 10, 2026
 - CHANGED: Theme restructuring and redesign. The previous design version has been moved to a child theme.
 
 1.0.6: Aug 24, 2026

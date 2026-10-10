@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Pages with wide featured image
+ * Title: Pages with featured image
  * Slug: mroya/template-page
  * Template Types: page
  * Viewport width: 1440
