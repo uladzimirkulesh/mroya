@@ -637,6 +637,7 @@ input[type=checkbox] + label {
   opacity: inherit;
 }
 .wp-block-query .wp-block-post-featured-image a img {
+  height: 100%;
   transform: scale(1);
   transition: transform 1.5s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
