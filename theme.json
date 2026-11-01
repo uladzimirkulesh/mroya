@@ -364,7 +364,7 @@
 						}
 					}
 				},
-				"css": "& .wp-block-navigation__container { row-gap: 0; }"
+				"css": "& .wp-block-navigation__container { row-gap: 0; } & .wp-block-navigation-item { background-color: transparent !important; }"
 			},
 			"core/post-title": {
 				"elements": {
