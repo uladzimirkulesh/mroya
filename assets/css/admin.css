@@ -6,7 +6,7 @@
   gap: 1.5rem;
   margin-top: 1rem;
 }
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1280px) {
   .mroya__wrap .columns {
     grid-template-columns: 2fr 1fr;
   }
@@ -15,7 +15,7 @@
   padding: 1.5rem;
   background-color: #ffffff;
 }
-@media only screen and (min-width: 783px) {
+@media only screen and (min-width: 768px) {
   .mroya__wrap .columns .column {
     padding: 2.25rem;
   }

@@ -1,6 +1,6 @@
 <?php
 /**
- * Mroya functions and definitions
+ * Mroya functions and definitions.
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
@@ -10,14 +10,13 @@
 
 if ( ! function_exists( 'mroya_setup' ) ) :
 	/**
-	 * Sets up theme defaults and registers support for various WordPress features
+	 * Sets up theme defaults and registers support for various WordPress features.
 	 *
 	 * @since Mroya 1.0.0
-	 *
 	 * @return void
 	 */
 	function mroya_setup() {
-		// Remove theme support for the core WordPress patterns
+		// Remove theme support for the core WordPress patterns.
 		remove_theme_support( 'core-block-patterns' );
 	}
 endif;
@@ -25,17 +24,16 @@ add_action( 'after_setup_theme', 'mroya_setup' );
 
 if ( ! function_exists( 'mroya_assets' ) ) :
 	/**
-	 * Enqueue styles and scripts
+	 * Enqueue styles and scripts.
 	 *
 	 * @since Mroya 1.0.0
-	 *
 	 * @return void
 	 */
 	function mroya_assets() {
 		$suffix = defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ? '' : '.min';
 		$version = wp_get_theme()->get( 'Version' );
 
-		// Enqueue main stylesheet
+		// Enqueue main stylesheet.
 		wp_enqueue_style(
 			'mroya-style',
 			get_parent_theme_file_uri( 'style' . $suffix . '.css' ),
@@ -48,7 +46,7 @@ if ( ! function_exists( 'mroya_assets' ) ) :
 			get_parent_theme_file_path( 'style' . $suffix . '.css' )
 		);
 
-		// Enqueue screen scripts
+		// Enqueue screen scripts.
 		wp_enqueue_script(
 			'mroya-screen',
 			get_parent_theme_file_uri( 'assets/js/screen' . $suffix . '.js' ),
@@ -67,10 +65,10 @@ if ( ! function_exists( 'mroya_assets' ) ) :
 
 		/**
 		 * Enqueue styles and scripts only for the parent theme,
-		 * not for child themes
+		 * not for child themes.
 		 */
 		if ( ! is_child_theme() ) {
-			// Enqueue theme stylesheet
+			// Enqueue theme stylesheet.
 			wp_enqueue_style(
 				'mroya-theme-style',
 				get_parent_theme_file_uri( 'assets/css/theme-style' . $suffix . '.css' ),
@@ -85,10 +83,10 @@ if ( ! function_exists( 'mroya_assets' ) ) :
 
 			/**
 			 * Enqueue styles and scripts only if the Mroya Premium
-			 * plugin is installed and activated
+			 * plugin is installed and activated.
 			 */
 			if ( wp_script_is( 'mroya-premium-screen', 'registered' ) ) {
-				// Animations stylesheet
+				// Animations stylesheet.
 				wp_enqueue_style(
 					'mroya-animations',
 					get_parent_theme_file_uri( 'assets/css/animations' . $suffix . '.css' ),
@@ -104,7 +102,7 @@ if ( ! function_exists( 'mroya_assets' ) ) :
 					get_parent_theme_file_path( 'assets/css/animations' . $suffix . '.css' )
 				);
 
-				// Animations scripts
+				// Animations scripts.
 				wp_enqueue_script(
 					'mroya-animations',
 					get_parent_theme_file_uri( 'assets/js/animations' . $suffix . '.js' ),
@@ -130,10 +128,9 @@ add_action( 'wp_enqueue_scripts', 'mroya_assets' );
 
 if ( ! function_exists( 'mroya_editor_style' ) ) :
 	/**
-	 * Enqueues editor styles
+	 * Enqueues editor styles.
 	 *
 	 * @since Mroya 1.0.0
-	 *
 	 * @return void
 	 */
 	function mroya_editor_style() {
@@ -144,7 +141,7 @@ if ( ! function_exists( 'mroya_editor_style' ) ) :
 			'assets/css/editor' . $suffix . '.css',
 		);
 
-		// Load parent theme styles only for the parent theme
+		// Load parent theme styles only for the parent theme.
 		if ( ! is_child_theme() ) {
 			$editor_styles[] = 'assets/css/theme-style' . $suffix . '.css';
 		}
@@ -156,10 +153,9 @@ add_action( 'after_setup_theme', 'mroya_editor_style' );
 
 if ( ! function_exists( 'mroya_editor_assets' ) ) :
 	/**
-	 * Enqueue scripts in the editors
+	 * Enqueue scripts in the editors.
 	 *
 	 * @since Mroya 1.0.0
-	 *
 	 * @return void
 	 */
 	function mroya_editor_assets() {
@@ -185,10 +181,9 @@ add_action( 'enqueue_block_editor_assets', 'mroya_editor_assets' );
 
 if ( ! function_exists( 'mroya_template_part_areas' ) ) :
 	/**
-	 * Registers template part areas
+	 * Registers template part areas.
 	 *
 	 * @since Mroya 1.0.0
-	 *
 	 * @return void
 	 */
 	function mroya_template_part_areas( array $areas ) {
@@ -207,10 +202,9 @@ add_filter( 'default_wp_template_part_areas', 'mroya_template_part_areas' );
 
 if ( ! function_exists( 'mroya_register_block_pattern_categories' ) ) :
 	/**
-	 * Registers block pattern categories
+	 * Registers block pattern categories.
 	 *
 	 * @since Mroya 1.0.0
-	 *
 	 * @return void
 	 */
 	function mroya_register_block_pattern_categories() {
@@ -243,10 +237,9 @@ add_action( 'init', 'mroya_register_block_pattern_categories', 9 );
 
 if ( ! function_exists( 'mroya_related_posts' ) ) :
 	/**
-	 * Filtering the query to display related posts
+	 * Filtering the query to display related posts.
 	 *
 	 * @since Mroya 1.0.0
-	 *
 	 * @return $query
 	 */
 	function mroya_related_posts( $query, \WP_Block $block ) {
@@ -270,5 +263,5 @@ if ( ! function_exists( 'mroya_related_posts' ) ) :
 endif;
 add_filter( 'query_loop_block_query_vars', 'mroya_related_posts', 10, 2 );
 
-// Load theme info file
+// Load theme info file.
 require get_template_directory() . '/inc/theme-info.php';

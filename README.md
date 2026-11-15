@@ -7,5 +7,3 @@ The theme includes carefully crafted templates and patterns for essential pages 
 Mroya fully supports the WordPress Site Editor and follows modern development best practices, including responsive layouts, semantic markup and accessibility considerations.
 
 Additional functionality, including advanced GSAP-powered animations, can be added through an optional premium companion plugin while keeping the core theme lightweight.
-
-Version 2.0 introduces a new parent theme architecture focused on long-term flexibility and future child theme development. Learn more about these changes in our website - https://mroya.eu/portfolio/mroya/.

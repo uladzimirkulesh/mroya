@@ -2,9 +2,9 @@
 
 Contributors: Uladzimir Kulesh
 Tags: one-column, two-columns, three-columns, four-columns, custom-colors, custom-header, custom-menu, custom-logo, featured-images, full-site-editing, block-patterns, sticky-post, threaded-comments, translation-ready, wide-blocks, block-styles, style-variations, blog
-Requires at least: 6.7
+Requires at least: 7.1
 Tested up to: 7.1
-Version: 2.0.0
+Version: 2.1.0
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 
@@ -17,8 +17,6 @@ The theme includes carefully crafted templates and patterns for essential pages 
 Mroya fully supports the WordPress Site Editor and follows modern development best practices, including responsive layouts, semantic markup and accessibility considerations.
 
 Additional functionality, including advanced GSAP-powered animations, can be added through an optional premium companion plugin while keeping the core theme lightweight.
-
-Version 2.0 introduces a new parent theme architecture focused on long-term flexibility and future child theme development. Learn more about these changes in our website - https://mroya.eu/portfolio/mroya/.
 
 == Installation ==
 

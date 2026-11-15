@@ -12,16 +12,14 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 define('MROYA_URI',      'https://mroya.eu/portfolio/mroya');
-define('MROYA_DEMOS',    'https://mroya.eu/portfolio/mroya/#demos');
+define('MROYA_SHOWCASE',    'https://mroya.eu/portfolio/mroya/#showcase');
 define('MROYA_PURCHASE', 'https://mroya.eu/portfolio/mroya/#purchase');
-define('MROYA_SUPPORT',  'https://mroya.eu/portfolio/mroya/#support');
 
 if ( ! function_exists( 'mroya_theme_info_styles' ) ) {
 	/**
 	 * Enqueue theme info styles.
 	 *
 	 * @since Mroya 1.0.0
-	 *
 	 * @return void
 	 */
 	function mroya_theme_info_styles( $hook ){
@@ -53,7 +51,6 @@ if ( ! function_exists( 'mroya_create_admin_menu_item' ) ) {
 	 * Adds theme admin menu item.
 	 *
 	 * @since Mroya 1.0.0
-	 *
 	 * @return void
 	 */
 	function mroya_create_admin_menu_item() {
@@ -67,7 +64,6 @@ if ( ! function_exists( 'mroya_theme_info_page' ) ) {
 	 * Adds theme info page.
 	 *
 	 * @since Mroya 1.0.0
-	 *
 	 * @return html
 	 */
 	function mroya_theme_info_page() {
@@ -96,7 +92,7 @@ if ( ! function_exists( 'mroya_theme_info_page' ) ) {
 					<p class="submit">
 						<a href="<?php echo esc_url( MROYA_URI ); ?>" class="button button-primary" target="_blank"><?php echo esc_html_x( 'Theme Homepage', 'Theme info page button text', 'mroya' ); ?></a>
 
-						<a href="<?php echo esc_url( MROYA_DEMOS ); ?>" class="button" target="_blank"><?php echo esc_html_x( 'Prebuild Demos', 'Theme info page button text', 'mroya' ); ?></a>
+						<a href="<?php echo esc_url( MROYA_SHOWCASE ); ?>" class="button" target="_blank"><?php echo esc_html_x( 'Prebuild Demos', 'Theme info page button text', 'mroya' ); ?></a>
 					</p>
 				</div>
 
@@ -118,8 +114,6 @@ if ( ! function_exists( 'mroya_theme_info_page' ) ) {
 
 					<p class="submit">
 						<a href="<?php echo esc_url( MROYA_PURCHASE ); ?>" class="button button-primary" target="_blank"><?php echo esc_html_x( 'Purchase Now', 'Theme info page button text', 'mroya' ); ?></a>
-
-						<a href="<?php echo esc_url( MROYA_SUPPORT ); ?>" class="button" target="_blank"><?php echo esc_html_x( 'Support', 'Theme info page button text', 'mroya' ); ?></a>
 					</p>
 				</div>
 			</div>
