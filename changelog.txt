@@ -6,6 +6,8 @@
 - FIX: Viewports in navigation.scss.
 - FIX: Viewports in header.scss.
 - FIX: Viewports in mixins.scss.
+- IMPROVEMENT: Header.
+- DELETED: Parent theme styles.
 
 2.0.0: Nov 01, 2026
 - CHANGED: Theme restructuring and redesign. The previous design version has been moved to a child theme.

@@ -4,8 +4,8 @@
 	"settings": {
 		"appearanceTools": true,
 		"viewport": {
-			"mobile": "767px",
-			"tablet": "1279px"
+			"mobile": "781px",
+			"tablet": "1199px"
 		},
 		"custom": {
 			"color": {
@@ -345,6 +345,7 @@
 				"typography": {
 					"fontSize": "var:preset|font-size|small",
 					"fontWeight": "500",
+					"lineHeight": "var:custom|typography|line-height|small",
 					"letterSpacing": "var:custom|typography|letter-spacing|small"
 				},
 				"elements": {

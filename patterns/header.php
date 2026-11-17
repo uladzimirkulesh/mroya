@@ -13,18 +13,18 @@
  */
 
 ?>
-<!-- wp:group {"className":"header--default is-style-section-2","layout":{"type":"constrained"}} -->
-<div class="wp-block-group header--default is-style-section-2">
-	<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"0.75rem","bottom":"0.75rem"}}},"layout":{"type":"grid","columnCount":3,"minimumColumnWidth":null}} -->
-	<div class="wp-block-group alignwide" style="padding-top:0.75rem;padding-bottom:0.75rem">
-		<!-- wp:group {"style":{"spacing":{"blockGap":"1rem"},"layout":{"selfStretch":"fixed","flexSize":"50%"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<!-- wp:group {"className":"header--default has-centered-nav is-style-section-2","layout":{"type":"constrained"}} -->
+<div class="wp-block-group header--default has-centered-nav is-style-section-2">
+	<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"0.75rem","bottom":"0.75rem"}},"@tablet":{"layout":{"columnCount":2}},"@mobile":{"layout":{"columnCount":2}},"css":"row-gap: 0;"},"layout":{"type":"grid","columnCount":3,"minimumColumnWidth":null}} -->
+	<div class="wp-block-group alignwide has-custom-css" style="padding-top:0.75rem;padding-bottom:0.75rem">
+		<!-- wp:group {"className":"site-branding","style":{"spacing":{"blockGap":"1rem"},"layout":{"selfStretch":"fixed","flexSize":"50%"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 		<div class="wp-block-group site-branding">
 			<!-- wp:site-logo {"width":44,"shouldSyncIcon":true,"className":"is-style-rounded"} /-->
 			<!-- wp:site-title {"level":0} /-->
 		</div>
 		<!-- /wp:group -->
 
-		<!-- wp:navigation {"overlay":"navigation-overlay","overlayBackgroundColor":"contrast","overlayTextColor":"base","style":{"layout":{"selfStretch":"fixed","flexSize":"50%"},"css":"line-height: 3rem;"},"layout":{"type":"flex","justifyContent":"center","flexWrap":"nowrap"}} -->
+		<!-- wp:navigation {"overlay":"navigation-overlay","overlayBackgroundColor":"contrast","overlayTextColor":"base","style":{"layout":{"selfStretch":"fixed","flexSize":"50%","columnSpan":1,"rowSpan":1},"css":"& .wp-block-navigation__container > .wp-block-navigation-item > .wp-block-navigation-item__content { line-height: 3rem; }","@mobile":{"layout":{"justifyContent":"right"}},"@tablet":{"layout":{"justifyContent":"right"}}},"layout":{"type":"flex","justifyContent":"center","flexWrap":"nowrap"}} -->
 			<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Home', 'mroya' ); ?>","url":"#"} /-->
 			<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Services', 'mroya' ); ?>","url":"#"} /-->
 			<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Insights', 'mroya' ); ?>","url":"#"} /-->
@@ -36,7 +36,7 @@
 		<div class="wp-block-buttons">
 			<!-- wp:button -->
 			<div class="wp-block-button">
-				<a class="wp-block-button__link wp-element-button" href="#"><?php echo esc_html_x( 'Get in Touch', 'Header button text', 'mroya' ); ?></a>
+				<a class="wp-block-button__link wp-element-button" href="/"><?php echo esc_html_x( 'Get in Touch', 'Header button text', 'mroya' ); ?></a>
 			</div>
 			<!-- /wp:button -->
 		</div>

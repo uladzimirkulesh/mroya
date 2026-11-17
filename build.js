@@ -53,7 +53,6 @@ async function buildAll() {
     buildPair({
       entryPoints: [
         'src/scss/editor.scss',
-        'src/scss/theme-style.scss',
         'src/scss/admin.scss',
         'src/scss/animations.scss',
       ],
