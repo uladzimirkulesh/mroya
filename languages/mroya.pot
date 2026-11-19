@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mroya\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-10 06:42+0000\n"
+"POT-Creation-Date: 2026-11-19 18:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Uladzimir Kulesh <hello@mroya.eu>\n"
 "Language-Team: \n"
@@ -14,22 +14,22 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Loco https://localise.biz/\n"
-"X-Loco-Version: 2.8.9; wp-7.1.3; php-8.5.3\n"
+"X-Loco-Version: 2.8.10; wp-7.1.5; php-8.5.12\n"
 "X-Domain: mroya"
 
 #: patterns/footer.php:73
 msgid "+420 123-456-78"
 msgstr ""
 
-#: functions.php:221
+#: functions.php:182
 msgid "A collection of archive header patterns."
 msgstr ""
 
-#: functions.php:229
+#: functions.php:190
 msgid "A collection of full page layouts."
 msgstr ""
 
-#: functions.php:237
+#: functions.php:198
 msgid "A collection of section patterns."
 msgstr ""
 
@@ -482,7 +482,7 @@ msgctxt "Footer copyright text"
 msgid "© 2026, Mroya Theme"
 msgstr ""
 
-#: functions.php:199
+#: functions.php:161
 msgid "Header area for archive pages."
 msgstr ""
 
@@ -621,10 +621,7 @@ msgid ""
 "follows modern development best practices, including responsive layouts, "
 "semantic markup and accessibility considerations. Additional functionality, "
 "including advanced GSAP-powered animations, can be added through an optional "
-"premium companion plugin while keeping the core theme lightweight. Version 2."
-"0 introduces a new parent theme architecture focused on long-term "
-"flexibility and future child theme development. Learn more about these "
-"changes in our website - https://mroya.eu/portfolio/mroya/."
+"premium companion plugin while keeping the core theme lightweight."
 msgstr ""
 
 #: patterns/template-single.php:18 patterns/template-page.php:18
@@ -649,15 +646,15 @@ msgctxt "Name for the sidebar widgets template part"
 msgid "Widgets"
 msgstr ""
 
-#: functions.php:198
+#: functions.php:160
 msgid "Page header"
 msgstr ""
 
-#: functions.php:220
+#: functions.php:181
 msgid "Page Headers"
 msgstr ""
 
-#: functions.php:228
+#: functions.php:189
 msgid "Pages"
 msgstr ""
 
@@ -978,7 +975,7 @@ msgctxt "Search input field placeholder text"
 msgid "Type here..."
 msgstr ""
 
-#: functions.php:236
+#: functions.php:197
 msgid "Sections"
 msgstr ""
 
@@ -1284,72 +1281,67 @@ msgctxt "Testimonials section title"
 msgid "Testimonials"
 msgstr ""
 
-#: inc/theme-info.php:80
+#: inc/theme-info.php:76
 msgctxt "Theme info column left title"
 msgid "Mroya Theme"
 msgstr ""
 
-#: inc/theme-info.php:108
+#: inc/theme-info.php:104
 msgctxt "Theme info column left title"
 msgid "Plugin Features"
 msgstr ""
 
-#: inc/theme-info.php:84
+#: inc/theme-info.php:80
 msgctxt "Theme info column left title"
 msgid "Theme Features"
 msgstr ""
 
-#: inc/theme-info.php:104
+#: inc/theme-info.php:100
 msgctxt "Theme info column right title"
 msgid "Mroya Premium Plugin"
 msgstr ""
 
-#: inc/theme-info.php:99
+#: inc/theme-info.php:95
 msgctxt "Theme info page button text"
 msgid "Prebuild Demos"
 msgstr ""
 
-#: inc/theme-info.php:120
+#: inc/theme-info.php:116
 msgctxt "Theme info page button text"
 msgid "Purchase Now"
 msgstr ""
 
-#: inc/theme-info.php:122
-msgctxt "Theme info page button text"
-msgid "Support"
-msgstr ""
-
-#: inc/theme-info.php:97
+#: inc/theme-info.php:93
 msgctxt "Theme info page button text"
 msgid "Theme Homepage"
 msgstr ""
 
-#: inc/theme-info.php:111
+#: inc/theme-info.php:107
 msgctxt "Theme info page text"
 msgid "Advanced GSAP-powered animations."
 msgstr ""
 
-#: inc/theme-info.php:89
+#: inc/theme-info.php:85
 msgctxt "Theme info page text"
 msgid "Carefully crafted patterns."
 msgstr ""
 
-#: inc/theme-info.php:87
+#: inc/theme-info.php:83
 msgctxt "Theme info page text"
 msgid "Clean and minimal design."
 msgstr ""
 
-#: inc/theme-info.php:113
+#: inc/theme-info.php:109
 msgctxt "Theme info page text"
 msgid "Continuous updates and new features."
 msgstr ""
 
-#: inc/theme-info.php:88
+#: inc/theme-info.php:84
 msgctxt "Theme info page text"
 msgid "Full Site Editing (FSE)."
 msgstr ""
 
-#: inc/theme-info.php:82
+#: inc/theme-info.php:78
 msgctxt "Theme info page text"
 msgid ""
 "Mroya is a lightweight Full Site Editing (FSE) WordPress theme designed for "
@@ -1358,44 +1350,44 @@ msgid ""
 "or bloated features, making it easy to customize and extend."
 msgstr ""
 
-#: inc/theme-info.php:106
+#: inc/theme-info.php:102
 msgctxt "Theme info page text"
 msgid ""
 "Mroya Premium unlocks the full potential of the Mroya theme and its child "
 "themes with smooth, professional animations."
 msgstr ""
 
-#: inc/theme-info.php:91
+#: inc/theme-info.php:87
 msgctxt "Theme info page text"
 msgid "Optimized for performance."
 msgstr ""
 
-#: inc/theme-info.php:114
+#: inc/theme-info.php:110
 msgctxt "Theme info page text"
 msgid "Priority email support."
 msgstr ""
 
-#: inc/theme-info.php:90
+#: inc/theme-info.php:86
 msgctxt "Theme info page text"
 msgid "Responsive and accessible layout."
 msgstr ""
 
-#: inc/theme-info.php:112
+#: inc/theme-info.php:108
 msgctxt "Theme info page text"
 msgid "Scroll-based and interactive effects."
 msgstr ""
 
-#: inc/theme-info.php:94
+#: inc/theme-info.php:90
 msgctxt "Theme info page text"
 msgid "Start building with Mroya — completely free!"
 msgstr ""
 
-#: inc/theme-info.php:117
+#: inc/theme-info.php:113
 msgctxt "Theme info page text"
 msgid "Upgrade to Premium and make your website unforgettable!"
 msgstr ""
 
-#: inc/theme-info.php:76
+#: inc/theme-info.php:72
 msgctxt "Theme info page title"
 msgid "Theme Information"
 msgstr ""

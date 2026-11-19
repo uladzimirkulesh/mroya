@@ -1153,19 +1153,9 @@
 				"typography": {
 					"textDecoration": "underline"
 				},
-				":hover": {
-					"typography": {
-						"textDecoration": "underline"
-					}
-				},
 				":focus": {
 					"typography": {
 						"textDecoration": "underline dotted"
-					}
-				},
-				":active": {
-					"typography": {
-						"textDecoration": "underline"
 					}
 				},
 				"css": "& { text-underline-offset: 0.125em; text-decoration-thickness: 1px !important; transition-property: color, background-color, border-color, opacity, text-decoration-color, text-underline-offset; transition-duration: 0.25s; transition-timing-function: ease-in-out; } &:hover { text-underline-offset: 0.175em; text-decoration-color: transparent; } &:active { text-underline-offset: 0.175em; text-decoration-color: transparent; }"

@@ -57,11 +57,6 @@ if ( ! function_exists( 'mroya_assets' ) ) :
 			$version,
 			true
 		);
-		wp_script_add_data(
-			'mroya-screen',
-			'path',
-			get_parent_theme_file_path( 'assets/js/screen' . $suffix . '.js' )
-		);
 
 		/**
 		 * Enqueue styles and scripts only for the parent theme
@@ -95,11 +90,6 @@ if ( ! function_exists( 'mroya_assets' ) ) :
 				),
 				$version,
 				true
-			);
-			wp_script_add_data(
-				'mroya-animations',
-				'path',
-				get_parent_theme_file_path( 'assets/js/animations' . $suffix . '.js' )
 			);
 		}
 
