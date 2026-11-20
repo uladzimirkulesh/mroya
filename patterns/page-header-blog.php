@@ -15,7 +15,7 @@
 ?>
 <!-- wp:group {"align":"wide","className":"page-header--blog","layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignwide page-header--blog">
-	<!-- wp:heading {"level":1,"align":"wide","className":"page-header__title","style":{"css":"left: -0.35vw;"}} -->
+	<!-- wp:heading {"level":1,"align":"wide","className":"page-header__title","style":{"css":"position: relative; left: -0.35vw;"}} -->
 	<h1 class="wp-block-heading alignwide page-header__title has-custom-css"><?php echo esc_html_x( 'Insights Hub', 'Blog page header title', 'mroya' ); ?></h1>
 	<!-- /wp:heading -->
 </div>
