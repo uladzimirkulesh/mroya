@@ -213,10 +213,7 @@
 					"slug": "normal"
 				},
 				{
-					"fluid": {
-						"min": "1.125rem",
-						"max": "1.125rem"
-					},
+					"fluid": false,
 					"name": "Medium",
 					"size": "1.125rem",
 					"slug": "medium"
