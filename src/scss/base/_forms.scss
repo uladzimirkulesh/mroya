@@ -53,8 +53,8 @@ select {
 	line-height: var(--wp--custom--typography--line-height--normal, inherit);
 	letter-spacing: var(--wp--custom--typography--letter-spacing--normal, inherit);
 
-	font-variation-settings: var(--wp--custom--typography--font-variation-settings, normal);
-	font-feature-settings: var(--wp--custom--typography--font-feature-settings, normal);
+	font-variation-settings: inherit;
+	font-feature-settings: inherit;
 
 	background-color: var(--wp--custom--color--input--background, var(--wp--preset--color--base));
 	border-width: 1px;
