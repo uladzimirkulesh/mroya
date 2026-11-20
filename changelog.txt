@@ -1,4 +1,4 @@
-2.1.0: Nov 15, 2026
+2.1.0: Nov 20, 2026
 - IMPROVEMENT: Code readability.
 - UPDATE: theme-info.php file.
 - NEW: Viewport settings in theme.json.
@@ -8,6 +8,7 @@
 - FIX: Viewports in mixins.scss.
 - IMPROVEMENT: Header.
 - DELETED: Parent theme styles.
+- UPDATE: Animations.
 
 2.0.0: Nov 01, 2026
 - CHANGED: Theme restructuring and redesign. The previous design version has been moved to a child theme.

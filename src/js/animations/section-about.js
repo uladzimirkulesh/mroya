@@ -6,6 +6,6 @@ export function sectionAbout() {
 
 	sections.forEach( ( section ) => {
 		const text = section.querySelector( '.section__text' );
-		text && gsap.effects.splitTextWords( text );
+		text && gsap.effects.revealTextWords( text );
 	} );
 }
